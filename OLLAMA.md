@@ -48,6 +48,12 @@ Validation in this package: request preparation and a mocked API-response round 
 
 This is a schema example, not a labeled manuscript sample. Replace the label, path, and hash with real evidence. Reference crop paths are relative to the library folder. The helper rejects a provisional reference, a path outside that folder, or a mismatched file hash. Without `--reference`, the target image can be reviewed without a library.
 
-## Sharing
+## Skill and data in the same folder
 
-This repository contains instructions and the helper, without manuscript images or their labels. Supplying reference images to another person requires sharing those files as well as this skill.
+This repository includes the original diary photographs, index and crops beside `SKILL.md` and this helper. Run from the repository folder and pass `--library .`. For example:
+
+```sh
+python3 ollama_review.py --model YOUR_VISION_MODEL --image sources/IMG_20261031_190010425.jpg --library . --reference V001 --reference V013 --output ollama-suggestions/page-5.json --dry-run
+```
+
+Remove `--dry-run` to contact your local Ollama server. The data use [CC BY 4.0](LICENSE-DATA.md); see the [README](README.md) for author attribution and evidence limits. The release ZIP contains the same combined folder. For a different manuscript, supply its own originals and reference library instead.

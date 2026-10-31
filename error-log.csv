@@ -1,0 +1,26 @@
+﻿crop_id,page_id,previous_reading,confirmed_reading,basis,visual_limit
+V001,P01,,бабуся,User supplied confirmed correction; prior incorrect reading unavailable,User correction; connected у/с shapes remain difficult in isolation.
+V002,P01,,неужели,User supplied confirmed correction; prior incorrect reading unavailable,"User correction; use whole-word context, not isolated glyph labels."
+V003,P01,,Коганович,User supplied confirmed correction; prior incorrect reading unavailable,User spelling retained. First unstressed vowel is not independently secure visually.
+V004,P01,,мамочка,User supplied confirmed correction; prior incorrect reading unavailable,User correction; first occurrence on page.
+V005,P01,,"Десна уже приживает к зубу, а то она была совсем отделенная",User supplied confirmed correction; prior incorrect reading unavailable,User wording retained; line wraps after то. Final word is compressed; no isolated glyph claims.
+V006,P01,,Оставила,User supplied confirmed correction; prior incorrect reading unavailable,User correction.
+V007,P01,,а она ему,User supplied confirmed correction; prior incorrect reading unavailable,User correction; phrase runs close to right page edge.
+V008,P01,,"Мальчик, ты смотри за мною",User supplied confirmed correction; prior incorrect reading unavailable,User wording and punctuation; manuscript punctuation differs or is faint.
+V009,P02,,"Таня, причешись!",User supplied confirmed correction; prior incorrect reading unavailable,User correction; sloping baseline and raised exclamation retained.
+V010,P02,,"Таня, умойся!",User supplied confirmed correction; prior incorrect reading unavailable,User correction; high punctuation retained.
+V011,P02,,"Таня, ешь!",User supplied confirmed correction; prior incorrect reading unavailable,User correction.
+V012,P02,,"Вот, мама, какая ты, всё меня заставляешь делать, как будто ты не мама, а мачеха",User supplied confirmed correction; prior incorrect reading unavailable,"User wording retained; two manuscript lines. всё has no securely separated ё dots. Rectangle includes fragments of preceding Таня, ешь! at its top because the two lines slope; label applies only to the lower two lines."
+V013,P02,,"Мамочка, говорят",User supplied confirmed correction; prior incorrect reading unavailable,User correction; letters in говорят are tightly connected.
+V014,P02,[Выбира…ем] (вместо убираем),Выбиратели (вместо избиратели),Explicit user correction in current chat,Two words misread; both explicitly corrected by user. Internal connected letters are not independently segmented.
+V015,P02,за что[?],за ухо,Explicit user correction in current chat,User correction; keep the у descender in the crop.
+V016,P02,[назвала?] [неразборчиво],назвала куклу,Explicit user correction in current chat,User correction resolves both words. Preserve the phrase as a word-connection reference.
+V017,P02,"Ты, мама, делай [неразборчиво], а я буду твоей","Ты моих детей обижаешь, а я буду твоих",Explicit user correction in current chat,User corrects the entire line; do not repair its grammar or infer omitted words.
+V018,P02,[все?] на вы называют,все на вы называют,Explicit user correction in current chat,User-confirmed word sequence. The quote marks around вы in the manuscript are context; label punctuation follows the correction.
+V019,P03,"[Уже?] [утреет?] — смотри, что стало светло","Уже утреет - смотрит, что стало светло",Explicit user page 3 correction,"Entire wording confirmed by user, including смотрит; preserve user wording instead of silently normalizing it."
+V020,P03,"Ты меня [расмешила?], и я теперь не могу успокоиться",Ты меня расплакала и я теперь не могу успокоиться,Explicit user page 3 correction,User corrects расплакала; retain full two-line context rather than guessing isolated joins.
+V021,P03,как они [собирают?],как они собираются,Explicit user page 3 correction,User confirms the reflexive ending ся. Compare соб only with provisional P041 собрание; the rest differs.
+V022,P03,Обезьянка такая [королевская?],Обезьянка такая хорошенькая,Explicit user page 3 correction,"User confirms good-looking rather than royal; record the actual corrected word, not semantic expectations."
+V023,P03,будет их вытрясывать,будет их выпрашивать,Explicit user page 3 correction,User confirms phrase across two lines. Rectangle includes preceding sentence context on its first line; label applies to будет их and the last-line word only.
+V024,P03,вытрясывать,выпрашивать,Explicit user page 3 correction,Word-only crop from user-confirmed phrase; provides a reference for праш without invented character boundaries.
+V026,P04,[покупать?],покупать,Explicit user confirmation,Word crop; punctuation not part of label

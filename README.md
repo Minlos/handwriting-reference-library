@@ -1,31 +1,60 @@
-# Handwriting reference library skill
+# Handwriting reference library: skill and diary dataset
 
-A portable skill for reading handwritten pages and building an author's reference library from real image crops. User-confirmed labels stay separate from provisional visual readings. Unclear words remain marked rather than guessed.
+**The skill and its reference data live together in this folder.** Clone or download this repository to get the reading instructions, Ollama helper, original diary photographs, labeled crops and indexes. No separate dataset download is needed.
 
-The workflow starts with clear words, compares their letter shapes across the available pages, then returns to difficult passages. A library is an intermediate step when the task includes improving a transcription.
+Diary author: **Nadezhda Nikifrovna Blashkevich (Блашкевич Надежда Никифровна)**, the contributor's grandmother. Source: **Minlos family archive**, as reported by the contributor.
 
-## Use the skill
+## Start here
 
-- In an agent that supports skills, load this folder's `SKILL.md` or copy the folder into that agent's supported skill directory.
-- In ChatGPT, use Work mode with the original images and file tools. If an automatic switch is unavailable, open Work mode manually. The instructions do not themselves add a mode-switch tool.
-- With Ollama, use an image-capable model and a local host program or agent that can read, crop, save, and validate files. Ollama has no ChatGPT Work-mode switch.
+1. Load [SKILL.md](SKILL.md) into an agent with image and file tools. In ChatGPT use Work mode; for Ollama use a local workspace with access to the files. Ollama itself has no ChatGPT mode switch.
+2. Read [handwriting-profile.md](handwriting-profile.md) and [index.json](index.json). Begin with user-confirmed examples, compare visible letter forms and return to the original photograph when uncertain.
+3. Save proposed readings separately. Preserve uncertainties and the distinction between confirmed and provisional labels.
 
-Provide the original images, any user-confirmed corrections, and the desired output folder. The workflow saves source coordinates, crop PNGs, contact sheets, indexes, a handwriting profile, and unresolved readings. Every claimed crop must come from an actual source image.
+The skill is a reusable workflow, not a trained OCR model. It can be used with other manuscripts too. The diary provides real reference examples for this author.
 
-## Optional Ollama helper
+## Everything in this folder
 
-`ollama_review.py` sends a target image and up to four user-verified reference crops to a running Ollama server. It saves the proposed reading separately and never changes the library's labels. Python 3.9+ and the standard library are sufficient for this helper.
+| Path | Contents |
+|---|---|
+| [SKILL.md](SKILL.md) | The complete reading and reference-library workflow |
+| [OLLAMA.md](OLLAMA.md), [ollama_review.py](ollama_review.py) | Local-model instructions and review helper |
+| [sources/](sources/) | 29 unchanged original JPEG photographs |
+| [crops/verified/](crops/verified/), [verified.jsonl](verified.jsonl) | 34 user-confirmed word or phrase labels and crops |
+| [crops/provisional/](crops/provisional/), [provisional.jsonl](provisional.jsonl) | 74 provisional visual readings and crops; review before treating them as ground truth |
+| [index.csv](index.csv), [index.json](index.json) | All 108 crop labels, source coordinates, rotations and hashes |
+| [transcripts/](transcripts/) | Working Russian transcripts for pages 1–5, with confirmation status and uncertainties |
+| [source-manifest.json](source-manifest.json) | Original filenames, provenance, dimensions, rotation and hashes |
+| [tools/verify_library.py](tools/verify_library.py) | Verify original hashes and exact crop reproduction; requires Pillow |
+| [LICENSE-DATA.md](LICENSE-DATA.md) | CC BY 4.0 terms and attribution for the data |
+
+## Use with Ollama
+
+Requirements: Python 3.9+, a running Ollama server and an installed model that accepts images. From this repository folder, replace `YOUR_VISION_MODEL` with that model's name:
 
 ```sh
-python3 ollama_review.py --help
+python3 ollama_review.py --model YOUR_VISION_MODEL --image sources/IMG_20261031_190010425.jpg --library . --reference V001 --reference V013 --output ollama-suggestions/page-5.json
 ```
 
-See [OLLAMA.md](OLLAMA.md) for examples, the required library fields, and the limits of direct model use. An image model agreeing with a label does not make that label verified. Recognition accuracy is not established by this repository.
+This reviews page 5 using two user-confirmed references from this same folder. It saves a new suggestion file and never changes the labels. Add `--dry-run` to check file loading without calling Ollama. For detailed letter comparisons, first make and visually inspect a correctly oriented crop. See [OLLAMA.md](OLLAMA.md) for the request format and limitations.
 
-## Files
+To validate the photographs and crops:
 
-- [SKILL.md](SKILL.md): the complete workflow and evidence rules.
-- [OLLAMA.md](OLLAMA.md): local-model setup and examples.
-- [ollama_review.py](ollama_review.py): optional review helper.
+```sh
+python3 tools/verify_library.py
+```
 
-This repository contains the reusable method and helper. Bring your own manuscript images and corrections; no diary photographs or transcripts are included.
+## Evidence and limits
+
+The 34 confirmed and 74 provisional entries count crops, not individual words: some crops contain phrases or several lines. Rectangles can include neighboring ink; the label covers only the named phrase. Confirmation of wording does not certify every glyph or punctuation mark. Transcripts are not fully verified page-level ground truth. P11 is severely motion-blurred and has no labeled crop.
+
+All pages have already been inspected during reference selection. This material supports handwriting comparison and calibration; it is not an independent recognition benchmark. Overlapping crops from a page must not be split between training and an independent test set. No untouched test pages have been reserved.
+
+Coordinates are pixel edges in the original JPEG before rotation: top-left origin, x rightward, y downward, exclusive end boundaries. Reproduce a crop with `Image.open(source).crop((x0,y0,x1,y1)).rotate(rotation_ccw,expand=True)`. Source photographs are unchanged; no letters were reconstructed or generated. A mapping to earlier upload filenames has not been established.
+
+Project descriptions and usage instructions are in English. Original diary text, labels and existing manuscript-specific reading notes remain in Russian.
+
+## Data license and downloads
+
+Photographs, diary text and annotations are available under **[CC BY 4.0](LICENSE-DATA.md)**. Credit the diary author and Minlos family archive, link to this project and the license, and indicate changes. The contributor confirmed authorization to publish and permit reuse, including commercial use; attribution and rights were not independently authenticated. This data license does not assign a license to the skill instructions or helper code.
+
+The [release](https://github.com/Minlos/handwriting-reference-library/releases/tag/diary-data-v0.1) also provides a ZIP containing this same combined folder for users who prefer a download to a clone.
