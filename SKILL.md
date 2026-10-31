@@ -19,6 +19,12 @@ In Ollama or another local environment, Work mode means the equivalent executabl
 4. Record the exact crop IDs supporting every pattern. Describe what is visible: loops, descenders, separate marks, joins, or variants. Do not invent a glyph rule from a corrected label alone.
 5. Preserve word context. Do not label isolated characters when connected strokes make their boundaries ambiguous. Prefer a reliable word or phrase crop to a false character boundary.
 
+## Consult the saved library before each new reading
+
+Load `index.json` and `handwriting-profile.md` before reading a new page. For an uncertain word or letter group, retrieve the most relevant user-verified word/phrase crops and actually view them beside the target image. Record the reference IDs and what part is being compared. A shared prefix does not establish the rest of a word. Use provisional examples only with their category visible. If the library has no useful verified comparison, say so and leave the target uncertain. Reading the skill instructions or having a ZIP on disk is not evidence that the reference images were consulted.
+
+After user corrections, retrieve the corrected crop and the related existing examples again. Distinguish a reading supplied by the user from one independently improved through comparison. Do not claim that examples were used before a correction if they were added afterward.
+
 ## Initialize after the first corrected page
 
 Immediately after the user corrects the first page, and before transcribing the next page, build the first saved reference library. Inspect all available pages for clear additional examples. User instructions can change the sequence, but not the need for source evidence.
