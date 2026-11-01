@@ -71,3 +71,9 @@ The corrected text is in `reread/page-3-review.md`. P03 uses «смотрит» 
 V032 preserves the complete corrected question: «десять тысяч» crosses a line break. V035 isolates «тысяч» and V033 supplies the confirmed nickname «Танюшка». V034 preserves «ходит в садик», and V036 preserves «заштриховать ротик». P010/P011 are now user-confirmed. «Кракушку?» remains tentative and must not be used as a reliable label.
 
 On page 7, compare the beginning of «Танечка» with V033, and «в садик» with V034. These support only the shared portions; they do not certify the rest of either phrase. The page 6 correction does not supply an exact reference for the unclear word after «валяй» or the name in the toy story. No complete pre-correction page 7 transcript was saved, so no before/after accuracy improvement is claimed.
+
+## Page 7: preserve the intentional child form
+
+V037 is confirmed as «хочила», not «хотела». The earlier reading normalized the form and erased the joke. The complete confirmed line is «Нет, вчера я ведь хочила». Compare the visible ч with ч in the nearby «хочу/хочешь», rather than using the expected past tense as evidence. V038 confirms «Ну, валяй, иди» and V039 confirms «Аллочка». P012–P015 have been promoted after the user confirmed the remaining text.
+
+For page 8, the shared stem in «фашисты» can be compared with P015 «фашистами». This does not certify the different ending. Do not silently regularize the child's syllable readings or guessed whole words on page 8. No changed prior word label or measured before/after improvement is claimed without a saved baseline.

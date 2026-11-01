@@ -24,10 +24,10 @@ The skill is a reusable workflow, not a trained OCR model. It can be used with o
 | [LOCAL.md](LOCAL.md), [local_read.py](local_read.py) | Optional local Gemma + GLM-OCR workflow |
 | [OLLAMA.md](OLLAMA.md), [ollama_review.py](ollama_review.py) | Single-model review helper |
 | [sources/](sources/) | 29 unchanged original JPEG photographs |
-| [crops/verified/](crops/verified/), [verified.jsonl](verified.jsonl) | 41 user-confirmed word or phrase labels and crops |
-| [crops/provisional/](crops/provisional/), [provisional.jsonl](provisional.jsonl) | 72 provisional visual readings and crops; review before treating them as ground truth |
-| [index.csv](index.csv), [index.json](index.json) | All 113 crop labels, source coordinates, rotations and hashes |
-| [transcripts/](transcripts/) | Working Russian transcripts for pages 1–7, with confirmation status and uncertainties |
+| [crops/verified/](crops/verified/), [verified.jsonl](verified.jsonl) | 48 user-confirmed word or phrase labels and crops |
+| [crops/provisional/](crops/provisional/), [provisional.jsonl](provisional.jsonl) | 68 provisional visual readings and crops; review before treating them as ground truth |
+| [index.csv](index.csv), [index.json](index.json) | All 116 crop labels, source coordinates, rotations and hashes |
+| [transcripts/](transcripts/) | Working Russian transcripts for pages 1–8, with confirmation status and uncertainties |
 | [source-manifest.json](source-manifest.json) | Original filenames, provenance, dimensions, rotation and hashes |
 | [tools/verify_library.py](tools/verify_library.py) | Verify original hashes and exact crop reproduction; requires Pillow |
 | [LICENSE-DATA.md](LICENSE-DATA.md) | CC BY 4.0 terms and attribution for the data |
@@ -50,7 +50,7 @@ python3 tools/verify_library.py
 
 ## Evidence and limits
 
-The 41 confirmed and 72 provisional entries count crops, not individual words: some crops contain phrases or several lines. Rectangles can include neighboring ink; the label covers only the named phrase. Confirmation of wording does not certify every glyph or punctuation mark. Transcripts are not fully verified page-level ground truth. P11 is severely motion-blurred and has no labeled crop.
+The 48 confirmed and 68 provisional entries count crops, not individual words: some crops contain phrases or several lines. Rectangles can include neighboring ink; the label covers only the named phrase. Confirmation of wording does not certify every glyph or punctuation mark. Transcripts are not fully verified page-level ground truth. P11 is severely motion-blurred and has no labeled crop.
 
 All pages have already been inspected during reference selection. This material supports handwriting comparison and calibration; it is not an independent recognition benchmark. Overlapping crops from a page must not be split between training and an independent test set. No untouched test pages have been reserved.
 

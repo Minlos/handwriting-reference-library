@@ -26,3 +26,6 @@ V024,P03,вытрясывать,выпрашивать,Explicit user page 3 corr
 V026,P04,[покупать?],покупать,Explicit user confirmation,Word crop; punctuation not part of label
 V032,P06,"Папа, если ты зарабатываешь деньги, [неразборчиво] ты мне купишь большое платье?","Папа, если ты зарабатываешь десять тысяч, ты мне купишь большое платье?",Explicit user page 6 correction,Wording confirmed; punctuation editorial; no independent character segmentation
 V033,P06,[Танюшка?],Танюшка,Explicit user page 6 correction,Wording confirmed; punctuation editorial; no independent character segmentation
+V037,P07,хотела,хочила,Explicit user correction,Unwarranted normalization removed the point of the story. Preserve the user-confirmed child form.
+V038,P07,"Ну, валяй, [неразборчиво]","Ну, валяй, иди",Explicit user correction,Previously unresolved word supplied by user.
+V039,P07,[Аллочка?],Аллочка,Explicit user correction,Name explicitly confirmed.
