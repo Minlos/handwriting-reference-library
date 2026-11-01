@@ -4,6 +4,10 @@
 
 Diary author: **Nadezhda Nikifrovna Blashkevich (Блашкевич Надежда Никифровна)**, the contributor's grandmother. Source: **Minlos family archive**, as reported by the contributor.
 
+## Optional fully local reading
+
+Use **Gemma as the general image-reading LLM applying the skill**, with **GLM-OCR as a specialized OCR assistant**, through your local Ollama server. The included [local_read.py](local_read.py) saves both independent readings and a combined image-grounded review, without modifying verified labels. No ChatGPT session is needed for that run. See **[LOCAL.md](LOCAL.md)** for installation, offline operation and the three-output comparison.
+
 ## Start here
 
 1. Load [SKILL.md](SKILL.md) into an agent with image and file tools. In ChatGPT use Work mode; for Ollama use a local workspace with access to the files. Ollama itself has no ChatGPT mode switch.
@@ -17,7 +21,8 @@ The skill is a reusable workflow, not a trained OCR model. It can be used with o
 | Path | Contents |
 |---|---|
 | [SKILL.md](SKILL.md) | The complete reading and reference-library workflow |
-| [OLLAMA.md](OLLAMA.md), [ollama_review.py](ollama_review.py) | Local-model instructions and review helper |
+| [LOCAL.md](LOCAL.md), [local_read.py](local_read.py) | Optional local Gemma + GLM-OCR workflow |
+| [OLLAMA.md](OLLAMA.md), [ollama_review.py](ollama_review.py) | Single-model review helper |
 | [sources/](sources/) | 29 unchanged original JPEG photographs |
 | [crops/verified/](crops/verified/), [verified.jsonl](verified.jsonl) | 34 user-confirmed word or phrase labels and crops |
 | [crops/provisional/](crops/provisional/), [provisional.jsonl](provisional.jsonl) | 74 provisional visual readings and crops; review before treating them as ground truth |
@@ -57,4 +62,4 @@ Project descriptions and usage instructions are in English. Original diary text,
 
 Photographs, diary text and annotations are available under **[CC BY 4.0](LICENSE-DATA.md)**. Credit the diary author and Minlos family archive, link to this project and the license, and indicate changes. The contributor confirmed authorization to publish and permit reuse, including commercial use; attribution and rights were not independently authenticated. This data license does not assign a license to the skill instructions or helper code.
 
-The [release](https://github.com/Minlos/handwriting-reference-library/releases/tag/diary-data-v0.1) also provides a ZIP containing this same combined folder for users who prefer a download to a clone.
+The [release](https://github.com/Minlos/handwriting-reference-library/releases/latest) also provides a ZIP containing this same combined folder for users who prefer a download to a clone.

@@ -11,6 +11,16 @@ This workflow does not work in ordinary chat alone. In ChatGPT, always switch to
 
 In Ollama or another local environment, Work mode means the equivalent executable workspace: access to original image files, a model that accepts images, and a host program or agent that can crop, save, and validate files. Ollama itself has no ChatGPT Work-mode switch. Use the local workspace instead. A text-only conversation or a pasted transcription is insufficient. Stop image-dependent work when the original images or required tools are unavailable, and state exactly what is missing.
 
+## Optional fully local Gemma + GLM-OCR workflow
+
+When the user chooses local execution, use a local image-capable general LLM (for example Gemma) to apply this skill and a specialized OCR model (for example GLM-OCR) as a source of candidate text. The host program supplies files, source coordinates, reference images and the local model calls. A model reading this file cannot itself execute tools or update files without that host.
+
+Read [LOCAL.md](LOCAL.md) for the runnable `local_read.py` workflow. It saves an independent Gemma reading, a GLM-OCR reading and Gemma's image-grounded review as three separate results. Supply the same source pixels to each stage; preserve raw outputs and uncertainty. Gemma should compare the image and relevant reference crops rather than merely rewrite OCR into plausible prose. Reference categories remain visible; provisional examples require explicit opt-in and remain provisional.
+
+Local execution is optional, with no ChatGPT dependency for the reading run. Preinstall the chosen models. Use loopback endpoints and downloaded local models; do not fall back to cloud models or pull weights silently. Follow the offline setup in LOCAL.md when the Ollama server must have cloud features disabled. Save suggestions into a new output directory, never over the originals or verified library.
+
+Combining models is an experiment, not evidence of higher accuracy. Compare OCR alone, Gemma with the skill alone, and the combined review on the same examples. For accuracy evaluation, keep target labels out of prompts, avoid using the target as a labeled reference, and separate whole training/reference pages from evaluation pages. Agreement never promotes a reading to verified, and no fixed accuracy such as 95% may be promised without measured results on held-out pages. Training or fine-tuning is a separate task; adding the skill or references does not update model weights.
+
 ## Begin with clear words and one author's letter patterns
 
 1. Inspect the clearest words first. Establish visible letter shapes and connections from those words before tackling difficult passages. Do not start by guessing unclear sentences.

@@ -1,5 +1,7 @@
 # Use the skill with Ollama
 
+For the optional **general LLM + specialized OCR** workflow, start with [LOCAL.md](LOCAL.md) and `local_read.py`. Gemma applies the skill, GLM-OCR supplies a reading, and Gemma reviews the candidates against the image. The rest of this document describes the older single-model review helper.
+
 Use `SKILL.md` as instructions for a local image-reading workflow. The skill is model-independent. It is not a trained model, and copying it into Ollama does not give a text-only model image support or file tools.
 
 In ChatGPT, the workflow always moves to Work mode. For Ollama, run the equivalent local workspace with original files and tools. There is no Ollama command that turns on ChatGPT Work mode.
