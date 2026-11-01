@@ -16,7 +16,7 @@ The page 2 phrase [V012](crops/verified/V012_P02.png) preserves two lines of con
 
 ## Other pages add clear comparisons, with provisional labels
 
-See [the comparison sheet](contact-sheets/letter-comparisons.jpg). Every label in this section is provisional.
+See [the comparison sheet](contact-sheets/letter-comparisons.jpg). These examples were initially selected provisionally. Check index.json for current categories; confirmed examples from pages 4 and 6 have been promoted.
 
 | Comparison | Crop IDs | What the pixels support |
 |---|---|---|
@@ -65,3 +65,9 @@ The corrected text is in `reread/page-3-review.md`. P03 uses «смотрит» 
 ## Подтверждение страницы 4
 
 Пользователь подтвердил «покупать» и весь показанный текст страницы. V025–V031 дают фразы и отдельное слово из оригинала; прежние образцы этой страницы переведены в verified с сохранением ID. Сочетания «пок», «куп», «ать» следует сравнивать в контексте слова; отдельные границы букв не размечены. OCR-подсказка не считается самостоятельным подтверждением.
+
+## Page 6 correction and subsequent-page check
+
+V032 preserves the complete corrected question: «десять тысяч» crosses a line break. V035 isolates «тысяч» and V033 supplies the confirmed nickname «Танюшка». V034 preserves «ходит в садик», and V036 preserves «заштриховать ротик». P010/P011 are now user-confirmed. «Кракушку?» remains tentative and must not be used as a reliable label.
+
+On page 7, compare the beginning of «Танечка» with V033, and «в садик» with V034. These support only the shared portions; they do not certify the rest of either phrase. The page 6 correction does not supply an exact reference for the unclear word after «валяй» or the name in the toy story. No complete pre-correction page 7 transcript was saved, so no before/after accuracy improvement is claimed.

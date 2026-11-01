@@ -1,0 +1,12 @@
+﻿page_id,crop_id,region,ambiguity,decision
+P11,,,Motion blur across original photograph; no reliable word boundaries selected,Excluded from labeled examples; original preserved
+P01,V003,First small vowel in Коганович,о versus а cannot be independently certified here,Retain user spelling; do not label isolated vowel
+P01,V002,Joined middle strokes in неужели,Individual letter boundaries remain ambiguous,User word label only
+P01,V005,Compressed letters in приживает / отделенная,Wording confirmed; isolated glyphs not independently secured,Keep user phrase; no character segmentation
+P01,V008,Short form after Мальчик,User supplies ты; joined strokes not independently resolved,Keep user phrase; do not claim new visual reading
+P02,V012,всё and phrase punctuation,Dots and punctuation not uniformly separable,User wording retained; not a diacritic benchmark
+P02,V012,Ink above first labeled line,"Sloping text brings preceding Таня, ешь! into rectangle",Document neighboring ink; do not assign it to label
+ALL,,Legacy filenames,Exact mapping from Drive files to earlier /mnt/data files unavailable,Use observed Drive filenames only
+P01,T02,First word in response to Павлик,Таня is tentative,Question mark retained; not a labeled word
+P02,T08,Day in date,26 or 28 remains unresolved,Keep date question; adjacent phrase corrections are user-confirmed
+P06,,reread/page6/lastword.png,User suggests кракушку? and explicitly remains unsure,Keep tentative; exclude from verified and provisional labeled examples

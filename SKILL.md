@@ -64,6 +64,8 @@ When the user asks to improve a reading, the library is an intermediate result. 
 
 Add the new confirmed crop, update the profile and error record, inspect similar forms throughout the available corpus, and revisit earlier unresolved passages. If a correction changes word boundaries or several adjacent words, re-check and crop the entire phrase; do not treat it as a single-letter substitution. Report only readings that actually improved; leave unresolved ones unresolved. Do not promote a candidate merely because it resembles an existing crop. Preserve evidence and previous decisions when changing a label.
 
+For each subsequent-page review, briefly report which readings actually changed after corrections, which new references supported the reading, and which ambiguities remain. Compare saved prior readings where available. If no earlier baseline exists, describe the new visual support without claiming an independent improvement or an accuracy percentage.
+
 For accuracy testing, reserve separate pages before examining them for reference selection. Pages used to build this library are not an independent test set.
 
 ## Sharing and Ollama

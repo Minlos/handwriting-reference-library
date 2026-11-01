@@ -24,3 +24,5 @@ V022,P03,Обезьянка такая [королевская?],Обезьян�
 V023,P03,будет их вытрясывать,будет их выпрашивать,Explicit user page 3 correction,User confirms phrase across two lines. Rectangle includes preceding sentence context on its first line; label applies to будет их and the last-line word only.
 V024,P03,вытрясывать,выпрашивать,Explicit user page 3 correction,Word-only crop from user-confirmed phrase; provides a reference for праш without invented character boundaries.
 V026,P04,[покупать?],покупать,Explicit user confirmation,Word crop; punctuation not part of label
+V032,P06,"Папа, если ты зарабатываешь деньги, [неразборчиво] ты мне купишь большое платье?","Папа, если ты зарабатываешь десять тысяч, ты мне купишь большое платье?",Explicit user page 6 correction,Wording confirmed; punctuation editorial; no independent character segmentation
+V033,P06,[Танюшка?],Танюшка,Explicit user page 6 correction,Wording confirmed; punctuation editorial; no independent character segmentation
