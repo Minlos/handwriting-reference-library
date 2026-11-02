@@ -14,6 +14,8 @@ CER below ignores case and punctuation, normalizes spaces, and keeps ё distinct
 | Gemma without skill; page 7 plain-text recovery | Pages 4 and 6 original JSON; page 7 recovery on third attempt | 32.09% (465/1449) |
 | Gemma 4 12B + skill | Pages 4, 6, 7; local test | 27.81% (403/1449) |
 | Gemma 4 12B + skill + GLM-OCR | Pages 4, 6, 7; local test | 27.88% (404/1449) |
+| Gemma + skill + reference crops/profile | Pages 4, 6, 7; local test | 30.85% (447/1449) |
+| Gemma + skill + reference crops/profile + GLM-OCR | Pages 4, 6, 7; local test | 28.36% (411/1449) |
 | GLM-OCR | Pages 4, 6, 7; local test | 45.96% (666/1449) |
 | Russian CRNN | 14 selected crops, pages 1–3 | 17.11% (39/228) |
 | Kraken PP-OCRv6 small | 14 selected crops, pages 1–3 | 32.46% (74/228) |
@@ -42,3 +44,5 @@ All scans were previously inspected in this project. The two Sol agents have fre
 Evidence: [fresh Sol results](sol-matched-pages-4-6-7/metrics.json), [all-page Gemma and GLM results](gemma-pages-4-6-7/metrics.json), [original assistant](page-06-assistant/metrics.json), [Gemini + Vinnik](page-06-gemini-vinnik/metrics.json), [14-crop results](crop-results/).
 
 An exact page-7 plain-Gemma retry also fails. A [plain-text recovery](gemma-pages-4-6-7/page-7-plain-text-recovery/README.md) completes with 25.48% CER. This uses changed generic instructions and no JSON schema, so it is reported separately from the original comparison.
+
+The completed [Gemma reference-crop test](gemma-with-references/README.md) produces 10.9% more character errors than the matched instruction-only run. It supplies the seven earlier-page images actually inspected by assisted Sol, plus their labels and the earlier-page profile; target-page labels are withheld.

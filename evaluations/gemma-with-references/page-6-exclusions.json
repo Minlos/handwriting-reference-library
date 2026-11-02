@@ -1,0 +1,10 @@
+{
+  "gemma_references": {
+    "suffix": " карандаше.\"",
+    "basis": "Only final token corresponding to unresolved final reference word; manually inspect saved suffixes and preceding preposition в."
+  },
+  "gemma_references_ocr": {
+    "suffix": " карандаше.\"",
+    "basis": "Only final token corresponding to unresolved final reference word; manually inspect saved suffixes and preceding preposition в."
+  }
+}

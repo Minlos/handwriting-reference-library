@@ -50,7 +50,7 @@ python3 tools/verify_library.py
 
 ## Measured recognition results
 
-See the [single comparison table and reading examples](evaluations/comparison.md). Fresh Sol tests cover pages 4, 6 and 7; the uncertain final word on page 6 is excluded. [Gemma comparisons](evaluations/gemma-pages-4-6-7/README.md) also cover all three pages. Results from different page sets are kept distinct.
+See the [single comparison table and reading examples](evaluations/comparison.md). Fresh Sol tests cover pages 4, 6 and 7; the uncertain final word on page 6 is excluded. [Gemma comparisons](evaluations/gemma-pages-4-6-7/README.md) also cover all three pages. The [Gemma reference-crop test](evaluations/gemma-with-references/README.md) adds earlier-page author examples. Results from different page sets are kept distinct.
 
 ## Evidence and limits
 
