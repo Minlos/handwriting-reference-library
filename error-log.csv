@@ -29,3 +29,4 @@ V033,P06,[Танюшка?],Танюшка,Explicit user page 6 correction,Wordin
 V037,P07,хотела,хочила,Explicit user correction,Unwarranted normalization removed the point of the story. Preserve the user-confirmed child form.
 V038,P07,"Ну, валяй, [неразборчиво]","Ну, валяй, иди",Explicit user correction,Previously unresolved word supplied by user.
 V039,P07,[Аллочка?],Аллочка,Explicit user correction,Name explicitly confirmed.
+V032,P06,зарабатываешь,заработаешь,"Explicit user verb correction, 2026-11-02",Later correction supersedes the earlier broad confirmation. Original crop pixels and coordinates unchanged.

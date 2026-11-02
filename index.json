@@ -3082,7 +3082,7 @@
     {
       "id": "V032",
       "category": "verified",
-      "label": "Папа, если ты зарабатываешь десять тысяч, ты мне купишь большое платье?",
+      "label": "Папа, если ты заработаешь десять тысяч, ты мне купишь большое платье?",
       "page_id": "P06",
       "region_id": "P06_y204-499",
       "source_filename": "IMG_20261031_190021065.jpg",
@@ -3102,7 +3102,7 @@
         1030,
         195
       ],
-      "label_basis": "User explicitly corrected десять тысяч and Танюшка, then confirmed the remaining text; кракушку excluded",
+      "label_basis": "User explicitly corrected десять тысяч and Танюшка, then confirmed the remaining text; кракушку excluded; verb explicitly corrected to заработаешь by user on 2026-11-02",
       "visual_confidence": "User-confirmed wording; no certified individual character boundaries",
       "notes": "Actual original pixels. Rectangle can contain neighboring ink. Capitalization and editorial punctuation are not independently certified.",
       "crop_sha256": "a37101ab5ea80bed35ab174e83dc24189895d1dbd51f1f438f81299e86970af5",

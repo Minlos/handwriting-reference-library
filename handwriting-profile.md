@@ -77,3 +77,7 @@ On page 7, compare the beginning of «Танечка» with V033, and «в са�
 V037 is confirmed as «хочила», not «хотела». The earlier reading normalized the form and erased the joke. The complete confirmed line is «Нет, вчера я ведь хочила». Compare the visible ч with ч in the nearby «хочу/хочешь», rather than using the expected past tense as evidence. V038 confirms «Ну, валяй, иди» and V039 confirms «Аллочка». P012–P015 have been promoted after the user confirmed the remaining text.
 
 For page 8, the shared stem in «фашисты» can be compared with P015 «фашистами». This does not certify the different ending. Do not silently regularize the child's syllable readings or guessed whole words on page 8. No changed prior word label or measured before/after improvement is claimed without a saved baseline.
+
+## Page 6 verb correction, 2026-11-02
+
+The V032 question reads «Папа, если ты заработаешь десять тысяч…». The user specifically corrected заработаешь; the earlier зарабатываешь label has been superseded. Preserve the corrected verb rather than inferring aspect from context. Original crop pixels and coordinates are unchanged.
