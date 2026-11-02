@@ -1,0 +1,18 @@
+{
+  "gemma_plain": {
+    "suffix": " карандаше.\"",
+    "basis": "Final model token corresponding to the sole unresolved reference word; preceding preposition в retained. Manually checked against end of saved reading."
+  },
+  "gemma_skill": {
+    "suffix": " кармашке.\"",
+    "basis": "Final model token corresponding to the sole unresolved reference word; preceding preposition в retained. Manually checked against end of saved reading."
+  },
+  "glm_ocr": {
+    "suffix": " храгунуку.\"",
+    "basis": "Final model token corresponding to the sole unresolved reference word; preceding preposition в retained. Manually checked against end of saved reading."
+  },
+  "gemma_skill_ocr": {
+    "suffix": " кармашке.\"",
+    "basis": "Final model token corresponding to the sole unresolved reference word; preceding preposition в retained. Manually checked against end of saved reading."
+  }
+}

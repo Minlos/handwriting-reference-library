@@ -10,10 +10,10 @@ CER below ignores case and punctuation, normalizes spaces, and keeps ё distinct
 | Sol + skill + author references | Pages 4, 6, 7; fresh test | 2.21% (32/1449) |
 | Original contextual assistant reading | Page 6; saved reading | 2.55% (12/471) |
 | Gemini + Vinnik | Page 6; saved reading | 4.03% (19/471) |
-| Gemma 4 12B without skill | Page 4 | 38.75% (198/511) |
-| Gemma 4 12B + skill | Page 4 | 33.86% (173/511) |
-| Gemma 4 12B + skill + GLM-OCR | Page 4 | 33.66% (172/511) |
-| GLM-OCR | Page 4 | 49.12% (251/511) |
+| Gemma 4 12B without skill | Pages 4 and 6 completed; page 7 failed | No three-page total |
+| Gemma 4 12B + skill | Pages 4, 6, 7; local test | 27.81% (403/1449) |
+| Gemma 4 12B + skill + GLM-OCR | Pages 4, 6, 7; local test | 27.88% (404/1449) |
+| GLM-OCR | Pages 4, 6, 7; local test | 45.96% (666/1449) |
 | Russian CRNN | 14 selected crops, pages 1–3 | 17.11% (39/228) |
 | Kraken PP-OCRv6 small | 14 selected crops, pages 1–3 | 32.46% (74/228) |
 | Kraken PP-OCRv6 tiny | 14 selected crops, pages 1–3 | 52.19% (119/228) |
@@ -23,14 +23,14 @@ Concrete errors explain where the weaker readings lose meaning:
 
 - **Fresh Sol, page 6:** plain Sol reads «Папа, еще одеяло и быстрее» instead of «Таня, ешь отдельно и быстрее». The assisted reading gets this sentence right. It also reads «ротик», where plain Sol tentatively reads «ромбик».
 - **Fresh Sol still fails:** plain Sol correctly reads «заработаешь десять тысяч»; assisted Sol instead reads «заработаешь денег. Разве». Both replace the child's «хочила» with «хотела» and misread «валяй, иди». A better total score does not mean every sentence improves.
-- **Gemma, page 4:** without the skill it reads «Бабушка, пошли ты на запенере»; with the skill, «Бабушка, поцелуй ты на затылке». The corrected reading is «Бабушка, почему ты на завтрак…». Adding GLM-OCR does not repair this passage. The two assisted Gemma results differ by only one character error over the page.
+- **Gemma, page 6:** without the skill it reads «Мне надо "заткнуться ротчик"» instead of «Мне надо “заштриховать ротик”». See the all-page Gemma comparison for raw examples from each condition.
 - **Gemini + Vinnik, page 6:** «заштриховать ромбик» replaces «заштриховать ротик»; «Танечка» replaces «Танюшка»; «папа» replaces «Таня» twice and «Мама» once.
 
 ## What the comparison supports
 
 The fresh Sol result compares **skill plus 24 labeled author examples from pages 1–3** against a plain transcription task. It does not separate the benefit of the instructions from the benefit of the reference images. Page-level character error counts are plain/assisted: page 4, 22/10 out of 511; page 6, 23/14 out of 471; page 7, 10/8 out of 467. Totals sum errors and reference characters rather than averaging percentages.
 
-Gemma's page-4 comparison uses identical target pixels, model, output schema, token limit and temperature. The plain run omits the skill system message; the saved assisted runs have no author examples or profile. The skill reduces Gemma's character errors by 12.6% in this one run, but errors remain frequent. Adding GLM-OCR reduces errors by only 0.6% relative to Gemma with the skill alone.
+Gemma's three-page comparison uses identical target pixels, installed models, output schema, token limit and temperature. The skill conditions have no author examples or profile. On the common completed pages 4 and 6, the skill produces 12.4% fewer character errors than plain Gemma; adding GLM-OCR produces 0.3% more character errors compared with Gemma with the skill alone on those same two pages. Plain Gemma fails on page 7; no three-page plain CER is reported. See the [per-page Gemma table](gemma-pages-4-6-7/README.md).
 
 Rows using different material must not be ranked together. The 14 crops were hand-selected and contain much shorter text. The original assistant reading used conversation context and was subsequently corrected by the user; its reference is not independent of that workflow. Gemini + Vinnik's exact model version, prompt and prior context are unknown. Its result cannot establish a skill effect.
 
@@ -38,4 +38,4 @@ There are three usable page references here, not five complete references: pages
 
 All scans were previously inspected in this project. The two Sol agents have fresh contexts and were instructed to read only their allowed files; filesystem separation was by instruction, not operating-system enforcement. This is one trial on calibration pages, not an untouched benchmark or a promise of accuracy on the remaining diary.
 
-Evidence: [fresh Sol results](sol-matched-pages-4-6-7/metrics.json), [plain Gemma result](page-04-gemma-plain/metrics.json), [assisted Gemma and GLM results](page-04-gemma-assisted/comparison.json), [original assistant](page-06-assistant/metrics.json), [Gemini + Vinnik](page-06-gemini-vinnik/metrics.json), [14-crop results](crop-results/).
+Evidence: [fresh Sol results](sol-matched-pages-4-6-7/metrics.json), [all-page Gemma and GLM results](gemma-pages-4-6-7/metrics.json), [original assistant](page-06-assistant/metrics.json), [Gemini + Vinnik](page-06-gemini-vinnik/metrics.json), [14-crop results](crop-results/).
