@@ -1,0 +1,54 @@
+{
+  "requested_model": "gpt-6.1-sol",
+  "context": "Fresh agents with no parent conversation. Shared host filesystem; permitted files restricted by task instructions, not an OS sandbox.",
+  "conditions": {
+    "plain": "generic handwriting-transcription instruction; no skill or references",
+    "with-skill": "same transcription task plus SKILL.md and user-verified author references only from non-target pages 1–3"
+  },
+  "reference_entries": 24,
+  "inputs": [
+    {
+      "scan": "a",
+      "page": 4,
+      "image_sha256": "002f93759d0e598548eafb0aa63ec64838b91e5167cb028bec3043b66a6f9418",
+      "source_filename": "IMG_20261031_185948262.jpg",
+      "source_sha256": "a7ecf92ddfaba1df5bba10c95f0adcdde7501134c04f901905d255937b1d548a",
+      "rotation_ccw": 270,
+      "upright_box": [
+        768,
+        332,
+        2995,
+        3507
+      ]
+    },
+    {
+      "scan": "b",
+      "page": 6,
+      "image_sha256": "987201bd67a34cd363ccbf94d6fcb4e9e4b664ba992a85a70aecfbf7948fbe6a",
+      "source_filename": "IMG_20261031_190021065.jpg",
+      "source_sha256": "c05020e2b188f4a8c87651b5a5327e5f989bb725ead765525fadaa65fd3ea718",
+      "rotation_ccw": 270,
+      "upright_box": [
+        268,
+        204,
+        2611,
+        2969
+      ]
+    },
+    {
+      "scan": "c",
+      "page": 7,
+      "image_sha256": "eb33f5a49f946d7da414bbdf58fbb9167c443d3ceae7a2801869847e1c63da6e",
+      "source_filename": "IMG_20261031_190031751.jpg",
+      "source_sha256": "ee423b6a92547cdb796fdf5dd80f9ac2c2186ceb80add7efc4855605b2c851de",
+      "rotation_ccw": 270,
+      "upright_box": [
+        896,
+        268,
+        3066,
+        3020
+      ]
+    }
+  ],
+  "example_image_recipe": "For each page 1–3 original: Image.open(source).rotate(rotation_ccw,expand=True); thumbnail((1800,2400)); JPEG quality=88, optimize=True. Input bytes and their exact hashes are retained in the local benchmark bundle; original source bytes are unchanged."
+}

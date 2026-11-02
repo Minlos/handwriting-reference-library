@@ -16,6 +16,8 @@ CER below ignores case and punctuation, normalizes spaces, and keeps ё distinct
 | Gemma 4 12B + skill + GLM-OCR | Pages 4, 6, 7; local test | 27.88% (404/1449) |
 | Gemma + skill + reference crops/profile | Pages 4, 6, 7; local test | 30.85% (447/1449) |
 | Gemma + skill + reference crops/profile + GLM-OCR | Pages 4, 6, 7; local test | 28.36% (411/1449) |
+| Grok 4.7 + three example pages | Pages 4, 6, 7; examples are pages 1–3 | 9.45% (137/1449) |
+| Grok 4.7 + same examples + skill | Pages 4, 6, 7; examples are pages 1–3 | 9.11% (132/1449) |
 | GLM-OCR | Pages 4, 6, 7; local test | 45.96% (666/1449) |
 | Russian CRNN | 14 selected crops, pages 1–3 | 17.11% (39/228) |
 | Kraken PP-OCRv6 small | 14 selected crops, pages 1–3 | 32.46% (74/228) |
@@ -46,3 +48,5 @@ Evidence: [fresh Sol results](sol-matched-pages-4-6-7/metrics.json), [all-page G
 An exact page-7 plain-Gemma retry also fails. A [plain-text recovery](gemma-pages-4-6-7/page-7-plain-text-recovery/README.md) completes with 25.48% CER. This uses changed generic instructions and no JSON schema, so it is reported separately from the original comparison.
 
 The completed [Gemma reference-crop test](gemma-with-references/README.md) produces 10.9% more character errors than the matched instruction-only run. It supplies the seven earlier-page images actually inspected by assisted Sol, plus their labels and the earlier-page profile; target-page labels are withheld.
+
+The [Grok API test](grok-three-example-pages/README.md) keeps the same three full example pages and verified excerpts in both conditions. The added skill yields 3.6% fewer character errors in one trial, with a regression on page 7. All six calls together cost $0.402454. This isolates instructions given examples; Sol's earlier comparison also changed reference access.

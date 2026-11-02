@@ -1,0 +1,10 @@
+{
+  "examples_plus_skill": {
+    "suffix": " кранушку\".",
+    "basis": "Manually inspected: this is the sole final unknown word, with its closing punctuation. The preceding в and all known text are retained and scored."
+  },
+  "examples_only": {
+    "suffix": " кранкушку.“",
+    "basis": "Manually inspected: this is the sole final unknown word, with its closing punctuation. The preceding в and all known text are retained and scored."
+  }
+}

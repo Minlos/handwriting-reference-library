@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "example_scope": "Three full example-page images with only user-confirmed excerpts labeled. Other words on pages 1–3 are not asserted to be ground truth. Both conditions receive identical examples.",
+  "examples": [
+    {
+      "page": 1,
+      "image_path": "inputs/example-01.jpg",
+      "image_sha256": "580fe20d93d98b3e967a1068e214c4dc01d8f4c63add9c0156dd1308263c022a",
+      "dimensions": [
+        1800,
+        2400
+      ],
+      "source_filename": "IMG_20261031_185856737.jpg",
+      "source_sha256": "15b0004f91cd1997ee59f3367330430628c2a9c900d5f94d73af612cacc3e7ec",
+      "rotation_ccw": 90,
+      "processing": "Existing upright website JPEG working copy, 1800x2400; decoded, rotated, resized and JPEG-encoded. Original source JPEG unchanged. Box coordinates scaled from original upright coordinates.",
+      "confirmed_excerpts": [
+        {
+          "id": "V001",
+          "text": "бабуся",
+          "box_in_example_image": [
+            656,
+            825,
+            839,
+            926
+          ]
+        },
+        {
+          "id": "V002",
+          "text": "неужели",
+          "box_in_example_image": [
+            1202,
+            853,
+            1449,
+            974
+          ]
+        },
+        {
+          "id": "V003",
+          "text": "Коганович",
+          "box_in_example_image": [
+            686,
+            1030,
+            968,
+            1130
+          ]
+        },
+        {
+          "id": "V004",
+          "text": "мамочка",
+          "box_in_example_image": [
+            346,
+            649,
+            620,
+            760
+          ]
+        },
+        {
+          "id": "V005",
+          "text": "Десна уже приживает к зубу, а то она была совсем отделенная",
+          "box_in_example_image": [
+            328,
+            1301,
+            1463,
+            1505
+          ]
+        },
+        {
+          "id": "V006",
+          "text": "Оставила",
+          "box_in_example_image": [
+            335,
+            1531,
+            624,
+            1628
+          ]
+        },
+        {
+          "id": "V007",
+          "text": "а она ему",
+          "box_in_example_image": [
+            1093,
+            1631,
+            1524,
+            1731
+          ]
+        },
+        {
+          "id": "V008",
+          "text": "Мальчик, ты смотри за мною",
+          "box_in_example_image": [
+            314,
+            1709,
+            1435,
+            1809
+          ]
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "image_path": "inputs/example-02.jpg",
+      "image_sha256": "2b6bbeb802f4e8e842cea4b27ee6f39264ae92633805d6038832dd1692a63c72",
+      "dimensions": [
+        1800,
+        2400
+      ],
+      "source_filename": "IMG_20261031_185903235.jpg",
+      "source_sha256": "f6ae4aaa9f611c69c69bbd1eeaf4aff06d34e76f8763b318f3b004b02b8c967b",
+      "rotation_ccw": 90,
+      "processing": "Existing upright website JPEG working copy, 1800x2400; decoded, rotated, resized and JPEG-encoded. Original source JPEG unchanged. Box coordinates scaled from original upright coordinates.",
+      "confirmed_excerpts": [
+        {
+          "id": "V009",
+          "text": "Таня, причешись!",
+          "box_in_example_image": [
+            499,
+            254,
+            1058,
+            398
+          ]
+        },
+        {
+          "id": "V010",
+          "text": "Таня, умойся!",
+          "box_in_example_image": [
+            506,
+            344,
+            975,
+            459
+          ]
+        },
+        {
+          "id": "V011",
+          "text": "Таня, ешь!",
+          "box_in_example_image": [
+            502,
+            434,
+            866,
+            518
+          ]
+        },
+        {
+          "id": "V012",
+          "text": "Вот, мама, какая ты, всё меня заставляешь делать, как будто ты не мама, а мачеха",
+          "box_in_example_image": [
+            494,
+            459,
+            1710,
+            672
+          ]
+        },
+        {
+          "id": "V013",
+          "text": "Мамочка, говорят",
+          "box_in_example_image": [
+            506,
+            692,
+            1036,
+            807
+          ]
+        },
+        {
+          "id": "V014",
+          "text": "Выбиратели (вместо избиратели)",
+          "box_in_example_image": [
+            509,
+            877,
+            1455,
+            1008
+          ]
+        },
+        {
+          "id": "V015",
+          "text": "за ухо",
+          "box_in_example_image": [
+            1070,
+            1118,
+            1280,
+            1205
+          ]
+        },
+        {
+          "id": "V016",
+          "text": "назвала куклу",
+          "box_in_example_image": [
+            815,
+            1185,
+            1344,
+            1277
+          ]
+        },
+        {
+          "id": "V017",
+          "text": "Ты моих детей обижаешь, а я буду твоих",
+          "box_in_example_image": [
+            527,
+            1241,
+            1721,
+            1358
+          ]
+        },
+        {
+          "id": "V018",
+          "text": "все на вы называют",
+          "box_in_example_image": [
+            817,
+            1682,
+            1559,
+            1788
+          ]
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "image_path": "inputs/example-03.jpg",
+      "image_sha256": "a21e58cddc8a3c7821e7de42249374ef565ecbf01f6411f60b30035126715673",
+      "dimensions": [
+        1800,
+        2400
+      ],
+      "source_filename": "IMG_20261031_185936009.jpg",
+      "source_sha256": "32ed6fc48f82b4f088f64a7af4b2e25b4356dd43d2c195a023bb14622c422442",
+      "rotation_ccw": 270,
+      "processing": "Existing upright website JPEG working copy, 1800x2400; decoded, rotated, resized and JPEG-encoded. Original source JPEG unchanged. Box coordinates scaled from original upright coordinates.",
+      "confirmed_excerpts": [
+        {
+          "id": "V019",
+          "text": "Уже утреет - смотрит, что стало светло",
+          "box_in_example_image": [
+            319,
+            352,
+            1557,
+            470
+          ]
+        },
+        {
+          "id": "V020",
+          "text": "Ты меня расплакала и я теперь не могу успокоиться",
+          "box_in_example_image": [
+            329,
+            494,
+            1526,
+            665
+          ]
+        },
+        {
+          "id": "V021",
+          "text": "как они собираются",
+          "box_in_example_image": [
+            967,
+            715,
+            1505,
+            815
+          ]
+        },
+        {
+          "id": "V022",
+          "text": "Обезьянка такая хорошенькая",
+          "box_in_example_image": [
+            329,
+            1376,
+            1289,
+            1484
+          ]
+        },
+        {
+          "id": "V023",
+          "text": "будет их выпрашивать",
+          "box_in_example_image": [
+            300,
+            1915,
+            1536,
+            2126
+          ]
+        },
+        {
+          "id": "V024",
+          "text": "выпрашивать",
+          "box_in_example_image": [
+            300,
+            2009,
+            831,
+            2126
+          ]
+        }
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "page": 4,
+      "image_path": "inputs/target-04.png",
+      "image_sha256": "002f93759d0e598548eafb0aa63ec64838b91e5167cb028bec3043b66a6f9418"
+    },
+    {
+      "page": 6,
+      "image_path": "inputs/target-06.png",
+      "image_sha256": "987201bd67a34cd363ccbf94d6fcb4e9e4b664ba992a85a70aecfbf7948fbe6a"
+    },
+    {
+      "page": 7,
+      "image_path": "inputs/target-07.png",
+      "image_sha256": "eb33f5a49f946d7da414bbdf58fbb9167c443d3ceae7a2801869847e1c63da6e"
+    }
+  ],
+  "skill_path": "SKILL.md",
+  "skill_sha256": "70045b10b9ece68a1d4aaf15cfacafdff5a525fc39dc0b59f74950f893035021",
+  "conditions": [
+    "examples_only",
+    "examples_plus_skill"
+  ],
+  "model": "grok-4.7",
+  "settings": {
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "reasoning": {
+      "effort": "low"
+    },
+    "max_output_tokens": 4096,
+    "store": false
+  },
+  "status": "prepared_for_budgeted_run",
+  "scoring_scope": "Score all words on pages 4 and 7 and all confirmed page-6 text except its final uncertain word. Scoring files are never read while building model inputs.",
+  "authorized_cost_limit_usd": 3.0
+}
