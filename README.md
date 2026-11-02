@@ -48,9 +48,13 @@ To validate the photographs and crops:
 python3 tools/verify_library.py
 ```
 
+## Measured recognition results
+
+See the [single comparison table and reading examples](evaluations/comparison.md). Fresh Sol tests cover pages 4, 6 and 7; the uncertain final word on page 6 is excluded. Results from different page sets are kept distinct.
+
 ## Evidence and limits
 
-The 48 confirmed and 68 provisional entries count crops, not individual words: some crops contain phrases or several lines. Rectangles can include neighboring ink; the label covers only the named phrase. Confirmation of wording does not certify every glyph or punctuation mark. Transcripts are not fully verified page-level ground truth. P11 is severely motion-blurred and has no labeled crop.
+The 48 confirmed and 68 provisional entries count crops, not individual words: some crops contain phrases or several lines. Rectangles can include neighboring ink; the label covers only the named phrase. Confirmation of wording does not certify every glyph or punctuation mark. Pages 4 and 7 have user-confirmed wording; page 6 has one unresolved final word. Other transcripts remain partly verified or provisional. P11 is severely motion-blurred and has no labeled crop.
 
 All pages have already been inspected during reference selection. This material supports handwriting comparison and calibration; it is not an independent recognition benchmark. Overlapping crops from a page must not be split between training and an independent test set. No untouched test pages have been reserved.
 

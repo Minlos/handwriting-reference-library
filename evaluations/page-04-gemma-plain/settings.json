@@ -1,0 +1,46 @@
+{
+  "model": "gemma4:12b",
+  "stream": false,
+  "keep_alive": 0,
+  "options": {
+    "temperature": 0,
+    "num_predict": 2048,
+    "num_ctx": 8192
+  },
+  "format": {
+    "type": "object",
+    "properties": {
+      "reading": {
+        "type": "string"
+      },
+      "uncertain_spans": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "evidence": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "reference_ids_used": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "reading",
+      "uncertain_spans",
+      "evidence",
+      "reference_ids_used"
+    ],
+    "additionalProperties": false
+  },
+  "think": false,
+  "prompt": "Image 1 is the target. Read its visible writing independently. You have not been shown an OCR candidate.  Return the requested JSON. reference_ids_used must contain only supplied reference IDs actually compared.",
+  "image_sha256": "002f93759d0e598548eafb0aa63ec64838b91e5167cb028bec3043b66a6f9418"
+}

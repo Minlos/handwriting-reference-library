@@ -1,0 +1,22 @@
+{
+  "engine": "kraken",
+  "version": "7.1.1",
+  "model": "PP-OCRv6 small",
+  "model_sha256": "3108259779f5abfed3908a1c9eafba64d17e4a2a169368c539ecfeff04c018f3",
+  "samples": 14,
+  "completed": 14,
+  "failed": 0,
+  "ground_truth_not_passed_to_model": true,
+  "trained_on_diary": false,
+  "selection": "Same 14 hand-selected confirmed single-line crops used by the CRNN and Ollama diagnostics; not a representative independent benchmark.",
+  "literal": {
+    "edits": 84,
+    "reference_characters": 233,
+    "cer": 0.3605150214592275
+  },
+  "reading": {
+    "edits": 74,
+    "reference_characters": 228,
+    "cer": 0.32456140350877194
+  }
+}

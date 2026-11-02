@@ -1,0 +1,19 @@
+{
+  "engine": "crnn",
+  "model": "achimrabus/crnn-ctc-russian",
+  "samples": 14,
+  "completed": 14,
+  "failed": 0,
+  "ground_truth_not_passed_to_model": true,
+  "trained_on_diary": false,
+  "literal": {
+    "edits": 46,
+    "reference_characters": 233,
+    "cer": 0.19742489270386265
+  },
+  "reading": {
+    "edits": 39,
+    "reference_characters": 228,
+    "cer": 0.17105263157894737
+  }
+}

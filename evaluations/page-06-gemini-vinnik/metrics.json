@@ -1,0 +1,71 @@
+{
+  "page": 6,
+  "workflow": "Gemini + Vinnik",
+  "attribution": "Identified by user; exact model version, prompt, image processing and prior context were not supplied",
+  "input_sha256": "fdbc0115d2bdeb37b44455486728ef1d85b8aff715642d50e7e85de42bbbd032",
+  "normalization": "Unicode NFC; whitespace normalized; invisible Unicode format characters removed from both texts; reading mode also ignores case and punctuation; ё remains distinct from е",
+  "excluded_span": "Final uncertain word after воротничек в, including its closing punctuation, excluded from both texts",
+  "literal": {
+    "edits": 52,
+    "reference_characters": 520,
+    "cer": 0.1,
+    "reference_normalized": "— Папа, если ты заработаешь десять тысяч, ты мне купишь большое платье? — Да, а зачем тебе? — А бегать вокруг елки. (Ест колбасу со сладкой молочной лапшой.) — Таня, ешь отдельно и быстрее. — Таня, ну ешь же скорее… — Мама, ты не понимаешь моих страданий. — Почему же ты страдаешь? — А ты мне все говоришь, говоришь! 29/X-47 Танюшка ходит в садик. Ей дали картинки, которые она должна закончить дома. — Мне надо «заштриховать ротик». Я ей даю халатик, не могу найти воротничек, а она: — Ведь там у меня есть воротничек в",
+    "hypothesis_normalized": "-Папа, если ты заработаешь денег тысяч ты мне купишь большое платье? Да, а зачем тебе? Я бегать вокруг елки. -(Ешь колбасу со сладкой молочной лапшой), папа, ешь отдельно и быстрее. папа, ну ешь же скорее... Папа, ты не понимаешь моих страданий почему же ты страдаешь А ты мне все говоришь, говоришь! 29/X-47 -Танечка ходит в садик. Ей дали картинки, которые она должна закончить дома. Мне надо \"заштриховать ромбик\"! Я ей даю халатик, не могу найти воротничек, а она - \"ведь там у меня есть воротничек в"
+  },
+  "reading": {
+    "edits": 19,
+    "reference_characters": 471,
+    "cer": 0.040339702760084924,
+    "reference_normalized": "папа если ты заработаешь десять тысяч ты мне купишь большое платье да а зачем тебе а бегать вокруг елки ест колбасу со сладкой молочной лапшой таня ешь отдельно и быстрее таня ну ешь же скорее мама ты не понимаешь моих страданий почему же ты страдаешь а ты мне все говоришь говоришь 29x47 танюшка ходит в садик ей дали картинки которые она должна закончить дома мне надо заштриховать ротик я ей даю халатик не могу найти воротничек а она ведь там у меня есть воротничек в",
+    "hypothesis_normalized": "папа если ты заработаешь денег тысяч ты мне купишь большое платье да а зачем тебе я бегать вокруг елки ешь колбасу со сладкой молочной лапшой папа ешь отдельно и быстрее папа ну ешь же скорее папа ты не понимаешь моих страданий почему же ты страдаешь а ты мне все говоришь говоришь 29x47 танечка ходит в садик ей дали картинки которые она должна закончить дома мне надо заштриховать ромбик я ей даю халатик не могу найти воротничек а она ведь там у меня есть воротничек в"
+  },
+  "word": {
+    "edits": 8,
+    "reference_words": 85,
+    "hypothesis_words": 85,
+    "wer": 0.09411764705882353,
+    "operations": [
+      {
+        "type": "substitution",
+        "reference": "десять",
+        "hypothesis": "денег"
+      },
+      {
+        "type": "substitution",
+        "reference": "а",
+        "hypothesis": "я"
+      },
+      {
+        "type": "substitution",
+        "reference": "ест",
+        "hypothesis": "ешь"
+      },
+      {
+        "type": "substitution",
+        "reference": "таня",
+        "hypothesis": "папа"
+      },
+      {
+        "type": "substitution",
+        "reference": "таня",
+        "hypothesis": "папа"
+      },
+      {
+        "type": "substitution",
+        "reference": "мама",
+        "hypothesis": "папа"
+      },
+      {
+        "type": "substitution",
+        "reference": "танюшка",
+        "hypothesis": "танечка"
+      },
+      {
+        "type": "substitution",
+        "reference": "ротик",
+        "hypothesis": "ромбик"
+      }
+    ]
+  },
+  "comparison_limits": "Same corrected page-6 reference as the original assistant draft, but different workflows and unknown Gemini conditions. This is not a controlled causal estimate of skill benefit."
+}
