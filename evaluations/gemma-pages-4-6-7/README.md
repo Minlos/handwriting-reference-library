@@ -7,6 +7,7 @@ CER ignores case and punctuation, normalizes whitespace and retains the distinct
 | Workflow | Page 4 | Page 6 | Page 7 | All three pages |
 |---|---:|---:|---:|---:|
 | Gemma 4 12B without skill | 38.75% (198/511) | 31.42% (148/471) | Failed / not scored | **Failed / not scored** |
+| Gemma without skill; page 7 plain-text recovery | 38.75% (198/511) | 31.42% (148/471) | 25.48% (119/467) | **32.09% (465/1449)** |
 | Gemma 4 12B + skill | 33.07% (169/511) | 28.45% (134/471) | 21.41% (100/467) | **27.81% (403/1449)** |
 | Gemma 4 12B + skill + GLM-OCR | 33.07% (169/511) | 28.66% (135/471) | 21.41% (100/467) | **27.88% (404/1449)** |
 | GLM-OCR alone | 49.12% (251/511) | 44.37% (209/471) | 44.11% (206/467) | **45.96% (666/1449)** |
@@ -39,3 +40,7 @@ Examples from the actual saved readings:
 All pages have already been inspected during this project. A single test on these three pages does not establish accuracy on unseen diary pages or prove which model is best in general. User-confirmed references preserve the wording, with editorial punctuation.
 
 Evidence: [raw model replies and exact requests](run.json), [per-page and aggregate CER, literal CER and word errors](metrics.json), [excluded final word](page-6-exclusions.json), [skill used](skill-used.md). Image hashes, source coordinates and rotations match the [source manifest](../sol-matched-pages-4-6-7/manifest.json). Reference texts are frozen from the [same Sol test references](../sol-matched-pages-4-6-7/).
+
+## Page 7 retry
+
+An exact-settings retry repeats the incomplete-output failure. A separate plain-text recovery succeeds, with **25.48% CER** on page 7. See the [retry record and recovery score](page-7-plain-text-recovery/README.md). The original rows remain the first-attempt comparison. The additional recovery row mixes output protocols and includes the third page-7 attempt; it is not a controlled estimate of skill benefit.

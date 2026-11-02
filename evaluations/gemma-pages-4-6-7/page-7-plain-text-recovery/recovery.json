@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-11-02T12:00:16.179445+00:00",
+  "purpose": "Recovery after two incomplete structured-output attempts. No skill, references or corrected text. Output format and generic prompt differ from primary benchmark.",
+  "image_sha256": "eb33f5a49f946d7da414bbdf58fbb9167c443d3ceae7a2801869847e1c63da6e",
+  "request": {
+    "model": "gemma4:12b",
+    "stream": false,
+    "keep_alive": 0,
+    "think": false,
+    "options": {
+      "temperature": 0,
+      "num_predict": 2048,
+      "num_ctx": 8192
+    },
+    "prompt": "Transcribe the visible Russian handwriting in image 1. Preserve the original wording and spelling. Return only the transcription as plain text. Use [unclear] for genuinely illegible words."
+  },
+  "status": "complete",
+  "raw_response": {
+    "model": "gemma4:12b",
+    "created_at": "2026-11-02T12:00:30.709654Z",
+    "response": "Мама: «Машонка, пойдем печенье в садике».\n- Не хочу.\n- Ты никогда ничего не хочешь.\n- Чем, мама, я ведь хочу.\n\nЯ в игре: «Ку, Ваняч».\n- Машонка, а что ваняй?\n\nМне Аллочка сказала, что одна тётенька\nгрустно машонка грустно вместе с\nсосункой. Он машон снопом, всегда\nхотя ломить сильно говорил «пущен морж»,\nи папой весь бенив линчик. Ку, машонка,\nкути обязательно.\n\nПочему там вонцы хванишь? Говорить,\nчто она «мировая».\n\nМашонка, а англичане тоже русские?\nЧем, почему не, а\n- а ведь они тоже вовари с францами.",
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 14502705375,
+    "load_duration": 5147410750,
+    "prompt_eval_count": 552,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 2201197000,
+    "eval_count": 195,
+    "eval_duration": 6918226000
+  }
+}
