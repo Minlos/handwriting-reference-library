@@ -81,3 +81,11 @@ For page 8, the shared stem in «фашисты» can be compared with P015 «ф
 ## Page 6 verb correction, 2026-11-02
 
 The V032 question reads «Папа, если ты заработаешь десять тысяч…». The user specifically corrected заработаешь; the earlier зарабатываешь label has been superseded. Preserve the corrected verb rather than inferring aspect from context. Original crop pixels and coordinates are unchanged.
+
+## Page 8: confirmed fragments only
+
+V040 «Лу-ша» and V041 «Луша» preserve the corrected name and its visible syllabic spelling. V042 is «когда ты», replacing the tentative «тогда ты». These are user-confirmed fragments, not confirmation of the full page or a universal letter-shape rule. Existing benchmark fixtures remain frozen to earlier-page references.
+
+## Additional explicit corrections from the review
+
+V043 preserves «Платье шерстит»; V044 is the user-supplied «заметила»; V045 is the confirmed «Катаемся». V046 records the corrected date 26/II-47; V047 confirms «или 3 маленьких». These are human label corrections, not independent model gains or new general glyph rules. Updated comparison copies and the frozen evaluation reference set remain separate.

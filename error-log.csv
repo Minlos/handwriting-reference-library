@@ -30,3 +30,11 @@ V037,P07,хотела,хочила,Explicit user correction,Unwarranted normaliz
 V038,P07,"Ну, валяй, [неразборчиво]","Ну, валяй, иди",Explicit user correction,Previously unresolved word supplied by user.
 V039,P07,[Аллочка?],Аллочка,Explicit user correction,Name explicitly confirmed.
 V032,P06,зарабатываешь,заработаешь,"Explicit user verb correction, 2026-11-02",Later correction supersedes the earlier broad confirmation. Original crop pixels and coordinates unchanged.
+V040,P08,[Му-ша?],Лу-ша,Explicit user page-8 correction,Fragment only; no page-level confirmation. Original crop pixels inspected.
+V041,P08,[Муша?],Луша,Explicit user page-8 correction,Fragment only; no page-level confirmation. Original crop pixels inspected.
+V042,P08,[тогда ты?],когда ты,Explicit user page-8 correction,Fragment only; no page-level confirmation. Original crop pixels inspected.
+V043,P09,[Мамое чересний?],Платье шерстит,Explicit human correction,Word/date supplied or confirmed by user; not independent recognition gain.
+V044,P09,[запейла?],заметила,Explicit human correction,Word/date supplied or confirmed by user; not independent recognition gain.
+V045,P09,[Катаемся?],Катаемся,Explicit human correction,Word/date supplied or confirmed by user; not independent recognition gain.
+V046,P02,[28?]/II-47,26/II-47,Explicit human correction,Word/date supplied or confirmed by user; not independent recognition gain.
+V047,P05,[или/чем?] 3 маленьких,или 3 маленьких,Explicit human correction,Word/date supplied or confirmed by user; not independent recognition gain.

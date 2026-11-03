@@ -1,5 +1,7 @@
 # Diary recognition: measured errors and the benefit of the skill
 
+The [six-page four-condition comparison](six-page-skill-reference/README.md) separately measures skill and reference effects on pages 1, 2, 3, 5, 8 and 9, including completed DeepSeek, Gemma and OCR tests. Do not pool its scores with the three-page table below.
+
 In the fresh three-page Sol comparison, skill plus earlier author references produces **41.8% fewer character errors** than plain Sol. This is the best tested condition on those three pages, not proof of the best possible model. Both agents received the same images and no corrected target text.
 
 CER below ignores case and punctuation, normalizes spaces, and keeps ё distinct from е. It counts character substitutions, deletions and insertions divided by reference characters; lower is better. The fraction beside each percentage gives errors / reference characters. **Only the uncertain final word on page 6 is excluded from both texts.** Known words elsewhere remain scored even when the model marks them uncertain.

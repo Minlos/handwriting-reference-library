@@ -1,17 +1,13 @@
 # Handwriting reference library: skill and diary dataset
 
-**The skill and its reference data live together in this folder.** Clone or download this repository to get the reading instructions, Ollama helper, original diary photographs, labeled crops and indexes. No separate dataset download is needed.
+**The skill and its reference data live together in this folder.** Clone or download this repository to get the model-independent reading instructions, optional test helpers, original diary photographs, labeled crops and indexes. No separate dataset download is needed.
 
 Diary author: **Nadezhda Nikifrovna Blashkevich (Блашкевич Надежда Никифровна)**, the contributor's grandmother. Source: **Minlos family archive**, as reported by the contributor.
 
-## Optional fully local reading
-
-Use **Gemma as the general image-reading LLM applying the skill**, with **GLM-OCR as a specialized OCR assistant**, through your local Ollama server. The included [local_read.py](local_read.py) saves both independent readings and a combined image-grounded review, without modifying verified labels. No ChatGPT session is needed for that run. See **[LOCAL.md](LOCAL.md)** for installation, offline operation and the three-output comparison.
-
 ## Start here
 
-1. Load [SKILL.md](SKILL.md) into an agent with image and file tools. In ChatGPT use Work mode; for Ollama use a local workspace with access to the files. Ollama itself has no ChatGPT mode switch.
-2. Read [handwriting-profile.md](handwriting-profile.md) and [index.json](index.json). Begin with user-confirmed examples, compare visible letter forms and return to the original photograph when uncertain.
+1. Load [SKILL.md](SKILL.md) into an agent with image and file tools. Use an image-capable model with supplied images, or a tool-using host for file operations; [HOST.md](HOST.md) separates host responsibilities from model instructions.
+2. Select relevant user-confirmed examples from [index.json](index.json) when they help; supply only permitted crops and treat the optional [profile](handwriting-profile.md) as hypotheses. Return to the target pixels when references conflict.
 3. Save proposed readings separately. Preserve uncertainties and the distinction between confirmed and provisional labels.
 
 The skill is a reusable workflow, not a trained OCR model. It can be used with other manuscripts too. The diary provides real reference examples for this author.
@@ -24,15 +20,19 @@ The skill is a reusable workflow, not a trained OCR model. It can be used with o
 | [LOCAL.md](LOCAL.md), [local_read.py](local_read.py) | Optional local Gemma + GLM-OCR workflow |
 | [OLLAMA.md](OLLAMA.md), [ollama_review.py](ollama_review.py) | Single-model review helper |
 | [sources/](sources/) | 29 unchanged original JPEG photographs |
-| [crops/verified/](crops/verified/), [verified.jsonl](verified.jsonl) | 48 user-confirmed word or phrase labels and crops |
+| [crops/verified/](crops/verified/), [verified.jsonl](verified.jsonl) | 56 user-confirmed word or phrase labels and crops |
 | [crops/provisional/](crops/provisional/), [provisional.jsonl](provisional.jsonl) | 68 provisional visual readings and crops; review before treating them as ground truth |
-| [index.csv](index.csv), [index.json](index.json) | All 116 crop labels, source coordinates, rotations and hashes |
-| [transcripts/](transcripts/) | Working Russian transcripts for pages 1–8, with confirmation status and uncertainties |
+| [index.csv](index.csv), [index.json](index.json) | All 124 crop labels, source coordinates, rotations and hashes |
+| [transcripts/](transcripts/) | Working Russian transcripts for pages 1–9, with confirmation status and uncertainties |
 | [source-manifest.json](source-manifest.json) | Original filenames, provenance, dimensions, rotation and hashes |
 | [tools/verify_library.py](tools/verify_library.py) | Verify original hashes and exact crop reproduction; requires Pillow |
 | [LICENSE-DATA.md](LICENSE-DATA.md) | CC BY 4.0 terms and attribution for the data |
 
-## Use with Ollama
+## Experimental local tests
+
+The local Ollama helpers are included for experimentation and comparison. They are not the recommended recognition setup: the tested Gemma configuration makes substantial reading errors, and the skill and reference pages do not reliably improve it. Select a model using measured accuracy on your own corrected pages.
+
+[LOCAL.md](LOCAL.md) documents the optional Gemma + GLM-OCR test workflow.
 
 Requirements: Python 3.9+, a running Ollama server and an installed model that accepts images. From this repository folder, replace `YOUR_VISION_MODEL` with that model's name:
 
@@ -48,13 +48,17 @@ To validate the photographs and crops:
 python3 tools/verify_library.py
 ```
 
+## Cross-model evaluation handoff
+
+Use the [separate four-condition handoff](handoffs/skill-reference-evaluation/README.md) to test skill and reference effects independently on another model or setup. It includes frozen inputs, blind-packet preparation, scoring and result templates. The current [skill revision](skill-revision.md) is vendor-neutral; older benchmark snapshots are preserved.
+
 ## Measured recognition results
 
-See the [single comparison table and reading examples](evaluations/comparison.md). Fresh Sol tests cover pages 4, 6 and 7; the uncertain final word on page 6 is excluded. [Gemma comparisons](evaluations/gemma-pages-4-6-7/README.md) also cover all three pages. The [Gemma reference-crop test](evaluations/gemma-with-references/README.md) adds earlier-page author examples. The [Grok API test](evaluations/grok-three-example-pages/README.md) compares the same three example pages with and without the skill. Results from different page sets are kept distinct.
+See the [six-page four-condition comparison](evaluations/six-page-skill-reference/README.md) for Gemma, DeepSeek and OCR tests with the revised skill. The skill does not improve every model; reference pages can also cause regressions. [Other comparison results and reading examples](evaluations/comparison.md) use separate page sets. Fresh Sol tests cover pages 4, 6 and 7; the uncertain final word on page 6 is excluded. [Gemma comparisons](evaluations/gemma-pages-4-6-7/README.md) also cover all three pages. The [Gemma reference-crop test](evaluations/gemma-with-references/README.md) adds earlier-page author examples. The [Grok API test](evaluations/grok-three-example-pages/README.md) compares the same three example pages with and without the skill. Results from different page sets are kept distinct.
 
 ## Evidence and limits
 
-The 48 confirmed and 68 provisional entries count crops, not individual words: some crops contain phrases or several lines. Rectangles can include neighboring ink; the label covers only the named phrase. Confirmation of wording does not certify every glyph or punctuation mark. Pages 4 and 7 have user-confirmed wording; page 6 has one unresolved final word. Other transcripts remain partly verified or provisional. P11 is severely motion-blurred and has no labeled crop.
+The 56 confirmed and 68 provisional entries count crops, not individual words: some crops contain phrases or several lines. Rectangles can include neighboring ink; the label covers only the named phrase. Confirmation of wording does not certify every glyph or punctuation mark. Corrected comparison copies now cover pages 1–9; page 6 has one unresolved final word. Fragment-level confirmation sources remain separately recorded. See [review status](transcripts/review-status.json). Page 10 is still being reviewed. P11 is severely motion-blurred and has no labeled crop.
 
 All pages have already been inspected during reference selection. This material supports handwriting comparison and calibration; it is not an independent recognition benchmark. Overlapping crops from a page must not be split between training and an independent test set. No untouched test pages have been reserved.
 

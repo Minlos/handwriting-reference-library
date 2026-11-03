@@ -1,0 +1,146 @@
+{
+  "version": 2,
+  "conditions": {
+    "A": {
+      "skill": false,
+      "references": false
+    },
+    "B": {
+      "skill": true,
+      "references": false
+    },
+    "C": {
+      "skill": false,
+      "references": true
+    },
+    "D": {
+      "skill": true,
+      "references": true
+    }
+  },
+  "skill_file": "skill-snapshot.md",
+  "skill_sha256": "ab02e8b0d1b1d730b18b62d47e934c3db0b3db77da23adaf45fa7b75b06a7a2f",
+  "reference_labels_file": "reference-labels.json",
+  "reference_labels_sha256": "18c6e758d97b50b36dabf5685ad8384cb37b00df20611b77ef1ee681a1c47792",
+  "reference_images": [
+    {
+      "page": 4,
+      "source_filename": "IMG_20261031_185948262.jpg",
+      "source_sha256": "a7ecf92ddfaba1df5bba10c95f0adcdde7501134c04f901905d255937b1d548a",
+      "rotation_ccw": 270
+    },
+    {
+      "page": 6,
+      "source_filename": "IMG_20261031_190021065.jpg",
+      "source_sha256": "c05020e2b188f4a8c87651b5a5327e5f989bb725ead765525fadaa65fd3ea718",
+      "rotation_ccw": 270
+    },
+    {
+      "page": 7,
+      "source_filename": "IMG_20261031_190031751.jpg",
+      "source_sha256": "ee423b6a92547cdb796fdf5dd80f9ac2c2186ceb80add7efc4855605b2c851de",
+      "rotation_ccw": 270
+    }
+  ],
+  "reference_image_recipe": {
+    "max_size": [
+      1800,
+      2400
+    ],
+    "jpeg_quality": 88,
+    "optimize": true
+  },
+  "targets": [
+    {
+      "page": 1,
+      "source_filename": "IMG_20261031_185856737.jpg",
+      "source_sha256": "15b0004f91cd1997ee59f3367330430628c2a9c900d5f94d73af612cacc3e7ec",
+      "rotation_ccw": 90,
+      "upright_box": [
+        435,
+        640,
+        2585,
+        3225
+      ],
+      "pixel_sha256": "adf46a6cab060802be077e95ff7caf090441f2fea2292dfd4d083e5dd54dab19",
+      "gold_file": "gold/page-01-reference.txt",
+      "gold_sha256": "82ab44f016eb5ed0ccb4676165cc2c355ba6a3a4bda5100aa933dcd5b3fd6f14"
+    },
+    {
+      "page": 2,
+      "source_filename": "IMG_20261031_185903235.jpg",
+      "source_sha256": "f6ae4aaa9f611c69c69bbd1eeaf4aff06d34e76f8763b318f3b004b02b8c967b",
+      "rotation_ccw": 90,
+      "upright_box": [
+        768,
+        460,
+        2905,
+        3059
+      ],
+      "pixel_sha256": "2339cdf0e9070c56e40b87890c2e51ae778ef638bba293156f16108b7f05a26b",
+      "gold_file": "gold/page-02-reference.txt",
+      "gold_sha256": "9dd4aabd54eed2a7189b0599c77aeff8ad01f3abc9958e97939f462b54936637"
+    },
+    {
+      "page": 3,
+      "source_filename": "IMG_20261031_185936009.jpg",
+      "source_sha256": "32ed6fc48f82b4f088f64a7af4b2e25b4356dd43d2c195a023bb14622c422442",
+      "rotation_ccw": 270,
+      "upright_box": [
+        512,
+        460,
+        2662,
+        3596
+      ],
+      "pixel_sha256": "370b577905b14ace4651f9c18fe50ca7adfba37603a6ed66bcc3abe85c055e53",
+      "gold_file": "gold/page-03-reference.txt",
+      "gold_sha256": "8b5a4ae583171d7c712645e2395458023d1c2bdb2a68f3a224a2b1cd1fd980b5"
+    },
+    {
+      "page": 5,
+      "source_filename": "IMG_20261031_190010425.jpg",
+      "source_sha256": "4d39329b9a85d8d6374c9ef5c5c64a5e0e3eade5eb2af992bb1c8e5f3dbf5d00",
+      "rotation_ccw": 270,
+      "upright_box": [
+        371,
+        192,
+        2585,
+        3187
+      ],
+      "pixel_sha256": "ae886778ded3f5b398ec4c310dcb6a289096c27ca6de3957d080dcb7e3bb8e16",
+      "gold_file": "gold/page-05-reference.txt",
+      "gold_sha256": "3f10933def774cb0aa133865aa64a9c51dacaf2fb032205c2165659d50a3a52e"
+    },
+    {
+      "page": 8,
+      "source_filename": "IMG_20261031_190037382.jpg",
+      "source_sha256": "a80996076efa59f7a9f5a5e5c6fafac857fc5803c61694641f477ccda6759c65",
+      "rotation_ccw": 270,
+      "upright_box": [
+        320,
+        243,
+        2662,
+        3622
+      ],
+      "pixel_sha256": "792f675315b56fcfbe426ea5564d1beb2158917ae1b2f644161b68d1835977c4",
+      "gold_file": "gold/page-08-reference.txt",
+      "gold_sha256": "39b5e322ce4d963c15b7245da7404f9d7bef57e042c1db4d03ff891304d858e4"
+    },
+    {
+      "page": 9,
+      "source_filename": "IMG_20261031_190043500.jpg",
+      "source_sha256": "b499a2100d854adf7f89595f94ee0382ed45494d177ddbf21f0d1ba6a7969f09",
+      "rotation_ccw": 270,
+      "upright_box": [
+        947,
+        281,
+        3041,
+        3187
+      ],
+      "pixel_sha256": "7509e2f4495eeae87ab121c65ea6de6bf4a9822f7e616d93d07a0c1d95270cd4",
+      "gold_file": "gold/page-09-reference.txt",
+      "gold_sha256": "4271b2600e8e0fbe8b8c167e8823af8a31dc72cf946b1137a382f4b4284b65b6"
+    }
+  ],
+  "scope": "Fixed reference pages 4,6,7; targets1,2,3,5,8,9. Corrected full comparison copies; reference page6 final word remains explicitly unresolved. No target-page examples/profile permitted. Historical three-page evaluations remain separate."
+}

@@ -1,3 +1,5 @@
+Current full corrected copies: [page 1](page-1-review.md) and [page 2](page-2-review.md). The partial-review notes below preserve the earlier reading/confirmation history.
+
 # Повторное чтение страниц 1–2
 
 Читаются дополнительные фразы: «Это нельзя, а это “льзя”», «…его звали Андрюша?», «…а то я на улицу убегу», «…а кто же тогда папа?» и запись о перчатке. Это мои чтения; вашими подтверждениями они пока не являются.

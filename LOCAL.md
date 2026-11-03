@@ -1,4 +1,6 @@
-# Optional fully local reading: Gemma + the skill + GLM-OCR
+# Experimental local tests: Gemma + the skill + GLM-OCR
+
+This optional setup is for comparison, not a recommended diary-reading configuration. The [six-page results](evaluations/six-page-skill-reference/README.md) show substantial errors and no reliable benefit from the skill or reference pages in this Gemma setup.
 
 Gemma is the general image-reading LLM applying `SKILL.md`. GLM-OCR is its specialized OCR assistant. `local_read.py` is the host that reads files, prepares the image, calls the local models and saves results. It is a bounded three-stage workflow, not an autonomous agent that installs software, browses, trains or publishes. You can also load this skill into another local agent with equivalent tools.
 
@@ -29,7 +31,7 @@ Use a new output directory each time. Add `--dry-run` to validate the image, ref
 
 For your own image, replace `--image`. You can omit `--library` and references. To select a real region, add `--box X0 Y0 X1 Y1` in original-image pixels, with exclusive end coordinates. Add `--rotation 90`, `180` or `270` to rotate that region counter-clockwise. The prepared target is saved as a lossless PNG, with source hash, crop coordinates and rotation recorded. Prefer a correctly located line or phrase for detailed handwriting comparisons; automatic page segmentation is not part of this runner.
 
-Up to four reference images can be supplied. They must match their saved hashes. Verified references are preferred. A visually clear provisional reference can be used with `--allow-provisional-references`, with its category retained. A crop identical to the target cannot also be a labeled reference. The local handwriting profile is loaded when present; at most its first 6,000 characters are supplied, with the scope recorded. This is library-assisted reading, not a blind benchmark.
+Up to four reference images can be supplied. They must match their saved hashes. Verified references are preferred. A visually clear provisional reference can be used with `--allow-provisional-references`, with its category retained. A crop identical to the target cannot also be a labeled reference. The handwriting profile is omitted by default. Add `--include-profile` to supply at most its first 6,000 characters, with provenance and truncation recorded; a profile can add noise and is not target ground truth. This is library-assisted reading, not a blind benchmark.
 
 ## What happens
 
@@ -65,6 +67,6 @@ API reference: [Ollama generate endpoint](https://docs.ollama.com/api/generate).
 
 ## Validation in this version
 
-Ten automated checks cover loopback URL restrictions, remote-model rejection, exact target pixels across all stages, raw-coordinate crop/rotation reproduction, reference hashes and categories, target/reference identity rejection, no output overwrite, no calls during dry runs, and incomplete model output.
+Automated checks cover loopback URL restrictions, remote-model rejection, exact target pixels across all stages, raw-coordinate crop/rotation reproduction, reference hashes and categories, target/reference identity rejection, no output overwrite, no calls during dry runs, and incomplete model output.
 
 A real local run used the downloaded `gemma4:12b` and `glm-ocr:latest`, target P007 on page 5 and verified references V001 and V013. All three stages completed. GLM-OCR returned «Бадумисина малина»; Gemma independently read «Бабушкина мама» and retained it after review, matching the visible phrase on inspection. P007 remains a provisional library label, not a newly user-confirmed one. This is one functional example with reference context: it demonstrates rejection of an OCR error, not an accuracy gain over Gemma alone, a corpus benchmark, or evidence of 95% accuracy.

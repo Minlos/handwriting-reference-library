@@ -69,4 +69,13 @@ class LocalWorkflowTests(unittest.TestCase):
  def test_truncated_review_cannot_become_proposed_reading(self):
   result=run_pipeline(self.config(),FakeOllama(truncate=True));self.assertIsNone(result['stages']['gemma_review']['reading']);self.assertEqual(result['stages']['gemma_review']['status'],'incomplete');self.assertEqual(result['status'],'review_required')
 
+ def test_profile_is_explicit_opt_in(self):
+  lib=self.reference();marker='PROFILE_ONLY_WHEN_REQUESTED';(lib/'handwriting-profile.md').write_text(marker)
+  first=FakeOllama();result=run_pipeline(self.config(library=lib,references=('V1',)),first)
+  self.assertIsNone(result['profile_context'])
+  self.assertTrue(all(marker not in p.get('system','') for path,p in first.calls if path=='/api/generate'))
+  second=FakeOllama();cfg=RunConfig(image=self.image,output_dir=self.root/'with-profile',library=lib,references=('V1',),include_profile=True);result=run_pipeline(cfg,second)
+  self.assertIsNotNone(result['profile_context'])
+  self.assertTrue(any(marker in p.get('system','') for path,p in second.calls if path=='/api/generate'))
+
 if __name__=='__main__':unittest.main()

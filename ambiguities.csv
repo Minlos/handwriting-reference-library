@@ -8,5 +8,4 @@ P02,V012,всё and phrase punctuation,Dots and punctuation not uniformly separa
 P02,V012,Ink above first labeled line,"Sloping text brings preceding Таня, ешь! into rectangle",Document neighboring ink; do not assign it to label
 ALL,,Legacy filenames,Exact mapping from Drive files to earlier /mnt/data files unavailable,Use observed Drive filenames only
 P01,T02,First word in response to Павлик,Таня is tentative,Question mark retained; not a labeled word
-P02,T08,Day in date,26 or 28 remains unresolved,Keep date question; adjacent phrase corrections are user-confirmed
 P06,,reread/page6/lastword.png,User suggests кракушку? and explicitly remains unsure,Keep tentative; exclude from verified and provisional labeled examples
