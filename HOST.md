@@ -1,6 +1,6 @@
 # Host responsibilities for handwriting evidence
 
-Load this document when creating/updating a reference library or configuring a reading host. A single inference call needs the concise skill, target and permitted examples, not this operational manual.
+Load this document when extracting temporary references, creating or updating a reference library, or configuring a reading host. A single inference call needs the concise skill, target and permitted examples, not this operational manual.
 
 ## Supply capabilities honestly
 
@@ -8,13 +8,23 @@ The host loads images, selects references, prepares crops, calls models/OCR, sav
 
 Keep authentication, model selection, local/cloud routing and budgets in host configuration. Follow the user's chosen provider and limits. Do not imply that a subscription includes paid API usage. Do not send credentials into model prompts or result files.
 
+## Run whole-collection reading cycles
+
+Maintain an image inventory and pass coverage. Read all supplied images provisionally before using the collection to revise difficult spans. Mark non-text sides and blocked images explicitly. Keep original first-pass transcripts and independent OCR results separate from later versions. Supply requested OCR services only through available, authorized access and budget settings; record unavailable tools and continue unaffected work.
+
+Retrieve evidence across all relevant same-writer pages, crop complete source words, and inspect each resulting crop. Save source IDs, original-pixel bounds, rotation and proposed labels in the working record. Crop count follows the uncertainties being investigated. The model can receive selected regions in successive calls without receiving the whole collection at once.
+
+After comparison, reread every image and record supported changes, regressions, unresolved spans and actual references consulted. Repeat while new visual support appears, within the user's limits. Stop after a full pass with no supported changes. New human corrections can trigger another full rereading cycle. A provisional label must never be promoted by repeated model agreement or by reuse in later passes.
+
+During ordinary transcription, references may come from other regions of the target scan or other same-writer scans. Keep different writers distinct. Use only the permitted reference pages during restricted tests. Store working crops temporarily and export a reusable library only when requested.
+
 ## Save reproducible source evidence
 
 Preserve original filenames, dimensions, orientation, hashes and provenance. Extract real raster crops; record page/region IDs, raw pixel coordinates, rotation, top-left origin and exclusive end bounds. Keep originals unchanged. Resized/enhanced viewing copies must be separate and have recorded transforms; do not generate or reconstruct handwriting strokes. Do not invent a mapping to earlier upload filenames.
 
 View each crop and include full letters and marks. Rectangles may contain neighboring ink; the label applies only to its stated phrase. Record punctuation/editorial differences rather than silently normalizing wording. Verify exact source-pixel reproduction, paths, categories and hashes before packaging.
 
-Maintain crop PNGs, contact sheets, index.csv, index.json, source-manifest.json, a source-tied handwriting profile, unresolved records and a README. An error log contains known prior readings only. Keep confirmed, provisional and unresolved data separate. Grammar, familiar names and agreement between models cannot promote a label to verified; store the human confirmation source. Do not overwrite verified labels from an inference script.
+For a saved library, maintain crop PNGs, contact sheets, index.csv, index.json, source-manifest.json, a source-tied handwriting profile, unresolved records and a README. An error log contains known prior readings only. Keep confirmed, provisional and unresolved data separate. Grammar, familiar names and agreement between models cannot promote a label to verified; store the human confirmation source. Do not overwrite verified labels from an inference script.
 
 ## Make reference use configurable
 

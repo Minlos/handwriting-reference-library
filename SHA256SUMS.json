@@ -1,11 +1,11 @@
 {
   ".gitignore": "8200655019eee743b49cc993b0aac426b68a1a96cd5a46f99d41d1e24bdb504e",
-  "HOST.md": "d95e2044ac7f34ec75f57ce97728fc79604b91c948b9659bbdcf7245166fb2f8",
+  "HOST.md": "30614efd35e4446f9d17e9289387a32642ad1a047894d2d12c0035791e5f9e0f",
   "LICENSE-DATA.md": "21b5a369387624d51ef2bf5e161d9a90d0ab9aaed68a153ed5049535b0db5ab7",
   "LOCAL.md": "a76d2b26d271beeeda3dad8434844f66fa0b36586a5dd43860ed573b8cc94474",
   "OLLAMA.md": "993d0799c4375ade04d97e3797cadeaeeba99ebbad214579333d45fd1c21334f",
-  "README.md": "05a85ede0af2105cd98053a5d6f69053d5b3392f53cda67c64ef6001903ef75e",
-  "SKILL.md": "ab02e8b0d1b1d730b18b62d47e934c3db0b3db77da23adaf45fa7b75b06a7a2f",
+  "README.md": "9905c927cbb310ad81f3d75f7324765e19eb007f286418d584ea8dbcb5237e5c",
+  "SKILL.md": "f300b1f478a3f47fa45a16df8c745ddec5f5c92099cfa2ee108b2b77d892a6c8",
   "ambiguities.csv": "c2f6fb21e23929d63f55d2c0cfa7b36bcd39c83bf53f95f52ba703a2e1956f50",
   "contact-sheets/review-completion-corrections.png": "472d843a9fe16022dfa8aa019fcbeaa649bd594e0907ce349d206c96fa3f8246",
   "contact-sheets/verified-page8-corrections.png": "486618d0925f00cab86fa11a6f7cdd4ec4f0f615091080ce2cb9a4b48cbbc10b",
@@ -228,7 +228,7 @@
   "local_read.py": "9cef8fff71de99fb1d3e2b6440316c96ecf421fa5d6fada8022de21baea1460c",
   "ollama_review.py": "3699725798ad2d684f3b6d02914f40e822a38eba5272791577255d2a4acf8540",
   "provisional.jsonl": "5961749564fc6aeb084860a2ca5ec3501669d185562764ad103ba7bf10235c37",
-  "skill-revision.md": "a9fdfd2f06573447f602e5994413cb1d01b221eb1cb88bfd16d017364767c2cf",
+  "skill-revision.md": "0816f46b22e15b051f8ffbf3896f8c898abe27ba3ca0e927e4847db70cbf9243",
   "source-manifest.csv": "999a5717240703c1083843e26f693f76920d5105059c6676d61d9b5f99534c78",
   "source-manifest.json": "3395dc905dcdc24761c2955528ee809d520c79b15203945e8511db0f61c1a30f",
   "sources/IMG_20261031_185856737.jpg": "15b0004f91cd1997ee59f3367330430628c2a9c900d5f94d73af612cacc3e7ec",
@@ -276,5 +276,6 @@
   "transcripts/page-9-review.md": "657efa21d7a13be4b51c3942e7e22730bd5b17a9f3fe68aef5e69804d48c6e18",
   "transcripts/review-status.json": "1205b022a769498202f07f34210b5a79e9f5819635934e485619f7fc178c72d0",
   "transcripts/transcript-pages-1-2.md": "a5f81b6851e7da22068a5dfb63fbf4486385ee6d1f6cf85621b3e5c91d591ed1",
-  "verified.jsonl": "2b83efc40b04ab5e7aef6626b2983523acdbc2800f204f92e6a73a4838e2204c"
+  "verified.jsonl": "2b83efc40b04ab5e7aef6626b2983523acdbc2800f204f92e6a73a4838e2204c",
+  "skills/extract-handwriting-references/SKILL.md": "15526a9619c29db5467c96d3929392665e3feb96a8f7b3594801d9a6b8d5f0f6"
 }

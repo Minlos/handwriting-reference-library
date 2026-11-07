@@ -6,9 +6,11 @@ Diary author: **Nadezhda Nikifrovna Blashkevich (Блашкевич Надежд
 
 ## Start here
 
-1. Load [SKILL.md](SKILL.md) into an agent with image and file tools. Use an image-capable model with supplied images, or a tool-using host for file operations; [HOST.md](HOST.md) separates host responsibilities from model instructions.
-2. Select relevant user-confirmed examples from [index.json](index.json) when they help; supply only permitted crops and treat the optional [profile](handwriting-profile.md) as hypotheses. Return to the target pixels when references conflict.
-3. Save proposed readings separately. Preserve uncertainties and the distinction between confirmed and provisional labels.
+1. Load [SKILL.md](SKILL.md) into an image-capable host. [HOST.md](HOST.md) describes file operations, OCR access and pass tracking.
+2. Read every supplied image provisionally. Compare recurring handwriting across the whole relevant collection and use available OCR outputs as candidate readings.
+3. Extract and inspect temporary examples, reread every page, record supported changes, and repeat until a full pass yields none. Preserve unresolved spans and human-confirmation boundaries.
+
+A saved library is optional. The [standalone extraction skill](skills/extract-handwriting-references/SKILL.md) supports the same collection-wide comparison and rereading cycle. Recognition gains from this revised cycle remain to be measured.
 
 The skill is a reusable workflow, not a trained OCR model. It can be used with other manuscripts too. The diary provides real reference examples for this author.
 
