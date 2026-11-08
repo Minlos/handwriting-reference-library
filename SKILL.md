@@ -35,14 +35,24 @@ Automatically assigned labels remain provisional until human confirmation. Crops
 
 An OCR result is a candidate, not ground truth. When the workflow includes OCR review, check candidate differences against the target pixels. Preserve unusual wording when supported; do not repair the text into plausible adult prose. Candidate agreement and model confidence do not verify a label. Keep the independent reading when the host asks for a before/after comparison.
 
+### Verify the final text against the scan
+
+Before presenting a transcription as visually checked, return to the image and check the complete final lines, including their beginnings and endings. Reading an image earlier, rereading the candidate text, or checking a PDF layout is not this pass. Do not silently carry an earlier guess into the final reading because the sentence sounds natural. Compare the whole word: approximate length, visible letters and joins, grammatical ending and position in the line. A familiar phrase cannot replace a differently written word.
+
+For each disputed span, compare competing readings with the target strokes and useful same-writer examples. If neither is supported, retain an unknown span. Report exactly which lines remain partial or were not checked; a second pass is not evidence that the reading is correct. Revisit high-confidence phrases too, since plausible substitutions can survive an OCR/model consensus.
+
 ## Preserve confirmation boundaries
 
 `verified` means wording explicitly confirmed or corrected by a human, with its source recorded. It does not certify every glyph or punctuation mark. `provisional` means a visually supported but unconfirmed reading. Keep unresolved alternatives separate. A correction to one fragment does not confirm the rest of its page.
 
 After corrections, keep the supplied reading distinct from independently improved recognition. Return to related unresolved passages when relevant, and report only changes actually supported by images. Do not claim that reference growth itself improves accuracy or changes model weights.
 
+Record human corrections verbatim with their page and source; preserve the person's question marks and alternatives. A supplied uncertain span remains uncertain. Update the working transcription before reusing it, and keep old predictions separate for evaluation. When a user identifies a page by its date or opening words, retrieve that page and show its complete current transcription inline, with unresolved spans marked.
+
 ## Evaluate and share without changing the evidence
 
 For blind tests with references from other pages, keep reference pages separate from targets. Evaluate extraction from the target scan as a separate condition with no corrected target text. Do not supply corrected target text, overlapping target crops, error logs or target-derived profiles to a blind reading. Preserve failures and changed-prompt retries separately. Use the same images and generation/output settings when testing a condition change. Instructions, references and OCR can each help or hurt; no fixed accuracy is promised.
 
 This is plain Markdown for any suitable LLM host. Optional local backend instructions are in [LOCAL.md](LOCAL.md) and [OLLAMA.md](OLLAMA.md). Model suggestions remain subject to visual and human review.
+
+For maintainers, [behavioral cases](tests/behavioral/README.md) test concrete failure modes. They are known regression examples, not an untouched accuracy benchmark. Passing them does not establish general skill uplift.

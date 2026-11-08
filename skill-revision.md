@@ -19,3 +19,10 @@ All previous benchmark skill snapshots and scores remain unchanged. The separate
 See SKILL.md for model guidance, HOST.md for host duties, LOCAL.md for optional local execution, and handoffs/skill-reference-evaluation/ for the reproducible comparison protocol. No fine-tuning is performed.
 
 The current collection workflow requires a provisional reading of every supplied image, collection-wide evidence comparison, available OCR candidates, and full rereading cycles. It records pass coverage and supported changes, checks crop boundaries, and stops after a full pass yields no supported changes or an explicit limit is reached. The standalone extraction skill follows the same cycle. This revision has structural validation; its effect on recognition accuracy has not been measured.
+
+
+## 2026-11-08: final scan verification and diagnostic cases
+
+Added a separate final line-by-line scan check. A plausible phrase, OCR agreement or a PDF layout check does not establish a handwriting reading. Check word length, visible letters/joins and the entire line opening and ending. Preserve human uncertainty verbatim and keep supplied corrections separate from independent recognition. Retrieve a letter by date/opening and present its complete current text for review.
+
+Added seven known behavioral cases and a saved-response scorer. The scorer's three unit checks pass; revised-skill model trials have not been run. These cases are diagnostics, not independent uplift evidence. Historical evaluation snapshots are unchanged. The repository entry guide now separates reading instructions from dataset and experiment files; the small download contains only three files.

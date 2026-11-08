@@ -15,3 +15,6 @@ Use all permitted scans and the available provisional transcripts. Make a provis
 Labels inferred by a model remain provisional until human confirmation. Keep ambiguous readings and competing alternatives visible. Context and agreement between tools do not verify a label. Store crops temporarily unless the user requests a saved library.
 
 For a restricted evaluation, follow its permitted-page rules and keep corrected target text with the scorer. Treat whole-collection rereading as its own workflow. Keep the initial outputs and all later passes so improvements and regressions can be checked.
+
+
+When assigning an example's label, compare the complete word or phrase with its strokes, including its beginning and ending. A similar prefix or a plausible expression is insufficient. Keep user question marks and alternatives unresolved; never turn an uncertain correction into a verified label.
