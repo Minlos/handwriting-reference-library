@@ -1,0 +1,40 @@
+{
+  "sol": {
+    "model_alias": "gpt-6.1-sol",
+    "fresh_context_per_condition": true,
+    "generation_settings": "host defaults; not separately exposed"
+  },
+  "astra": {
+    "model_alias": "gpt-6-astra",
+    "fresh_context_per_condition": true,
+    "generation_settings": "host defaults; not separately exposed"
+  },
+  "deepseek": {
+    "model": "deepseek-flash",
+    "temperature": 0,
+    "thinking": "disabled",
+    "max_tokens": 2048
+  },
+  "gemma": {
+    "model": "gemma4:12b",
+    "temperature": 0,
+    "think": false,
+    "num_ctx": 16384,
+    "num_predict": 2048
+  },
+  "gemma-letters-recovery": {
+    "model": "gemma4:12b",
+    "temperature": 0,
+    "think": false,
+    "num_ctx": 8192,
+    "num_predict": 1024
+  },
+  "grok": {
+    "model": "grok-4.7",
+    "temperature": 0,
+    "reasoning_effort": "low",
+    "max_output_tokens": 2048,
+    "image_detail": "high",
+    "store": false
+  }
+}

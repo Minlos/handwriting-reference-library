@@ -1,0 +1,91 @@
+{
+  "collections": {
+    "diary": {
+      "coverage": [
+        "P04",
+        "P06",
+        "P07"
+      ],
+      "examples": [
+        {
+          "source_id": "P04",
+          "bbox_xyxy": [
+            570,
+            255,
+            830,
+            350
+          ],
+          "label": "Бабушка",
+          "status": "human-confirmed",
+          "crop_file": "diary-01.png",
+          "crop_sha256": "870ab80073de4a9aa6c05fed9b12b90daee5cea8962d92fe6bdcdece2b318151"
+        },
+        {
+          "source_id": "P04",
+          "bbox_xyxy": [
+            970,
+            610,
+            1175,
+            680
+          ],
+          "label": "молоко",
+          "status": "human-confirmed",
+          "crop_file": "diary-02.png",
+          "crop_sha256": "7959ed44fc97b7593e124a03feef477810f13386872bccbcc0afcf6cafe35478"
+        },
+        {
+          "source_id": "P06",
+          "bbox_xyxy": [
+            1200,
+            725,
+            1475,
+            810
+          ],
+          "label": "страданий",
+          "status": "human-confirmed",
+          "crop_file": "diary-03.png",
+          "crop_sha256": "99f219dd24c0808d50c0da7bee61d3371bc06e3ff3098a9d9d838ccfe2075b96"
+        },
+        {
+          "source_id": "P06",
+          "bbox_xyxy": [
+            635,
+            1325,
+            1355,
+            1420
+          ],
+          "label": "заштриховать ротик",
+          "status": "human-confirmed",
+          "crop_file": "diary-04.png",
+          "crop_sha256": "e574236a0a3bdd67b18fb155cebeb083d42faf9615e9feb250203e55a4ed2706"
+        },
+        {
+          "source_id": "P07",
+          "bbox_xyxy": [
+            740,
+            1150,
+            1050,
+            1230
+          ],
+          "label": "обязательно",
+          "status": "human-confirmed",
+          "crop_file": "diary-05.png",
+          "crop_sha256": "f358906e99a5d31cc8be521b2c0c92c1343a25becdd439d00f8b44470ff16bf9"
+        },
+        {
+          "source_id": "P07",
+          "bbox_xyxy": [
+            995,
+            1510,
+            1280,
+            1600
+          ],
+          "label": "англичане",
+          "status": "human-confirmed",
+          "crop_file": "diary-06.png",
+          "crop_sha256": "d393a22744575fd948fea3595ded1bd6a7a95ca0dcee75f0adb5fd9a34d85896"
+        }
+      ]
+    }
+  }
+}

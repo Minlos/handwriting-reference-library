@@ -1,0 +1,154 @@
+{
+  "collections": {
+    "diary": {
+      "coverage": [
+        {
+          "source_id": "P04",
+          "dimensions": [
+            1800,
+            2400
+          ],
+          "sha256": "1ffb3dac6cefccc7eadc25cbe73871e3ea8ffdd277bbf55570100b9f59a9e96d",
+          "supplied_image_rotation": 0,
+          "coordinate_frame": "pixels of this supplied image; xyxy top-left, exclusive right/bottom",
+          "review": "Entire supplied image visually surveyed and compared with contributor readings; selected spans reviewed as crops. No full independent transcription performed.",
+          "writer_id": "diary-writer-A-provisional",
+          "writer_attribution": "Visually consistent main handwriting across the three pages; identity unverified.",
+          "uncertainties": [],
+          "selection_limit": "At most six examples total; other spans omitted for compactness."
+        },
+        {
+          "source_id": "P06",
+          "dimensions": [
+            1800,
+            2400
+          ],
+          "sha256": "5cfb44b6b672fdb67e6d0a1019d9f25ff8ec146eaeba459760fa1cd038e1c4cb",
+          "supplied_image_rotation": 0,
+          "coordinate_frame": "pixels of this supplied image; xyxy top-left, exclusive right/bottom",
+          "review": "Entire supplied image visually surveyed and compared with contributor readings; selected spans reviewed as crops. No full independent transcription performed.",
+          "writer_id": "diary-writer-A-provisional",
+          "writer_attribution": "Visually consistent main handwriting across the three pages; identity unverified.",
+          "uncertainties": [
+            "P06 final word remains explicitly unresolved in contributor readings; excluded."
+          ],
+          "selection_limit": "At most six examples total; other spans omitted for compactness."
+        },
+        {
+          "source_id": "P07",
+          "dimensions": [
+            1800,
+            2400
+          ],
+          "sha256": "8c41436e6ed2543005b56269778fe12cb238c6449fedd36d49a302b2aebaa5b9",
+          "supplied_image_rotation": 0,
+          "coordinate_frame": "pixels of this supplied image; xyxy top-left, exclusive right/bottom",
+          "review": "Entire supplied image visually surveyed and compared with contributor readings; selected spans reviewed as crops. No full independent transcription performed.",
+          "writer_id": "diary-writer-A-provisional",
+          "writer_attribution": "Visually consistent main handwriting across the three pages; identity unverified.",
+          "uncertainties": [],
+          "selection_limit": "At most six examples total; other spans omitted for compactness."
+        }
+      ],
+      "examples": [
+        {
+          "source_id": "P04",
+          "bbox_xyxy": [
+            572,
+            257,
+            837,
+            351
+          ],
+          "label": "Бабушка",
+          "status": "human-confirmed",
+          "crop_file": "diary-01.png",
+          "writer_id": "diary-writer-A-provisional",
+          "unresolved_alternatives": [],
+          "label_provenance": "Contributor supplied verified-readings.json, source 4; exact supported wording.",
+          "crop_sha256": "d6392f76a711be7dc9522ba075c5f6f9c421b443ae5020822ef3e9112d047b52"
+        },
+        {
+          "source_id": "P04",
+          "bbox_xyxy": [
+            576,
+            522,
+            803,
+            611
+          ],
+          "label": "Коровки",
+          "status": "human-confirmed",
+          "crop_file": "diary-02.png",
+          "writer_id": "diary-writer-A-provisional",
+          "unresolved_alternatives": [],
+          "label_provenance": "Contributor supplied verified-readings.json, source 4; exact supported wording.",
+          "crop_sha256": "384f7dd67cbc63cc4322d911baf59db42462b2db3192ec86b3a0cb7013de913c"
+        },
+        {
+          "source_id": "P06",
+          "bbox_xyxy": [
+            1207,
+            732,
+            1470,
+            812
+          ],
+          "label": "страданий",
+          "status": "human-confirmed",
+          "crop_file": "diary-03.png",
+          "writer_id": "diary-writer-A-provisional",
+          "unresolved_alternatives": [],
+          "label_provenance": "Contributor supplied verified-readings.json, source 6; exact supported wording.",
+          "crop_sha256": "a883233e6d8921e7d349e2828cfd1b4f1853ee4fd71cb928a7225cf494f5ffd8"
+        },
+        {
+          "source_id": "P06",
+          "bbox_xyxy": [
+            636,
+            1321,
+            1080,
+            1413
+          ],
+          "label": "заштриховать",
+          "status": "human-confirmed",
+          "crop_file": "diary-04.png",
+          "writer_id": "diary-writer-A-provisional",
+          "unresolved_alternatives": [],
+          "label_provenance": "Contributor supplied verified-readings.json, source 6; exact supported wording.",
+          "crop_sha256": "18c9de03cc011202d4d4e3353df79ce4062199bd81e76205f9a08545a6e5c82e"
+        },
+        {
+          "source_id": "P07",
+          "bbox_xyxy": [
+            747,
+            1154,
+            1046,
+            1236
+          ],
+          "label": "обязательно",
+          "status": "human-confirmed",
+          "crop_file": "diary-05.png",
+          "writer_id": "diary-writer-A-provisional",
+          "unresolved_alternatives": [],
+          "label_provenance": "Contributor supplied verified-readings.json, source 7; exact supported wording.",
+          "crop_sha256": "4f26d9406628e76039729df99837f7404b626618508541a7e17e5bc80eb5057d"
+        },
+        {
+          "source_id": "P07",
+          "bbox_xyxy": [
+            1000,
+            1509,
+            1276,
+            1593
+          ],
+          "label": "англичане",
+          "status": "human-confirmed",
+          "crop_file": "diary-06.png",
+          "writer_id": "diary-writer-A-provisional",
+          "unresolved_alternatives": [],
+          "label_provenance": "Contributor supplied verified-readings.json, source 7; exact supported wording.",
+          "crop_sha256": "e8b40319dd1286cd8558d4e4016cc813b235bc355b3616c151a086b5a1cadf24"
+        }
+      ],
+      "review_result": "All six saved original-pixel crops visually inspected with full word beginnings and endings. Labels rechecked against source pages and contributor source-only readings; no supported label changes. Unresolved P06 final word excluded; no target material accessed."
+    }
+  }
+}

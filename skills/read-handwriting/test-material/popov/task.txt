@@ -1,0 +1,1 @@
+Open each input image and follow its scope in targets.json. Transcribe faithful Russian spelling; use [unclear] for illegible text. Return JSON records with id, status and transcription. Do not read evaluator/ or search for other transcripts. In the skill condition, apply the parent skill; in the baseline, use the same task and images without it.

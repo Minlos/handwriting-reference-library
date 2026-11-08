@@ -1,0 +1,95 @@
+[
+  {
+    "id": "D01",
+    "collection": "diary",
+    "image": "D01.png",
+    "scope": "Transcribe the complete target image.",
+    "sha256": "be22fb01ce324fbd149cc276c1eb6d840c62be5f0c961859de8d15331db80ad1"
+  },
+  {
+    "id": "D02",
+    "collection": "diary",
+    "image": "D02.png",
+    "scope": "Transcribe the complete target image.",
+    "sha256": "8e95e677c36c619a57a31c2ec2342613c0201940aa197b05c9a8bd45e92ce9b5"
+  },
+  {
+    "id": "D03",
+    "collection": "diary",
+    "image": "D03.png",
+    "scope": "Transcribe the complete target image.",
+    "sha256": "f748f8f76963b04abd03afe5ab9e515c8723bf9eccd7bbaa15717f032a78bc11"
+  },
+  {
+    "id": "D05",
+    "collection": "diary",
+    "image": "D05.png",
+    "scope": "Transcribe the complete target image.",
+    "sha256": "411ff42d35d11b8f1419dee4469f5bdff55869d3df75a919be8197249fdf94e2"
+  },
+  {
+    "id": "D08",
+    "collection": "diary",
+    "image": "D08.png",
+    "scope": "Transcribe the complete target image.",
+    "sha256": "d7dc7e39a5f37c2516211816480f6eda9342d2df6e2a5d5842d718442ecfd6cb"
+  },
+  {
+    "id": "D09",
+    "collection": "diary",
+    "image": "D09.png",
+    "scope": "Transcribe the complete target image.",
+    "sha256": "44455d9600da460b0b945df33f4514cb77851376a83cc9dc880499b0de0df449"
+  },
+  {
+    "id": "L01",
+    "collection": "letters",
+    "image": "L01.png",
+    "scope": "Transcribe all complete lines. Ignore any partial neighboring ink.",
+    "source_id": "L01-I01",
+    "bbox_xyxy": [
+      140,
+      260,
+      1660,
+      975
+    ],
+    "coordinate_frame": "original 1800x2400 viewing JPEG pixels, xyxy top-left exclusive bottom/right",
+    "source_url": "https://minlos.site/letters/scans/L01-I01.jpg",
+    "source_sha256": "502bbf0a7e2fb49bfdab192e5cbdf6881e33e033593d6ca8039eb0dc82f705c9",
+    "sha256": "55b6732915d577c22e9b5c9b78565bad6981111e9d23b787a1c49609389dc866"
+  },
+  {
+    "id": "L09",
+    "collection": "letters",
+    "image": "L09.png",
+    "scope": "Transcribe only the bottom complete handwritten line. Ignore the partial neighboring line above.",
+    "source_id": "L09-I18",
+    "bbox_xyxy": [
+      110,
+      1500,
+      1660,
+      1660
+    ],
+    "coordinate_frame": "original 1800x2400 viewing JPEG pixels, xyxy top-left exclusive bottom/right",
+    "source_url": "https://minlos.site/letters/scans/L09-I18.jpg",
+    "source_sha256": "f1aa9d80aaba63bbd8293291c6059221a600376440ffa6df6ee4e315c2ebd069",
+    "sha256": "226c7fd0eed66d387f45ee58be0ae3d91c40d28ec94da33150f5161c9580778f"
+  },
+  {
+    "id": "L13",
+    "collection": "letters",
+    "image": "L13.png",
+    "scope": "Transcribe the complete target image, including the date.",
+    "source_id": "L13-I26",
+    "bbox_xyxy": [
+      140,
+      350,
+      1660,
+      845
+    ],
+    "coordinate_frame": "original 1800x2400 viewing JPEG pixels, xyxy top-left exclusive bottom/right",
+    "source_url": "https://minlos.site/letters/scans/L13-I26.jpg",
+    "source_sha256": "b3c73623ab105f9c736516881b7d852bbb94eee73f50cf1fb8f52142afdcda11",
+    "sha256": "2765469372790ba57b85d3a0341748ba2a441a4759b50bdb33449e6fcfb91035"
+  }
+]

@@ -1,0 +1,1874 @@
+{
+  "normalization": "NFC, case/punctuation ignored, whitespace collapsed; ё distinct from е. Placeholder letters such as unclear remain part of the scored output. No post-hoc exclusions. Letter targets are preselected resolved excerpts, not complete letters.",
+  "runs": {
+    "astra": {
+      "attempts": 57,
+      "statuses": [
+        {
+          "id": "D01",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "L09",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "L13",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "L09",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "L13",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "L09",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "L13",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "L09",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "L13",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "L09",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "L13",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "F",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "F",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "F",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "F",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "F",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "F",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "G",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "G",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "G",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "G",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "G",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "G",
+          "status": "completed"
+        }
+      ],
+      "comparisons": {
+        "diary": {
+          "reading_without_references": {
+            "matched_targets": [
+              "D01",
+              "D02",
+              "D03",
+              "D05",
+              "D08",
+              "D09"
+            ],
+            "baseline": "A",
+            "comparison": "B",
+            "scores": {
+              "A": {
+                "edits": 44,
+                "reference_characters": 2702,
+                "cer": 0.01628423390081421
+              },
+              "B": {
+                "edits": 45,
+                "reference_characters": 2702,
+                "cer": 0.016654330125832718
+              }
+            },
+            "relative_error_reduction": -0.0227272727272729
+          },
+          "reading_with_raw_references": {
+            "matched_targets": [
+              "D01",
+              "D02",
+              "D03",
+              "D05",
+              "D08",
+              "D09"
+            ],
+            "baseline": "C",
+            "comparison": "D",
+            "scores": {
+              "C": {
+                "edits": 64,
+                "reference_characters": 2702,
+                "cer": 0.023686158401184307
+              },
+              "D": {
+                "edits": 50,
+                "reference_characters": 2702,
+                "cer": 0.018504811250925242
+              }
+            },
+            "relative_error_reduction": 0.21874999999999992
+          },
+          "raw_extraction_instructions": {
+            "matched_targets": [
+              "D01",
+              "D02",
+              "D03",
+              "D05",
+              "D08",
+              "D09"
+            ],
+            "baseline": "E",
+            "comparison": "D",
+            "scores": {
+              "E": {
+                "edits": 51,
+                "reference_characters": 2702,
+                "cer": 0.018874907475943746
+              },
+              "D": {
+                "edits": 50,
+                "reference_characters": 2702,
+                "cer": 0.018504811250925242
+              }
+            },
+            "relative_error_reduction": 0.019607843137254867
+          },
+          "verified_extraction_instructions": {
+            "matched_targets": [
+              "D01",
+              "D02",
+              "D03",
+              "D05",
+              "D08",
+              "D09"
+            ],
+            "baseline": "G",
+            "comparison": "F",
+            "scores": {
+              "G": {
+                "edits": 42,
+                "reference_characters": 2702,
+                "cer": 0.015544041450777202
+              },
+              "F": {
+                "edits": 49,
+                "reference_characters": 2702,
+                "cer": 0.018134715025906734
+              }
+            },
+            "relative_error_reduction": -0.1666666666666666
+          }
+        },
+        "letters": {
+          "reading_without_references": {
+            "matched_targets": [
+              "L01",
+              "L09",
+              "L13"
+            ],
+            "baseline": "A",
+            "comparison": "B",
+            "scores": {
+              "A": {
+                "edits": 103,
+                "reference_characters": 590,
+                "cer": 0.17457627118644067
+              },
+              "B": {
+                "edits": 111,
+                "reference_characters": 590,
+                "cer": 0.188135593220339
+              }
+            },
+            "relative_error_reduction": -0.07766990291262141
+          },
+          "reading_with_raw_references": {
+            "matched_targets": [
+              "L01",
+              "L09",
+              "L13"
+            ],
+            "baseline": "C",
+            "comparison": "D",
+            "scores": {
+              "C": {
+                "edits": 83,
+                "reference_characters": 590,
+                "cer": 0.14067796610169492
+              },
+              "D": {
+                "edits": 82,
+                "reference_characters": 590,
+                "cer": 0.13898305084745763
+              }
+            },
+            "relative_error_reduction": 0.012048192771084345
+          },
+          "raw_extraction_instructions": {
+            "matched_targets": [
+              "L01",
+              "L09",
+              "L13"
+            ],
+            "baseline": "E",
+            "comparison": "D",
+            "scores": {
+              "E": {
+                "edits": 94,
+                "reference_characters": 590,
+                "cer": 0.15932203389830507
+              },
+              "D": {
+                "edits": 82,
+                "reference_characters": 590,
+                "cer": 0.13898305084745763
+              }
+            },
+            "relative_error_reduction": 0.127659574468085
+          },
+          "verified_extraction_instructions": null
+        }
+      }
+    },
+    "sol": {
+      "attempts": 57,
+      "statuses": [
+        {
+          "id": "D01",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "L09",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "L13",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "L09",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "L13",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "L09",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "L13",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "L09",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "L13",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "L09",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "L13",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "G",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "G",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "G",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "G",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "G",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "G",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "F",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "F",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "F",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "F",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "F",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "F",
+          "status": "completed"
+        }
+      ],
+      "comparisons": {
+        "diary": {
+          "reading_without_references": {
+            "matched_targets": [
+              "D01",
+              "D02",
+              "D03",
+              "D05",
+              "D08",
+              "D09"
+            ],
+            "baseline": "A",
+            "comparison": "B",
+            "scores": {
+              "A": {
+                "edits": 82,
+                "reference_characters": 2702,
+                "cer": 0.030347890451517395
+              },
+              "B": {
+                "edits": 93,
+                "reference_characters": 2702,
+                "cer": 0.03441894892672095
+              }
+            },
+            "relative_error_reduction": -0.13414634146341461
+          },
+          "reading_with_raw_references": {
+            "matched_targets": [
+              "D01",
+              "D02",
+              "D03",
+              "D05",
+              "D08",
+              "D09"
+            ],
+            "baseline": "C",
+            "comparison": "D",
+            "scores": {
+              "C": {
+                "edits": 119,
+                "reference_characters": 2702,
+                "cer": 0.04404145077720207
+              },
+              "D": {
+                "edits": 92,
+                "reference_characters": 2702,
+                "cer": 0.034048852701702444
+              }
+            },
+            "relative_error_reduction": 0.22689075630252092
+          },
+          "raw_extraction_instructions": {
+            "matched_targets": [
+              "D01",
+              "D02",
+              "D03",
+              "D05",
+              "D08",
+              "D09"
+            ],
+            "baseline": "E",
+            "comparison": "D",
+            "scores": {
+              "E": {
+                "edits": 56,
+                "reference_characters": 2702,
+                "cer": 0.02072538860103627
+              },
+              "D": {
+                "edits": 92,
+                "reference_characters": 2702,
+                "cer": 0.034048852701702444
+              }
+            },
+            "relative_error_reduction": -0.6428571428571428
+          },
+          "verified_extraction_instructions": {
+            "matched_targets": [
+              "D01",
+              "D02",
+              "D03",
+              "D05",
+              "D08",
+              "D09"
+            ],
+            "baseline": "G",
+            "comparison": "F",
+            "scores": {
+              "G": {
+                "edits": 95,
+                "reference_characters": 2702,
+                "cer": 0.035159141376757956
+              },
+              "F": {
+                "edits": 96,
+                "reference_characters": 2702,
+                "cer": 0.03552923760177646
+              }
+            },
+            "relative_error_reduction": -0.010526315789473665
+          }
+        },
+        "letters": {
+          "reading_without_references": {
+            "matched_targets": [
+              "L01",
+              "L09",
+              "L13"
+            ],
+            "baseline": "A",
+            "comparison": "B",
+            "scores": {
+              "A": {
+                "edits": 109,
+                "reference_characters": 590,
+                "cer": 0.1847457627118644
+              },
+              "B": {
+                "edits": 98,
+                "reference_characters": 590,
+                "cer": 0.16610169491525423
+              }
+            },
+            "relative_error_reduction": 0.10091743119266061
+          },
+          "reading_with_raw_references": {
+            "matched_targets": [
+              "L01",
+              "L09",
+              "L13"
+            ],
+            "baseline": "C",
+            "comparison": "D",
+            "scores": {
+              "C": {
+                "edits": 111,
+                "reference_characters": 590,
+                "cer": 0.188135593220339
+              },
+              "D": {
+                "edits": 90,
+                "reference_characters": 590,
+                "cer": 0.15254237288135594
+              }
+            },
+            "relative_error_reduction": 0.18918918918918914
+          },
+          "raw_extraction_instructions": {
+            "matched_targets": [
+              "L01",
+              "L09",
+              "L13"
+            ],
+            "baseline": "E",
+            "comparison": "D",
+            "scores": {
+              "E": {
+                "edits": 96,
+                "reference_characters": 590,
+                "cer": 0.16271186440677965
+              },
+              "D": {
+                "edits": 90,
+                "reference_characters": 590,
+                "cer": 0.15254237288135594
+              }
+            },
+            "relative_error_reduction": 0.062499999999999875
+          },
+          "verified_extraction_instructions": null
+        }
+      }
+    },
+    "gemma": {
+      "attempts": 14,
+      "statuses": [
+        {
+          "id": "D01",
+          "condition": "A",
+          "status": "interrupted"
+        },
+        {
+          "id": "D01",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "F",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "G",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "F",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "G",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "A",
+          "status": "error"
+        }
+      ],
+      "comparisons": {
+        "diary": {
+          "reading_without_references": null,
+          "reading_with_raw_references": {
+            "matched_targets": [
+              "D01",
+              "D02"
+            ],
+            "baseline": "C",
+            "comparison": "D",
+            "scores": {
+              "C": {
+                "edits": 303,
+                "reference_characters": 901,
+                "cer": 0.3362930077691454
+              },
+              "D": {
+                "edits": 316,
+                "reference_characters": 901,
+                "cer": 0.3507214206437292
+              }
+            },
+            "relative_error_reduction": -0.0429042904290429
+          },
+          "raw_extraction_instructions": {
+            "matched_targets": [
+              "D01",
+              "D02"
+            ],
+            "baseline": "E",
+            "comparison": "D",
+            "scores": {
+              "E": {
+                "edits": 324,
+                "reference_characters": 901,
+                "cer": 0.35960044395116536
+              },
+              "D": {
+                "edits": 316,
+                "reference_characters": 901,
+                "cer": 0.3507214206437292
+              }
+            },
+            "relative_error_reduction": 0.024691358024691336
+          },
+          "verified_extraction_instructions": {
+            "matched_targets": [
+              "D01",
+              "D02"
+            ],
+            "baseline": "G",
+            "comparison": "F",
+            "scores": {
+              "G": {
+                "edits": 542,
+                "reference_characters": 901,
+                "cer": 0.6015538290788013
+              },
+              "F": {
+                "edits": 337,
+                "reference_characters": 901,
+                "cer": 0.37402885682574916
+              }
+            },
+            "relative_error_reduction": 0.37822878228782286
+          }
+        },
+        "letters": {
+          "reading_without_references": null,
+          "reading_with_raw_references": null,
+          "raw_extraction_instructions": null,
+          "verified_extraction_instructions": null
+        }
+      }
+    },
+    "gemma-letters-recovery": {
+      "attempts": 15,
+      "statuses": [
+        {
+          "id": "L01",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "L09",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "L09",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "L09",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "L09",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "L09",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "L13",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "L13",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "L13",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "L13",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "L13",
+          "condition": "B",
+          "status": "completed"
+        }
+      ],
+      "comparisons": {
+        "diary": {
+          "reading_without_references": null,
+          "reading_with_raw_references": null,
+          "raw_extraction_instructions": null,
+          "verified_extraction_instructions": null
+        },
+        "letters": {
+          "reading_without_references": {
+            "matched_targets": [
+              "L01",
+              "L09",
+              "L13"
+            ],
+            "baseline": "A",
+            "comparison": "B",
+            "scores": {
+              "A": {
+                "edits": 256,
+                "reference_characters": 590,
+                "cer": 0.43389830508474575
+              },
+              "B": {
+                "edits": 371,
+                "reference_characters": 590,
+                "cer": 0.6288135593220339
+              }
+            },
+            "relative_error_reduction": -0.44921874999999994
+          },
+          "reading_with_raw_references": {
+            "matched_targets": [
+              "L01",
+              "L09",
+              "L13"
+            ],
+            "baseline": "C",
+            "comparison": "D",
+            "scores": {
+              "C": {
+                "edits": 346,
+                "reference_characters": 590,
+                "cer": 0.5864406779661017
+              },
+              "D": {
+                "edits": 405,
+                "reference_characters": 590,
+                "cer": 0.6864406779661016
+              }
+            },
+            "relative_error_reduction": -0.1705202312138728
+          },
+          "raw_extraction_instructions": {
+            "matched_targets": [
+              "L01",
+              "L09",
+              "L13"
+            ],
+            "baseline": "E",
+            "comparison": "D",
+            "scores": {
+              "E": {
+                "edits": 416,
+                "reference_characters": 590,
+                "cer": 0.7050847457627119
+              },
+              "D": {
+                "edits": 405,
+                "reference_characters": 590,
+                "cer": 0.6864406779661016
+              }
+            },
+            "relative_error_reduction": 0.026442307692307748
+          },
+          "verified_extraction_instructions": null
+        }
+      }
+    },
+    "deepseek": {
+      "attempts": 57,
+      "statuses": [
+        {
+          "id": "D01",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "C",
+          "status": "interrupted"
+        },
+        {
+          "id": "D01",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "F",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "G",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "F",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "G",
+          "status": "completed"
+        },
+        {
+          "id": "D02",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "F",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "G",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "D03",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "F",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "G",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D05",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "F",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "G",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "D08",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "F",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "G",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D09",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "L09",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "L09",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "L09",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "L09",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "L09",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "L13",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "L13",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "L13",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "L13",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "L13",
+          "condition": "C",
+          "status": "completed"
+        }
+      ],
+      "comparisons": {
+        "diary": {
+          "reading_without_references": {
+            "matched_targets": [
+              "D01",
+              "D02",
+              "D03",
+              "D05",
+              "D08",
+              "D09"
+            ],
+            "baseline": "A",
+            "comparison": "B",
+            "scores": {
+              "A": {
+                "edits": 567,
+                "reference_characters": 2702,
+                "cer": 0.20984455958549222
+              },
+              "B": {
+                "edits": 469,
+                "reference_characters": 2702,
+                "cer": 0.17357512953367876
+              }
+            },
+            "relative_error_reduction": 0.17283950617283947
+          },
+          "reading_with_raw_references": {
+            "matched_targets": [
+              "D02",
+              "D03",
+              "D05",
+              "D08",
+              "D09"
+            ],
+            "baseline": "C",
+            "comparison": "D",
+            "scores": {
+              "C": {
+                "edits": 500,
+                "reference_characters": 2249,
+                "cer": 0.2223210315695865
+              },
+              "D": {
+                "edits": 419,
+                "reference_characters": 2249,
+                "cer": 0.18630502445531347
+              }
+            },
+            "relative_error_reduction": 0.16200000000000006
+          },
+          "raw_extraction_instructions": {
+            "matched_targets": [
+              "D01",
+              "D02",
+              "D03",
+              "D05",
+              "D08",
+              "D09"
+            ],
+            "baseline": "E",
+            "comparison": "D",
+            "scores": {
+              "E": {
+                "edits": 549,
+                "reference_characters": 2702,
+                "cer": 0.20318282753515915
+              },
+              "D": {
+                "edits": 524,
+                "reference_characters": 2702,
+                "cer": 0.19393042190969653
+              }
+            },
+            "relative_error_reduction": 0.045537340619307816
+          },
+          "verified_extraction_instructions": {
+            "matched_targets": [
+              "D01",
+              "D02",
+              "D03",
+              "D05",
+              "D08",
+              "D09"
+            ],
+            "baseline": "G",
+            "comparison": "F",
+            "scores": {
+              "G": {
+                "edits": 536,
+                "reference_characters": 2702,
+                "cer": 0.19837157660991858
+              },
+              "F": {
+                "edits": 543,
+                "reference_characters": 2702,
+                "cer": 0.20096225018504812
+              }
+            },
+            "relative_error_reduction": -0.01305970149253736
+          }
+        },
+        "letters": {
+          "reading_without_references": {
+            "matched_targets": [
+              "L01",
+              "L09",
+              "L13"
+            ],
+            "baseline": "A",
+            "comparison": "B",
+            "scores": {
+              "A": {
+                "edits": 222,
+                "reference_characters": 590,
+                "cer": 0.376271186440678
+              },
+              "B": {
+                "edits": 250,
+                "reference_characters": 590,
+                "cer": 0.423728813559322
+              }
+            },
+            "relative_error_reduction": -0.12612612612612606
+          },
+          "reading_with_raw_references": {
+            "matched_targets": [
+              "L01",
+              "L09",
+              "L13"
+            ],
+            "baseline": "C",
+            "comparison": "D",
+            "scores": {
+              "C": {
+                "edits": 287,
+                "reference_characters": 590,
+                "cer": 0.4864406779661017
+              },
+              "D": {
+                "edits": 247,
+                "reference_characters": 590,
+                "cer": 0.4186440677966102
+              }
+            },
+            "relative_error_reduction": 0.13937282229965153
+          },
+          "raw_extraction_instructions": {
+            "matched_targets": [
+              "L01",
+              "L09",
+              "L13"
+            ],
+            "baseline": "E",
+            "comparison": "D",
+            "scores": {
+              "E": {
+                "edits": 216,
+                "reference_characters": 590,
+                "cer": 0.36610169491525424
+              },
+              "D": {
+                "edits": 247,
+                "reference_characters": 590,
+                "cer": 0.4186440677966102
+              }
+            },
+            "relative_error_reduction": -0.14351851851851852
+          },
+          "verified_extraction_instructions": null
+        }
+      }
+    },
+    "grok": {
+      "attempts": 10,
+      "statuses": [
+        {
+          "id": "D01",
+          "condition": "A",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "D",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "E",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "F",
+          "status": "completed"
+        },
+        {
+          "id": "D01",
+          "condition": "G",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "B",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "C",
+          "status": "completed"
+        },
+        {
+          "id": "L01",
+          "condition": "D",
+          "status": "error"
+        }
+      ],
+      "comparisons": {
+        "diary": {
+          "reading_without_references": {
+            "matched_targets": [
+              "D01"
+            ],
+            "baseline": "A",
+            "comparison": "B",
+            "scores": {
+              "A": {
+                "edits": 29,
+                "reference_characters": 453,
+                "cer": 0.0640176600441501
+              },
+              "B": {
+                "edits": 33,
+                "reference_characters": 453,
+                "cer": 0.0728476821192053
+              }
+            },
+            "relative_error_reduction": -0.13793103448275867
+          },
+          "reading_with_raw_references": {
+            "matched_targets": [
+              "D01"
+            ],
+            "baseline": "C",
+            "comparison": "D",
+            "scores": {
+              "C": {
+                "edits": 32,
+                "reference_characters": 453,
+                "cer": 0.0706401766004415
+              },
+              "D": {
+                "edits": 26,
+                "reference_characters": 453,
+                "cer": 0.05739514348785872
+              }
+            },
+            "relative_error_reduction": 0.18749999999999997
+          },
+          "raw_extraction_instructions": {
+            "matched_targets": [
+              "D01"
+            ],
+            "baseline": "E",
+            "comparison": "D",
+            "scores": {
+              "E": {
+                "edits": 42,
+                "reference_characters": 453,
+                "cer": 0.09271523178807947
+              },
+              "D": {
+                "edits": 26,
+                "reference_characters": 453,
+                "cer": 0.05739514348785872
+              }
+            },
+            "relative_error_reduction": 0.38095238095238093
+          },
+          "verified_extraction_instructions": {
+            "matched_targets": [
+              "D01"
+            ],
+            "baseline": "G",
+            "comparison": "F",
+            "scores": {
+              "G": {
+                "edits": 30,
+                "reference_characters": 453,
+                "cer": 0.06622516556291391
+              },
+              "F": {
+                "edits": 40,
+                "reference_characters": 453,
+                "cer": 0.08830022075055188
+              }
+            },
+            "relative_error_reduction": -0.3333333333333333
+          }
+        },
+        "letters": {
+          "reading_without_references": null,
+          "reading_with_raw_references": null,
+          "raw_extraction_instructions": null,
+          "verified_extraction_instructions": null
+        }
+      }
+    }
+  },
+  "provider_states": {
+    "gemma": {
+      "model": "gemma4:12b",
+      "status": "stopped_after_error",
+      "cost_usd": 0,
+      "new_budget_usd": 0,
+      "scope": "six full diary pages and three resolved Popov excerpts; Grok mini-panel D01/L01/L13"
+    },
+    "gemma-letters-recovery": {
+      "model": "gemma4:12b",
+      "status": "finished",
+      "cost_usd": 0,
+      "new_budget_usd": 0,
+      "scope": "Separate Gemma letter recovery protocol: 8192 context, 1024 output tokens, three Popov excerpts, five matched conditions; do not pool with original diary trial"
+    },
+    "deepseek": {
+      "model": "deepseek-flash",
+      "status": "finished",
+      "cost_usd": 0.054305899999999976,
+      "new_budget_usd": 0.15,
+      "scope": "six full diary pages and three resolved Popov excerpts; Grok mini-panel D01/L01/L13"
+    },
+    "grok": {
+      "model": "grok-4.7",
+      "status": "stopped_after_error",
+      "cost_usd": 0.427424,
+      "new_budget_usd": 0.6,
+      "scope": "six full diary pages and three resolved Popov excerpts; Grok mini-panel D01/L01/L13"
+    }
+  }
+}

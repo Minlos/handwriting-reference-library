@@ -1,0 +1,11 @@
+{
+  "user_cap_usd": 3,
+  "old_grok_reported_usd": 1.779612,
+  "old_deepseek_peak_estimates_usd": 0.065310036,
+  "old_grok_timeout_reserve_usd": 0.25,
+  "new_deepseek_estimate_and_reserve_usd": 0.054305899999999976,
+  "new_grok_reported_usd": 0.427424,
+  "new_grok_timeout_reserve_usd": 0.08,
+  "note": "Estimates and reserves are not billed-amount claims. No paid retries are launched.",
+  "conservative_total_usd": 2.656651936
+}

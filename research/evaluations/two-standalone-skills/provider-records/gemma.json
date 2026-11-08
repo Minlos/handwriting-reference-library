@@ -1,0 +1,646 @@
+{
+  "provider": "gemma",
+  "model": "gemma4:12b",
+  "model_metadata": {
+    "name": "gemma4:12b",
+    "model": "gemma4:12b",
+    "modified_at": "2026-08-03T11:49:44.593198407+03:00",
+    "size": 7556508396,
+    "digest": "4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "gemma4",
+      "families": [
+        "gemma4"
+      ],
+      "parameter_size": "11.9B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 262144,
+      "embedding_length": 3840,
+      "runner": "ggml"
+    },
+    "capabilities": [
+      "completion",
+      "vision",
+      "audio",
+      "tools",
+      "thinking"
+    ]
+  },
+  "status": "stopped_after_error",
+  "prior_combined_usd_including_timeout_reserve": 2.094922036,
+  "new_budget_usd": 0,
+  "cost_usd": 0,
+  "created_utc": "2026-11-08T17:39:50.138198+00:00",
+  "calls": [
+    {
+      "id": "D01",
+      "condition": "A",
+      "status": "interrupted_unknown_billing",
+      "prompt": "Transcribe only the TARGET image's requested scope, faithfully preserving Russian wording and spelling, including unusual forms. Use [unclear] for genuinely illegible text. Return only the transcription, without commentary. Transcribe the complete target image.",
+      "images": [
+        {
+          "role": "target",
+          "sha256": "be22fb01ce324fbd149cc276c1eb6d840c62be5f0c961859de8d15331db80ad1"
+        }
+      ],
+      "references_mode": null,
+      "skill_sha256": null
+    },
+    {
+      "id": "D01",
+      "condition": "B",
+      "status": "completed",
+      "prompt": "Transcribe only the TARGET image's requested scope, faithfully preserving Russian wording and spelling, including unusual forms. Use [unclear] for genuinely illegible text. Return only the transcription, without commentary. Transcribe the complete target image.\nApply these reading instructions:\n---\nname: read-handwriting\ndescription: Transcribe handwriting by alternating contextual hypotheses with checks of visible letters and complete lines. Can use a supplied reference packet, but does not require or automatically build one.\n---\n\n# Read handwriting against the image\n\nProduce a faithful transcription with visible uncertainty. Use the supplied scans and, optionally, a supplied handwriting reference packet. Work with any suitable vision model or tool-using host. A text-only host may review OCR candidates but must not claim to inspect letters it cannot see.\n\n## Read, compare, return to the strokes\n\nMake an initial reading of all supplied target pages, including initially difficult passages. Record missing sides, uncertain page order and writer changes. Preserve spelling, unusual words, child language and incomplete sentences. Do not replace them with more familiar prose.\n\nFor an uncertain span, propose a small set of readings from visible shapes and context. Compare each against the complete word: length, beginning, ending, joins and position in the line. Then reread the surrounding sentence and return to the image. Context proposes a hypothesis; the target strokes decide whether it survives. A fluent sentence is not sufficient evidence. If no reading is supported, retain an unknown span rather than choosing the most plausible story.\n\nWhen references are supplied, compare relevant same-writer forms with the target. Check their provisional labels against their own images; ignore a misleading example. Do not copy a reference passage into the target or treat an author's recurring word as proof it appears here. Without a packet, use the target's own visible repetitions when permitted. This skill does not automatically invoke extraction, fetch other documents or build a saved library.\n\nAvailable OCR readings are independent hypotheses. Check disagreements against the image, not by majority vote. Keep independent outputs when the task is an experiment. Do not call agreement or model confidence a verified transcription.\n\n## Revisit the whole supplied text\n\nUse supported discoveries to reread all supplied target pages, including passages first considered clear. Keep materially changed spans and the image evidence for them. Repeat while a full pass yields supported changes; stop after a complete pass yields none, or at a stated time/cost or access limit. State actual coverage rather than claiming a complete collection pass after reading a selection.\n\nBefore presenting a reading as visually checked, inspect its complete final lines on the scan, including their beginnings and endings. Re-reading text or viewing a PDF layout is not this check. Mark remaining ambiguities and partial lines. A second look is a procedure, not proof that a reading is correct.\n\n## Preserve the correction boundary\n\nRecord user corrections verbatim and separately from independent predictions. A corrected fragment does not confirm the rest of a page. Preserve user question marks and unusual spelling. When a user identifies a letter by date or opening, show its full current transcription with unresolved spans marked. Do not claim a correction was independently recognized or visually verified unless that separate check actually happened.\n\nFollow the task's output notation. Report missing images honestly. In an evaluation, receive only the assigned target scans, instructions and reference packet: never evaluator answers, previous errors or target corrections. Save initial and final readings, completion status, actual pass coverage and unresolved spans without exposing hidden chain-of-thought; brief source-tied change notes are sufficient.\n\nThe optional `test-material/` folder is for testing only and includes evaluator answers. Do not load it during ordinary transcription or expose its answers in a blind test. This skill makes no guaranteed accuracy claim and authorizes no external uploads or paid calls.\n",
+      "images": [
+        {
+          "role": "target",
+          "sha256": "be22fb01ce324fbd149cc276c1eb6d840c62be5f0c961859de8d15331db80ad1"
+        }
+      ],
+      "references_mode": null,
+      "skill_sha256": "88cbbd3cefb388cbcb1d972e3e55d03eb7b23492a87060b4dfbd6f4f7afeb740",
+      "transcription": "31/ - 47.\n\n- Ниц [unclear] , а [unclear] \"лоша\".\n\n- Мальчик, ты знаешь, ты был [unclear] лучше\nвсех и самый веселый и самый добрый.\nНо, а бабуля, папа, мама? [unclear] они\nне он лучше всех людей.\nНу - что ты!!! Лучше всех - Леня, Стани,\nВасилий, Коля, Андрей (это Андрюха)\nи сразу он - мальчик, а раньше в действи-\nице он звали Андрюша.\n\n- Десна уже пришлют к зубу, а то\nона была [unclear] . [unclear]\n\n- Оказался он на улице [unclear] под\nпанифорением мальчика, а она [unclear]\nмальчик и [unclear] за лицо,\nа что я на улице [unclear].",
+      "cost_usd": 0,
+      "usage": null,
+      "elapsed_seconds": 21.972644791999983
+    },
+    {
+      "id": "D01",
+      "condition": "C",
+      "status": "completed",
+      "prompt": "Transcribe only the TARGET image's requested scope, faithfully preserving Russian wording and spelling, including unusual forms. Use [unclear] for genuinely illegible text. Return only the transcription, without commentary. Transcribe the complete target image.",
+      "images": [
+        {
+          "role": "reference",
+          "sha256": "4b55412237a857406948120359f46e94c42e535c8a00c1a86757e351fc152c04",
+          "label": "Бабушка",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "1d01d75774b9c7a93ef62c267dde9fd4d3a9f323c62ee3e1a11d9c9117f1f848",
+          "label": "молоко",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "dc5ee880387c328bb6e22844589c133f496ed8c9242df4b871a2f42a5e4c9bd0",
+          "label": "картинки",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "9c205ac2a105536e54b90a0a4cd8d31dac14a2f765c6d691716146ee42254604",
+          "label": "ротик",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "a72d152d6742f8fa8be1299905531ca57b4cd224cebe18495d791dc93cc91082",
+          "label": "Мамочка",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "0db2979dfdc6efcac5cde1ecd9f44cdb99f7b3c6f40e7b8f117ef77fa318ab62",
+          "label": "фашистами",
+          "status": "provisional"
+        },
+        {
+          "role": "target",
+          "sha256": "be22fb01ce324fbd149cc276c1eb6d840c62be5f0c961859de8d15331db80ad1"
+        }
+      ],
+      "references_mode": "skill",
+      "skill_sha256": null,
+      "transcription": "31/ - 47.\n\n- Что нельзя, а что \"можно\".\n\n- Мамочка, ты знаешь, почему лучше\nвсех он самый веселый и самый добрый.\nпотому, а бабуля, мама, мамочка? неумно\nне он лучше всех людей.\nНу... что же!!! Лучше всех - Лени, Сани,\nВасилием, Кононенко и Андрей (это Андрюха)\nи сразу он - мамочка, а раньше в действи-\nии звали Андрюша.\n\n- Десна уже пришлют к 30-му, а то\nона была сильная. неделанная.\n\n- Оказался он на улице чутко перед\nпанибратством мамочки, а она ему\nмамочка или синится за лицо,\nа что я на улице чутко.",
+      "cost_usd": 0,
+      "usage": null,
+      "elapsed_seconds": 15.021320750000086
+    },
+    {
+      "id": "D01",
+      "condition": "D",
+      "status": "completed",
+      "prompt": "Transcribe only the TARGET image's requested scope, faithfully preserving Russian wording and spelling, including unusual forms. Use [unclear] for genuinely illegible text. Return only the transcription, without commentary. Transcribe the complete target image.\nApply these reading instructions:\n---\nname: read-handwriting\ndescription: Transcribe handwriting by alternating contextual hypotheses with checks of visible letters and complete lines. Can use a supplied reference packet, but does not require or automatically build one.\n---\n\n# Read handwriting against the image\n\nProduce a faithful transcription with visible uncertainty. Use the supplied scans and, optionally, a supplied handwriting reference packet. Work with any suitable vision model or tool-using host. A text-only host may review OCR candidates but must not claim to inspect letters it cannot see.\n\n## Read, compare, return to the strokes\n\nMake an initial reading of all supplied target pages, including initially difficult passages. Record missing sides, uncertain page order and writer changes. Preserve spelling, unusual words, child language and incomplete sentences. Do not replace them with more familiar prose.\n\nFor an uncertain span, propose a small set of readings from visible shapes and context. Compare each against the complete word: length, beginning, ending, joins and position in the line. Then reread the surrounding sentence and return to the image. Context proposes a hypothesis; the target strokes decide whether it survives. A fluent sentence is not sufficient evidence. If no reading is supported, retain an unknown span rather than choosing the most plausible story.\n\nWhen references are supplied, compare relevant same-writer forms with the target. Check their provisional labels against their own images; ignore a misleading example. Do not copy a reference passage into the target or treat an author's recurring word as proof it appears here. Without a packet, use the target's own visible repetitions when permitted. This skill does not automatically invoke extraction, fetch other documents or build a saved library.\n\nAvailable OCR readings are independent hypotheses. Check disagreements against the image, not by majority vote. Keep independent outputs when the task is an experiment. Do not call agreement or model confidence a verified transcription.\n\n## Revisit the whole supplied text\n\nUse supported discoveries to reread all supplied target pages, including passages first considered clear. Keep materially changed spans and the image evidence for them. Repeat while a full pass yields supported changes; stop after a complete pass yields none, or at a stated time/cost or access limit. State actual coverage rather than claiming a complete collection pass after reading a selection.\n\nBefore presenting a reading as visually checked, inspect its complete final lines on the scan, including their beginnings and endings. Re-reading text or viewing a PDF layout is not this check. Mark remaining ambiguities and partial lines. A second look is a procedure, not proof that a reading is correct.\n\n## Preserve the correction boundary\n\nRecord user corrections verbatim and separately from independent predictions. A corrected fragment does not confirm the rest of a page. Preserve user question marks and unusual spelling. When a user identifies a letter by date or opening, show its full current transcription with unresolved spans marked. Do not claim a correction was independently recognized or visually verified unless that separate check actually happened.\n\nFollow the task's output notation. Report missing images honestly. In an evaluation, receive only the assigned target scans, instructions and reference packet: never evaluator answers, previous errors or target corrections. Save initial and final readings, completion status, actual pass coverage and unresolved spans without exposing hidden chain-of-thought; brief source-tied change notes are sufficient.\n\nThe optional `test-material/` folder is for testing only and includes evaluator answers. Do not load it during ordinary transcription or expose its answers in a blind test. This skill makes no guaranteed accuracy claim and authorizes no external uploads or paid calls.\n",
+      "images": [
+        {
+          "role": "reference",
+          "sha256": "4b55412237a857406948120359f46e94c42e535c8a00c1a86757e351fc152c04",
+          "label": "Бабушка",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "1d01d75774b9c7a93ef62c267dde9fd4d3a9f323c62ee3e1a11d9c9117f1f848",
+          "label": "молоко",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "dc5ee880387c328bb6e22844589c133f496ed8c9242df4b871a2f42a5e4c9bd0",
+          "label": "картинки",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "9c205ac2a105536e54b90a0a4cd8d31dac14a2f765c6d691716146ee42254604",
+          "label": "ротик",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "a72d152d6742f8fa8be1299905531ca57b4cd224cebe18495d791dc93cc91082",
+          "label": "Мамочка",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "0db2979dfdc6efcac5cde1ecd9f44cdb99f7b3c6f40e7b8f117ef77fa318ab62",
+          "label": "фашистами",
+          "status": "provisional"
+        },
+        {
+          "role": "target",
+          "sha256": "be22fb01ce324fbd149cc276c1eb6d840c62be5f0c961859de8d15331db80ad1"
+        }
+      ],
+      "references_mode": "skill",
+      "skill_sha256": "88cbbd3cefb388cbcb1d972e3e55d03eb7b23492a87060b4dfbd6f4f7afeb740",
+      "transcription": "31/ - 47.\n\n- Что нельзя, а что \"можно\".\n\n- Мамочка, ты знаешь, почему лучше\nвсех он самый веселый и самый добрый.\nпотому, а бабуля, мама, няня, няня? не умеют\nне он лучше всех людей.\nНу... что же!!! Лучше всех - Лени, Сани,\nВасилия, Ковалёва и Андрея (его Андрюха)\nи сразу он - мамочка, а раньше в действии\nон звался Андрюша.\n\n- Десна уже пришлют к 20-му, а то\nона была в своем. [неразборчиво]\n\n- Оказался он на улице утром перед\nпанибратством мамочки, а она ему\nмамочка или мамочка за лицо,\nа что я на улице утром.",
+      "cost_usd": 0,
+      "usage": null,
+      "elapsed_seconds": 12.006116375000033
+    },
+    {
+      "id": "D01",
+      "condition": "E",
+      "status": "completed",
+      "prompt": "Transcribe only the TARGET image's requested scope, faithfully preserving Russian wording and spelling, including unusual forms. Use [unclear] for genuinely illegible text. Return only the transcription, without commentary. Transcribe the complete target image.\nApply these reading instructions:\n---\nname: read-handwriting\ndescription: Transcribe handwriting by alternating contextual hypotheses with checks of visible letters and complete lines. Can use a supplied reference packet, but does not require or automatically build one.\n---\n\n# Read handwriting against the image\n\nProduce a faithful transcription with visible uncertainty. Use the supplied scans and, optionally, a supplied handwriting reference packet. Work with any suitable vision model or tool-using host. A text-only host may review OCR candidates but must not claim to inspect letters it cannot see.\n\n## Read, compare, return to the strokes\n\nMake an initial reading of all supplied target pages, including initially difficult passages. Record missing sides, uncertain page order and writer changes. Preserve spelling, unusual words, child language and incomplete sentences. Do not replace them with more familiar prose.\n\nFor an uncertain span, propose a small set of readings from visible shapes and context. Compare each against the complete word: length, beginning, ending, joins and position in the line. Then reread the surrounding sentence and return to the image. Context proposes a hypothesis; the target strokes decide whether it survives. A fluent sentence is not sufficient evidence. If no reading is supported, retain an unknown span rather than choosing the most plausible story.\n\nWhen references are supplied, compare relevant same-writer forms with the target. Check their provisional labels against their own images; ignore a misleading example. Do not copy a reference passage into the target or treat an author's recurring word as proof it appears here. Without a packet, use the target's own visible repetitions when permitted. This skill does not automatically invoke extraction, fetch other documents or build a saved library.\n\nAvailable OCR readings are independent hypotheses. Check disagreements against the image, not by majority vote. Keep independent outputs when the task is an experiment. Do not call agreement or model confidence a verified transcription.\n\n## Revisit the whole supplied text\n\nUse supported discoveries to reread all supplied target pages, including passages first considered clear. Keep materially changed spans and the image evidence for them. Repeat while a full pass yields supported changes; stop after a complete pass yields none, or at a stated time/cost or access limit. State actual coverage rather than claiming a complete collection pass after reading a selection.\n\nBefore presenting a reading as visually checked, inspect its complete final lines on the scan, including their beginnings and endings. Re-reading text or viewing a PDF layout is not this check. Mark remaining ambiguities and partial lines. A second look is a procedure, not proof that a reading is correct.\n\n## Preserve the correction boundary\n\nRecord user corrections verbatim and separately from independent predictions. A corrected fragment does not confirm the rest of a page. Preserve user question marks and unusual spelling. When a user identifies a letter by date or opening, show its full current transcription with unresolved spans marked. Do not claim a correction was independently recognized or visually verified unless that separate check actually happened.\n\nFollow the task's output notation. Report missing images honestly. In an evaluation, receive only the assigned target scans, instructions and reference packet: never evaluator answers, previous errors or target corrections. Save initial and final readings, completion status, actual pass coverage and unresolved spans without exposing hidden chain-of-thought; brief source-tied change notes are sufficient.\n\nThe optional `test-material/` folder is for testing only and includes evaluator answers. Do not load it during ordinary transcription or expose its answers in a blind test. This skill makes no guaranteed accuracy claim and authorizes no external uploads or paid calls.\n",
+      "images": [
+        {
+          "role": "reference",
+          "sha256": "00987e76e0e8536879619be3fbb364715c4c9a6ce2fbb552deec1e995e7a06d9",
+          "label": "Папа",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "90e4d5e27152c852e59541c5c19212090f3ff99ab62a120b20c5211ec34c2e5d",
+          "label": "Мама",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "28ec861b0c6caf839ed29a1cb64c0bbe0aa390aa22d525d29dc84f589358078b",
+          "label": "говоришь",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "048983d346f879440661a9ad0b7544977a4bf29feb279c1508e2e73b73f80ef6",
+          "label": "мамочка",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "8492d83162d53acba32c5b52283adcbbcdafe7330b7d52e0b95b9d98a7abdf4b",
+          "label": "спокойный",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "e7c24c62d9c93e78be3df3be928c41d457ddd66bffa54f86d081ef05a473eb04",
+          "label": "фашистами",
+          "status": "provisional"
+        },
+        {
+          "role": "target",
+          "sha256": "be22fb01ce324fbd149cc276c1eb6d840c62be5f0c961859de8d15331db80ad1"
+        }
+      ],
+      "references_mode": "plain",
+      "skill_sha256": "88cbbd3cefb388cbcb1d972e3e55d03eb7b23492a87060b4dfbd6f4f7afeb740",
+      "transcription": "31/ - 47.\n\n- Что нельзя, а что \"можно\".\n\n- Мамочка, ты знаешь, почему лучше\nвсех он самый веселый и самый добрый.\nпотому, а бабуля, папа, мама, дедушка?\nне он лучший всех людей.\nНу... что он!!! Лучше всех - Лени, Сани,\nВагомилов, Кононов, Андрей (это Андрей)\nи сразу он - мамочка, а раньше в действии\nон звали Андрюша?\n\n- Десна уже пришлют к 20-му, а то\nона была в своем. [недописано]\n\n- Оказался он на улице путем [неразборчиво]\nпанибратства мамочки, а она [неразборчиво]\nмамочку или [неразборчиво] за лицо,\nа что я на улице [неразборчиво].\n\n- фашистами.",
+      "cost_usd": 0,
+      "usage": null,
+      "elapsed_seconds": 18.13116345800006
+    },
+    {
+      "id": "D01",
+      "condition": "F",
+      "status": "completed",
+      "prompt": "Transcribe only the TARGET image's requested scope, faithfully preserving Russian wording and spelling, including unusual forms. Use [unclear] for genuinely illegible text. Return only the transcription, without commentary. Transcribe the complete target image.\nApply these reading instructions:\n---\nname: read-handwriting\ndescription: Transcribe handwriting by alternating contextual hypotheses with checks of visible letters and complete lines. Can use a supplied reference packet, but does not require or automatically build one.\n---\n\n# Read handwriting against the image\n\nProduce a faithful transcription with visible uncertainty. Use the supplied scans and, optionally, a supplied handwriting reference packet. Work with any suitable vision model or tool-using host. A text-only host may review OCR candidates but must not claim to inspect letters it cannot see.\n\n## Read, compare, return to the strokes\n\nMake an initial reading of all supplied target pages, including initially difficult passages. Record missing sides, uncertain page order and writer changes. Preserve spelling, unusual words, child language and incomplete sentences. Do not replace them with more familiar prose.\n\nFor an uncertain span, propose a small set of readings from visible shapes and context. Compare each against the complete word: length, beginning, ending, joins and position in the line. Then reread the surrounding sentence and return to the image. Context proposes a hypothesis; the target strokes decide whether it survives. A fluent sentence is not sufficient evidence. If no reading is supported, retain an unknown span rather than choosing the most plausible story.\n\nWhen references are supplied, compare relevant same-writer forms with the target. Check their provisional labels against their own images; ignore a misleading example. Do not copy a reference passage into the target or treat an author's recurring word as proof it appears here. Without a packet, use the target's own visible repetitions when permitted. This skill does not automatically invoke extraction, fetch other documents or build a saved library.\n\nAvailable OCR readings are independent hypotheses. Check disagreements against the image, not by majority vote. Keep independent outputs when the task is an experiment. Do not call agreement or model confidence a verified transcription.\n\n## Revisit the whole supplied text\n\nUse supported discoveries to reread all supplied target pages, including passages first considered clear. Keep materially changed spans and the image evidence for them. Repeat while a full pass yields supported changes; stop after a complete pass yields none, or at a stated time/cost or access limit. State actual coverage rather than claiming a complete collection pass after reading a selection.\n\nBefore presenting a reading as visually checked, inspect its complete final lines on the scan, including their beginnings and endings. Re-reading text or viewing a PDF layout is not this check. Mark remaining ambiguities and partial lines. A second look is a procedure, not proof that a reading is correct.\n\n## Preserve the correction boundary\n\nRecord user corrections verbatim and separately from independent predictions. A corrected fragment does not confirm the rest of a page. Preserve user question marks and unusual spelling. When a user identifies a letter by date or opening, show its full current transcription with unresolved spans marked. Do not claim a correction was independently recognized or visually verified unless that separate check actually happened.\n\nFollow the task's output notation. Report missing images honestly. In an evaluation, receive only the assigned target scans, instructions and reference packet: never evaluator answers, previous errors or target corrections. Save initial and final readings, completion status, actual pass coverage and unresolved spans without exposing hidden chain-of-thought; brief source-tied change notes are sufficient.\n\nThe optional `test-material/` folder is for testing only and includes evaluator answers. Do not load it during ordinary transcription or expose its answers in a blind test. This skill makes no guaranteed accuracy claim and authorizes no external uploads or paid calls.\n",
+      "images": [
+        {
+          "role": "reference",
+          "sha256": "d6392f76a711be7dc9522ba075c5f6f9c421b443ae5020822ef3e9112d047b52",
+          "label": "Бабушка",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "reference",
+          "sha256": "384f7dd67cbc63cc4322d911baf59db42462b2db3192ec86b3a0cb7013de913c",
+          "label": "Коровки",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "reference",
+          "sha256": "a883233e6d8921e7d349e2828cfd1b4f1853ee4fd71cb928a7225cf494f5ffd8",
+          "label": "страданий",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "reference",
+          "sha256": "18c9de03cc011202d4d4e3353df79ce4062199bd81e76205f9a08545a6e5c82e",
+          "label": "заштриховать",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "reference",
+          "sha256": "4f26d9406628e76039729df99837f7404b626618508541a7e17e5bc80eb5057d",
+          "label": "обязательно",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "reference",
+          "sha256": "e8b40319dd1286cd8558d4e4016cc813b235bc355b3616c151a086b5a1cadf24",
+          "label": "англичане",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "target",
+          "sha256": "be22fb01ce324fbd149cc276c1eb6d840c62be5f0c961859de8d15331db80ad1"
+        }
+      ],
+      "references_mode": "verified-skill",
+      "skill_sha256": "88cbbd3cefb388cbcb1d972e3e55d03eb7b23492a87060b4dfbd6f4f7afeb740",
+      "transcription": "31/ - 47.\n\n- Что нельзя, а что \"можно\".\n\n- Мальчик, ты знаешь, почему лучше\nвсех он самый веселый и самый добрый.\nпотому, а бабуля, мама, няня? Неужели\nон не лучше всех людей.\nНу... что же!!! Лучше всех - Лени, Сани,\nВаромлин, Кононич и Андрей (это Андрюш)\nи сразу он - мальчик, а раньше в действии\nон звали Андрюша?\n\n- Десна уже пришлют к 20-му, а то\nона была в своем. [недописано]\n\n- Оказался он на улице путем [неразборчиво]\nпанибратства мальчика, а она [неразборчиво]\nмальчика или [неразборчиво] за лицо,\nа что я на улице [неразборчиво].",
+      "cost_usd": 0,
+      "usage": null,
+      "elapsed_seconds": 17.58119750000003
+    },
+    {
+      "id": "D01",
+      "condition": "G",
+      "status": "completed",
+      "prompt": "Transcribe only the TARGET image's requested scope, faithfully preserving Russian wording and spelling, including unusual forms. Use [unclear] for genuinely illegible text. Return only the transcription, without commentary. Transcribe the complete target image.\nApply these reading instructions:\n---\nname: read-handwriting\ndescription: Transcribe handwriting by alternating contextual hypotheses with checks of visible letters and complete lines. Can use a supplied reference packet, but does not require or automatically build one.\n---\n\n# Read handwriting against the image\n\nProduce a faithful transcription with visible uncertainty. Use the supplied scans and, optionally, a supplied handwriting reference packet. Work with any suitable vision model or tool-using host. A text-only host may review OCR candidates but must not claim to inspect letters it cannot see.\n\n## Read, compare, return to the strokes\n\nMake an initial reading of all supplied target pages, including initially difficult passages. Record missing sides, uncertain page order and writer changes. Preserve spelling, unusual words, child language and incomplete sentences. Do not replace them with more familiar prose.\n\nFor an uncertain span, propose a small set of readings from visible shapes and context. Compare each against the complete word: length, beginning, ending, joins and position in the line. Then reread the surrounding sentence and return to the image. Context proposes a hypothesis; the target strokes decide whether it survives. A fluent sentence is not sufficient evidence. If no reading is supported, retain an unknown span rather than choosing the most plausible story.\n\nWhen references are supplied, compare relevant same-writer forms with the target. Check their provisional labels against their own images; ignore a misleading example. Do not copy a reference passage into the target or treat an author's recurring word as proof it appears here. Without a packet, use the target's own visible repetitions when permitted. This skill does not automatically invoke extraction, fetch other documents or build a saved library.\n\nAvailable OCR readings are independent hypotheses. Check disagreements against the image, not by majority vote. Keep independent outputs when the task is an experiment. Do not call agreement or model confidence a verified transcription.\n\n## Revisit the whole supplied text\n\nUse supported discoveries to reread all supplied target pages, including passages first considered clear. Keep materially changed spans and the image evidence for them. Repeat while a full pass yields supported changes; stop after a complete pass yields none, or at a stated time/cost or access limit. State actual coverage rather than claiming a complete collection pass after reading a selection.\n\nBefore presenting a reading as visually checked, inspect its complete final lines on the scan, including their beginnings and endings. Re-reading text or viewing a PDF layout is not this check. Mark remaining ambiguities and partial lines. A second look is a procedure, not proof that a reading is correct.\n\n## Preserve the correction boundary\n\nRecord user corrections verbatim and separately from independent predictions. A corrected fragment does not confirm the rest of a page. Preserve user question marks and unusual spelling. When a user identifies a letter by date or opening, show its full current transcription with unresolved spans marked. Do not claim a correction was independently recognized or visually verified unless that separate check actually happened.\n\nFollow the task's output notation. Report missing images honestly. In an evaluation, receive only the assigned target scans, instructions and reference packet: never evaluator answers, previous errors or target corrections. Save initial and final readings, completion status, actual pass coverage and unresolved spans without exposing hidden chain-of-thought; brief source-tied change notes are sufficient.\n\nThe optional `test-material/` folder is for testing only and includes evaluator answers. Do not load it during ordinary transcription or expose its answers in a blind test. This skill makes no guaranteed accuracy claim and authorizes no external uploads or paid calls.\n",
+      "images": [
+        {
+          "role": "reference",
+          "sha256": "870ab80073de4a9aa6c05fed9b12b90daee5cea8962d92fe6bdcdece2b318151",
+          "label": "Бабушка",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "reference",
+          "sha256": "7959ed44fc97b7593e124a03feef477810f13386872bccbcc0afcf6cafe35478",
+          "label": "молоко",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "reference",
+          "sha256": "99f219dd24c0808d50c0da7bee61d3371bc06e3ff3098a9d9d838ccfe2075b96",
+          "label": "страданий",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "reference",
+          "sha256": "e574236a0a3bdd67b18fb155cebeb083d42faf9615e9feb250203e55a4ed2706",
+          "label": "заштриховать ротик",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "reference",
+          "sha256": "f358906e99a5d31cc8be521b2c0c92c1343a25becdd439d00f8b44470ff16bf9",
+          "label": "обязательно",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "reference",
+          "sha256": "d393a22744575fd948fea3595ded1bd6a7a95ca0dcee75f0adb5fd9a34d85896",
+          "label": "англичане",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "target",
+          "sha256": "be22fb01ce324fbd149cc276c1eb6d840c62be5f0c961859de8d15331db80ad1"
+        }
+      ],
+      "references_mode": "verified-plain",
+      "skill_sha256": "88cbbd3cefb388cbcb1d972e3e55d03eb7b23492a87060b4dfbd6f4f7afeb740",
+      "transcription": "31/ - 47.\n\n- Что нельзя, а что \"можно\".\n\n- Мальчик, ты знаешь, почему лучше\nвсех он самый веселый и самый добрый.\nпотому, а бабуля, мама, няня, няня? Неужели\nон не лучше всех людей.\nНу... что же!!! Лучше всех - Леня, Саня,\nВагомилов, Кононов и Андрей (это Андрюш)\nи сразу он - мальчик, а раньше в действи-\nии он даже Андрюша?\n\n- Десна уже приштриховать к зубу, а то\nона была синее. [заштрихован]\n\n- Обязательно ее на улице чинить перед\nпанированием малютка, а она еще\nмалютка еще сидит за лицом,\nа что я на улице чиню.",
+      "cost_usd": 0,
+      "usage": null,
+      "elapsed_seconds": 16.515011999999956
+    },
+    {
+      "id": "D02",
+      "condition": "B",
+      "status": "completed",
+      "prompt": "Transcribe only the TARGET image's requested scope, faithfully preserving Russian wording and spelling, including unusual forms. Use [unclear] for genuinely illegible text. Return only the transcription, without commentary. Transcribe the complete target image.\nApply these reading instructions:\n---\nname: read-handwriting\ndescription: Transcribe handwriting by alternating contextual hypotheses with checks of visible letters and complete lines. Can use a supplied reference packet, but does not require or automatically build one.\n---\n\n# Read handwriting against the image\n\nProduce a faithful transcription with visible uncertainty. Use the supplied scans and, optionally, a supplied handwriting reference packet. Work with any suitable vision model or tool-using host. A text-only host may review OCR candidates but must not claim to inspect letters it cannot see.\n\n## Read, compare, return to the strokes\n\nMake an initial reading of all supplied target pages, including initially difficult passages. Record missing sides, uncertain page order and writer changes. Preserve spelling, unusual words, child language and incomplete sentences. Do not replace them with more familiar prose.\n\nFor an uncertain span, propose a small set of readings from visible shapes and context. Compare each against the complete word: length, beginning, ending, joins and position in the line. Then reread the surrounding sentence and return to the image. Context proposes a hypothesis; the target strokes decide whether it survives. A fluent sentence is not sufficient evidence. If no reading is supported, retain an unknown span rather than choosing the most plausible story.\n\nWhen references are supplied, compare relevant same-writer forms with the target. Check their provisional labels against their own images; ignore a misleading example. Do not copy a reference passage into the target or treat an author's recurring word as proof it appears here. Without a packet, use the target's own visible repetitions when permitted. This skill does not automatically invoke extraction, fetch other documents or build a saved library.\n\nAvailable OCR readings are independent hypotheses. Check disagreements against the image, not by majority vote. Keep independent outputs when the task is an experiment. Do not call agreement or model confidence a verified transcription.\n\n## Revisit the whole supplied text\n\nUse supported discoveries to reread all supplied target pages, including passages first considered clear. Keep materially changed spans and the image evidence for them. Repeat while a full pass yields supported changes; stop after a complete pass yields none, or at a stated time/cost or access limit. State actual coverage rather than claiming a complete collection pass after reading a selection.\n\nBefore presenting a reading as visually checked, inspect its complete final lines on the scan, including their beginnings and endings. Re-reading text or viewing a PDF layout is not this check. Mark remaining ambiguities and partial lines. A second look is a procedure, not proof that a reading is correct.\n\n## Preserve the correction boundary\n\nRecord user corrections verbatim and separately from independent predictions. A corrected fragment does not confirm the rest of a page. Preserve user question marks and unusual spelling. When a user identifies a letter by date or opening, show its full current transcription with unresolved spans marked. Do not claim a correction was independently recognized or visually verified unless that separate check actually happened.\n\nFollow the task's output notation. Report missing images honestly. In an evaluation, receive only the assigned target scans, instructions and reference packet: never evaluator answers, previous errors or target corrections. Save initial and final readings, completion status, actual pass coverage and unresolved spans without exposing hidden chain-of-thought; brief source-tied change notes are sufficient.\n\nThe optional `test-material/` folder is for testing only and includes evaluator answers. Do not load it during ordinary transcription or expose its answers in a blind test. This skill makes no guaranteed accuracy claim and authorizes no external uploads or paid calls.\n",
+      "images": [
+        {
+          "role": "target",
+          "sha256": "8e95e677c36c619a57a31c2ec2342613c0201940aa197b05c9a8bd45e92ce9b5"
+        }
+      ],
+      "references_mode": null,
+      "skill_sha256": "88cbbd3cefb388cbcb1d972e3e55d03eb7b23492a87060b4dfbd6f4f7afeb740",
+      "transcription": "- Таня, присягни!\nТаня, присягни.\nТаня, если\nВася, если, какни мы все. мне забавно\nделаю, как будто ты не мама, а сестра.\n,\n- Маночка, впрочем, что Спилим нам\nодин, а кто не тогда мама?\n- Вибрация (вместо выпрашивания)\n20/11 - 47.\nЯ бросила ее мишку за что на Диван\nи какни ковпака куски.\n- ты меня делей обнимайся, а я бужуй ввон.\n- В меню сказали «вы пронило\nпергамяну, пергамяна оказалось Таня,\nза ее повод - означились тебе на\n«Ви» нанимать, а она - меня по\nТелефон все на «ви» называются.",
+      "cost_usd": 0,
+      "usage": null,
+      "elapsed_seconds": 13.823055834000002
+    },
+    {
+      "id": "D02",
+      "condition": "C",
+      "status": "completed",
+      "prompt": "Transcribe only the TARGET image's requested scope, faithfully preserving Russian wording and spelling, including unusual forms. Use [unclear] for genuinely illegible text. Return only the transcription, without commentary. Transcribe the complete target image.",
+      "images": [
+        {
+          "role": "reference",
+          "sha256": "4b55412237a857406948120359f46e94c42e535c8a00c1a86757e351fc152c04",
+          "label": "Бабушка",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "1d01d75774b9c7a93ef62c267dde9fd4d3a9f323c62ee3e1a11d9c9117f1f848",
+          "label": "молоко",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "dc5ee880387c328bb6e22844589c133f496ed8c9242df4b871a2f42a5e4c9bd0",
+          "label": "картинки",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "9c205ac2a105536e54b90a0a4cd8d31dac14a2f765c6d691716146ee42254604",
+          "label": "ротик",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "a72d152d6742f8fa8be1299905531ca57b4cd224cebe18495d791dc93cc91082",
+          "label": "Мамочка",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "0db2979dfdc6efcac5cde1ecd9f44cdb99f7b3c6f40e7b8f117ef77fa318ab62",
+          "label": "фашистами",
+          "status": "provisional"
+        },
+        {
+          "role": "target",
+          "sha256": "8e95e677c36c619a57a31c2ec2342613c0201940aa197b05c9a8bd45e92ce9b5"
+        }
+      ],
+      "references_mode": "skill",
+      "skill_sha256": null,
+      "transcription": "- там, приехали!\nтам, приехали\nТам, сели.\nВон, сидят, сидят, он еще. еще забавно.\nдевочка, как будто он не мама, а сестра.\n\n- Мамочка, в ворота, что Спилим нам\nодин, а что не тогда мама?\n\n- Вибрация (вместо вибрации)\n\n26/11-47г.\nЯ просил ее милости за что на Дубини\nи канино кавака куксу.\n- он ловил делей обнимаем, а я Бузй бовый.\n\n- В меню сказали \"вы пронимо\nперчанку, перчанка оказалась тамна,\nя ей вопрос - ожидание тебе на\n\"Ви\" наубивать, а она - синел но\nТелефон все на \"ви\" наубинони.",
+      "cost_usd": 0,
+      "usage": null,
+      "elapsed_seconds": 13.548020583000039
+    },
+    {
+      "id": "D02",
+      "condition": "D",
+      "status": "completed",
+      "prompt": "Transcribe only the TARGET image's requested scope, faithfully preserving Russian wording and spelling, including unusual forms. Use [unclear] for genuinely illegible text. Return only the transcription, without commentary. Transcribe the complete target image.\nApply these reading instructions:\n---\nname: read-handwriting\ndescription: Transcribe handwriting by alternating contextual hypotheses with checks of visible letters and complete lines. Can use a supplied reference packet, but does not require or automatically build one.\n---\n\n# Read handwriting against the image\n\nProduce a faithful transcription with visible uncertainty. Use the supplied scans and, optionally, a supplied handwriting reference packet. Work with any suitable vision model or tool-using host. A text-only host may review OCR candidates but must not claim to inspect letters it cannot see.\n\n## Read, compare, return to the strokes\n\nMake an initial reading of all supplied target pages, including initially difficult passages. Record missing sides, uncertain page order and writer changes. Preserve spelling, unusual words, child language and incomplete sentences. Do not replace them with more familiar prose.\n\nFor an uncertain span, propose a small set of readings from visible shapes and context. Compare each against the complete word: length, beginning, ending, joins and position in the line. Then reread the surrounding sentence and return to the image. Context proposes a hypothesis; the target strokes decide whether it survives. A fluent sentence is not sufficient evidence. If no reading is supported, retain an unknown span rather than choosing the most plausible story.\n\nWhen references are supplied, compare relevant same-writer forms with the target. Check their provisional labels against their own images; ignore a misleading example. Do not copy a reference passage into the target or treat an author's recurring word as proof it appears here. Without a packet, use the target's own visible repetitions when permitted. This skill does not automatically invoke extraction, fetch other documents or build a saved library.\n\nAvailable OCR readings are independent hypotheses. Check disagreements against the image, not by majority vote. Keep independent outputs when the task is an experiment. Do not call agreement or model confidence a verified transcription.\n\n## Revisit the whole supplied text\n\nUse supported discoveries to reread all supplied target pages, including passages first considered clear. Keep materially changed spans and the image evidence for them. Repeat while a full pass yields supported changes; stop after a complete pass yields none, or at a stated time/cost or access limit. State actual coverage rather than claiming a complete collection pass after reading a selection.\n\nBefore presenting a reading as visually checked, inspect its complete final lines on the scan, including their beginnings and endings. Re-reading text or viewing a PDF layout is not this check. Mark remaining ambiguities and partial lines. A second look is a procedure, not proof that a reading is correct.\n\n## Preserve the correction boundary\n\nRecord user corrections verbatim and separately from independent predictions. A corrected fragment does not confirm the rest of a page. Preserve user question marks and unusual spelling. When a user identifies a letter by date or opening, show its full current transcription with unresolved spans marked. Do not claim a correction was independently recognized or visually verified unless that separate check actually happened.\n\nFollow the task's output notation. Report missing images honestly. In an evaluation, receive only the assigned target scans, instructions and reference packet: never evaluator answers, previous errors or target corrections. Save initial and final readings, completion status, actual pass coverage and unresolved spans without exposing hidden chain-of-thought; brief source-tied change notes are sufficient.\n\nThe optional `test-material/` folder is for testing only and includes evaluator answers. Do not load it during ordinary transcription or expose its answers in a blind test. This skill makes no guaranteed accuracy claim and authorizes no external uploads or paid calls.\n",
+      "images": [
+        {
+          "role": "reference",
+          "sha256": "4b55412237a857406948120359f46e94c42e535c8a00c1a86757e351fc152c04",
+          "label": "Бабушка",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "1d01d75774b9c7a93ef62c267dde9fd4d3a9f323c62ee3e1a11d9c9117f1f848",
+          "label": "молоко",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "dc5ee880387c328bb6e22844589c133f496ed8c9242df4b871a2f42a5e4c9bd0",
+          "label": "картинки",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "9c205ac2a105536e54b90a0a4cd8d31dac14a2f765c6d691716146ee42254604",
+          "label": "ротик",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "a72d152d6742f8fa8be1299905531ca57b4cd224cebe18495d791dc93cc91082",
+          "label": "Мамочка",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "0db2979dfdc6efcac5cde1ecd9f44cdb99f7b3c6f40e7b8f117ef77fa318ab62",
+          "label": "фашистами",
+          "status": "provisional"
+        },
+        {
+          "role": "target",
+          "sha256": "8e95e677c36c619a57a31c2ec2342613c0201940aa197b05c9a8bd45e92ce9b5"
+        }
+      ],
+      "references_mode": "skill",
+      "skill_sha256": "88cbbd3cefb388cbcb1d972e3e55d03eb7b23492a87060b4dfbd6f4f7afeb740",
+      "transcription": "- там, приехали!\nтам, приехали\nТам, сели.\nВон, сидят, сидят, он еще. еще забавно.\nделаем, как будто он не мама, а тетя.\n\n- Мамочка, в ворота, что Спикинин наш\nодет, а кто не тогда мама?\n\n- Вибрация (вместо обращения)\n\n26/11-47.\nЯ просила ее писать за что на Дивизии\nи как она повада куски.\n- он молв делей обнимаем, а я будь ввой.\n\n- В меню сказали «вы прониме\nперчанки, перчанка оказалась тамна,\nя ей вопрос - ожидание тебе на\n«Ви» выполнить, а она - синее но\nТелефон все на «Ви» назначили.",
+      "cost_usd": 0,
+      "usage": null,
+      "elapsed_seconds": 10.936113624999962
+    },
+    {
+      "id": "D02",
+      "condition": "E",
+      "status": "completed",
+      "prompt": "Transcribe only the TARGET image's requested scope, faithfully preserving Russian wording and spelling, including unusual forms. Use [unclear] for genuinely illegible text. Return only the transcription, without commentary. Transcribe the complete target image.\nApply these reading instructions:\n---\nname: read-handwriting\ndescription: Transcribe handwriting by alternating contextual hypotheses with checks of visible letters and complete lines. Can use a supplied reference packet, but does not require or automatically build one.\n---\n\n# Read handwriting against the image\n\nProduce a faithful transcription with visible uncertainty. Use the supplied scans and, optionally, a supplied handwriting reference packet. Work with any suitable vision model or tool-using host. A text-only host may review OCR candidates but must not claim to inspect letters it cannot see.\n\n## Read, compare, return to the strokes\n\nMake an initial reading of all supplied target pages, including initially difficult passages. Record missing sides, uncertain page order and writer changes. Preserve spelling, unusual words, child language and incomplete sentences. Do not replace them with more familiar prose.\n\nFor an uncertain span, propose a small set of readings from visible shapes and context. Compare each against the complete word: length, beginning, ending, joins and position in the line. Then reread the surrounding sentence and return to the image. Context proposes a hypothesis; the target strokes decide whether it survives. A fluent sentence is not sufficient evidence. If no reading is supported, retain an unknown span rather than choosing the most plausible story.\n\nWhen references are supplied, compare relevant same-writer forms with the target. Check their provisional labels against their own images; ignore a misleading example. Do not copy a reference passage into the target or treat an author's recurring word as proof it appears here. Without a packet, use the target's own visible repetitions when permitted. This skill does not automatically invoke extraction, fetch other documents or build a saved library.\n\nAvailable OCR readings are independent hypotheses. Check disagreements against the image, not by majority vote. Keep independent outputs when the task is an experiment. Do not call agreement or model confidence a verified transcription.\n\n## Revisit the whole supplied text\n\nUse supported discoveries to reread all supplied target pages, including passages first considered clear. Keep materially changed spans and the image evidence for them. Repeat while a full pass yields supported changes; stop after a complete pass yields none, or at a stated time/cost or access limit. State actual coverage rather than claiming a complete collection pass after reading a selection.\n\nBefore presenting a reading as visually checked, inspect its complete final lines on the scan, including their beginnings and endings. Re-reading text or viewing a PDF layout is not this check. Mark remaining ambiguities and partial lines. A second look is a procedure, not proof that a reading is correct.\n\n## Preserve the correction boundary\n\nRecord user corrections verbatim and separately from independent predictions. A corrected fragment does not confirm the rest of a page. Preserve user question marks and unusual spelling. When a user identifies a letter by date or opening, show its full current transcription with unresolved spans marked. Do not claim a correction was independently recognized or visually verified unless that separate check actually happened.\n\nFollow the task's output notation. Report missing images honestly. In an evaluation, receive only the assigned target scans, instructions and reference packet: never evaluator answers, previous errors or target corrections. Save initial and final readings, completion status, actual pass coverage and unresolved spans without exposing hidden chain-of-thought; brief source-tied change notes are sufficient.\n\nThe optional `test-material/` folder is for testing only and includes evaluator answers. Do not load it during ordinary transcription or expose its answers in a blind test. This skill makes no guaranteed accuracy claim and authorizes no external uploads or paid calls.\n",
+      "images": [
+        {
+          "role": "reference",
+          "sha256": "00987e76e0e8536879619be3fbb364715c4c9a6ce2fbb552deec1e995e7a06d9",
+          "label": "Папа",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "90e4d5e27152c852e59541c5c19212090f3ff99ab62a120b20c5211ec34c2e5d",
+          "label": "Мама",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "28ec861b0c6caf839ed29a1cb64c0bbe0aa390aa22d525d29dc84f589358078b",
+          "label": "говоришь",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "048983d346f879440661a9ad0b7544977a4bf29feb279c1508e2e73b73f80ef6",
+          "label": "мамочка",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "8492d83162d53acba32c5b52283adcbbcdafe7330b7d52e0b95b9d98a7abdf4b",
+          "label": "спокойный",
+          "status": "provisional"
+        },
+        {
+          "role": "reference",
+          "sha256": "e7c24c62d9c93e78be3df3be928c41d457ddd66bffa54f86d081ef05a473eb04",
+          "label": "фашистами",
+          "status": "provisional"
+        },
+        {
+          "role": "target",
+          "sha256": "8e95e677c36c619a57a31c2ec2342613c0201940aa197b05c9a8bd45e92ce9b5"
+        }
+      ],
+      "references_mode": "plain",
+      "skill_sha256": "88cbbd3cefb388cbcb1d972e3e55d03eb7b23492a87060b4dfbd6f4f7afeb740",
+      "transcription": "- мама, приехали!\nмама, приехали\nПапа, сели\nВаш, мама, как вы, что вы. меня задержали\nдевять, как будто ты не мама, а сестра.\n\n- Мамочка, говоришь, что Спиалтин наш\nодин, а кто не тогда мама?\n\n- Вибрация (вместо обращения)\n\n26/11-47.\nЯ просил ее писать за что на Дивизи\nи как он повада куски.\n- ты меня делай обнимай, а я буду звонить.\n\n- В меню сказали «вы прониме\nперчанки, перчанка оказалась тамна,\nя ей говорю - ожидание тебе на\n«Ви» выполнить, а она - менее но\nТелефон все на «Ви» назначил.",
+      "cost_usd": 0,
+      "usage": null,
+      "elapsed_seconds": 15.298680333999982
+    },
+    {
+      "id": "D02",
+      "condition": "F",
+      "status": "completed",
+      "prompt": "Transcribe only the TARGET image's requested scope, faithfully preserving Russian wording and spelling, including unusual forms. Use [unclear] for genuinely illegible text. Return only the transcription, without commentary. Transcribe the complete target image.\nApply these reading instructions:\n---\nname: read-handwriting\ndescription: Transcribe handwriting by alternating contextual hypotheses with checks of visible letters and complete lines. Can use a supplied reference packet, but does not require or automatically build one.\n---\n\n# Read handwriting against the image\n\nProduce a faithful transcription with visible uncertainty. Use the supplied scans and, optionally, a supplied handwriting reference packet. Work with any suitable vision model or tool-using host. A text-only host may review OCR candidates but must not claim to inspect letters it cannot see.\n\n## Read, compare, return to the strokes\n\nMake an initial reading of all supplied target pages, including initially difficult passages. Record missing sides, uncertain page order and writer changes. Preserve spelling, unusual words, child language and incomplete sentences. Do not replace them with more familiar prose.\n\nFor an uncertain span, propose a small set of readings from visible shapes and context. Compare each against the complete word: length, beginning, ending, joins and position in the line. Then reread the surrounding sentence and return to the image. Context proposes a hypothesis; the target strokes decide whether it survives. A fluent sentence is not sufficient evidence. If no reading is supported, retain an unknown span rather than choosing the most plausible story.\n\nWhen references are supplied, compare relevant same-writer forms with the target. Check their provisional labels against their own images; ignore a misleading example. Do not copy a reference passage into the target or treat an author's recurring word as proof it appears here. Without a packet, use the target's own visible repetitions when permitted. This skill does not automatically invoke extraction, fetch other documents or build a saved library.\n\nAvailable OCR readings are independent hypotheses. Check disagreements against the image, not by majority vote. Keep independent outputs when the task is an experiment. Do not call agreement or model confidence a verified transcription.\n\n## Revisit the whole supplied text\n\nUse supported discoveries to reread all supplied target pages, including passages first considered clear. Keep materially changed spans and the image evidence for them. Repeat while a full pass yields supported changes; stop after a complete pass yields none, or at a stated time/cost or access limit. State actual coverage rather than claiming a complete collection pass after reading a selection.\n\nBefore presenting a reading as visually checked, inspect its complete final lines on the scan, including their beginnings and endings. Re-reading text or viewing a PDF layout is not this check. Mark remaining ambiguities and partial lines. A second look is a procedure, not proof that a reading is correct.\n\n## Preserve the correction boundary\n\nRecord user corrections verbatim and separately from independent predictions. A corrected fragment does not confirm the rest of a page. Preserve user question marks and unusual spelling. When a user identifies a letter by date or opening, show its full current transcription with unresolved spans marked. Do not claim a correction was independently recognized or visually verified unless that separate check actually happened.\n\nFollow the task's output notation. Report missing images honestly. In an evaluation, receive only the assigned target scans, instructions and reference packet: never evaluator answers, previous errors or target corrections. Save initial and final readings, completion status, actual pass coverage and unresolved spans without exposing hidden chain-of-thought; brief source-tied change notes are sufficient.\n\nThe optional `test-material/` folder is for testing only and includes evaluator answers. Do not load it during ordinary transcription or expose its answers in a blind test. This skill makes no guaranteed accuracy claim and authorizes no external uploads or paid calls.\n",
+      "images": [
+        {
+          "role": "reference",
+          "sha256": "d6392f76a711be7dc9522ba075c5f6f9c421b443ae5020822ef3e9112d047b52",
+          "label": "Бабушка",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "reference",
+          "sha256": "384f7dd67cbc63cc4322d911baf59db42462b2db3192ec86b3a0cb7013de913c",
+          "label": "Коровки",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "reference",
+          "sha256": "a883233e6d8921e7d349e2828cfd1b4f1853ee4fd71cb928a7225cf494f5ffd8",
+          "label": "страданий",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "reference",
+          "sha256": "18c9de03cc011202d4d4e3353df79ce4062199bd81e76205f9a08545a6e5c82e",
+          "label": "заштриховать",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "reference",
+          "sha256": "4f26d9406628e76039729df99837f7404b626618508541a7e17e5bc80eb5057d",
+          "label": "обязательно",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "reference",
+          "sha256": "e8b40319dd1286cd8558d4e4016cc813b235bc355b3616c151a086b5a1cadf24",
+          "label": "англичане",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "target",
+          "sha256": "8e95e677c36c619a57a31c2ec2342613c0201940aa197b05c9a8bd45e92ce9b5"
+        }
+      ],
+      "references_mode": "verified-skill",
+      "skill_sha256": "88cbbd3cefb388cbcb1d972e3e55d03eb7b23492a87060b4dfbd6f4f7afeb740",
+      "transcription": "- там, пришел!\nтам, пришел\nТам, если\nВон, имена, имена или еще. меня забавляет\nдевять, как будто он не мама, а тетка.\n\n- Маночка, в воротах, что Спиалтин и сын\nодин, а кто не тогда мама?\n\n- Вибрации (вместо обращения)\n\n26/11-47г.\nЯ просил ее писать за что на Дивном\nи какни повара куски.\n- или можно делей общаться, а я буду звонить.\n\n- В меню сказали «вы уронно\nпередано», передано оказалось тамни,\nя ей вопрос - ожидание тебе на\n«Ви» выполнить, а она - имене но\nТелефон все на «Ви» назначен.",
+      "cost_usd": 0,
+      "usage": null,
+      "elapsed_seconds": 15.437880791999987
+    },
+    {
+      "id": "D02",
+      "condition": "G",
+      "status": "completed",
+      "prompt": "Transcribe only the TARGET image's requested scope, faithfully preserving Russian wording and spelling, including unusual forms. Use [unclear] for genuinely illegible text. Return only the transcription, without commentary. Transcribe the complete target image.\nApply these reading instructions:\n---\nname: read-handwriting\ndescription: Transcribe handwriting by alternating contextual hypotheses with checks of visible letters and complete lines. Can use a supplied reference packet, but does not require or automatically build one.\n---\n\n# Read handwriting against the image\n\nProduce a faithful transcription with visible uncertainty. Use the supplied scans and, optionally, a supplied handwriting reference packet. Work with any suitable vision model or tool-using host. A text-only host may review OCR candidates but must not claim to inspect letters it cannot see.\n\n## Read, compare, return to the strokes\n\nMake an initial reading of all supplied target pages, including initially difficult passages. Record missing sides, uncertain page order and writer changes. Preserve spelling, unusual words, child language and incomplete sentences. Do not replace them with more familiar prose.\n\nFor an uncertain span, propose a small set of readings from visible shapes and context. Compare each against the complete word: length, beginning, ending, joins and position in the line. Then reread the surrounding sentence and return to the image. Context proposes a hypothesis; the target strokes decide whether it survives. A fluent sentence is not sufficient evidence. If no reading is supported, retain an unknown span rather than choosing the most plausible story.\n\nWhen references are supplied, compare relevant same-writer forms with the target. Check their provisional labels against their own images; ignore a misleading example. Do not copy a reference passage into the target or treat an author's recurring word as proof it appears here. Without a packet, use the target's own visible repetitions when permitted. This skill does not automatically invoke extraction, fetch other documents or build a saved library.\n\nAvailable OCR readings are independent hypotheses. Check disagreements against the image, not by majority vote. Keep independent outputs when the task is an experiment. Do not call agreement or model confidence a verified transcription.\n\n## Revisit the whole supplied text\n\nUse supported discoveries to reread all supplied target pages, including passages first considered clear. Keep materially changed spans and the image evidence for them. Repeat while a full pass yields supported changes; stop after a complete pass yields none, or at a stated time/cost or access limit. State actual coverage rather than claiming a complete collection pass after reading a selection.\n\nBefore presenting a reading as visually checked, inspect its complete final lines on the scan, including their beginnings and endings. Re-reading text or viewing a PDF layout is not this check. Mark remaining ambiguities and partial lines. A second look is a procedure, not proof that a reading is correct.\n\n## Preserve the correction boundary\n\nRecord user corrections verbatim and separately from independent predictions. A corrected fragment does not confirm the rest of a page. Preserve user question marks and unusual spelling. When a user identifies a letter by date or opening, show its full current transcription with unresolved spans marked. Do not claim a correction was independently recognized or visually verified unless that separate check actually happened.\n\nFollow the task's output notation. Report missing images honestly. In an evaluation, receive only the assigned target scans, instructions and reference packet: never evaluator answers, previous errors or target corrections. Save initial and final readings, completion status, actual pass coverage and unresolved spans without exposing hidden chain-of-thought; brief source-tied change notes are sufficient.\n\nThe optional `test-material/` folder is for testing only and includes evaluator answers. Do not load it during ordinary transcription or expose its answers in a blind test. This skill makes no guaranteed accuracy claim and authorizes no external uploads or paid calls.\n",
+      "images": [
+        {
+          "role": "reference",
+          "sha256": "870ab80073de4a9aa6c05fed9b12b90daee5cea8962d92fe6bdcdece2b318151",
+          "label": "Бабушка",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "reference",
+          "sha256": "7959ed44fc97b7593e124a03feef477810f13386872bccbcc0afcf6cafe35478",
+          "label": "молоко",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "reference",
+          "sha256": "99f219dd24c0808d50c0da7bee61d3371bc06e3ff3098a9d9d838ccfe2075b96",
+          "label": "страданий",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "reference",
+          "sha256": "e574236a0a3bdd67b18fb155cebeb083d42faf9615e9feb250203e55a4ed2706",
+          "label": "заштриховать ротик",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "reference",
+          "sha256": "f358906e99a5d31cc8be521b2c0c92c1343a25becdd439d00f8b44470ff16bf9",
+          "label": "обязательно",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "reference",
+          "sha256": "d393a22744575fd948fea3595ded1bd6a7a95ca0dcee75f0adb5fd9a34d85896",
+          "label": "англичане",
+          "status": "human-confirmed"
+        },
+        {
+          "role": "target",
+          "sha256": "8e95e677c36c619a57a31c2ec2342613c0201940aa197b05c9a8bd45e92ce9b5"
+        }
+      ],
+      "references_mode": "verified-plain",
+      "skill_sha256": "88cbbd3cefb388cbcb1d972e3e55d03eb7b23492a87060b4dfbd6f4f7afeb740",
+      "transcription": "Бабушка\nмолоко\nстраданий\nзаштриховать ротик\nобязательно\nангличане",
+      "cost_usd": 0,
+      "usage": null,
+      "elapsed_seconds": 10.111132457999929
+    },
+    {
+      "id": "D02",
+      "condition": "A",
+      "status": "error",
+      "prompt": "Transcribe only the TARGET image's requested scope, faithfully preserving Russian wording and spelling, including unusual forms. Use [unclear] for genuinely illegible text. Return only the transcription, without commentary. Transcribe the complete target image.",
+      "images": [
+        {
+          "role": "target",
+          "sha256": "8e95e677c36c619a57a31c2ec2342613c0201940aa197b05c9a8bd45e92ce9b5"
+        }
+      ],
+      "references_mode": null,
+      "skill_sha256": null,
+      "error": "gemma timeout/network failure; not retried",
+      "elapsed_seconds": 180.08014979099994
+    }
+  ],
+  "scope": "six full diary pages and three resolved Popov excerpts; Grok mini-panel D01/L01/L13",
+  "pricing_basis": "DeepSeek peak input0.30 cached0.006 output1.20; Grok provider-reported ticks; no inference tools. Limits reserve prior unreported timeout $0.25."
+}

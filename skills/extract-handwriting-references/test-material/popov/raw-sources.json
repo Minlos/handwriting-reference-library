@@ -1,0 +1,164 @@
+[
+  {
+    "letter": "L02",
+    "id": "L02-I04",
+    "url": "https://minlos.site/letters/scans/L02-I04.jpg",
+    "sha256": "cd5d69eb7040199bd7853adee2b6c846e22f85dfdba1e48a06c60e06e6e6ac96"
+  },
+  {
+    "letter": "L02",
+    "id": "L02-I05",
+    "url": "https://minlos.site/letters/scans/L02-I05.jpg",
+    "sha256": "80921e0573e50e0d4790a4dfff2e80bc2133fdf9710736947c28afd2a2383df2"
+  },
+  {
+    "letter": "L03",
+    "id": "L03-I06",
+    "url": "https://minlos.site/letters/scans/L03-I06.jpg",
+    "sha256": "02f9b93b4e3e1b04be1522d0b1c39910ccac18ce189fb7ea394551c1eb8faadf"
+  },
+  {
+    "letter": "L03",
+    "id": "L03-I07",
+    "url": "https://minlos.site/letters/scans/L03-I07.jpg",
+    "sha256": "024151f93b64e5ab01bba517cdf3eefc3e38dcf3b26e5305bb9dbdff9ab994de"
+  },
+  {
+    "letter": "L04",
+    "id": "L04-I08",
+    "url": "https://minlos.site/letters/scans/L04-I08.jpg",
+    "sha256": "82f0268e5d6a28f82a2d1472c12b30703113f7a23e0e0dbd835f098088a6d2d8"
+  },
+  {
+    "letter": "L04",
+    "id": "L04-I09",
+    "url": "https://minlos.site/letters/scans/L04-I09.jpg",
+    "sha256": "097361c94293ca4e578edc2646823cb2147a14e890f522eae9f22b3a1d23faac"
+  },
+  {
+    "letter": "L05",
+    "id": "L05-I10",
+    "url": "https://minlos.site/letters/scans/L05-I10.jpg",
+    "sha256": "59738329adadca81239a673e7ba3570809c0b78ccb0594e66f6c1d88a743b35e"
+  },
+  {
+    "letter": "L05",
+    "id": "L05-I11",
+    "url": "https://minlos.site/letters/scans/L05-I11.jpg",
+    "sha256": "f60ad9200c6333ded3904d4453ab1ab826a3f2ca0448279dc3ecf236182161c0"
+  },
+  {
+    "letter": "L06",
+    "id": "L06-I12",
+    "url": "https://minlos.site/letters/scans/L06-I12.jpg",
+    "sha256": "eaf509a81136445dbfbe129360fb9043da251ba0f74d52fd72a539d07bcdac97"
+  },
+  {
+    "letter": "L06",
+    "id": "L06-I13",
+    "url": "https://minlos.site/letters/scans/L06-I13.jpg",
+    "sha256": "57270866fa68c9fa9224294b2db4fff57ebe8e975e071ad81c92de945da6cdf1"
+  },
+  {
+    "letter": "L07",
+    "id": "L07-I14",
+    "url": "https://minlos.site/letters/scans/L07-I14.jpg",
+    "sha256": "3532950a40aabced79ab22aacfdd0523080fc4c6721b219565b59652e950c6e6"
+  },
+  {
+    "letter": "L07",
+    "id": "L07-I15",
+    "url": "https://minlos.site/letters/scans/L07-I15.jpg",
+    "sha256": "ade9173b0cac6d7e595f695bb0146597c9c8c77a4d3de541a4d4043ee124069c"
+  },
+  {
+    "letter": "L08",
+    "id": "L08-I16",
+    "url": "https://minlos.site/letters/scans/L08-I16.jpg",
+    "sha256": "943538809c8cc207e153bbf8b9818e242e61b3460108a686a617d42d55976f51"
+  },
+  {
+    "letter": "L08",
+    "id": "L08-I17",
+    "url": "https://minlos.site/letters/scans/L08-I17.jpg",
+    "sha256": "266bb1396b581b7b402ce92f5608bfc1942811ed583fef9cfc1654f913f85ca6"
+  },
+  {
+    "letter": "L10",
+    "id": "L10-I20",
+    "url": "https://minlos.site/letters/scans/L10-I20.jpg",
+    "sha256": "091b4acfa68579638ddda1c2b94b9f36a64d6acd21dff8d092b1d4e160d3a135"
+  },
+  {
+    "letter": "L10",
+    "id": "L10-I21",
+    "url": "https://minlos.site/letters/scans/L10-I21.jpg",
+    "sha256": "f043e51125c312cd39132aa542a4a0671d1b91d6d7f5c70c54afb329f54429e9"
+  },
+  {
+    "letter": "L11",
+    "id": "L11-I22",
+    "url": "https://minlos.site/letters/scans/L11-I22.jpg",
+    "sha256": "b83b8eeb8f0cdd0783b2e17943b5c9762253cb8ef438747eaba65e70dc0f6ee2"
+  },
+  {
+    "letter": "L11",
+    "id": "L11-I23",
+    "url": "https://minlos.site/letters/scans/L11-I23.jpg",
+    "sha256": "e272ce8690fb60ac26ce894b6dbcddd6fbefd7be146fcc8658816227570a5864"
+  },
+  {
+    "letter": "L12",
+    "id": "L12-I24",
+    "url": "https://minlos.site/letters/scans/L12-I24.jpg",
+    "sha256": "a915e36ef8aed1f530d40ea1acef84b388922da87d00427404be33029f9e6fee"
+  },
+  {
+    "letter": "L12",
+    "id": "L12-I25",
+    "url": "https://minlos.site/letters/scans/L12-I25.jpg",
+    "sha256": "25a5c1d93740f8bbd2f5727fb96ba3c07498b955c830a21f73939a7cd392fdcc"
+  },
+  {
+    "letter": "L14",
+    "id": "L14-I28",
+    "url": "https://minlos.site/letters/scans/L14-I28.jpg",
+    "sha256": "4740105dbd65695721561b23c64e0c8706f3dc39b02fdc1872ec67125309c315"
+  },
+  {
+    "letter": "L14",
+    "id": "L14-I29",
+    "url": "https://minlos.site/letters/scans/L14-I29.jpg",
+    "sha256": "3b75a7495e2cbe59d63cb19a0cd80ea751d05d21c839d0143f7adae3944bd044"
+  },
+  {
+    "letter": "L15",
+    "id": "L15-I30",
+    "url": "https://minlos.site/letters/scans/L15-I30.jpg",
+    "sha256": "3bc13fc295a54d02cb8ac527d24fa601b0c8c992b2883d7e6797b71b6050cfab"
+  },
+  {
+    "letter": "L15",
+    "id": "L15-I31",
+    "url": "https://minlos.site/letters/scans/L15-I31.jpg",
+    "sha256": "32477a71b5edd973f92f0a9b2a85fc67b7fd801d048df274400011aee9ecd843"
+  },
+  {
+    "letter": "L16",
+    "id": "L16-I32",
+    "url": "https://minlos.site/letters/scans/L16-I32.jpg",
+    "sha256": "72c82dde52982297fd5ceeb8a322d720f72410da2ba66d993d253b4fc0332180"
+  },
+  {
+    "letter": "L16",
+    "id": "L16-I33",
+    "url": "https://minlos.site/letters/scans/L16-I33.jpg",
+    "sha256": "c52f34848775ae96ab5669614867308a7779ad2e1dab83e7db49139ca67ccaff"
+  },
+  {
+    "letter": "L17",
+    "id": "L17-I34",
+    "url": "https://minlos.site/letters/scans/L17-I34.jpg",
+    "sha256": "f76a6d773db25ca45c266ac3fe17492d422d87e6c5c78ad0fdd895fbdac684ad"
+  }
+]

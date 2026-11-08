@@ -1,6 +1,6 @@
 # Research and earlier tools
 
-Start with [measured results](evaluations/comparison.md) or the [new two-skill letter test plan](evaluations/LETTERS-TWO-SKILLS.md). The new standalone skills have no model-test results yet.
+Start with [measured results](evaluations/comparison.md) or the [new two-skill letter test plan](evaluations/LETTERS-TWO-SKILLS.md). The standalone skills now have [separate pilot results](evaluations/two-standalone-skills/README.md).
 
 - [evaluations/](evaluations/) — saved results, raw replies and frozen skill snapshots.
 - [handoffs/](handoffs/) — reproducible experiment instructions and scoring.

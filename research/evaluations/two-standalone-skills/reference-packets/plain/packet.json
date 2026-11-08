@@ -1,0 +1,480 @@
+{
+  "collections": {
+    "diary": {
+      "coverage": [
+        {
+          "source_id": "P04",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "P06",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; also inspected at larger full-page scale."
+        },
+        {
+          "source_id": "P07",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; also inspected at larger full-page scale."
+        }
+      ],
+      "examples": [
+        {
+          "source_id": "P06",
+          "bbox_xyxy": [
+            242,
+            142,
+            374,
+            207
+          ],
+          "label": "Папа",
+          "status": "provisional",
+          "crop_file": "diary-01.png",
+          "uncertainty": "Visual reading of raw handwriting only; unverified by human or independent transcription. Word boundaries and inflection may be wrong.",
+          "crop_inspected": true,
+          "crop_sha256": "00987e76e0e8536879619be3fbb364715c4c9a6ce2fbb552deec1e995e7a06d9"
+        },
+        {
+          "source_id": "P06",
+          "bbox_xyxy": [
+            246,
+            724,
+            421,
+            793
+          ],
+          "label": "Мама",
+          "status": "provisional",
+          "crop_file": "diary-02.png",
+          "uncertainty": "Visual reading of raw handwriting only; unverified by human or independent transcription. Word boundaries and inflection may be wrong.",
+          "crop_inspected": true,
+          "crop_sha256": "90e4d5e27152c852e59541c5c19212090f3ff99ab62a120b20c5211ec34c2e5d"
+        },
+        {
+          "source_id": "P06",
+          "bbox_xyxy": [
+            1118,
+            867,
+            1391,
+            951
+          ],
+          "label": "говоришь",
+          "status": "provisional",
+          "crop_file": "diary-03.png",
+          "uncertainty": "Visual reading of raw handwriting only; unverified by human or independent transcription. Word boundaries and inflection may be wrong.",
+          "crop_inspected": true,
+          "crop_sha256": "28ec861b0c6caf839ed29a1cb64c0bbe0aa390aa22d525d29dc84f589358078b"
+        },
+        {
+          "source_id": "P07",
+          "bbox_xyxy": [
+            743,
+            661,
+            980,
+            726
+          ],
+          "label": "мамочка",
+          "status": "provisional",
+          "crop_file": "diary-04.png",
+          "uncertainty": "Visual reading of raw handwriting only; unverified by human or independent transcription. Word boundaries and inflection may be wrong.",
+          "crop_inspected": true,
+          "crop_sha256": "048983d346f879440661a9ad0b7544977a4bf29feb279c1508e2e73b73f80ef6"
+        },
+        {
+          "source_id": "P07",
+          "bbox_xyxy": [
+            1116,
+            921,
+            1412,
+            1000
+          ],
+          "label": "спокойный",
+          "status": "provisional",
+          "crop_file": "diary-05.png",
+          "uncertainty": "Visual reading of raw handwriting only; unverified by human or independent transcription. Word boundaries and inflection may be wrong. Crop includes small neighboring-line descenders at top.",
+          "crop_inspected": true,
+          "crop_sha256": "8492d83162d53acba32c5b52283adcbbcdafe7330b7d52e0b95b9d98a7abdf4b"
+        },
+        {
+          "source_id": "P07",
+          "bbox_xyxy": [
+            1507,
+            1658,
+            1779,
+            1758
+          ],
+          "label": "фашистами",
+          "status": "provisional",
+          "crop_file": "diary-06.png",
+          "uncertainty": "Visual reading of raw handwriting only; unverified by human or independent transcription. Word boundaries and inflection may be wrong.",
+          "crop_inspected": true,
+          "crop_sha256": "e7c24c62d9c93e78be3df3be928c41d457ddd66bffa54f86d081ef05a473eb04"
+        }
+      ],
+      "limitations": "Coverage means visual inspection, mostly overview scale; it does not imply complete reading. Labels are provisional and no accuracy has been measured.",
+      "coverage_summary": {
+        "supplied_images": 3,
+        "visually_inspected_images": 3,
+        "full_page_larger_scale_images": 2,
+        "selected_examples": 6
+      }
+    },
+    "letters": {
+      "coverage": [
+        {
+          "source_id": "L02-I04",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L02-I05",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L03-I06",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L03-I07",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L04-I08",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L04-I09",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L05-I10",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L05-I11",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L06-I12",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L06-I13",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L07-I14",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L07-I15",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L08-I16",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L08-I17",
+          "image_size": [
+            1800,
+            1350
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L10-I20",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L10-I21",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L11-I22",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L11-I23",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L12-I24",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L12-I25",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L14-I28",
+          "image_size": [
+            1800,
+            1350
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L14-I29",
+          "image_size": [
+            1800,
+            1350
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L15-I30",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; also inspected at larger full-page scale."
+        },
+        {
+          "source_id": "L15-I31",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L16-I32",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; also inspected at larger full-page scale."
+        },
+        {
+          "source_id": "L16-I33",
+          "image_size": [
+            1800,
+            1350
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        },
+        {
+          "source_id": "L17-I34",
+          "image_size": [
+            1800,
+            2400
+          ],
+          "inspected": true,
+          "inspection": "Whole supplied side visually inspected in labeled contact sheet; overview scale only; not read line by line."
+        }
+      ],
+      "examples": [
+        {
+          "source_id": "L16-I32",
+          "bbox_xyxy": [
+            525,
+            218,
+            738,
+            287
+          ],
+          "label": "Дорогая",
+          "status": "provisional",
+          "crop_file": "letters-01.png",
+          "uncertainty": "Visual reading of raw handwriting only; unverified by human or independent transcription. Word boundaries and inflection may be wrong.",
+          "crop_inspected": true,
+          "crop_sha256": "6dd612e7d4f83110f17bd81543ec3f52b5a3dd4f22e24fb4f4be2c23ac9363dc"
+        },
+        {
+          "source_id": "L16-I32",
+          "bbox_xyxy": [
+            755,
+            216,
+            951,
+            293
+          ],
+          "label": "Надюша",
+          "status": "provisional",
+          "crop_file": "letters-02.png",
+          "uncertainty": "Visual reading of raw handwriting only; unverified by human or independent transcription. Word boundaries and inflection may be wrong.",
+          "crop_inspected": true,
+          "crop_sha256": "8b97e8f47e2b8a073ee9e3dd4361e328af4ad65c37d8d54f9befa413c2749272"
+        },
+        {
+          "source_id": "L16-I32",
+          "bbox_xyxy": [
+            695,
+            1650,
+            1254,
+            1728
+          ],
+          "label": "большое спасибо",
+          "status": "provisional",
+          "crop_file": "letters-03.png",
+          "uncertainty": "Visual reading of raw handwriting only; unverified by human or independent transcription. Word boundaries and inflection may be wrong.",
+          "crop_inspected": true,
+          "crop_sha256": "6a4df4b5d7ce7e698af86c813a156964cced40db0e2a0a40ac2988d63e136bde"
+        },
+        {
+          "source_id": "L15-I30",
+          "bbox_xyxy": [
+            929,
+            484,
+            1155,
+            549
+          ],
+          "label": "Москве",
+          "status": "provisional",
+          "crop_file": "letters-04.png",
+          "uncertainty": "Visual reading of raw handwriting only; unverified by human or independent transcription. Word boundaries and inflection may be wrong. A neighboring-line mark overlaps the upper edge.",
+          "crop_inspected": true,
+          "crop_sha256": "13c62f2943100ba84ddc4a9ba16442eafdafa52285436aa2e8bf4893dff88e48"
+        },
+        {
+          "source_id": "L15-I30",
+          "bbox_xyxy": [
+            850,
+            559,
+            1032,
+            618
+          ],
+          "label": "домой",
+          "status": "provisional",
+          "crop_file": "letters-05.png",
+          "uncertainty": "Visual reading of raw handwriting only; unverified by human or independent transcription. Word boundaries and inflection may be wrong.",
+          "crop_inspected": true,
+          "crop_sha256": "e2d4dd77612fedf274e8e219a543128d6f9181bbee6a23b3759a1feb0dc14e6d"
+        },
+        {
+          "source_id": "L15-I30",
+          "bbox_xyxy": [
+            807,
+            1754,
+            1003,
+            1834
+          ],
+          "label": "Целую",
+          "status": "provisional",
+          "crop_file": "letters-06.png",
+          "uncertainty": "Visual reading of raw handwriting only; unverified by human or independent transcription. Word boundaries and inflection may be wrong.",
+          "crop_inspected": true,
+          "crop_sha256": "3a48ece9e99337340e45fbd1331578bbf2735790d80e5bbac5b4ce5fc17e59db"
+        }
+      ],
+      "limitations": "Coverage means visual inspection, mostly overview scale; it does not imply complete reading. Labels are provisional and no accuracy has been measured.",
+      "coverage_summary": {
+        "supplied_images": 27,
+        "visually_inspected_images": 27,
+        "full_page_larger_scale_images": 2,
+        "selected_examples": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,717 @@
+{
+  "coordinate_convention": "Integer xyxy in supplied image pixels; top-left origin; exclusive right/bottom. Original pixels, no additional rotation.",
+  "collections": {
+    "diary": {
+      "coverage": [
+        {
+          "source_id": "P04",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "1ffb3dac6cefccc7eadc25cbe73871e3ea8ffdd277bbf55570100b9f59a9e96d",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 270,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey plus larger full-page source view",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "diary-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "P06",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "5cfb44b6b672fdb67e6d0a1019d9f25ff8ec146eaeba459760fa1cd038e1c4cb",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 270,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey plus larger full-page source view",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "diary-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "P07",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "8c41436e6ed2543005b56269778fe12cb238c6449fedd36d49a302b2aebaa5b9",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 270,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey plus larger full-page source view",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "diary-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        }
+      ],
+      "examples": [
+        {
+          "source_id": "P04",
+          "bbox_xyxy": [
+            571,
+            258,
+            828,
+            349
+          ],
+          "label": "Бабушка",
+          "status": "provisional",
+          "crop_file": "diary-01.png",
+          "writer_id": "diary-writer-1",
+          "uncertainty": "Automatic visual reading only; no human confirmation. No equally supported alternative retained after crop/source review.",
+          "unresolved_alternatives": [],
+          "crop_rotation_ccw": 0,
+          "crop_inspected": true,
+          "review": "Actual crop inspected against source; complete word/phrase beginning and ending visible. No supported label change after review.",
+          "crop_sha256": "4b55412237a857406948120359f46e94c42e535c8a00c1a86757e351fc152c04"
+        },
+        {
+          "source_id": "P04",
+          "bbox_xyxy": [
+            970,
+            617,
+            1171,
+            675
+          ],
+          "label": "молоко",
+          "status": "provisional",
+          "crop_file": "diary-02.png",
+          "writer_id": "diary-writer-1",
+          "uncertainty": "Automatic visual reading only; no human confirmation. No equally supported alternative retained after crop/source review.",
+          "unresolved_alternatives": [],
+          "crop_rotation_ccw": 0,
+          "crop_inspected": true,
+          "review": "Actual crop inspected against source; complete word/phrase beginning and ending visible. No supported label change after review.",
+          "crop_sha256": "1d01d75774b9c7a93ef62c267dde9fd4d3a9f323c62ee3e1a11d9c9117f1f848"
+        },
+        {
+          "source_id": "P06",
+          "bbox_xyxy": [
+            547,
+            1184,
+            872,
+            1263
+          ],
+          "label": "картинки",
+          "status": "provisional",
+          "crop_file": "diary-03.png",
+          "writer_id": "diary-writer-1",
+          "uncertainty": "Automatic visual reading only; no human confirmation. No equally supported alternative retained after crop/source review.",
+          "unresolved_alternatives": [],
+          "crop_rotation_ccw": 0,
+          "crop_inspected": true,
+          "review": "Actual crop inspected against source; complete word/phrase beginning and ending visible. No supported label change after review.",
+          "crop_sha256": "dc5ee880387c328bb6e22844589c133f496ed8c9242df4b871a2f42a5e4c9bd0"
+        },
+        {
+          "source_id": "P06",
+          "bbox_xyxy": [
+            1126,
+            1328,
+            1355,
+            1416
+          ],
+          "label": "ротик",
+          "status": "provisional",
+          "crop_file": "diary-04.png",
+          "writer_id": "diary-writer-1",
+          "uncertainty": "Automatic visual reading only; no human confirmation. No equally supported alternative retained after crop/source review.",
+          "unresolved_alternatives": [],
+          "crop_rotation_ccw": 0,
+          "crop_inspected": true,
+          "review": "Actual crop inspected against source; complete word/phrase beginning and ending visible. No supported label change after review.",
+          "crop_sha256": "9c205ac2a105536e54b90a0a4cd8d31dac14a2f765c6d691716146ee42254604"
+        },
+        {
+          "source_id": "P07",
+          "bbox_xyxy": [
+            596,
+            1504,
+            838,
+            1578
+          ],
+          "label": "Мамочка",
+          "status": "provisional",
+          "crop_file": "diary-05.png",
+          "writer_id": "diary-writer-1",
+          "uncertainty": "Automatic visual reading only; no human confirmation. No equally supported alternative retained after crop/source review.",
+          "unresolved_alternatives": [],
+          "crop_rotation_ccw": 0,
+          "crop_inspected": true,
+          "review": "Actual crop inspected against source; complete word/phrase beginning and ending visible. No supported label change after review.",
+          "crop_sha256": "a72d152d6742f8fa8be1299905531ca57b4cd224cebe18495d791dc93cc91082"
+        },
+        {
+          "source_id": "P07",
+          "bbox_xyxy": [
+            1505,
+            1667,
+            1783,
+            1775
+          ],
+          "label": "фашистами",
+          "status": "provisional",
+          "crop_file": "diary-06.png",
+          "writer_id": "diary-writer-1",
+          "uncertainty": "Automatic visual reading only; no human confirmation. No equally supported alternative retained after crop/source review.",
+          "unresolved_alternatives": [],
+          "crop_rotation_ccw": 0,
+          "crop_inspected": true,
+          "review": "Actual crop inspected against source; complete word/phrase beginning and ending visible. No supported label change after review.",
+          "crop_sha256": "0db2979dfdc6efcac5cde1ecd9f44cdb99f7b3c6f40e7b8f117ef77fa318ab62"
+        }
+      ],
+      "coverage_summary": {
+        "supplied": 3,
+        "visually_surveyed": 3,
+        "larger_source_views": 3,
+        "examples": 6
+      },
+      "writer_notes": "Kept independent from other collection. Identity assigned from supplied grouping, not addresses alone; visual attribution remains provisional.",
+      "selection_limits": "Six examples selected for useful shapes and legibility; faded, crossed-out, fold-obscured and repetitive names/addresses omitted. No full transcription claim."
+    },
+    "letters": {
+      "coverage": [
+        {
+          "source_id": "L02-I04",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "9c8aa944ed8b710ae9f26f26df3e90e43d67ded965cba7317e18d9289539a0e1",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L02-I05",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "62ef95da5c910316bd229c8f2fadbb86e2b4a10d4601fd10ec22d67baf9460db",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L03-I06",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "8dd9b9db60f81a3bdf625605ad5220d6f020d7fe944d22bfedd25b4bb50d5d32",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L03-I07",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "b2b2699f9194db7744cd2b136f3b5f8b0ce537fc47a599f5809684b3caf44bac",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L04-I08",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "e7e287237ffa9fe051817ad6c6cce1526250aa88a074a30f3beb39cdaf91c4de",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L04-I09",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "4cc38d98b3bf30e253470ba3efba6230665826701e81890b2ba88b1c1c5755f3",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L05-I10",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "f16d2144d5bac2361264b712138235c14027ce3de6f37c532e02e2343832a847",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L05-I11",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "cd7fb355249c651a768849c3139a2c5a7218a1edb37958ef4c0cff1db1a487e8",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L06-I12",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "4f0de8cbb95e8d1a0ff5ea690c66456427fff850fd50012811d1953e77eb4634",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L06-I13",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "9dad62f0a6aef735fceb649551b4d0af86f22fa87d39701f855b67d81b81faa5",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L07-I14",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "5536a192d07d8a0f91dfa5a1d22564f6c7baf5b563db1dbd881b39cf22657a58",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L07-I15",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "5390736c39dec442116e4c11262b5af7eaad4d4c6537ffe4da56ad35348bd0d7",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L08-I16",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "a641e250e129a4f504b58772f2052e5a84c649a5bda9b32dbfb15d87b67d4a53",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey plus larger full-page source view",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L08-I17",
+          "supplied_size": [
+            1800,
+            1350
+          ],
+          "supplied_sha256": "24fe6f186bf154771353c7c0345499f5e363997178a2e1c1b56e0fe1bd82696e",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L10-I20",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "425f67e2155133f975b08b80e3794b0f8a766670192ba0a1050e557a04fb8be7",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L10-I21",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "8cf5df91498efea6a0245d909f6828b3178dc3d26a656721ab86bb225d39870b",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L11-I22",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "48a87fb8fdc1df7c655b86c68665745c70725fb2315b23dedeeee4d8c473a378",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L11-I23",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "b554c0d9762ef27ff714bb38653f0f9b193acf9884f21491e90d15c264ed62ea",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L12-I24",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "8398d5f86dba6382ac42169230717aa220fb1e656de691d1341d79a5948eb1e3",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L12-I25",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "065c69f813e6ed00408dbbe1baf2ad65f385eedb65446f0eb70857e30f16430d",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L14-I28",
+          "supplied_size": [
+            1800,
+            1350
+          ],
+          "supplied_sha256": "47a13a54a46b756140ec1ac523beca4fd0d3e047edbf6f1fbfc3b9a3714ecc26",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L14-I29",
+          "supplied_size": [
+            1800,
+            1350
+          ],
+          "supplied_sha256": "8f0fd754423f8b9c49504759aa3d5049b81bd7aaf4fe9bcf9f087289e6d585bb",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L15-I30",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "feb5dd4f329e84e43492165191c9651f2800971acb4e2b3a05befcd2c8bbda0d",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey plus larger full-page source view",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L15-I31",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "525ac8feadb558378fd57e6409594aa384ee64ed41f56d9e6b7c51bdeffd2e3d",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L16-I32",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "0ae96f9f4e512e7f5e0f94b8965e397fd2cf6f35d12af3c229ecfbc1e33dd643",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey plus larger full-page source view",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L16-I33",
+          "supplied_size": [
+            1800,
+            1350
+          ],
+          "supplied_sha256": "59718da5c1ba4d9dc622dc55d9dd9084d2d76798c4659ec047fcea9b3e8d46d2",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        },
+        {
+          "source_id": "L17-I34",
+          "supplied_size": [
+            1800,
+            2400
+          ],
+          "supplied_sha256": "0045ab209baa7eeda050090ed861fd0b064e6b39fffa09fd85db31258308f314",
+          "manifest_hash_matches": true,
+          "source_rotation_ccw_from_manifest": 0,
+          "inspected": true,
+          "inspection_level": "600-pixel-width full-page visual survey",
+          "reading_coverage": "Visible text provisionally surveyed; not a word-by-word transcription.",
+          "writer_id": "letters-writer-1",
+          "writer_attribution_status": "provisional collection grouping"
+        }
+      ],
+      "examples": [
+        {
+          "source_id": "L08-I16",
+          "bbox_xyxy": [
+            613,
+            242,
+            957,
+            316
+          ],
+          "label": "обнимаю",
+          "status": "provisional",
+          "crop_file": "letters-01.png",
+          "writer_id": "letters-writer-1",
+          "uncertainty": "Automatic visual reading only; no human confirmation. No equally supported alternative retained after crop/source review.",
+          "unresolved_alternatives": [],
+          "crop_rotation_ccw": 0,
+          "crop_inspected": true,
+          "review": "Actual crop inspected against source; complete word/phrase beginning and ending visible. No supported label change after review.",
+          "crop_sha256": "ad4a4c45286613e74ab32dc6adbf44a50a4386f00a3b45cfc75d913f14338deb"
+        },
+        {
+          "source_id": "L08-I16",
+          "bbox_xyxy": [
+            1068,
+            763,
+            1338,
+            867
+          ],
+          "label": "голову",
+          "status": "provisional",
+          "crop_file": "letters-02.png",
+          "writer_id": "letters-writer-1",
+          "uncertainty": "Automatic visual reading only; no human confirmation. No equally supported alternative retained after crop/source review.",
+          "unresolved_alternatives": [],
+          "crop_rotation_ccw": 0,
+          "crop_inspected": true,
+          "review": "Actual crop inspected against source; complete word/phrase beginning and ending visible. No supported label change after review.",
+          "crop_sha256": "7f1e2c0385023789276dc06c2264bae42ea655adc55699ea1195791b7926e7c9"
+        },
+        {
+          "source_id": "L08-I16",
+          "bbox_xyxy": [
+            1039,
+            1175,
+            1305,
+            1250
+          ],
+          "label": "газеты",
+          "status": "provisional",
+          "crop_file": "letters-03.png",
+          "writer_id": "letters-writer-1",
+          "uncertainty": "Automatic visual reading only; no human confirmation. No equally supported alternative retained after crop/source review.",
+          "unresolved_alternatives": [],
+          "crop_rotation_ccw": 0,
+          "crop_inspected": true,
+          "review": "Actual crop inspected against source; complete word/phrase beginning and ending visible. No supported label change after review.",
+          "crop_sha256": "95ac4f2d67835c62838f58770a4d0b96b4d283e42d7aa817f62fbb61a11b72a0"
+        },
+        {
+          "source_id": "L15-I30",
+          "bbox_xyxy": [
+            1276,
+            1589,
+            1505,
+            1668
+          ],
+          "label": "письмо",
+          "status": "provisional",
+          "crop_file": "letters-04.png",
+          "writer_id": "letters-writer-1",
+          "uncertainty": "Automatic visual reading only; no human confirmation. No equally supported alternative retained after crop/source review.",
+          "unresolved_alternatives": [],
+          "crop_rotation_ccw": 0,
+          "crop_inspected": true,
+          "review": "Actual crop inspected against source; complete word/phrase beginning and ending visible. No supported label change after review.",
+          "crop_sha256": "da434f050f4f96f1940e0b0d071f75b4dc39f0b1b8d47483c5d77a6afd705956"
+        },
+        {
+          "source_id": "L15-I30",
+          "bbox_xyxy": [
+            672,
+            1659,
+            1104,
+            1763
+          ],
+          "label": "свободное время",
+          "status": "provisional",
+          "crop_file": "letters-05.png",
+          "writer_id": "letters-writer-1",
+          "uncertainty": "Automatic visual reading only; no human confirmation. No equally supported alternative retained after crop/source review.",
+          "unresolved_alternatives": [],
+          "crop_rotation_ccw": 0,
+          "crop_inspected": true,
+          "review": "Actual crop inspected against source; complete word/phrase beginning and ending visible. No supported label change after review.",
+          "crop_sha256": "f081ac5e20d7d68998a447fb5d59ccef82827b3ee59897c191cf71b1c151fa4d"
+        },
+        {
+          "source_id": "L16-I32",
+          "bbox_xyxy": [
+            695,
+            1642,
+            1247,
+            1730
+          ],
+          "label": "большое спасибо",
+          "status": "provisional",
+          "crop_file": "letters-06.png",
+          "writer_id": "letters-writer-1",
+          "uncertainty": "Automatic visual reading only; no human confirmation. No equally supported alternative retained after crop/source review.",
+          "unresolved_alternatives": [],
+          "crop_rotation_ccw": 0,
+          "crop_inspected": true,
+          "review": "Actual crop inspected against source; complete word/phrase beginning and ending visible. No supported label change after review.",
+          "crop_sha256": "89839a2ec471d1f0993e1c8033f332cb3a691919a195627821a784e87fbe4e6a"
+        }
+      ],
+      "coverage_summary": {
+        "supplied": 27,
+        "visually_surveyed": 27,
+        "larger_source_views": 3,
+        "examples": 6
+      },
+      "writer_notes": "Kept independent from other collection. Identity assigned from supplied grouping, not addresses alone; visual attribution remains provisional.",
+      "selection_limits": "Six examples selected for useful shapes and legibility; faded, crossed-out, fold-obscured and repetitive names/addresses omitted. No full transcription claim."
+    }
+  },
+  "limitations": [
+    "All labels provisional; no human confirmation, targets, gold, OCR or external sources used.",
+    "All 30 images inspected as 600-pixel-wide full-page survey views; six example source pages additionally inspected in larger full-page views. This is not complete transcription coverage.",
+    "No full-letter transcription supplied. Writer identity follows supplied collection grouping and is not independently verified.",
+    "Temporary survey sheets removed after inspection because filesystem became full. Saved crops and crop-review.png retained."
+  ]
+}
