@@ -26,3 +26,8 @@ The current collection workflow requires a provisional reading of every supplied
 Added a separate final line-by-line scan check. A plausible phrase, OCR agreement or a PDF layout check does not establish a handwriting reading. Check word length, visible letters/joins and the entire line opening and ending. Preserve human uncertainty verbatim and keep supplied corrections separate from independent recognition. Retrieve a letter by date/opening and present its complete current text for review.
 
 Added seven known behavioral cases and a saved-response scorer. The scorer's three unit checks pass; revised-skill model trials have not been run. These cases are diagnostics, not independent uplift evidence. Historical evaluation snapshots are unchanged. The repository entry guide now separates reading instructions from dataset and experiment files; the small download contains only three files.
+
+
+## Separate extraction and reading — 8 November 2026
+
+Extraction now hands off an auditable packet and does not reread target letters. The independent reading skill accepts an optional packet and does not automatically invoke extraction. Each downloadable package keeps tests under test-material/. The Popov-letter pilot uses uncorrected source letters and three corrected target letters, with a neutral-extractor control to isolate extraction instructions. No new model accuracy result is claimed.

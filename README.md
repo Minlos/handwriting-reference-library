@@ -2,11 +2,18 @@
 
 Read a whole collection, compare the writer’s recurring letter shapes, then reread it. Keep uncertain words visible and check the final text against the actual scan. This is a reusable workflow for suitable LLM hosts, not a trained OCR model or an accuracy guarantee.
 
-## Use the skill
+## Two independent skills
 
-**Start with [SKILL.md](SKILL.md).** It contains the reading instructions. Load only this file initially. Read [HOST.md](HOST.md) when the task needs crops, files or OCR tools. You do not need the experiment archive or the diary dataset to use the workflow on your own scans.
+| Skill | What it does | Download |
+|---|---|---|
+| [Extract handwriting references](skills/extract-handwriting-references/SKILL.md) | Reads the permitted source collection and selects source-tied examples with provisional labels. It does not transcribe the target letters. | [ZIP · 10.8 MiB](downloads/extract-handwriting-references.zip) |
+| [Read handwriting](skills/read-handwriting/SKILL.md) | Alternates contextual hypotheses with checks of actual words and complete lines. Works with or without a supplied reference packet. | [ZIP · 1.1 MiB](downloads/read-handwriting.zip) |
 
-The [small skill download](downloads/handwriting-skill.zip) contains these two files and a short entry guide — three files total. The [optional extraction skill](skills/extract-handwriting-references/SKILL.md) can also be used independently. Ollama helpers are optional experiments; they are not required and did not perform well on this diary.
+Each download has one `SKILL.md` at its root. Optional exercises, input images and evaluator-only answers live under `test-material/`. Load only the skill for normal work. Keep evaluator answers out of blind model input. Both are plain Markdown for suitable LLM hosts; neither requires GPT, Ollama or the other skill. These revised standalone skills have not yet been benchmarked.
+
+The [letter experiment plan](evaluations/LETTERS-TWO-SKILLS.md) separates reading instructions, automatic references and extraction instructions. Its corrected target letters are not included in the public downloads. The packaged diary examples are known diagnostics, not new held-out evidence.
+
+The earlier combined workflow remains at [SKILL.md](SKILL.md), with [HOST.md](HOST.md) for crops/files and the [older three-file download](downloads/handwriting-skill.zip). Historical experiments retain their original snapshots; do not attribute those scores to the new standalone skills. Ollama helpers are optional experiments and are not required.
 
 ## Find the right material
 
@@ -23,7 +30,7 @@ The repository also contains the family diary dataset, because the skill and its
 
 ## What has been demonstrated?
 
-On one three-page diary comparison, Sol with the skill **and earlier author examples** made 32 character errors, versus 55 for plain Sol (2.21% versus 3.80% CER; 41.8% fewer errors). This does not separate instructions from reference effects. On the six-page test, DeepSeek improved with references alone but not with the skill alone; Gemma regressed. These are small calibration experiments, not proof of a general improvement. New whole-collection and final-verification instructions have not yet been benchmarked.
+On one three-page diary comparison, Sol with the skill **and earlier author examples** made 32 character errors, versus 55 for plain Sol (2.21% versus 3.80% CER; 41.8% fewer errors). This does not separate instructions from reference effects. On the six-page test, DeepSeek improved with references alone but not with the skill alone; Gemma regressed in that test. In a separate matched comparison on pages 4 and 6, reading instructions alone reduced Gemma’s character errors by 12.4%. These are small calibration experiments, not proof of a general improvement. New whole-collection and final-verification instructions have not yet been benchmarked.
 
 ## Data and permissions
 

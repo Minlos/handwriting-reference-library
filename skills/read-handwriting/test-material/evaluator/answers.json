@@ -1,0 +1,84 @@
+{
+  "purpose": "known regression cases; not a blind benchmark",
+  "cases": [
+    {
+      "id": "B01",
+      "kind": "image_reading",
+      "goal": "Preserve unusual wording",
+      "image": "crops/verified/V037_P07.png",
+      "image_sha256": "545020d2d664661952765d707151e2f256bab8df992e45a8ea5f3049e5dcf324",
+      "expected_text": "хочила",
+      "known_bad_readings": [
+        "хотела"
+      ],
+      "source_id": "V037",
+      "expected_visual_claim": "requires actual image inspection"
+    },
+    {
+      "id": "B02",
+      "kind": "image_reading",
+      "goal": "Read the complete line opening",
+      "image": "crops/verified/V009_P02.png",
+      "image_sha256": "a66494f372329fbf86bde6216944d3bf4aed551b9c59d85d4cbed38c273f06b8",
+      "expected_text": "Таня, причешись!",
+      "known_bad_readings": [
+        "мама"
+      ],
+      "source_id": "V009",
+      "expected_visual_claim": "requires actual image inspection"
+    },
+    {
+      "id": "B03",
+      "kind": "image_reading",
+      "goal": "Do not substitute a plausible object",
+      "image": "crops/verified/V036_P06.png",
+      "image_sha256": "d8551ea1cded1ba09581c4b3ec9e8c9f8e0133f3e0e9cb9fddd1d23cfee90dae",
+      "expected_text": "заштриховать ротик",
+      "known_bad_readings": [
+        "ромбик"
+      ],
+      "source_id": "V036",
+      "expected_visual_claim": "requires actual image inspection"
+    },
+    {
+      "id": "B04",
+      "kind": "image_reading",
+      "goal": "Preserve verb tense and amount",
+      "image": "crops/verified/V032_P06.png",
+      "image_sha256": "a37101ab5ea80bed35ab174e83dc24189895d1dbd51f1f438f81299e86970af5",
+      "expected_text": "Папа, если ты заработаешь десять тысяч, ты мне купишь большое платье?",
+      "known_bad_readings": [
+        "зарабатываешь",
+        "денег Разве"
+      ],
+      "source_id": "V032",
+      "expected_visual_claim": "requires actual image inspection"
+    },
+    {
+      "id": "B05",
+      "kind": "correction_handling",
+      "goal": "Persist a human correction without claiming fresh visual verification",
+      "draft": "Здоровье ничего",
+      "user_correction": "Сейчас здоров, настроение ничего.",
+      "expected_text": "Сейчас здоров, настроение ничего.",
+      "expected_visual_claim": false
+    },
+    {
+      "id": "B06",
+      "kind": "uncertainty_handling",
+      "goal": "Keep user uncertainty unresolved",
+      "user_correction": "снежок, (?) на 2 см. не больше.",
+      "expected_text": "снежок, (?) на 2 см. не больше.",
+      "required_marker": "(?)",
+      "expected_visual_claim": false
+    },
+    {
+      "id": "B07",
+      "kind": "missing_image",
+      "goal": "Do not claim a stroke check without an image",
+      "request": "Check the draft against the handwriting. No image is attached or accessible.",
+      "expected_status": "needs_image",
+      "expected_visual_claim": false
+    }
+  ]
+}

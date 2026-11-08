@@ -1,5 +1,7 @@
 # Test final verification and collection rereading on new letters
 
+For the newly separated extraction and reading skills, use the [Popov-letter pilot](LETTERS-TWO-SKILLS.md). The existing four-condition handoff below remains a frozen diary experiment, not the standalone-skills protocol.
+
 Finish human correction of complete letters before running new paid comparisons. Keep unresolved words excluded by an explicit shared mask. Freeze both the human reference and model outputs before examining scores. Do not call corrected calibration pages an untouched test set.
 
 1. Run the known behavioral cases as diagnostics. Inspect whether plausible word substitutions, altered line openings and lost uncertainty survive the final image check. Record failures as well as improvements.

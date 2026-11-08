@@ -1,0 +1,1 @@
+Transcribe each supplied image region faithfully, preserving unusual wording. Return image filename, transcription and unresolved spans. Do not read evaluator files or search for transcripts. Do not assume that every label is known or that a plausible phrase matches the strokes.

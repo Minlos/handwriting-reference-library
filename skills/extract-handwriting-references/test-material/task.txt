@@ -1,0 +1,1 @@
+Inspect every supplied source image. Select useful, clear same-writer handwriting examples; provide actual crops when tools permit, labels, original source bounds, rotation and uncertainty. Work from the images only. Labels you infer are provisional. Do not read evaluator files or search for transcripts. Record source coverage, rejected examples and actual limitations.
