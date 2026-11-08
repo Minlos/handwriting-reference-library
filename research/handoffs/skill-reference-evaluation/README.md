@@ -20,8 +20,8 @@ The reference texts are corrected comparison copies, with editorial punctuation.
 Use Python 3.10+ with Pillow to validate and export:
 
 ```sh
-python3 handoffs/skill-reference-evaluation/prepare_inputs.py --validate-only
-python3 handoffs/skill-reference-evaluation/prepare_inputs.py --output /path/to/NEW_BLIND_PACKETS
+python3 research/handoffs/skill-reference-evaluation/prepare_inputs.py --validate-only
+python3 research/handoffs/skill-reference-evaluation/prepare_inputs.py --output /path/to/NEW_BLIND_PACKETS
 ```
 
 No network requests or model calls occur. The exporter verifies source and snapshot hashes, reproduces native target pixels and makes separate folders for each condition/page. Each contains task.txt, packet.json, the target image, and only its allowed skill/reference files. C/D include the same three 1800×2400 JPEG reference images and corrected reference texts. B/D include identical skill text. No gold, error log, author profile or target-derived examples are exported.
@@ -47,7 +47,7 @@ Copy [results-template.jsonl](results-template.jsonl) and fill the setup, exact 
 The evaluator-only gold/ files and hashes are frozen in protocol.json. The default six targets have no unresolved scoring masks. The unresolved page-6 word is in the *reference* material, not a target here. If a future protocol includes page 6 as a target, inspect its emitted unknown-word suffix and provide exact justified masks with the setup/model/trial/condition/page key; retain all known preceding text. Never edit gold or mask extra model errors after seeing scores.
 
 ```sh
-python3 handoffs/skill-reference-evaluation/score_results.py --predictions /path/to/results.jsonl --output /path/to/NEW_metrics.json
+python3 research/handoffs/skill-reference-evaluation/score_results.py --predictions /path/to/results.jsonl --output /path/to/NEW_metrics.json
 ```
 
 Reading CER uses NFC, collapsed whitespace, case folding and removal of Unicode punctuation; ё remains different from е. Literal CER retains case/punctuation. Word error counts are also saved per page. Aggregate by **summing edits and reference characters**, not averaging percentages. A condition gets a complete-set CER only when all six pages completed; failures and missing pages remain visible. Do not rank successful-only scores from different page subsets as if coverage matched.

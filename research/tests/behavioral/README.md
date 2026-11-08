@@ -8,7 +8,7 @@ Use a fresh context. For an image case, supply the actual image named by `image`
 
 For text-only cases, supply the request/draft and user correction where present. Do not attach an image. Ask for JSON fields `id`, `text`, `status` and `visually_checked`. Save the unchanged response. The model must not claim a visual check merely because corrected text is available.
 
-Evaluate saved responses with `python3 tools/score_behavioral_cases.py predictions.json`. Predictions must be a JSON list of records with those fields. The scorer reports character errors on image cases, exact correction/uncertainty preservation and false visual claims. It cannot verify that a model actually looked at the image; a reviewer must inspect disputed stroke comparisons.
+Evaluate saved responses with `python3 research/tools/score_behavioral_cases.py predictions.json`. Predictions must be a JSON list of records with those fields. The scorer reports character errors on image cases, exact correction/uncertainty preservation and false visual claims. It cannot verify that a model actually looked at the image; a reviewer must inspect disputed stroke comparisons.
 
 ## Cases
 

@@ -36,7 +36,7 @@ When corrections change a phrase boundary, recrop the whole phrase rather than t
 
 ## Keep experiments reproducible
 
-Freeze skill, reference set, target pixels, labels, masks, settings and output format before a run. Use fresh model contexts and expose only permitted inputs. Skill and reference access are independent conditions; the [evaluation handoff](handoffs/skill-reference-evaluation/README.md) defines the four-cell comparison. Keep OCR review or altered image presentation as separately named experiments.
+Freeze skill, reference set, target pixels, labels, masks, settings and output format before a run. Use fresh model contexts and expose only permitted inputs. Skill and reference access are independent conditions; the [evaluation handoff](../handoffs/skill-reference-evaluation/README.md) defines the four-cell comparison. Keep OCR review or altered image presentation as separately named experiments.
 
 Reserve truly new pages before library inspection when independent validation is intended. Existing inspected pages support calibration, not an untouched-test claim. A model told the corrected target text, including through a skill example, cannot later be called blind on it. User-approved comparison references and word-by-word independently verified labels are different evidence; record the acceptance basis.
 

@@ -2,7 +2,7 @@
 from pathlib import Path
 import json,hashlib,sys
 from PIL import Image,ImageChops
-root=Path(sys.argv[1]).resolve() if len(sys.argv)>1 else Path(__file__).resolve().parents[1]
+root=Path(sys.argv[1]).resolve() if len(sys.argv)>1 else Path(__file__).resolve().parents[2]/'library'
 manifest=json.loads((root/'source-manifest.json').read_text())
 entries=json.loads((root/'index.json').read_text())['entries']
 sources={s['source_filename']:s for s in manifest}

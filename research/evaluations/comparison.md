@@ -45,7 +45,7 @@ There are three usable page references here, not five complete references: pages
 
 All scans were previously inspected in this project. The two Sol agents have fresh contexts and were instructed to read only their allowed files; filesystem separation was by instruction, not operating-system enforcement. This is one trial on calibration pages, not an untouched benchmark or a promise of accuracy on the remaining diary.
 
-Evidence: [fresh Sol results](sol-matched-pages-4-6-7/metrics.json), [all-page Gemma and GLM results](gemma-pages-4-6-7/metrics.json), [original assistant](page-06-assistant/metrics.json), [Gemini + Vinnik](page-06-gemini-vinnik/metrics.json), [14-crop results](crop-results/).
+Evidence: [fresh Sol results](sol-matched-pages-4-6-7/metrics.json), [all-page Gemma and GLM results](gemma-pages-4-6-7/metrics.json), [original assistant](page-06-assistant/metrics.json), [Gemini + Vinnik](page-06-gemini-vinnik/metrics.json), [14-crop results](crop-results).
 
 An exact page-7 plain-Gemma retry also fails. A [plain-text recovery](gemma-pages-4-6-7/page-7-plain-text-recovery/README.md) completes with 25.48% CER. This uses changed generic instructions and no JSON schema, so it is reported separately from the original comparison.
 

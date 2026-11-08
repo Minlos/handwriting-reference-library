@@ -1,7 +1,7 @@
 import base64,hashlib,json,tempfile,unittest
 from pathlib import Path
 import sys
-sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'legacy-workflow'))
 from local_read import RunConfig,run_pipeline,validate_local_url
 from PIL import Image
 

@@ -4,7 +4,7 @@ from pathlib import Path
 from PIL import Image
 import argparse,io,json,hashlib,math
 HERE=Path(__file__).resolve().parent
-REPO=HERE.parents[1]
+REPO=HERE.parents[2]/'library'
 def sha(b):return hashlib.sha256(b).hexdigest()
 def checked(p,expected):
  raw=p.read_bytes()

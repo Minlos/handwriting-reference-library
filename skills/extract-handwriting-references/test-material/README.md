@@ -1,6 +1,6 @@
 # Optional test material
 
-These public diary examples are known diagnostics, not evidence of general improvement and not the new Popov-letter benchmark. The downloaded ZIP includes actual input images. In a source checkout, `inputs.json` maps them to existing repository files. The skill works without this folder.
+These public diary examples are known diagnostics, not evidence of general improvement and not the new Popov-letter benchmark. The `input/` subfolder contains the actual images; `inputs.json` records their source files. The skill works without this folder.
 
 Give a fresh tested model only `task.txt`, the actual `input/` images and, in the skill condition, the parent `SKILL.md`. Keep this README, `evaluator/`, source transcripts and the coordinator conversation out of its input. A no-skill condition gets the same task and images. Disable accidental inherited skill/reference access while preserving normal security controls.
 

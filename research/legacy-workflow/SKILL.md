@@ -29,7 +29,7 @@ Start from supplied scans when a saved library is absent. Clear words on the tar
 
 With image tools, crop complete examples from original pixels and inspect the crop boundaries before use. Re-crop clipped examples and discard blank or irrelevant regions. Keep source page, coordinates, rotation and proposed wording with each temporary example. Without cropping tools, compare visible regions in place and describe the actual capability used.
 
-Automatically assigned labels remain provisional until human confirmation. Crops can stay in the current workspace or memory; save a reusable library only when requested. Preserve tentative and unread spans in the requested output notation. Profiles are source-tied hypotheses, and confusing references can be ignored. A prompt-only model can compare only images the host actually supplies. Reference extraction can also run independently using [the extraction skill](skills/extract-handwriting-references/SKILL.md).
+Automatically assigned labels remain provisional until human confirmation. Crops can stay in the current workspace or memory; save a reusable library only when requested. Preserve tentative and unread spans in the requested output notation. Profiles are source-tied hypotheses, and confusing references can be ignored. A prompt-only model can compare only images the host actually supplies. Reference extraction can also run independently using [the extraction skill](../../skills/extract-handwriting-references/SKILL.md).
 
 ## Treat OCR and confidence as evidence to check
 
@@ -55,4 +55,4 @@ For blind tests with references from other pages, keep reference pages separate 
 
 This is plain Markdown for any suitable LLM host. Optional local backend instructions are in [LOCAL.md](LOCAL.md) and [OLLAMA.md](OLLAMA.md). Model suggestions remain subject to visual and human review.
 
-For maintainers, [behavioral cases](tests/behavioral/README.md) test concrete failure modes. They are known regression examples, not an untouched accuracy benchmark. Passing them does not establish general skill uplift.
+For maintainers, [behavioral cases](../tests/behavioral/README.md) test concrete failure modes. They are known regression examples, not an untouched accuracy benchmark. Passing them does not establish general skill uplift.

@@ -13,7 +13,7 @@ Requirements: Python 3.9 or newer, a running Ollama server, and an installed mod
 From this skill folder, replace `YOUR_VISION_MODEL`, paths, and reference IDs with values from your own library:
 
 ```sh
-python3 ollama_review.py --model YOUR_VISION_MODEL --image /path/to/target.png --library /path/to/your-library --reference V004 --reference V013 --output /path/to/suggestions/review.json
+python3 research/legacy-workflow/ollama_review.py --model YOUR_VISION_MODEL --image /path/to/target.png --library /path/to/your-library --reference V004 --reference V013 --output /path/to/suggestions/review.json
 ```
 
 This example sends the target crop plus two user-verified references to the local Ollama server. It reads `SKILL.md`, asks for visible evidence and unclear spans, and writes a new suggestion file. It does not edit the index or promote a label. It does not include the target's existing label in the request. The references help comparison; this is not an independent accuracy test.
@@ -55,7 +55,7 @@ This is a schema example, not a labeled manuscript sample. Replace the label, pa
 This repository includes the original diary photographs, index and crops beside `SKILL.md` and this helper. Run from the repository folder and pass `--library .`. For example:
 
 ```sh
-python3 ollama_review.py --model YOUR_VISION_MODEL --image sources/IMG_20261031_190010425.jpg --library . --reference V001 --reference V013 --output ollama-suggestions/page-5.json --dry-run
+python3 research/legacy-workflow/ollama_review.py --model YOUR_VISION_MODEL --image sources/IMG_20261031_190010425.jpg --library . --reference V001 --reference V013 --output ollama-suggestions/page-5.json --dry-run
 ```
 
-Remove `--dry-run` to contact your local Ollama server. The data use [CC BY 4.0](LICENSE-DATA.md); see the [README](README.md) for author attribution and evidence limits. The release ZIP contains the same combined folder. For a different manuscript, supply its own originals and reference library instead.
+Remove `--dry-run` to contact your local Ollama server. The data use [CC BY 4.0](../../library/LICENSE-DATA.md); see the [README](../../README.md) for author attribution and evidence limits. The release ZIP contains the same combined folder. For a different manuscript, supply its own originals and reference library instead.

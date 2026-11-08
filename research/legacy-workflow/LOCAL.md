@@ -1,6 +1,6 @@
 # Experimental local tests: Gemma + the skill + GLM-OCR
 
-This optional setup is for comparison, not a recommended diary-reading configuration. The [six-page results](evaluations/six-page-skill-reference/README.md) show substantial errors and no reliable benefit from the skill or reference pages in this Gemma setup.
+This optional setup is for comparison, not a recommended diary-reading configuration. The [six-page results](../evaluations/six-page-skill-reference/README.md) show substantial errors and no reliable benefit from the skill or reference pages in this Gemma setup.
 
 Gemma is the general image-reading LLM applying `SKILL.md`. GLM-OCR is its specialized OCR assistant. `local_read.py` is the host that reads files, prepares the image, calls the local models and saves results. It is a bounded three-stage workflow, not an autonomous agent that installs software, browses, trains or publishes. You can also load this skill into another local agent with equivalent tools.
 

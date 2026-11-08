@@ -39,7 +39,7 @@ Examples from the actual saved readings:
 
 All pages have already been inspected during this project. A single test on these three pages does not establish accuracy on unseen diary pages or prove which model is best in general. User-confirmed references preserve the wording, with editorial punctuation.
 
-Evidence: [raw model replies and exact requests](run.json), [per-page and aggregate CER, literal CER and word errors](metrics.json), [excluded final word](page-6-exclusions.json), [skill used](skill-used.md). Image hashes, source coordinates and rotations match the [source manifest](../sol-matched-pages-4-6-7/manifest.json). Reference texts are frozen from the [same Sol test references](../sol-matched-pages-4-6-7/).
+Evidence: [raw model replies and exact requests](run.json), [per-page and aggregate CER, literal CER and word errors](metrics.json), [excluded final word](page-6-exclusions.json), [skill used](skill-used.md). Image hashes, source coordinates and rotations match the [source manifest](../sol-matched-pages-4-6-7/manifest.json). Reference texts are frozen from the [same Sol test references](../sol-matched-pages-4-6-7).
 
 ## Page 7 retry
 
