@@ -17,6 +17,8 @@ Each skill folder contains `README.md`, `SKILL.md` and optional `test-material/`
 
 ## Evidence and tests
 
+[Rehand scores on the Popov excerpts](research/evaluations/rehand-popov/README.md): **14.07% CER**, competitive in this small comparison, with different full-page versus cropped inputs.
+
 One three-page Sol comparison with both instructions and earlier author examples produced 32 versus 55 character errors (2.21% versus 3.80% CER). This does not isolate the instruction effect. Gemma instructions alone reduced errors by 12.4% on two matched completed pages, but another six-page setup regressed. DeepSeek improved with references alone in that six-page test. These are small calibration experiments, not guaranteed gains or results for the new standalone skills. See the [results](research/evaluations/comparison.md).
 
 See the [separate two-skill results](research/evaluations/two-standalone-skills/README.md) for the new comparisons.

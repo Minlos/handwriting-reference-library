@@ -104,3 +104,7 @@ The reading experiment measures the outcome of supplying reading instructions to
 The public test folders contain actual Popov excerpt images, fixed scopes, source locations and evaluator-only answers. The extraction test folder lists the 27 permitted raw source URLs and hashes. The diary images and frozen original protocol remain in the library/research sections. Keep evaluator answers, previous predictions and other conditions out of the tested model context.
 
 Use research/tools/report_two_skills.py on saved run data to regenerate paired scores without model calls. The reporting tests check that failed cases cannot change a pair's population, that missing conditions have no score, that source and target letters do not overlap, and that fixture image hashes/dimensions match their recorded bounds. All 21 repository checks pass. These checks validate the materials and scoring, not model accuracy.
+
+## External OCR comparison added 9 November 2026
+
+[Rehand scored 14.07% CER](../rehand-popov/README.md) on the same 590 reference characters in the three Popov excerpts. It used saved full-page OCR at 1350×1800, whereas this pilot supplied cropped images to the LLMs. Matching text scopes do not make these identical-input tests. No new API call was made.
