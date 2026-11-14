@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://rehand.ru/",
+    "error": "HTTPSConnectionPool(host='rehand.ru', port=443): Read timed out. (read timeout=10)",
+    "seconds": 10.017265540998778
+  },
+  {
+    "url": "https://rehand.ru/api/v1/upload",
+    "error": "HTTPSConnectionPool(host='rehand.ru', port=443): Read timed out. (read timeout=10)",
+    "seconds": 10.119695708010113
+  }
+]

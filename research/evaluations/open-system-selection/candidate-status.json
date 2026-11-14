@@ -1,0 +1,50 @@
+{
+  "transkribus": {
+    "status": "completed",
+    "credits_before": 50,
+    "model": "Russian generic handwritten and typed1",
+    "model_id": 148545,
+    "collection": "My Transcriptions",
+    "title": "HWR200 matched nine scans - original bytes - 2026-11-14",
+    "input_files": [
+      "writer009.jpg",
+      "writer015.png",
+      "writer035.jpg",
+      "writer037.png",
+      "writer040.jpg",
+      "writer065.jpg",
+      "writer072.jpeg",
+      "writer080.jpg",
+      "writer153.jpg"
+    ],
+    "browser": "Chrome; user explicitly approved exception and enabled local-file access",
+    "credits_after": 41,
+    "job_id": 32001209,
+    "document_id": 20272181,
+    "collection_id": 2599539,
+    "server": "srv6105",
+    "pages": "1-9",
+    "ui_status": "Preprocessing data...",
+    "created_display": "Nov14 8:49PM user interface; timezone not assumed",
+    "pages_completed": 9,
+    "duration_seconds": 390.473,
+    "export_job_id": 32001301,
+    "original_exported_image_hashes_all_match": true,
+    "recognition": "Finished;9 unedited page TXT files imported and scored."
+  },
+  "calamari": {
+    "status": "not_run_no_applicable_checkpoint_identified",
+    "evidence": "https://github.com/Calamari-OCR/calamari_models",
+    "reason": "Official model catalog lists Latin/Fraktur/French/English printed-text models; no Russian handwriting checkpoint identified. Engine alone is not an applicable recognizer."
+  },
+  "rehand": {
+    "status": "blocked_server_errors",
+    "reason": "Browser UI returned server errors for two small originals and a larger2244\u00d73072 original. No matched recognition text returned. Direct HTTP attempt also timed out.",
+    "browser_attempt": "Exact original writer009.jpg submitted in Yandex; UI returned server error. Second original writer015.png submitted as an image-specific diagnostic; pending.",
+    "browser_failures": [
+      "writer009",
+      "writer015",
+      "writer035"
+    ]
+  }
+}

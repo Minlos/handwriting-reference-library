@@ -1,0 +1,38 @@
+{
+  "sol-skill_vs_sol": {
+    "paired_writer_bootstrap_repetitions": 10000,
+    "relative_error_reduction_percentile_2_5": -17.413162705667283,
+    "relative_error_reduction_percentile_97_5": 2.72934040940106,
+    "pages_better": 2,
+    "pages_equal": 1,
+    "pages_worse": 6,
+    "limitation": "Selected sample sensitivity; not repeat-run variance. Two writers share a source text; observations are not fully independent."
+  },
+  "astra-skill_vs_astra": {
+    "paired_writer_bootstrap_repetitions": 10000,
+    "relative_error_reduction_percentile_2_5": -97.57281553398059,
+    "relative_error_reduction_percentile_97_5": -12.836879432624105,
+    "pages_better": 3,
+    "pages_equal": 0,
+    "pages_worse": 6,
+    "limitation": "Selected sample sensitivity; not repeat-run variance. Two writers share a source text; observations are not fully independent."
+  },
+  "astra_vs_russian-crnn": {
+    "paired_writer_bootstrap_repetitions": 10000,
+    "relative_error_reduction_percentile_2_5": 30.179378337669448,
+    "relative_error_reduction_percentile_97_5": 88.1372656506962,
+    "pages_better": 8,
+    "pages_equal": 0,
+    "pages_worse": 1,
+    "limitation": "Selected sample sensitivity; not repeat-run variance. Two writers share a source text; observations are not fully independent."
+  },
+  "astra_vs_sol": {
+    "paired_writer_bootstrap_repetitions": 10000,
+    "relative_error_reduction_percentile_2_5": 32.58536585365853,
+    "relative_error_reduction_percentile_97_5": 72.13986013986013,
+    "pages_better": 9,
+    "pages_equal": 0,
+    "pages_worse": 0,
+    "limitation": "Selected sample sensitivity; not repeat-run variance. Two writers share a source text; observations are not fully independent."
+  }
+}

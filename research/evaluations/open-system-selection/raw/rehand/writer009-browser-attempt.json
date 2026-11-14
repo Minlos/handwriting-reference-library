@@ -1,0 +1,8 @@
+{
+  "id": "writer009",
+  "status": "error",
+  "engine": "Rehand browser UI",
+  "input_sha256": "3a7998a48535c47ef446490263237ab2669129176b85ec87373092e6d90cfea6",
+  "error": "Ошибка сервера. Если ошибка не уходит - напишите в Telegram @rrr_support1",
+  "note": "Different attempt from saved150-second direct HTTP timeout. No recognition text returned."
+}

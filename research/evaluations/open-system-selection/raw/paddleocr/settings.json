@@ -1,0 +1,23 @@
+{
+  "paddleocr": "3.7.0",
+  "paddlepaddle": "3.3.1",
+  "lang": "ru",
+  "ocr_version": "PP-OCRv5",
+  "device": "cpu",
+  "use_doc_orientation_classify": false,
+  "use_doc_unwarping": false,
+  "use_textline_orientation": false,
+  "resolved_recognizer": "eslav_PP-OCRv5_mobile_rec",
+  "weight_sha256": {
+    "PP-OCRv5_server_det/config.json": "436bf19010fe3879477e8599a870a0ec8ccd14ca39056805ec4ed20ab318ec04",
+    "PP-OCRv5_server_det/inference.json": "af5876933d8806a1b50d895867e0781e135cd92ff37381992828fc8d1b842d28",
+    "PP-OCRv5_server_det/inference.pdiparams": "183146fe9d9910352f68482f623bcbbb9fa7b9e8fa1463b9ad288cef00524d2d",
+    "PP-OCRv5_server_det/inference.yml": "28fb721efc3634fc8aa677e474b9602cb815a91cf569ef357a7a553d7b3ce685",
+    "eslav_PP-OCRv5_mobile_rec/config.json": "f6a5103ccf8d446d96477461fca58213c0eecd3d31518dfaf5b941110a342911",
+    "eslav_PP-OCRv5_mobile_rec/inference.json": "3fb6e2e658f5139ff16e35260de8f0577f106a9505c902e1dfc1f4f1d03cc9cb",
+    "eslav_PP-OCRv5_mobile_rec/inference.pdiparams": "f11057b05d8517868bca505271278973d706600d9dcc184cbcf5c4512091c32b",
+    "eslav_PP-OCRv5_mobile_rec/inference.yml": "025039bac23eb4a308efcefa4d58eab3af440767815c6ba6938468bf6353ee5a",
+    "eslav_PP-OCRv5_mobile_rec/.cache/huggingface/trees/7553801264d3379d8d2e854971989e5e26c22e03.json": "8f1460912335b9818501d88c8bc798a7c04702f56aaff79e62c27f943c326074",
+    "PP-OCRv5_server_det/.cache/huggingface/trees/ca867c897ecbca8873081573a802ad70d499cb94.json": "8156d6fa45403316f5f390b105cee5075ad2c1a6b73868ee2411c2c9b92c5714"
+  }
+}

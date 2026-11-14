@@ -1,0 +1,8 @@
+{
+  "id": "writer015",
+  "input_sha256": "f6f0930248b1e0a36ca2684f82cc25e57f408f316699f083c79a37ff2a563cd3",
+  "status": "error",
+  "engine": "Rehand browser UI",
+  "error": "Ошибка сервера. Если ошибка не уходит - напишите в Telegram @rrr_support1",
+  "prediction": null
+}

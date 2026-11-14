@@ -1,0 +1,12 @@
+{
+  "engine": "tesseract",
+  "version": "tesseract 5.5.4",
+  "language": "rus",
+  "rus_traineddata_sha256": "b617eb6830ffabaaa795dd87ea7fd251adfe9cf0efe05eb9a2e8128b7728d6b6",
+  "model_family": "official tessdata_best Russian LSTM",
+  "oem": 1,
+  "page_psm": 3,
+  "single_line_psm": 7,
+  "threads": 2,
+  "output_format": "explicit tessedit_create_tsv=1"
+}

@@ -1,0 +1,21 @@
+{
+  "model_id": 148545,
+  "model_name": "Russian generic handwritten and typed 1",
+  "pages": 9,
+  "credits_used": 9,
+  "duration_seconds": 390.473,
+  "input_images_exported_byte_identically": [
+    "writer009",
+    "writer015",
+    "writer035",
+    "writer037",
+    "writer040",
+    "writer065",
+    "writer072",
+    "writer080",
+    "writer153"
+  ],
+  "raw_archive": "transkribus-export-job-32001301.zip",
+  "segmentation": "Transkribus quick-recognition defaults; automatic page segmentation",
+  "metadata_privacy": "Original export retained locally. Public predictions omit account metadata; exported TXT content is unchanged."
+}

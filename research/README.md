@@ -27,3 +27,5 @@ Run baselines on the same frozen held-out images and transcription scope, with t
 Every comparison table includes the conventional baseline rows. If a required configuration cannot run, show it as **not run** with the concrete reason; never assign an invented score or silently omit it. Earlier results on a different image subset remain separate and are not relabeled as same-sample baselines.
 
 Measured retrospective baselines: [Tesseract and EasyOCR on seven historical test panels](evaluations/conventional-baselines/README.md), with raw outputs and exact subset scores.
+
+Current system selection: [nine public HWR200 scans, identical inputs for ready OCR systems and Sol/Astra](evaluations/open-system-selection/README.md). Rehand remains unscored after service failures.

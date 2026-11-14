@@ -1,0 +1,95 @@
+{
+  "items": [
+    {
+      "id": "writer009",
+      "path": "inputs/writer009.jpg",
+      "sha256": "3a7998a48535c47ef446490263237ab2669129176b85ec87373092e6d90cfea6",
+      "writer": 9,
+      "document": "original9",
+      "source_path": "images/writer009/1.jpg",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "writer015",
+      "path": "inputs/writer015.png",
+      "sha256": "f6f0930248b1e0a36ca2684f82cc25e57f408f316699f083c79a37ff2a563cd3",
+      "writer": 15,
+      "document": "original15",
+      "source_path": "images/writer015/1.png",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "writer035",
+      "path": "inputs/writer035.jpg",
+      "sha256": "8d762b8cd1ac076e04781471484ba2370b138695a02a5b74b08030f9c635c4e7",
+      "writer": 35,
+      "document": "original0",
+      "source_path": "images/writer035/1.jpg",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "writer037",
+      "path": "inputs/writer037.png",
+      "sha256": "e5cc403353a033c20e5c97ab0568191f6f1ee8f0354aad6b83e9f91f2a2db434",
+      "writer": 37,
+      "document": "original2",
+      "source_path": "images/writer037/1.png",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "writer040",
+      "path": "inputs/writer040.jpg",
+      "sha256": "9918aa54cb9cbfe8da2d24c718254edb34ae9cd9b9d4388799ee0b7ba643c6ea",
+      "writer": 40,
+      "document": "original5",
+      "source_path": "images/writer040/1.jpg",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "writer065",
+      "path": "inputs/writer065.jpg",
+      "sha256": "bac7b4d3cf0334a3a40b8f93561f0934d595ff9c1c2c9750677f601e1e508340",
+      "writer": 65,
+      "document": "original30",
+      "source_path": "images/writer065/1.jpg",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "writer072",
+      "path": "inputs/writer072.jpeg",
+      "sha256": "9b0bc3e0f5befdca7e502fc87d98d37f6ce681b3078d4a3147699b1d9d38e4b7",
+      "writer": 72,
+      "document": "original2",
+      "source_path": "images/writer072/1.jpeg",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "writer080",
+      "path": "inputs/writer080.jpg",
+      "sha256": "a6425c203017d15def8d8676aad40e59a12b21640dde45c8579ab926af79eda6",
+      "writer": 80,
+      "document": "original10",
+      "source_path": "images/writer080/1.JPG",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "writer153",
+      "path": "inputs/writer153.jpg",
+      "sha256": "c018fdf83a8acebd181e6f28b9758d2f440a8a8e19722fdfc41122a8862fe785",
+      "writer": 153,
+      "document": "original13",
+      "source_path": "images/writer153/1.jpg",
+      "scope": "all",
+      "line": false
+    }
+  ],
+  "inference_receives_no_gold": true
+}

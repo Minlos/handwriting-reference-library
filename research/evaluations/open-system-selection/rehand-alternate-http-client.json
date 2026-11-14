@@ -1,0 +1,4 @@
+{
+  "error": "Failed to perform, curl: (28) Connection timed out after 25000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+  "seconds": 25.05511708300037
+}

@@ -1,0 +1,18 @@
+{
+  "python": "3.12.7",
+  "packages": {
+    "kraken": "7.1.1",
+    "torch": "2.14.0",
+    "easyocr": "1.7.2",
+    "Pillow": "12.3.0"
+  },
+  "weights": {
+    "work/ocr-models/russian-crnn.pt": {
+      "sha256": "74482bd0eb8e33b25a197d0452559b888809dd0ae4e014274301a513f553dd32"
+    },
+    "work/ocr-models/kraken-ppocrv6-small.safetensors": {
+      "sha256": "3108259779f5abfed3908a1c9eafba64d17e4a2a169368c539ecfeff04c018f3"
+    }
+  },
+  "segmentation_sha256": "77a638a83c9e535620827a09e410ed36391e9e8e8126d5796a0f15b978186056"
+}
