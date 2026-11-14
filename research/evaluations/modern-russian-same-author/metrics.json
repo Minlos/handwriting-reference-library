@@ -376,6 +376,189 @@
       }
     },
     {
+      "model": "deepseek",
+      "condition": "A",
+      "pages_completed": 9,
+      "pages_expected": 9,
+      "missing": [],
+      "prediction_hashes": [
+        {
+          "id": "writer016-target-01",
+          "sha256": "6f13bf935d50a51c95833d0ee27b0a0f73bc250b244779a157f8f0a008e916fb"
+        },
+        {
+          "id": "writer016-target-02",
+          "sha256": "b5862828a9d0015fe1f410b6cbd10df204920e1de4397ae6236ac3dc6e2e2365"
+        },
+        {
+          "id": "writer016-target-03",
+          "sha256": "dad43e9d6d9b37500d8874034f92dab9ca37f9a96cea396e1821129a5f6c1252"
+        },
+        {
+          "id": "writer016-target-04",
+          "sha256": "0e3340e16b263946c1a52884b2c938efdba1ce9a850b38178ada70b3c2e21fe0"
+        },
+        {
+          "id": "writer016-target-05",
+          "sha256": "def9ad7b3db99c975ed0be90c00b7ee4f1b5490816806405e84e90e5811c7b7f"
+        },
+        {
+          "id": "writer016-target-06",
+          "sha256": "a28769c4951ef4022ae257cc64ed868c04d53cab53742d7cabfa0292435821a5"
+        },
+        {
+          "id": "writer016-target-07",
+          "sha256": "14825fffe1f031045c5f1d1abfae3302f08b3993dc7cab385f9bb16be99e68a5"
+        },
+        {
+          "id": "writer016-target-08",
+          "sha256": "99b7b6f9583ebd1438d60cdd2fc4077d042f887d4da91009954c3f91eaea9f62"
+        },
+        {
+          "id": "writer016-target-09",
+          "sha256": "84c8020e6a52a8ab5d3dc5607ab9d8b50743e1917f75d95531620c26eb9360ff"
+        }
+      ],
+      "literal": {
+        "edits": 2057,
+        "characters": 5938,
+        "cer": 0.3464129336476928,
+        "word_edits": 483,
+        "words": 927,
+        "wer": 0.5210355987055016
+      },
+      "reading": {
+        "edits": 2000,
+        "characters": 5742,
+        "cer": 0.34831069313827934,
+        "word_edits": 469,
+        "words": 925,
+        "wer": 0.5070270270270271
+      }
+    },
+    {
+      "model": "deepseek",
+      "condition": "B",
+      "pages_completed": 9,
+      "pages_expected": 9,
+      "missing": [],
+      "prediction_hashes": [
+        {
+          "id": "writer016-target-01",
+          "sha256": "bc0b5483bd13609951e13fa052e900ef45fdd398110d11604ad62b0eed15826f"
+        },
+        {
+          "id": "writer016-target-02",
+          "sha256": "80837acf8fd0ad44faac1266f2b5d1f57a7e4f7d6d84a3c1c698110a419754be"
+        },
+        {
+          "id": "writer016-target-03",
+          "sha256": "8837c5985b4d8291d0806f90e4880ff942241e1961e75544a1a8ba29d6cdfd59"
+        },
+        {
+          "id": "writer016-target-04",
+          "sha256": "2f1db3203a544eaf545ca7f4be0f681981b0674ebee6ce0c2c2093ffb1ccb4aa"
+        },
+        {
+          "id": "writer016-target-05",
+          "sha256": "42befb25ae3f7e340ef4c776e654ffce8eec25b9336825bf85f933365660974c"
+        },
+        {
+          "id": "writer016-target-06",
+          "sha256": "1cea8b2659579dbc8a162d0d8024efa3030e90fb002f94e417a455a03ae284a2"
+        },
+        {
+          "id": "writer016-target-07",
+          "sha256": "20bdc7e6a03ac0b805843f768688a37cfe4c66edfd5dad200975f4a39b08cdd4"
+        },
+        {
+          "id": "writer016-target-08",
+          "sha256": "de426506b94314829dc632aebbaacffc45f8e396c3285c5ba055a8ece191fc75"
+        },
+        {
+          "id": "writer016-target-09",
+          "sha256": "dbdfdd3cbb9823dbad8a2071169685012ca2b3f2dc9b0e8f98ebfde3d1bf598b"
+        }
+      ],
+      "literal": {
+        "edits": 1786,
+        "characters": 5938,
+        "cer": 0.30077467160660154,
+        "word_edits": 436,
+        "words": 927,
+        "wer": 0.4703344120819849
+      },
+      "reading": {
+        "edits": 1731,
+        "characters": 5742,
+        "cer": 0.3014629049111808,
+        "word_edits": 423,
+        "words": 925,
+        "wer": 0.4572972972972973
+      }
+    },
+    {
+      "model": "deepseek",
+      "condition": "C",
+      "pages_completed": 9,
+      "pages_expected": 9,
+      "missing": [],
+      "prediction_hashes": [
+        {
+          "id": "writer016-target-01",
+          "sha256": "d611b4ad4491b811735ff6e44262a16c6e12bed59dfa6fe1e4603a07135d1335"
+        },
+        {
+          "id": "writer016-target-02",
+          "sha256": "b03bc888a68884345f8719b82902564be23e1db104361b44a01bfdca9271eb09"
+        },
+        {
+          "id": "writer016-target-03",
+          "sha256": "c25dc14b8d07432584dab0ab93ba64d5de08be8d2a933a55eaa456f66f083e80"
+        },
+        {
+          "id": "writer016-target-04",
+          "sha256": "3fa30cf5b5ef2e0425ec88f5df8e15f8345154c74b5a3ed2a364ca33986993a9"
+        },
+        {
+          "id": "writer016-target-05",
+          "sha256": "da27cec31c4872430acdfd44230fcd062e95592becca69de74874f28b7c40846"
+        },
+        {
+          "id": "writer016-target-06",
+          "sha256": "7e74b54986890b03fdb7224425f05c2af8c6ee58bede28fbec2380a6eb84131b"
+        },
+        {
+          "id": "writer016-target-07",
+          "sha256": "e1aaa95be19a3e3edb67e223b32a976f5db4dfc58284b77a0c4b649bcf79f7fe"
+        },
+        {
+          "id": "writer016-target-08",
+          "sha256": "5ec334a8d36bfcff832b7c91d0e5f931925331bc22acaab6838de7ad1125e266"
+        },
+        {
+          "id": "writer016-target-09",
+          "sha256": "3d8b036904d22b01d26203f335c0799a2c664b68b3359c7a2cff5b064d18d275"
+        }
+      ],
+      "literal": {
+        "edits": 2012,
+        "characters": 5938,
+        "cer": 0.33883462445267765,
+        "word_edits": 461,
+        "words": 927,
+        "wer": 0.49730312837108953
+      },
+      "reading": {
+        "edits": 1944,
+        "characters": 5742,
+        "cer": 0.3385579937304075,
+        "word_edits": 447,
+        "words": 925,
+        "wer": 0.48324324324324325
+      }
+    },
+    {
       "model": "transkribus",
       "condition": "plain",
       "pages_completed": 9,

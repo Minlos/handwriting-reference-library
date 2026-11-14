@@ -2,9 +2,9 @@
 
 The experiment asks whether automatically extracted handwriting examples help a model read different pages by the same writer. It compares examples collected from raw scans with examples collected using those scans and their published source text. Success means fewer character edits against the same held-out transcription.
 
-**References improve Astra and worsen Sol in this run.** Astra with source-text-assisted examples has the lowest CER among completed configurations. This is evidence for continuing same-author reference testing, not a general claim that references help every model. The reading skill is absent from every condition in this table.
+**References improve Astra, and raw-scan references improve DeepSeek, while both packets worsen Sol in this run.** Astra with source-text-assisted examples has the lowest CER among completed configurations. This is evidence for continuing same-author reference testing, not a general claim that references help every model. The reading skill is absent from every condition in this table.
 
-## Both reference packets help Astra, but neither helps Sol
+## Reference effects differ between models
 
 | Configuration | Completed scans | Reading edits / CER | Literal edits / CER |
 |---|---:|---:|---:|
@@ -14,12 +14,17 @@ The experiment asks whether automatically extracted handwriting examples help a 
 | Sol, no references | 9/9 | 252 / 4.39% | 269 / 4.53% |
 | Sol, raw-scan references | 9/9 | 291 / 5.07% | 310 / 5.22% |
 | Sol, source-text-assisted references | 9/9 | 292 / 5.09% | 310 / 5.22% |
+| DeepSeek Flash API, no references | 9/9 | 2000 / 34.83% | 2057 / 34.64% |
+| DeepSeek Flash API, raw-scan references | 9/9 | 1731 / 30.15% | 1786 / 30.08% |
+| DeepSeek Flash API, source-text-assisted references (retry) | 9/9 | 1944 / 33.86% | 2012 / 33.88% |
 | Transkribus 148545, default automatic layout | 9/9 | 3515 / 61.22% | 3780 / 63.66% |
 | Rehand, service timeout on first scan | 0/9 | Not scored | Not scored |
 
 Every completed row uses the entire same nine-page document: 5,742 reference characters after reading normalization or 5,938 after literal normalization. CER is character Levenshtein edits divided by reference characters, not an average of page percentages. Both modes apply NFC and collapse whitespace. Reading additionally casefolds and removes Unicode punctuation; ё remains distinct. Literal retains case and punctuation. Lower is better. These figures measure disagreement with supplied text, not a complete independent audit of visual reading errors.
 
 Relative to each model's no-reference row, reading edits fall 20.3% with raw references and 32.8% with assisted references for Astra; they rise 15.5% and 15.9% for Sol. One run cannot separate instruction effects from model run variation.
+
+DeepSeek's raw-reference reading edits fall 13.5% relative to its no-reference run. Its assisted-reference result falls 2.8%, but uses a replacement attempt after the first attempt failed. These are within-model comparisons; API and tool-using model hosts differ.
 
 ## One modern writer supplies both source and held-out documents
 
@@ -46,6 +51,12 @@ Requested models are `gpt-6-astra` and `gpt-6-sol`. Each condition uses a fresh 
 
 The reading skill is tested separately in [the component diagnostics](reading-skill-diagnostics/README.md). Its results are not part of the reference table above.
 
+## DeepSeek uses the same scans and packets through its image API
+
+DeepSeek receives the identical nine JPEG files and, where applicable, the same labelled reference contact sheet plus its provisional labels. The packets were extracted by Astra, not by DeepSeek; this tests use of fixed references. Requests use `deepseek-flash`, non-thinking mode, temperature 0, original image detail and a maximum of 8,192 output tokens. Each independent request receives all nine pages and returns page-labelled JSON. The API has no tool-driven zoom or additional inspection passes. Provider-side image preprocessing differs from the Astra/Sol hosts, so this compares tested setups rather than isolated model weights.
+
+The first assisted-reference request repeated text until the output limit and receives no CER. One fresh attempt with unchanged settings completed; its score is explicitly labelled as a retry. Both responses remain in [deepseek-api/](deepseek-api/). No completed alternative was discarded to select a better score. All four attempts together cost at most $0.027 using conservative peak token prices, including the failure; actual off-peak billing may be lower. Exact usage, prompt/image hashes and settings are retained. [Official pricing](https://api-docs.deepseek.com/quick_start/pricing/) and [vision documentation](https://api-docs.deepseek.com/guides/vision/) describe the API capabilities and rates used.
+
 ## Image checks show real gains and remaining mistakes
 
 - Target page 6 visibly says «непростителен». Plain Astra substitutes «недопустим»; the assisted-reference run reads «непростителен». The same assisted run changes visible «позволили» to «разрешили». Better aggregate CER therefore still includes unsupported substitutions. [Original page 6](targets/page06.jpg).
@@ -61,7 +72,7 @@ Rehand was retried on the first identical target and timed out before returning 
 
 ## Reproduce the scores without making new model calls
 
-Run `python3 score.py` in this folder. It checks the saved input hashes and scores all seven completed configurations. `fetch.py` can recover the selected original scans from the pinned archive using [the download manifest](download-manifest.json). The raw Transkribus ZIP stays local because it includes account metadata; public predictions preserve its TXT transcription and content hashes without that metadata.
+Run `python3 score.py` in this folder. It checks the saved input hashes and scores all ten completed configurations. `fetch.py` can recover the selected original scans from the pinned archive using [the download manifest](download-manifest.json). The raw Transkribus ZIP stays local because it includes account metadata; public predictions preserve its TXT transcription and content hashes without that metadata.
 
 Dataset license declared upstream: Apache-2.0. Credit Ivan Potyashin, Mariam Kaprielova, Yury Chekhovich, Alexandr Kildyakov, Temirlan Seil, Evgeny Finogeev and Andrey Grabovoy, “HWR200: New open access dataset of handwritten texts images in Russian” (2023). Dataset images and text are separate from the skill license.
 

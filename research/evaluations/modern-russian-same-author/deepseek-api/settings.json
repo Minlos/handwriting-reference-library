@@ -1,0 +1,22 @@
+{
+  "requested_model": "deepseek-flash",
+  "version_description": "DeepSeek-V4.1-Flash-1017 per official pricing documentation on experiment date; response model reports alias deepseek-flash",
+  "endpoint": "https://api.deepseek.com/chat/completions",
+  "temperature": 0,
+  "thinking": "disabled",
+  "max_output_tokens": 8192,
+  "detail": "original",
+  "context": "Fresh API request per condition; all9originaltargetJPEGs plus optional same frozen reference contact sheet and provisional labels. No dynamic host zoom or extra image inspections.",
+  "conditions": {
+    "A": "no references",
+    "B": "same Astra-extracted raw-source packet",
+    "C": "same Astra-extracted published-source-assisted packet"
+  },
+  "retry_policy": "First C attempt reached output limit with repeated text. One manual same-settings replacement attempt; keep both records and score first completed attempt. No best-of selection among completed attempts.",
+  "cost_upper_usd": 0.02697084,
+  "cost_method": "Usage tokens priced at peak/cache-hit upper rates, $0.30/$0.006 input and $1.20 output per million tokens. Actual weekend billing may be lower. Includes failed attempt.",
+  "pricing_source": "https://api-docs.deepseek.com/quick_start/pricing/",
+  "vision_source": "https://api-docs.deepseek.com/guides/vision/",
+  "target_answers_supplied": false,
+  "reading_skill_supplied": false
+}

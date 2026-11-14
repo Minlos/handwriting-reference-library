@@ -16,7 +16,7 @@ def main():
     pages=json.loads((ROOT/'targets-only.json').read_text())['pages']
     reference=(ROOT/'evaluator/full-text.txt').read_text()
     rows=[]
-    for model,condition in [(m,c) for m in ['astra','sol'] for c in 'ABC']+[('transkribus','plain')]:
+    for model,condition in [(m,c) for m in ['astra','sol','deepseek'] for c in 'ABC']+[('transkribus','plain')]:
         predictions=[];missing=[];hashes=[]
         for page in pages:
             f=ROOT/f'predictions/{model}/{condition}/{page["id"]}.json'
