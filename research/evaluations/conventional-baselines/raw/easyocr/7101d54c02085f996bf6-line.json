@@ -1,0 +1,41 @@
+{
+  "id": "7101d54c02085f996bf6-line",
+  "input_sha256": "7101d54c02085f996bf69ff00aa71c4997dc11cf4da7af168c61ee51337e63d1",
+  "settings_sha256": "7aedda9d0e759d0ac2b691e0ee1d03d9393612ad5947fcf1fd8e3d0f5199990c",
+  "scope_adapter": "all",
+  "status": "completed",
+  "prediction": "'(Cuо Quчs",
+  "raw": [
+    {
+      "box": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          491.0,
+          0.0
+        ],
+        [
+          491.0,
+          164.0
+        ],
+        [
+          0.0,
+          164.0
+        ]
+      ],
+      "text": "'(Cuо Quчs",
+      "confidence": 0.11934663249591065
+    }
+  ],
+  "detected_lines": [
+    {
+      "text": "'(Cuо Quчs",
+      "cy": 82.0,
+      "height": 164.0,
+      "x": 0.0
+    }
+  ],
+  "seconds": 0.008374708995688707
+}

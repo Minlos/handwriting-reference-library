@@ -1,0 +1,2926 @@
+{
+  "date": "2026-11-14",
+  "normalization": {
+    "literal": "NFC; whitespace collapsed; case/punctuation retained",
+    "reading": "NFC; casefold; Unicode punctuation removed; whitespace collapsed; ё retained"
+  },
+  "labels_not_given_to_engines": true,
+  "scope_adapters": "Known L09 instruction: lowest detected text line only. Frozen page6 final uncertain ink excluded by image rectangle [1560,2540,2150,2765] after recognition; all raw detections retained. No text correction or selection against gold.",
+  "results": {
+    "tesseract": {
+      "settings": {
+        "engine": "tesseract",
+        "version": "tesseract 5.5.4",
+        "language": "rus",
+        "rus_traineddata_sha256": "b617eb6830ffabaaa795dd87ea7fd251adfe9cf0efe05eb9a2e8128b7728d6b6",
+        "model_family": "official tessdata_best Russian LSTM",
+        "oem": 1,
+        "page_psm": 3,
+        "single_line_psm": 7,
+        "threads": 2,
+        "output_format": "explicit tessedit_create_tsv=1"
+      },
+      "distinct_inference_tasks": 59,
+      "total_inference_seconds": 56.59695658601413,
+      "statuses": {
+        "completed": 59
+      },
+      "panels": {
+        "diary-14-crops": {
+          "units": 14,
+          "input_images": 14,
+          "mode_in_historical_report": "reading",
+          "notes": "Historical hand-selected single-line diagnostic; preserves frozen labels, not representative whole-page accuracy.",
+          "failures": [],
+          "aggregate": {
+            "literal": {
+              "edits": 227,
+              "characters": 233,
+              "cer": 0.9742489270386266
+            },
+            "reading": {
+              "edits": 221,
+              "characters": 228,
+              "cer": 0.9692982456140351
+            }
+          },
+          "rows": [
+            {
+              "unit": "crop-V001",
+              "input_ids": [
+                "6ceb80be16cd4d666d42-line"
+              ],
+              "input_sha256": [
+                "6ceb80be16cd4d666d4278e6e78c219e1a2ebc5253c66a095d6069a6941a1825"
+              ],
+              "prediction": "быбцех",
+              "excluded_region_outputs": [],
+              "seconds": 0.05949104200408328,
+              "literal": {
+                "edits": 4,
+                "characters": 6,
+                "cer": 0.6666666666666666,
+                "word_edits": 1,
+                "words": 1,
+                "wer": 1.0
+              },
+              "reading": {
+                "edits": 4,
+                "characters": 6,
+                "cer": 0.6666666666666666,
+                "word_edits": 1,
+                "words": 1,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "crop-V002",
+              "input_ids": [
+                "5046a2f1ecc8eeef80d9-line"
+              ],
+              "input_sha256": [
+                "5046a2f1ecc8eeef80d94a7288ab0daf54e42e54ae510754cafb5ebcf04ac166"
+              ],
+              "prediction": "",
+              "excluded_region_outputs": [],
+              "seconds": 0.038215583001147024,
+              "literal": {
+                "edits": 7,
+                "characters": 7,
+                "cer": 1.0,
+                "word_edits": 1,
+                "words": 1,
+                "wer": 1.0
+              },
+              "reading": {
+                "edits": 7,
+                "characters": 7,
+                "cer": 1.0,
+                "word_edits": 1,
+                "words": 1,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "crop-V003",
+              "input_ids": [
+                "f92d4f2f6e6715f2d386-line"
+              ],
+              "input_sha256": [
+                "f92d4f2f6e6715f2d386ea781a495653b08f6041cbd26acc8fa43117c26e1f5b"
+              ],
+              "prediction": "",
+              "excluded_region_outputs": [],
+              "seconds": 0.03963608400954399,
+              "literal": {
+                "edits": 9,
+                "characters": 9,
+                "cer": 1.0,
+                "word_edits": 1,
+                "words": 1,
+                "wer": 1.0
+              },
+              "reading": {
+                "edits": 9,
+                "characters": 9,
+                "cer": 1.0,
+                "word_edits": 1,
+                "words": 1,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "crop-V006",
+              "input_ids": [
+                "7101d54c02085f996bf6-line"
+              ],
+              "input_sha256": [
+                "7101d54c02085f996bf69ff00aa71c4997dc11cf4da7af168c61ee51337e63d1"
+              ],
+              "prediction": "` О ел ово",
+              "excluded_region_outputs": [],
+              "seconds": 0.06899829200119711,
+              "literal": {
+                "edits": 9,
+                "characters": 8,
+                "cer": 1.125,
+                "word_edits": 4,
+                "words": 1,
+                "wer": 4.0
+              },
+              "reading": {
+                "edits": 9,
+                "characters": 8,
+                "cer": 1.125,
+                "word_edits": 4,
+                "words": 1,
+                "wer": 4.0
+              }
+            },
+            {
+              "unit": "crop-V008",
+              "input_ids": [
+                "43786a323fe80427f15b-line"
+              ],
+              "input_sha256": [
+                "43786a323fe80427f15b779c3bb6ecd529fded5913573bac8a9c2e58a66f2624"
+              ],
+              "prediction": "",
+              "excluded_region_outputs": [],
+              "seconds": 0.04354341700673103,
+              "literal": {
+                "edits": 26,
+                "characters": 26,
+                "cer": 1.0,
+                "word_edits": 5,
+                "words": 5,
+                "wer": 1.0
+              },
+              "reading": {
+                "edits": 25,
+                "characters": 25,
+                "cer": 1.0,
+                "word_edits": 5,
+                "words": 5,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "crop-V013",
+              "input_ids": [
+                "eaf9ef3b580cb7b43c33-line"
+              ],
+              "input_sha256": [
+                "eaf9ef3b580cb7b43c332b093dfdc2f4ab50ad83f02f8e2fe4e9cdd1d3ffccb1"
+              ],
+              "prediction": "Мескесмы тер",
+              "excluded_region_outputs": [],
+              "seconds": 0.09147354199376423,
+              "literal": {
+                "edits": 13,
+                "characters": 16,
+                "cer": 0.8125,
+                "word_edits": 2,
+                "words": 2,
+                "wer": 1.0
+              },
+              "reading": {
+                "edits": 13,
+                "characters": 15,
+                "cer": 0.8666666666666667,
+                "word_edits": 2,
+                "words": 2,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "crop-V014",
+              "input_ids": [
+                "510cdacf21b1ef780c77-line"
+              ],
+              "input_sha256": [
+                "510cdacf21b1ef780c778e84dea939d2e8821c383768a750d54952c7ea63e0f9"
+              ],
+              "prediction": "",
+              "excluded_region_outputs": [],
+              "seconds": 0.051049083995167166,
+              "literal": {
+                "edits": 30,
+                "characters": 30,
+                "cer": 1.0,
+                "word_edits": 3,
+                "words": 3,
+                "wer": 1.0
+              },
+              "reading": {
+                "edits": 28,
+                "characters": 28,
+                "cer": 1.0,
+                "word_edits": 3,
+                "words": 3,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "crop-V015",
+              "input_ids": [
+                "66a294764fcd270cea9b-line"
+              ],
+              "input_sha256": [
+                "66a294764fcd270cea9bc3f5280d08977a3d0a648494d15641556526766b0031"
+              ],
+              "prediction": "30° хо",
+              "excluded_region_outputs": [],
+              "seconds": 0.05905291601084173,
+              "literal": {
+                "edits": 4,
+                "characters": 6,
+                "cer": 0.6666666666666666,
+                "word_edits": 2,
+                "words": 2,
+                "wer": 1.0
+              },
+              "reading": {
+                "edits": 4,
+                "characters": 6,
+                "cer": 0.6666666666666666,
+                "word_edits": 2,
+                "words": 2,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "crop-V016",
+              "input_ids": [
+                "f9c89934320e471c4fd9-line"
+              ],
+              "input_sha256": [
+                "f9c89934320e471c4fd95d030ca1e0b62c26fdc544c3f72eaea624fb6ad5004f"
+              ],
+              "prediction": "меловоса с МА КО",
+              "excluded_region_outputs": [],
+              "seconds": 0.10189845800050534,
+              "literal": {
+                "edits": 13,
+                "characters": 13,
+                "cer": 1.0,
+                "word_edits": 4,
+                "words": 2,
+                "wer": 2.0
+              },
+              "reading": {
+                "edits": 13,
+                "characters": 13,
+                "cer": 1.0,
+                "word_edits": 4,
+                "words": 2,
+                "wer": 2.0
+              }
+            },
+            {
+              "unit": "crop-V017",
+              "input_ids": [
+                "c444ece03907031e985c-line"
+              ],
+              "input_sha256": [
+                "c444ece03907031e985cea5ca60017997b484c007dc0b69be872ca4a9fcd2345"
+              ],
+              "prediction": "",
+              "excluded_region_outputs": [],
+              "seconds": 0.05407050000212621,
+              "literal": {
+                "edits": 38,
+                "characters": 38,
+                "cer": 1.0,
+                "word_edits": 8,
+                "words": 8,
+                "wer": 1.0
+              },
+              "reading": {
+                "edits": 37,
+                "characters": 37,
+                "cer": 1.0,
+                "word_edits": 8,
+                "words": 8,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "crop-V018",
+              "input_ids": [
+                "84c44b52598f3773a9f9-line"
+              ],
+              "input_sha256": [
+                "84c44b52598f3773a9f91a40176a802c2bfefe21fbdbba648c942884d4748ea2"
+              ],
+              "prediction": "%ся ке в \\ Оль во Зй ча,",
+              "excluded_region_outputs": [],
+              "seconds": 0.1159087500127498,
+              "literal": {
+                "edits": 18,
+                "characters": 18,
+                "cer": 1.0,
+                "word_edits": 8,
+                "words": 4,
+                "wer": 2.0
+              },
+              "reading": {
+                "edits": 16,
+                "characters": 18,
+                "cer": 0.8888888888888888,
+                "word_edits": 7,
+                "words": 4,
+                "wer": 1.75
+              }
+            },
+            {
+              "unit": "crop-V021",
+              "input_ids": [
+                "17f9bdc04740c358730c-line"
+              ],
+              "input_sha256": [
+                "17f9bdc04740c358730c0d2078f536840d6a9c80ce849f9920fbe5dc04e9cc6c"
+              ],
+              "prediction": "",
+              "excluded_region_outputs": [],
+              "seconds": 0.04795191700395662,
+              "literal": {
+                "edits": 18,
+                "characters": 18,
+                "cer": 1.0,
+                "word_edits": 3,
+                "words": 3,
+                "wer": 1.0
+              },
+              "reading": {
+                "edits": 18,
+                "characters": 18,
+                "cer": 1.0,
+                "word_edits": 3,
+                "words": 3,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "crop-V022",
+              "input_ids": [
+                "3360f2f675d86dd8c493-line"
+              ],
+              "input_sha256": [
+                "3360f2f675d86dd8c49390629530454bd41f06b5a6ff5161e77263b25463d2d8"
+              ],
+              "prediction": "",
+              "excluded_region_outputs": [],
+              "seconds": 0.04447150000487454,
+              "literal": {
+                "edits": 27,
+                "characters": 27,
+                "cer": 1.0,
+                "word_edits": 3,
+                "words": 3,
+                "wer": 1.0
+              },
+              "reading": {
+                "edits": 27,
+                "characters": 27,
+                "cer": 1.0,
+                "word_edits": 3,
+                "words": 3,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "crop-V024",
+              "input_ids": [
+                "43bf5ea620b3343191eb-line"
+              ],
+              "input_sha256": [
+                "43bf5ea620b3343191ebcbddaa14977987202d0f7b467a91f0de3d62393f9270"
+              ],
+              "prediction": "",
+              "excluded_region_outputs": [],
+              "seconds": 0.04041779199906159,
+              "literal": {
+                "edits": 11,
+                "characters": 11,
+                "cer": 1.0,
+                "word_edits": 1,
+                "words": 1,
+                "wer": 1.0
+              },
+              "reading": {
+                "edits": 11,
+                "characters": 11,
+                "cer": 1.0,
+                "word_edits": 1,
+                "words": 1,
+                "wer": 1.0
+              }
+            }
+          ]
+        },
+        "diary-3-pages": {
+          "units": 3,
+          "input_images": 3,
+          "mode_in_historical_report": "reading",
+          "notes": "Same exact target bytes as the matched Sol/Gemma/Grok tests. Only final unresolved word of page6 is excluded using the frozen pre-word text boundary; segmentation/scope failures remain scored.",
+          "failures": [],
+          "aggregate": {
+            "literal": {
+              "edits": 1263,
+              "characters": 1617,
+              "cer": 0.7810760667903525
+            },
+            "reading": {
+              "edits": 1075,
+              "characters": 1449,
+              "cer": 0.7418909592822637
+            }
+          },
+          "rows": [
+            {
+              "unit": "diary3-P04",
+              "input_ids": [
+                "002f93759d0e598548ea"
+              ],
+              "input_sha256": [
+                "002f93759d0e598548eafb0aa63ec64838b91e5167cb028bec3043b66a6f9418"
+              ],
+              "prediction": "о с И ЦА Лумис\nУМА 02 А -Сля\nсто мичлоц ыы рана\nё моно укома -дддя д “\n©\nро Й» ОЛАУО\n?\n`\nа а, \\ледадоуалю рев ка | Мл, мую од |\nу0. = томля на Квас) адЛи о чаловно_ РЧИаливя,\nФа ияй Ур мммь уф эарнекое. влаж ео К ы\n@ нес йосайрся 66 — мед ерн\nо. нак —к МОНО | АЬСАЛАО.\n1 арене —=Чщо А. Сани тид.",
+              "excluded_region_outputs": [],
+              "seconds": 1.144088916000328,
+              "literal": {
+                "edits": 448,
+                "characters": 572,
+                "cer": 0.7832167832167832,
+                "word_edits": 110,
+                "words": 111,
+                "wer": 0.990990990990991
+              },
+              "reading": {
+                "edits": 381,
+                "characters": 511,
+                "cer": 0.7455968688845401,
+                "word_edits": 95,
+                "words": 97,
+                "wer": 0.979381443298969
+              }
+            },
+            {
+              "unit": "diary3-P06",
+              "input_ids": [
+                "987201bd67a34cd363cc"
+              ],
+              "input_sha256": [
+                "987201bd67a34cd363ccbf94d6fcb4e9e4b664ba992a85a70aecfbf7948fbe6a"
+              ],
+              "prediction": "\\Лолл*,\n|\nбои с еллО -о бел |\nЭл (А ко 7\n“ууу а НЫ\nААдА_®.\nС (с ‹2л.4о ААУ ЛАДА\nЪе ?\n\\с М \\ЛАД АД ©. %(\\ч име и\n6х 2 След \\^^.йл) @.\n<”\n#)\nу \\/ >\nСКА\n© а ами '. ФД.\n„`\n(7\nФи (МО ло плобло\n“АО еле («о СЛА @ О) усло а,\n- (\"бе \\С^ воем)\nЗ. ее.\nСу бллллф © мел ©) елллодл ло ‘м. слАк\n| рее |\nУ\\олалая\n— Велико |} |\nМХА\n“нее па Ьа. бал\nэчуесчн нестноные\nА в 0.0) мА\nа Ми мо не\nОлАлиф\n(фило. ее\nОл ФО -\n7) оуубд пЛОМАто\nла\nче ча ра\nАж\nзе\nКут\n=\nдузей\nДу\nее ое оны\nлеч\nЗЫ\nет\nтва\nжёны",
+              "excluded_region_outputs": [],
+              "seconds": 1.4674537499959115,
+              "literal": {
+                "edits": 423,
+                "characters": 520,
+                "cer": 0.8134615384615385,
+                "word_edits": 124,
+                "words": 95,
+                "wer": 1.305263157894737
+              },
+              "reading": {
+                "edits": 357,
+                "characters": 471,
+                "cer": 0.7579617834394905,
+                "word_edits": 113,
+                "words": 85,
+                "wer": 1.3294117647058823
+              }
+            },
+            {
+              "unit": "diary3-P07",
+              "input_ids": [
+                "eb33f5a49f946d7da414"
+              ],
+              "input_sha256": [
+                "eb33f5a49f946d7da414bbdf58fbb9167c443d3ceae7a2801869847e1c63da6e"
+              ],
+              "prediction": "уме ие \\@ ‚А \\/^е к\nЛа а Го.\n\\бро ды - « \\“ ам\nмы?\n= | ол осидАМ О\n- Мик вере я до Кено\n@ юра = рус бони 6\nВиля :\n- Демо ме, & — дао\nЛлих. (кода Слбомуо-еа “ооо ни №\nидем,\nых? рае поданы ина «осо расулоье ; : в\nМ ооль& е ны бен мовлавл Им) ‚ бвимошо м.\n\\муумл _о бя ъоца валлоною- 3\nвечно ное —— Фив, к воины во ума\nАА фи и ло\nГ иены рае клад окт оао, ао\nМена г, я ны\nнеси о Вееи | вм вок цене нбоеля с а аа ”",
+              "excluded_region_outputs": [],
+              "seconds": 1.4695895000040764,
+              "literal": {
+                "edits": 392,
+                "characters": 525,
+                "cer": 0.7466666666666667,
+                "word_edits": 105,
+                "words": 92,
+                "wer": 1.141304347826087
+              },
+              "reading": {
+                "edits": 337,
+                "characters": 467,
+                "cer": 0.721627408993576,
+                "word_edits": 91,
+                "words": 82,
+                "wer": 1.1097560975609757
+              }
+            }
+          ]
+        },
+        "diary-6-pages": {
+          "units": 6,
+          "input_images": 6,
+          "mode_in_historical_report": "reading",
+          "notes": "Exact original six-page target bytes and evaluator copies; same images as standalone-skill diary panel, checked below.",
+          "failures": [],
+          "aggregate": {
+            "literal": {
+              "edits": 2391,
+              "characters": 3022,
+              "cer": 0.7911978821972204
+            },
+            "reading": {
+              "edits": 2041,
+              "characters": 2702,
+              "cer": 0.7553663952627683
+            }
+          },
+          "rows": [
+            {
+              "unit": "diary6-P01",
+              "input_ids": [
+                "be22fb01ce324fbd149c"
+              ],
+              "input_sha256": [
+                "be22fb01ce324fbd149cc276c1eb6d840c62be5f0c961859de8d15331db80ad1"
+              ],
+              "prediction": "91/ Ча.\nС,” |\n— Хил иФилле ай\n‚ О слуню ссалвъя\n= а ели екы,\nй Урале |\nные о Са ила фесель. с м Сола ое бела |\nбук та беб\\д ей ‚ мене) лаилое, Ррнатьллл\nвуеелх селюсуей : :\n©\n©иа, бълех с @льО селех 9д демтклено?\nМ ® полов Фляга вла МС & ло УЛ бо\nмоомео «® м. © урл Те",
+              "excluded_region_outputs": [],
+              "seconds": 0.8805593339930056,
+              "literal": {
+                "edits": 385,
+                "characters": 504,
+                "cer": 0.7638888888888888,
+                "word_edits": 93,
+                "words": 95,
+                "wer": 0.9789473684210527
+              },
+              "reading": {
+                "edits": 336,
+                "characters": 453,
+                "cer": 0.7417218543046358,
+                "word_edits": 86,
+                "words": 87,
+                "wer": 0.9885057471264368
+              }
+            },
+            {
+              "unit": "diary6-P02",
+              "input_ids": [
+                "8e95e677c36c619a57a3"
+              ],
+              "input_sha256": [
+                "8e95e677c36c619a57a31c2ec2342613c0201940aa197b05c9a8bd45e92ce9b5"
+              ],
+              "prediction": "\\ $\n! я КА :\nРА \"\\\\колллв. \" МевААни” \\\nич СА\n\\\\\\ Сб. х 'и\\-+А0\nЮ \\\n\\ оумий ОАФ ‹ |\nВЯ\nволмих: а. Ра\n- Г м т ух,\nдан уно Вене о\n#\n: Алло\n= Момидо-оха, “* @ © оли ' о\n(ОхАл@л) ‚ с мслАА/О Слой Гео \\\nаа ча. в : :\nды 8 ееные РО ‚ ммкнелу р \\ 200 ис Ден ео\nУ ус еале оо : ев о сса, Е Ват ао оо\n— № аквилу \"ны ©б илоломлмд» , ® < -“чзо 16\n|\n= ь Ан ‚ с еледн белы об “у УслаЧАЛА\nить\nее, мер = веоевониме ел) и\n‚| |бллядо ол, Дося, оке вы",
+              "excluded_region_outputs": [],
+              "seconds": 1.2509742919937707,
+              "literal": {
+                "edits": 402,
+                "characters": 502,
+                "cer": 0.8007968127490039,
+                "word_edits": 118,
+                "words": 87,
+                "wer": 1.3563218390804597
+              },
+              "reading": {
+                "edits": 329,
+                "characters": 448,
+                "cer": 0.734375,
+                "word_edits": 94,
+                "words": 83,
+                "wer": 1.1325301204819278
+              }
+            },
+            {
+              "unit": "diary6-P03",
+              "input_ids": [
+                "f748f8f76963b04abd03"
+              ],
+              "input_sha256": [
+                "f748f8f76963b04abd03afe5ab9e515c8723bf9eccd7bbaa15717f032a78bc11"
+              ],
+              "prediction": "а </ ССВ, а -ФФллл\n\\УЛу-ч\n= и * 1\nСало) ал ло сл бело сл елпо |\n— У\\АлуА. ДАВЛ и® чт - *\nна |2 ле окелллонде Мк Й ММ блло ‹\nв | МСААЮ усдОщду\n| | АО © С.\nтт Та:\nПОМНеруам а 3 иныоблмея ;\n\\блило\n= была бы ее\nо о вол лета,\nвдаеарае о\n\"не своб Мево, новин ну\nых\n„О | бонннм, | сдмю  \\Ю - м) буде нике а",
+              "excluded_region_outputs": [],
+              "seconds": 1.2362047920032637,
+              "literal": {
+                "edits": 447,
+                "characters": 571,
+                "cer": 0.7828371278458844,
+                "word_edits": 91,
+                "words": 93,
+                "wer": 0.978494623655914
+              },
+              "reading": {
+                "edits": 395,
+                "characters": 519,
+                "cer": 0.7610789980732178,
+                "word_edits": 80,
+                "words": 84,
+                "wer": 0.9523809523809523
+              }
+            },
+            {
+              "unit": "diary6-P05",
+              "input_ids": [
+                "411ff42d35d11b8f1419"
+              ],
+              "input_sha256": [
+                "411ff42d35d11b8f1419dee4469f5bdff55869d3df75a919be8197249fdf94e2"
+              ],
+              "prediction": "небе нонна. нение не а + зан.\nа Ве. маке ЧУ икаа\nне неее ен еее Оно, неее\nнана\nне",
+              "excluded_region_outputs": [],
+              "seconds": 0.7923727080051322,
+              "literal": {
+                "edits": 369,
+                "characters": 426,
+                "cer": 0.8661971830985915,
+                "word_edits": 83,
+                "words": 84,
+                "wer": 0.9880952380952381
+              },
+              "reading": {
+                "edits": 317,
+                "characters": 373,
+                "cer": 0.8498659517426274,
+                "word_edits": 67,
+                "words": 69,
+                "wer": 0.9710144927536232
+              }
+            },
+            {
+              "unit": "diary6-P08",
+              "input_ids": [
+                "d7dc7e39a5f37c251621"
+              ],
+              "input_sha256": [
+                "d7dc7e39a5f37c2516211816480f6eda9342d2df6e2a5d5842d718442ecfd6cb"
+              ],
+              "prediction": "я ({ ‘УУдадл дл ибо |\n= @! (ОлАдл бгы ‘, 40 пд, | а пл сащу, +\n(акижаклй —* и МАЧ = | в\n7 ила - (ла у ма = било | ск\nСАЛОНА А \\5Я лад ава +“ ЧС \"Молл о\nк, Сум 'ОМАДЛИКС, лок УС Тачл илл\nГ ИЫ 6 сое а полы 1 [оон\n„\nлАЛОвАвДАЛ } ААА а\n:, мен ‚ре, д крания с обв ерченние г\nосей. Го у пы 0\nВБР ОСН НОР ЕНИ Яра о данатих | 8\n\"бт ен ны и- ь нос -и- оу кет :\n——",
+              "excluded_region_outputs": [],
+              "seconds": 1.4551866249967134,
+              "literal": {
+                "edits": 414,
+                "characters": 534,
+                "cer": 0.7752808988764045,
+                "word_edits": 97,
+                "words": 95,
+                "wer": 1.0210526315789474
+              },
+              "reading": {
+                "edits": 330,
+                "characters": 457,
+                "cer": 0.7221006564551422,
+                "word_edits": 86,
+                "words": 86,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "diary6-P09",
+              "input_ids": [
+                "44455d9600da460b0b94"
+              ],
+              "input_sha256": [
+                "44455d9600da460b0b945df33f4514cb77851376a83cc9dc880499b0de0df449"
+              ],
+              "prediction": "лор сми +\n— \\\\цолие ©\nри ^ : д\n{ очил оля о вакы, ‘лад\n= О полиса, УМ и ни $ а\nРСА 1Е 9 ВУ та\nусбл 8 олд при усё\n^— ( `\nя ОНА влладёг\nСОЧАМая (= идилл &\nнае новы ДО\nулощий\nкв оли оно зу кома:\nуч р ; мулека И снрешнвли\n—\n———— А\nЗа ес“ * ллона ечя | МА ВАД ис пул уд | дбнадыж, 200\nу\nВОнНННь\nт\nВ аксоо е ежеть за \"МА вле —\nобенеы в. чех и г\n= беыани ‚мечами В де\n== Суавеенны в помбань2",
+              "excluded_region_outputs": [],
+              "seconds": 1.4208565000008093,
+              "literal": {
+                "edits": 374,
+                "characters": 485,
+                "cer": 0.7711340206185567,
+                "word_edits": 98,
+                "words": 89,
+                "wer": 1.101123595505618
+              },
+              "reading": {
+                "edits": 334,
+                "characters": 452,
+                "cer": 0.7389380530973452,
+                "word_edits": 88,
+                "words": 83,
+                "wer": 1.0602409638554218
+              }
+            }
+          ]
+        },
+        "two-skills-diary": {
+          "units": 6,
+          "input_images": 6,
+          "mode_in_historical_report": "reading",
+          "notes": "Exact frozen input bytes. L09 follows its supplied instruction with a fixed geometric adapter: keep only the lowest detected text line, without consulting gold. Raw full-image detections also retained. No target word exclusions.",
+          "failures": [],
+          "aggregate": {
+            "literal": {
+              "edits": 2391,
+              "characters": 3022,
+              "cer": 0.7911978821972204
+            },
+            "reading": {
+              "edits": 2041,
+              "characters": 2702,
+              "cer": 0.7553663952627683
+            }
+          },
+          "rows": [
+            {
+              "unit": "two-D01",
+              "input_ids": [
+                "be22fb01ce324fbd149c"
+              ],
+              "input_sha256": [
+                "be22fb01ce324fbd149cc276c1eb6d840c62be5f0c961859de8d15331db80ad1"
+              ],
+              "prediction": "91/ Ча.\nС,” |\n— Хил иФилле ай\n‚ О слуню ссалвъя\n= а ели екы,\nй Урале |\nные о Са ила фесель. с м Сола ое бела |\nбук та беб\\д ей ‚ мене) лаилое, Ррнатьллл\nвуеелх селюсуей : :\n©\n©иа, бълех с @льО селех 9д демтклено?\nМ ® полов Фляга вла МС & ло УЛ бо\nмоомео «® м. © урл Те",
+              "excluded_region_outputs": [],
+              "seconds": 0.8805593339930056,
+              "literal": {
+                "edits": 385,
+                "characters": 504,
+                "cer": 0.7638888888888888,
+                "word_edits": 93,
+                "words": 95,
+                "wer": 0.9789473684210527
+              },
+              "reading": {
+                "edits": 336,
+                "characters": 453,
+                "cer": 0.7417218543046358,
+                "word_edits": 86,
+                "words": 87,
+                "wer": 0.9885057471264368
+              }
+            },
+            {
+              "unit": "two-D02",
+              "input_ids": [
+                "8e95e677c36c619a57a3"
+              ],
+              "input_sha256": [
+                "8e95e677c36c619a57a31c2ec2342613c0201940aa197b05c9a8bd45e92ce9b5"
+              ],
+              "prediction": "\\ $\n! я КА :\nРА \"\\\\колллв. \" МевААни” \\\nич СА\n\\\\\\ Сб. х 'и\\-+А0\nЮ \\\n\\ оумий ОАФ ‹ |\nВЯ\nволмих: а. Ра\n- Г м т ух,\nдан уно Вене о\n#\n: Алло\n= Момидо-оха, “* @ © оли ' о\n(ОхАл@л) ‚ с мслАА/О Слой Гео \\\nаа ча. в : :\nды 8 ееные РО ‚ ммкнелу р \\ 200 ис Ден ео\nУ ус еале оо : ев о сса, Е Ват ао оо\n— № аквилу \"ны ©б илоломлмд» , ® < -“чзо 16\n|\n= ь Ан ‚ с еледн белы об “у УслаЧАЛА\nить\nее, мер = веоевониме ел) и\n‚| |бллядо ол, Дося, оке вы",
+              "excluded_region_outputs": [],
+              "seconds": 1.2509742919937707,
+              "literal": {
+                "edits": 402,
+                "characters": 502,
+                "cer": 0.8007968127490039,
+                "word_edits": 118,
+                "words": 87,
+                "wer": 1.3563218390804597
+              },
+              "reading": {
+                "edits": 329,
+                "characters": 448,
+                "cer": 0.734375,
+                "word_edits": 94,
+                "words": 83,
+                "wer": 1.1325301204819278
+              }
+            },
+            {
+              "unit": "two-D03",
+              "input_ids": [
+                "f748f8f76963b04abd03"
+              ],
+              "input_sha256": [
+                "f748f8f76963b04abd03afe5ab9e515c8723bf9eccd7bbaa15717f032a78bc11"
+              ],
+              "prediction": "а </ ССВ, а -ФФллл\n\\УЛу-ч\n= и * 1\nСало) ал ло сл бело сл елпо |\n— У\\АлуА. ДАВЛ и® чт - *\nна |2 ле окелллонде Мк Й ММ блло ‹\nв | МСААЮ усдОщду\n| | АО © С.\nтт Та:\nПОМНеруам а 3 иныоблмея ;\n\\блило\n= была бы ее\nо о вол лета,\nвдаеарае о\n\"не своб Мево, новин ну\nых\n„О | бонннм, | сдмю  \\Ю - м) буде нике а",
+              "excluded_region_outputs": [],
+              "seconds": 1.2362047920032637,
+              "literal": {
+                "edits": 447,
+                "characters": 571,
+                "cer": 0.7828371278458844,
+                "word_edits": 91,
+                "words": 93,
+                "wer": 0.978494623655914
+              },
+              "reading": {
+                "edits": 395,
+                "characters": 519,
+                "cer": 0.7610789980732178,
+                "word_edits": 80,
+                "words": 84,
+                "wer": 0.9523809523809523
+              }
+            },
+            {
+              "unit": "two-D05",
+              "input_ids": [
+                "411ff42d35d11b8f1419"
+              ],
+              "input_sha256": [
+                "411ff42d35d11b8f1419dee4469f5bdff55869d3df75a919be8197249fdf94e2"
+              ],
+              "prediction": "небе нонна. нение не а + зан.\nа Ве. маке ЧУ икаа\nне неее ен еее Оно, неее\nнана\nне",
+              "excluded_region_outputs": [],
+              "seconds": 0.7923727080051322,
+              "literal": {
+                "edits": 369,
+                "characters": 426,
+                "cer": 0.8661971830985915,
+                "word_edits": 83,
+                "words": 84,
+                "wer": 0.9880952380952381
+              },
+              "reading": {
+                "edits": 317,
+                "characters": 373,
+                "cer": 0.8498659517426274,
+                "word_edits": 67,
+                "words": 69,
+                "wer": 0.9710144927536232
+              }
+            },
+            {
+              "unit": "two-D08",
+              "input_ids": [
+                "d7dc7e39a5f37c251621"
+              ],
+              "input_sha256": [
+                "d7dc7e39a5f37c2516211816480f6eda9342d2df6e2a5d5842d718442ecfd6cb"
+              ],
+              "prediction": "я ({ ‘УУдадл дл ибо |\n= @! (ОлАдл бгы ‘, 40 пд, | а пл сащу, +\n(акижаклй —* и МАЧ = | в\n7 ила - (ла у ма = било | ск\nСАЛОНА А \\5Я лад ава +“ ЧС \"Молл о\nк, Сум 'ОМАДЛИКС, лок УС Тачл илл\nГ ИЫ 6 сое а полы 1 [оон\n„\nлАЛОвАвДАЛ } ААА а\n:, мен ‚ре, д крания с обв ерченние г\nосей. Го у пы 0\nВБР ОСН НОР ЕНИ Яра о данатих | 8\n\"бт ен ны и- ь нос -и- оу кет :\n——",
+              "excluded_region_outputs": [],
+              "seconds": 1.4551866249967134,
+              "literal": {
+                "edits": 414,
+                "characters": 534,
+                "cer": 0.7752808988764045,
+                "word_edits": 97,
+                "words": 95,
+                "wer": 1.0210526315789474
+              },
+              "reading": {
+                "edits": 330,
+                "characters": 457,
+                "cer": 0.7221006564551422,
+                "word_edits": 86,
+                "words": 86,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "two-D09",
+              "input_ids": [
+                "44455d9600da460b0b94"
+              ],
+              "input_sha256": [
+                "44455d9600da460b0b945df33f4514cb77851376a83cc9dc880499b0de0df449"
+              ],
+              "prediction": "лор сми +\n— \\\\цолие ©\nри ^ : д\n{ очил оля о вакы, ‘лад\n= О полиса, УМ и ни $ а\nРСА 1Е 9 ВУ та\nусбл 8 олд при усё\n^— ( `\nя ОНА влладёг\nСОЧАМая (= идилл &\nнае новы ДО\nулощий\nкв оли оно зу кома:\nуч р ; мулека И снрешнвли\n—\n———— А\nЗа ес“ * ллона ечя | МА ВАД ис пул уд | дбнадыж, 200\nу\nВОнНННь\nт\nВ аксоо е ежеть за \"МА вле —\nобенеы в. чех и г\n= беыани ‚мечами В де\n== Суавеенны в помбань2",
+              "excluded_region_outputs": [],
+              "seconds": 1.4208565000008093,
+              "literal": {
+                "edits": 374,
+                "characters": 485,
+                "cer": 0.7711340206185567,
+                "word_edits": 98,
+                "words": 89,
+                "wer": 1.101123595505618
+              },
+              "reading": {
+                "edits": 334,
+                "characters": 452,
+                "cer": 0.7389380530973452,
+                "word_edits": 88,
+                "words": 83,
+                "wer": 1.0602409638554218
+              }
+            }
+          ]
+        },
+        "two-skills-letters": {
+          "units": 3,
+          "input_images": 3,
+          "mode_in_historical_report": "reading",
+          "notes": "Exact frozen input bytes. L09 follows its supplied instruction with a fixed geometric adapter: keep only the lowest detected text line, without consulting gold. Raw full-image detections also retained. No target word exclusions.",
+          "failures": [],
+          "aggregate": {
+            "literal": {
+              "edits": 510,
+              "characters": 624,
+              "cer": 0.8173076923076923
+            },
+            "reading": {
+              "edits": 468,
+              "characters": 590,
+              "cer": 0.7932203389830509
+            }
+          },
+          "rows": [
+            {
+              "unit": "two-L01",
+              "input_ids": [
+                "55b6732915d577c22e9b"
+              ],
+              "input_sha256": [
+                "55b6732915d577c22e9b5c9b78565bad6981111e9d23b787a1c49609389dc866"
+              ],
+              "prediction": "аи ий] Явне тдьные *\n” (0 (р)\n7онбе ия Б» .1 2: «Го Тау\n: — бут #ое ой. й\nМедь исое’олооо и\n„еее. Зй ртов «5 уе\nНА аный жа Тео рее. „\nжет бете кота „\" Е ет\nикре иене кн\n2 = «тощо полит рат лен",
+              "excluded_region_outputs": [],
+              "seconds": 0.6087286249967292,
+              "literal": {
+                "edits": 184,
+                "characters": 236,
+                "cer": 0.7796610169491526,
+                "word_edits": 50,
+                "words": 38,
+                "wer": 1.3157894736842106
+              },
+              "reading": {
+                "edits": 165,
+                "characters": 223,
+                "cer": 0.7399103139013453,
+                "word_edits": 44,
+                "words": 38,
+                "wer": 1.1578947368421053
+              }
+            },
+            {
+              "unit": "two-L09",
+              "input_ids": [
+                "226c7fd0eed66d387f45-bottom"
+              ],
+              "input_sha256": [
+                "226c7fd0eed66d387f45ee58be0ae3d91c40d28ec94da33150f5161c9580778f"
+              ],
+              "prediction": "",
+              "excluded_region_outputs": [],
+              "seconds": 0.055569957999978215,
+              "literal": {
+                "edits": 33,
+                "characters": 33,
+                "cer": 1.0,
+                "word_edits": 4,
+                "words": 4,
+                "wer": 1.0
+              },
+              "reading": {
+                "edits": 31,
+                "characters": 31,
+                "cer": 1.0,
+                "word_edits": 4,
+                "words": 4,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "two-L13",
+              "input_ids": [
+                "2765469372790ba57b85"
+              ],
+              "input_sha256": [
+                "2765469372790ba57b85d3a0341748ba2a441a4759b50bdb33449e6fcfb91035"
+              ],
+              "prediction": "ни 1). 15. = | Фоведа ей еибйрт „доков Сидели т\nний. то ар Нада Ване, Диицё и с Кедвее\nАн. „Хай а ИН? -г земных (ТЕЕ",
+              "excluded_region_outputs": [],
+              "seconds": 0.3764741250051884,
+              "literal": {
+                "edits": 293,
+                "characters": 355,
+                "cer": 0.8253521126760563,
+                "word_edits": 54,
+                "words": 56,
+                "wer": 0.9642857142857143
+              },
+              "reading": {
+                "edits": 272,
+                "characters": 336,
+                "cer": 0.8095238095238095,
+                "word_edits": 52,
+                "words": 54,
+                "wer": 0.9629629629629629
+              }
+            }
+          ]
+        },
+        "hwr200-2-scans": {
+          "units": 2,
+          "input_images": 2,
+          "mode_in_historical_report": "literal",
+          "notes": "Same frozen original scan bytes and evaluator scope as the existing comparison. Supplied source transcriptions, not independently verified word by word.",
+          "failures": [],
+          "aggregate": {
+            "literal": {
+              "edits": 2564,
+              "characters": 3175,
+              "cer": 0.8075590551181102
+            },
+            "reading": {
+              "edits": 2376,
+              "characters": 3025,
+              "cer": 0.7854545454545454
+            }
+          },
+          "rows": [
+            {
+              "unit": "hwr-pilot-003",
+              "input_ids": [
+                "eb316f34a1d16800fa7b"
+              ],
+              "input_sha256": [
+                "eb316f34a1d16800fa7b8ae7f9aa8b44a5d89c583c343140c3e8607ff617ea92"
+              ],
+              "prediction": "1 1 ом Серая | Села ао Л фоесолмеы к 8-52\nАА ОА елеа у у мула сек Оо Але\nРа мыл. омкамив © своя ль © оомдкуоллемаиы ь.\nМО спо е (олоба ое Ваяце мня МО = 645 лвоебыаие. ео\n“Селе сок ул М лао) п мозаик Мелло арк ммкуеныт\nнаи эта мало раллцурфе расса бы о беаннц\nЧеохороо.. 9х аа ныне соска маабомлыенцю\nм) монабалала слово \\мбевмыа. ©8омообоол мо лабы В\nсела, —Змоснл _МессмеБцуаенх \\оеые моЗАААЯ 0 :\nЗи ыы омеммам Болло ‘колоть Аланле лазеры\n9елосте ролЬЧбалонценья бо бренлелы = Сохо пола\nбемиовасо Мю мо Мкосзел ея ьдело _ алоелоее ред Аелое АА М вм |\n“Вцоам | Се ак еЦажоииеов сз вамтедамьчуро бе очевмуа\nО а_ЛАО. Омы сумы | уу \\емАВАА лоб мнааВ ое ея\nфенобеслевыя _Кефуациаь | мло-чее меры — кф лвла\n© салоыкыд. \"МОМ раде бац а ареалов\nона рук ккиооде р о Мадла —лавооцалаыь мл без не\nмоно. В \\родбе. — Эмо ке, : —ЧАлоеа МСА,\n— № ела лха, НВ АА ма ^АЭ, Серые +\nдо садт В иоаое ные Кро оны Вобежсьа, саме? Ма аавй\nууаа Р=-©_кросмоюков К аыя т оВнмммуи А оруаме\nСАМ Сура ОВО Мое ог СААБ Муна 59 ЗА АВК\n“изо РМО 6 Мала Ал вал ква мал В Од МВ ОКОкл о мле ВБ\nврохоОдМые ОН аоияое ив\nрыла“, дела | морю) т\nОА АА клали Млаа\nнАоКОСА о, —АрЯ чес ов оале д ни М оса мвд -эмАС ВАЛ\nОО ОАА ОАО емко влаловоеу, -кнмодм уе _ ада.\nРедрумкйка номумах еломя Ме емеБомимох о9мом му\nлюмуе мы удал К Бонло Серая. Сооталь, „ФМ (Бе луеильекй,\n«оелм тык сваро \\омль Со Зечков.",
+              "excluded_region_outputs": [],
+              "seconds": 2.716137042007176,
+              "literal": {
+                "edits": 1346,
+                "characters": 1778,
+                "cer": 0.7570303712035995,
+                "word_edits": 273,
+                "words": 261,
+                "wer": 1.0459770114942528
+              },
+              "reading": {
+                "edits": 1240,
+                "characters": 1700,
+                "cer": 0.7294117647058823,
+                "word_edits": 266,
+                "words": 258,
+                "wer": 1.0310077519379846
+              }
+            },
+            {
+              "unit": "hwr-pilot-005",
+              "input_ids": [
+                "5d28acb6c5b419ee316c"
+              ],
+              "input_sha256": [
+                "5d28acb6c5b419ee316cdda918e987a7295d12cffc8dccf7c7653d988ba0114f"
+              ],
+              "prediction": "Ее иа лодилвт _ий в уерунаоваетьые ара ве я НВНЯ НЙ + |\nЕ Вт дрон о 77а ве оеодилвут. у не зуеавота: в о бт ЕЕНЕН,\nпалоетосв в рабов. Мата оотейняб\n- Гра зобриет:, пло и вне уе мере ки чаесые Яо ны и\nЕ Г Авт ва Дол вор фо рейут Росиниция ренина ^",
+              "excluded_region_outputs": [],
+              "seconds": 1.084436959004961,
+              "literal": {
+                "edits": 1218,
+                "characters": 1397,
+                "cer": 0.8718682891911238,
+                "word_edits": 215,
+                "words": 221,
+                "wer": 0.9728506787330317
+              },
+              "reading": {
+                "edits": 1136,
+                "characters": 1325,
+                "cer": 0.8573584905660377,
+                "word_edits": 206,
+                "words": 212,
+                "wer": 0.9716981132075472
+              }
+            }
+          ]
+        },
+        "hwr200-31-scans": {
+          "units": 10,
+          "input_images": 31,
+          "mode_in_historical_report": "literal",
+          "notes": "Same frozen original scan bytes and evaluator scope as the existing comparison. Supplied source transcriptions, not independently verified word by word.",
+          "failures": [],
+          "aggregate": {
+            "literal": {
+              "edits": 26661,
+              "characters": 34520,
+              "cer": 0.7723348783314021
+            },
+            "reading": {
+              "edits": 24802,
+              "characters": 33145,
+              "cer": 0.7482878262181325
+            }
+          },
+          "rows": [
+            {
+              "unit": "hwr-expanded-001",
+              "input_ids": [
+                "2e4fb119f8a8721f28aa",
+                "ecbc34cf9dd4acecd322",
+                "6ad3a8a570357c369cfb",
+                "01d6f7885d98065623a1",
+                "c1bc4d9916875863a8d5"
+              ],
+              "input_sha256": [
+                "2e4fb119f8a8721f28aac2465273502d80ab8f1d045b935afa56ba8b0ad6aee5",
+                "ecbc34cf9dd4acecd32275c416ae9842cca2da2c62ff9a77b6e64ef48533ffdb",
+                "6ad3a8a570357c369cfbf4dd744293a66d37e55884398d5ff83817e81e53d9f5",
+                "01d6f7885d98065623a1dc97c4b3513dbb4c3a64b7cb0e63bac350abb82c8fb7",
+                "c1bc4d9916875863a8d5b6cede3a6ce473d0375b15f054d1f27de88979df00f4"
+              ],
+              "prediction": "т в раслел доков но сбупыьм Иивеко_ поэте ла т\nмы идеале\n| Зоностую ^ов енвд „обрезойвыние “\nдквени* ) воторие | поль т кала полдниь велеовоетле =\nТ аыво с аиуо ГЛ чинно кро додремид. Русе е*-**\n— рва новые. Иад тем го воде еаё предооте валет\n— оно пом хо терчвльной вылоди...- Иивнно улоэтом\n| Йкорь Пейьов.. боой (ое этнос затре зевает\nк, кодзареавыл _ илаелнко- вессско ст правельно весы тел ч х\n| олызоне ны. в оровессе еб. Авор обридает Й ина.\nдяо. сбрадоввнные ко БедиреЙоввеиенне - пелобе\n| Вяок,\n[---е)-\n| >. дет |резлезокдще й деоевовы ст не. общее\nке ево овал с 6 илволвьные годиеды! ‚пров езво нео,\nнана рен вон ть 59 еее ве селеое\n: лозиее., “ зеза _ 6 бе ды! бавен иденвоие\n— еъелевотоя е беддцелнымиы Зиовненаеоы „ кеза егопвот —\n‚ отм у дах и тети ноя колея Коре Гат Ш\n| _неревновучен Га коставленном м проблеме, ен ©%ег те,\nХто тран | ебрезоввые ^ ч вов.. слет Зее.\nм й\nкА “Фон то бослеченияе К польсОВЫ-О  сезласния\nево ром- ведь илетоды ев ре енд ебредоваил я ‚\n| [о -воелыу недо ‚ лова т в «лей Чи, эревы\nДС у-накрииоеиа вело, -отодвозал ауивсонь.\nЗезней. ‘пли. Феде ниые краолеры. ‚ ко93в\nие кок! Ре, К1Й —- во вкееднев но Г) вол:\n+ ёно4 -Береуичы | Го танакий\nТЕ кан\n| ев чел\nГС: ты [1:32\nЕ айвы ва вии\nНи тела. неубеуноно = увлодщено.- в лес к © весел\nвас ня — лент. деле 0 ие. проно кровея:\nрег — —& ео рее. идти долой, (доб\n$\n5 бе беет- рей. бе ны\nСвв.л @- игрет Ня\nГ\nчавеся ко д“ретору она иоте ряле реет) ‚ ®0\nОКО\nидею оральные! сеял 93 ме Рьт вв 9Р\n— вебро и кони лавени 4 не. веко 220 дала Деев, Вонгу - то\nдевыо _Йряеоте+ Сводел с В? Ко `ввигнлы ё ‚овен ‚\nГко Г отстает В нревовенно си „тот - Бове. Нд т иоде5,\nчем еее, быовь ри логозоь, нок нелез а пучент\nр Мо не лед. . пуд В Отрозманео? ‘олд? вене Мыквсннет0\nО брод тел уерндеоцаоы © _пройаве ное.\nгорд. вы_ сверае ом 6 ел пой ила В >\nя вон, око взеёт. гкоднилествл вех вые ыы СРР =\n-— Ц сонное лловное_— сто радье) еле зоне № * быт\nЧ эк чё.ко Я сзеетьс) с. ©2.о. осн\n- Г бор зд трем вое Э\nд» бол ковалы Человоиесво\n© бе выжена Лоо вр 2 поЭти_ ЧАм батели\n“- @рслена. коне се Фи лоЗ ти. Ач балтели\n‘ро бы © лоб Мы трлыее_ иели Зная, Эс)\n6-тренкобел. мсье ко- осо По мнвна ко’\n| Гора | тете во свела стол того 5\nО\nкода. ен вугевв о\nие толё Ко в [3\n39° ео 1 „0 Ден ие ра30%и.\n«армонил РЗ\nГГ удумекю. _пОелд и иное двчессеесые вперед, сдрелаоеные |\n0. Фодов сянвоея | ЕТО 94 опдад За ракдним тальк\nЗе носойсрын иле дея во ово. ы ^ р\nНИНЕ\nВа неа | мнемцко’ „толего- сане Гафт, ея\n-икодасет сделет сабы заст вии Гя В у\nЕ |\nв\n[9\n5.\nт еновек ‘в.н, | - Воины\nГвноращио ,\n«зе 6 бен ды. Фкх\nне\nЕЕ\nорчейы сани: толь\nи прлиио ся поли) дкрумевьдиыи к Гая те\nче? “Поодле ле пкловлесесна ти\n—0 ‚Иелрасове река |5е ке, ном | |\n: я, зон короно? й йв то р ког покозе®,\nО раале Таброевоо и подоми „В\nтлО ист ИНО веыеялаэв гого, 50 боретьея 4 &\n„ое вобоведени в ковровое Я бов поки мае ме\nкей И.Л. Иелроговм, эре бен я в ,кгхо\nт оееевыно в мобы Яиленрим | й подтото Ве\nевнух, й Кгх р «еедгд рено „дгослонАбче\nбо пончтееныы 9 веет РУ ее лео0о\nЭвловела. „#4 —вуллдов и потре Бней. Бы\nханы колес ке же ды, дю естеео ве пес\nчае) —нотуебые =. мповеея. ‚Я лав, вяредчлесиле\nГа неа’, молео в. ведая: _евоы ю_ олкеласнвий\n— Йо отит бе коде иль С\n- Е\n- —-- м\nсе «пенная ео,\nттт тменНнмкГ=е\nТ",
+              "excluded_region_outputs": [],
+              "seconds": 5.646815041982336,
+              "literal": {
+                "edits": 3021,
+                "characters": 4300,
+                "cer": 0.7025581395348838,
+                "word_edits": 660,
+                "words": 596,
+                "wer": 1.1073825503355705
+              },
+              "reading": {
+                "edits": 2790,
+                "characters": 4152,
+                "cer": 0.6719653179190751,
+                "word_edits": 621,
+                "words": 595,
+                "wer": 1.0436974789915967
+              }
+            },
+            {
+              "unit": "hwr-expanded-002",
+              "input_ids": [
+                "e49edb697eda037ce0f0",
+                "38eeaafabc35572bf2f3",
+                "88b771f568aaeca779e2",
+                "0ed3960e0a9d823dd772"
+              ],
+              "input_sha256": [
+                "e49edb697eda037ce0f0194c934f3fc828dff9c5d16069638d6112c231fc3121",
+                "38eeaafabc35572bf2f3e96d751fd3bee433d81218dedf3c6000004df753d8cc",
+                "88b771f568aaeca779e2bef5ddc8882d6cb4a17f1a508fec1b8c2104bac2f829",
+                "0ed3960e0a9d823dd772e15212411bf292f161141973c51928990a3838db15ee"
+              ],
+              "prediction": "| оаноноя оне овеоныый, торе, ОЕ р:\n| аветк  дднии ды, года бони второе\nВне ме ватеет, а беда. К дне Мдлита\nИИС И тва прарааднесднес | сив раеме абрта\nуонано: от вотний виден, О о Чуте но\nипе | Ртердтеье паресееневылене вобаененае\nорнвоеее Ру ОТО ди веплаатое М ддоо\nвиа винного «ротибра беренаенуы р КЕ\n МЕЛДдннае | Метдоео ТА прива? Рнвед Не\n00 дарение в пабнееное (ола © Иетов “== :\n“ак Ртеовеое | обоеие оба брабрелла дея\nбратан | раенбвдо @ Зо-к  вдртя | АХ -до вутоме-\nрии, Фдис Тон |6 реревннвьдвней Аваль\n‚ А введя Ивие 0 блнеия рады, чтото\nволе «убОнионо лововтнй си | неоеднвниый дров\nДвор рабы бане ободе  ВаЕ , Рудиае © Миа. Ю В\n/дее в Тавда, врет о воветенеы вдадтене\n| Тлолае ‘Арены, : оао Е\n| иаеды реоа к ета. С ТПегонье вели,\n$ дут дона ввае ко Ролвео «ини видр # ивзке оо =\nи. к Мойе правовые волне, ря вто у воин\n| ламо #. внлея Вже (Й повео бан, + -\nВов % Те:\nПО\nНШ\n Арравтсе долее ваы, и олею Фора у\nватесаенные) @ инозы К вка ре дисикованот\nрее ибено урон Ве за рые о\nр инендтщвене прбнеествьы Вен\nларднеенедне. Тот Мавонвннй | вопрос беда тут\nанФИ В Масео Ди, петдниу то вит в ав\n| рподтодв | ЛввЛ вене | ух Дуня уту: ре\nи Ноениатесним?. д. веенднеен, /аедутераее , вавее\nднаетотв | ринетованиие ЧОЙ чеотева Г рдилвге,\n22 | инс Дабы, введенной ё /вуу\nИиетевне | МЕР, — ОРАДЬо рик «ар , Им\n|| Мветноые  бяетсмЕ , по понед ОЕРОДа, оиеено\n| Мррноланте, то детка етот, то Отв\n“вруиинее | Дуговко — обе ролдетесо дтта ата,\nМреовдрет в пол вленню « ПОДЕРЖ 7вук. «С “еы—\nДобовю Свои Ен @ | Опен два. (вевеоей\n| это’ Я мене би} Е ——\n) «о, к уток др ДЕ\n| росс `Ма | лесоаввна | оотаее пене „бе д тои\n| пвнетт) | нете Двпна С Селия ЛОвиетевы!,\nИотанее ИЕ | Пе. ка иевееео Дветв вв =\nиве | болоте,",
+              "excluded_region_outputs": [],
+              "seconds": 3.732677331994637,
+              "literal": {
+                "edits": 2490,
+                "characters": 3303,
+                "cer": 0.7538601271571299,
+                "word_edits": 451,
+                "words": 460,
+                "wer": 0.9804347826086957
+              },
+              "reading": {
+                "edits": 2361,
+                "characters": 3199,
+                "cer": 0.7380431384807753,
+                "word_edits": 437,
+                "words": 455,
+                "wer": 0.9604395604395605
+              }
+            },
+            {
+              "unit": "hwr-expanded-004",
+              "input_ids": [
+                "c79a254808e07d9ebf0f",
+                "04492aa37f02122b5d8a"
+              ],
+              "input_sha256": [
+                "c79a254808e07d9ebf0f6db409e3fcabe976a33aac88a1d2f1a36c45ed5c373c",
+                "04492aa37f02122b5d8a0194c6154c05b711efa925ec09c417ed33243b072135"
+              ],
+              "prediction": "Яра — это продвленые полевокосной | сллавдетих. Во: пробнына., Мор\nиотврой раеергаролтт- ©. Мб. Ввод: © негодования. отиов: -\nсвое провлиниь © поилрщю крика. О} /деонадьвеет О веда -\nао, раннее ба, о ооаведпоеачнноый сдленое , нотодгыя ки\n| подовадть 20096 пик, ттд Тто оывиинео ‚ джей, Сте-\n62! Де быеова. да фрослот. # вдае свои «ивевене ро-\n{о 6: , {Это М С ЛИ оеоесецудет „дров оравоннене\n| 7* повернет, Это ивТ ообеьь ‚в вунеренедыя тот от |\n| иных, «врет санеттв ал диод Этно ‚7 о о\n| иало ввода’, беегдитно дпаеое кие порасодеенд седые но.\n овеветневе. ‹ вер 2 {руте. пороноя маетица ево о,\nдв пору) у (^ у\n]\n:\n‹\n2 Радие вета е ррднееае подедетидееы иквеевоые\nча Ворге ие втьваниетве © авео. вел а\nпроовление пвеовоеесност седвреетне пре Прави ды\n‚ розни свыговока | в прееелеоеу й\n| „водддетдевневнв враг у ео ооо роза свое: -уессее. |\nГ\n| велавееваессвг ав оны, иена еле, й2-\n| Ма. вине дзеонврт нивнесотво ‚отосно и слу\nкотором Не рев. повисев двееовелвсееео | пдлдетвы ‚, дне ТЕеТЬ,\nРЖ\n@ идете к ООрдорареслесеу\nп, / правы венниие \"\n7 бб роднее # ид Вет Редрнета\n(олвго танк де педдуе иоподитеоной | прдуеедетиы\nКО НН с дей о НС дей ны",
+              "excluded_region_outputs": [],
+              "seconds": 1.90723062500183,
+              "literal": {
+                "edits": 2065,
+                "characters": 2689,
+                "cer": 0.7679434734101896,
+                "word_edits": 366,
+                "words": 372,
+                "wer": 0.9838709677419355
+              },
+              "reading": {
+                "edits": 1937,
+                "characters": 2565,
+                "cer": 0.7551656920077973,
+                "word_edits": 358,
+                "words": 368,
+                "wer": 0.9728260869565217
+              }
+            },
+            {
+              "unit": "hwr-expanded-006",
+              "input_ids": [
+                "ea2f26a25a915fed5216",
+                "021ea59bb912e5c6e92e",
+                "fc3fd1ee0aef1b88d77a",
+                "21251dcc42bbf14a2626",
+                "c18dc3cabd3461322967"
+              ],
+              "input_sha256": [
+                "ea2f26a25a915fed52161cdec2df2c0abecaa66b0e5330a09abf300d6beac3b3",
+                "021ea59bb912e5c6e92e48da6613ecc582632b1806ab5568ebfadccae629590f",
+                "fc3fd1ee0aef1b88d77a016d8309477814d547a1cec59f530011a35ca5d7f7fd",
+                "21251dcc42bbf14a2626c0df881d5e4f98b4900f6b488e7ef85d8b20448fb27c",
+                "c18dc3cabd346132296730ec3dba64120437fba76dcbbd61627c292c214297e2"
+              ],
+              "prediction": "_Й |\nДобт # ( ловля иааеоте\n(НООЛб ия\nИ\nУр\n7,\nДоле и Г/оавлв, и И.М;\nШТ\nий\n‚ол оон / а 3 ТЫ, прет\nВвет Иа-\nы нод: 0\nДЕ и ии при\n№ ) йа у\n",
+              "excluded_region_outputs": [],
+              "seconds": 1.1929483339918079,
+              "literal": {
+                "edits": 3431,
+                "characters": 3537,
+                "cer": 0.9700310998020921,
+                "word_edits": 526,
+                "words": 530,
+                "wer": 0.9924528301886792
+              },
+              "reading": {
+                "edits": 3277,
+                "characters": 3389,
+                "cer": 0.966951903216288,
+                "word_edits": 521,
+                "words": 526,
+                "wer": 0.9904942965779467
+              }
+            },
+            {
+              "unit": "hwr-expanded-007",
+              "input_ids": [
+                "cb629345d71a709d3f72",
+                "1d4e70c8a4142189674b",
+                "67e3da98477b88f5d7c0",
+                "516cdff1390d6a0bef23"
+              ],
+              "input_sha256": [
+                "cb629345d71a709d3f72f64d8ffb0e65b79a4faee4350f68e249064a174e0361",
+                "1d4e70c8a4142189674b6a730674b7dce3f82a02696ee2fae7d445b8dbc517ef",
+                "67e3da98477b88f5d7c0b2e60568cc676992a1e19846623b761cb218ac3cd49f",
+                "516cdff1390d6a0bef2351e51b6ec0ef11213fcd1f480a7da754b26144f731fc"
+              ],
+              "prediction": "Ялиге «уе, внести, ва првотвс, свулйуеетавРвОвнгеве &\n| | ое лк, (раивдене сыебввеы ЛА. ДЕСЕейевие, фетиё , судевнл уе,\n58 баш бы забеенашицее ‚ео диронуее * Иво етаь, Ел\n[87 вис рее Пегирисе кёС. еее Иевисутиь {бур иле\n(й16т, Дуо игвеиа 4 вОтерыт девица селобаееыеде (еее)\nнеба рт проблений. нау воть аунвеевия ге27\nАА «И. бе, Иа 7 уеквуе К, ово Ж ‚Дивов уевлией, “а ролве\nЭ ое {#и и. увтовессув б— тес @ винитений ву лей 7\nанмкиниы Вннякна ‘мысли\nпра Яо - отли «ривер о (иовй тои „рее ларалрерил —\nДу тер були ней его узаеска то : С, 7 увивативесием\nг В\n„Сар велве ‚ левке прескре всуе сего 2 сгелу\n4\nО 7 2 7 И двтт, и в: у И 7\nаа ораера о. еле), Аа сле а иивЁЕЕ/\nсвогае вред и обеда и т Пан ‚ велю Рис\n=8 бтЕрнрае  ирлеенивст раана И Руис СдЕЕЙС], дууее\nУДа вност — Рут ситоиее ев106 р вов у #0 иввнырены\nа ‚\nрег И ив ?и г Ко во ‚ в Вии раон; ВР РБреегие\nРе пейам дврууа. /веети - #упе ветво коз порее\n“войти ввов бы ((ИЕЙС:. бура 041 ЙО рубок\n| В ви\n7х роды пиевееб Ед #/ Тлолис в би А йе\nудистервнне ва вндеёО) КО @ редлегг («ЕпС?е ераегЕЙ\nив то бед верве вби, вто. ветры немаееееу иелей *.\nС евоекы ветивра ит, 1/Ис ируввие! реверса о в севводе\nбыл Вага, Тк ву рвиеовои! сЁР/О ерврие ед Йллг‹7,\nСООО уее в вены! у кодуа 72 ‘бели: Га срЕРвнвет- сэ\n| Адис , пдд Врага. иб. было дрониееу (дот падора бра\n| бодаи #0 ‚ бан р пиетис а крой сверг. Довенест\n(аз врагу Дины Латин авРеенодря ‚ (МбМЕ пед вв\nо оероенео ИООтва- оопо Фоны 6 ДВ овоене\nДен ‘Оева- в прореценио ве. евое(7 е\nревности вл ри #0 ибно вистии 6 # до,\nтие ин 7. Вега. бити пен\nВр свсик. Двгви. Пол втаралыиевсы вре. ей греет\nвер Туи ревностя КАЖ пуветво - говоры ПУГУТИ Вигылил\nС с\n| на, вет «ура. ге, вого ИА и волисиолиуее и регуа -\n. Аемрег . А тих прилленао_ ‘инаньноети погевдыыо. Баллов.\nИдасти “ „Иа 2 ВЕ Трлее 7272 ЕКО у т\nВуслажа. %, Уветир м“ г”, бргарит, бб вееевЕТЕгЯ (вневвое ЕЁ\nнунувуееиеы # угеве ети — врут предлиий, ик копро\n: субрборю / Трковнуеныи Лараивенлиса й лрутестве\n| иисаЛелА, двутер рвудыуде/т Гиивее ив 7, сто Рарут\n[оли й втииена, увлек Кия пдеплников, как И Ленигн\nнд\nИС Вере ‚ И. Мо соыее, Г. Рае, поутндилр ебу бвиссе бес\n„ИЕ 7\nид ({ Даб Ра 7 умел идивпа ечееее! виа\nГ\n!\nГ\nГ\nлаг Ррпилевевн ау Бу 24 м\nгаеа, Тронасневыыу Вунламейу геев соду преиве\nдве ‚ ста Йслее вер вв, ОТЕТССРТЕНИСИ еее ровеет\nв ватта, вотирое Иареовеукав вадвлни/валет\n© и Креставдыя весе двврусесе‹ : вред в “ииеси поорори\nДер НИе и пор уе ЕриЙ. ДОрывыея йе бтлав О Иаае, Хуа\nот прийиой ипиласенити реседнв, и прекври? к\n} Невер, Ф#ио 7248 овобера- вто РИ (4 у { пптигитрере\n===\n==\nАоторед поверасес „И. Врслаксв, ава, гРорО Вир\nпрогу вереныс: г. врет идет а бт Е0А ЕГО ЙЕ ет,\nи пееван дии( СЕ, И ТПвдовиеиыий сдеетоет; три иЕЕетиу (+\nударить Е, Вот) пвреднеы‹ ивр) “ реет „62000\nсо)о вв их не тоивес тии? лее, трерина ег, @ лига,\nко & «вайрина? лиеотинь Тина ис гола слтаввя с веди,\nЕ Фебет велено, Ира обрёл ору, ей, дбыгеу иролвиы\nид вас и сти сте север руды | ИСУ, 7666 тост\nПОСТА 1 ё й Зосалтивиа,. Йнеливы‹ мау беты р,\n‹\n[ересей „епаетливое ° Обуество икрой) и „ициераниь\nовумор ине — 77 пар гады Дигееее0. рее дурестта й\n=\nсала, (еевемЕа И своборивегй сел Ввлвны Й бен; аиеЕиег\nЙв ии уакони вре уалетееымаео ресная, опреинвеин ыы г\nСР ИА иуетиее‹ датареса лег виунис еее десеа_\nвлелол полллоллалиня -ооллоаланию эле о оно орон пораьльаь т нра ое аееь ной, зил поела, п арен\nКОРИ, уу ((«ИОЁС. И /десийй “ву вИдие Дает = ра вЕЕ, Ротао вОЧЕНИЕ,\n(44 пав, # пе‹ Е препиовинвЕ преси... И дсее\nивроиеентио Рулиеиета СВ. Авкаровей дралвервии\nдеи овио ЕЛ и суди пали гир Ваглсоирра: аул сева:\nм (2ёрги ивеней лагтидттрриьйя иуеореге - уулео @ ПИКЕ девы ©\nпедглееыро в, диееиеве Обет ве Да дрривиееело иоей\n7 —\nпела оон воаерой ‚ла. дрин сырок, не вресееые,\n«==\n=\n|7 ина Е Да ори пердесевасни, КОСТА Се Оо #42\nколуа_ была. водтрововеивс п Гойер ге дЕеёв, вупрелыг.\n(оетгас й, Ё 2708 гаы прарека. Инна ла, ив ла ЕС рен Ее\nПури * дут вре в 20 20702 ребре евогоруньее, „еб,\nсаиневднив, ту Ради АТЛИвы лигатеив Твен Ода,\nГАИ ета г СР Ь Ир р, тупо ПЕНИ двое Теренле д вееееуу 70а\n7 бёёЁпе Свобоу * Др Ад. (сё: ловим ГЕИ ка иеЕОСЕЛАО, а\n——",
+              "excluded_region_outputs": [],
+              "seconds": 9.926380042001256,
+              "literal": {
+                "edits": 2875,
+                "characters": 3903,
+                "cer": 0.7366128619011018,
+                "word_edits": 773,
+                "words": 571,
+                "wer": 1.3537653239929948
+              },
+              "reading": {
+                "edits": 2580,
+                "characters": 3715,
+                "cer": 0.6944818304172274,
+                "word_edits": 718,
+                "words": 565,
+                "wer": 1.2707964601769912
+              }
+            },
+            {
+              "unit": "hwr-expanded-008",
+              "input_ids": [
+                "2abcb5a1ac24dac80240",
+                "8b31e0613ee07872ebb9"
+              ],
+              "input_sha256": [
+                "2abcb5a1ac24dac80240844f70956df24deaccc56ff59f8a2709c7344525e7f2",
+                "8b31e0613ee07872ebb9a64c30e00d206bbdf7fe08e473db7d5239ed8996244f"
+              ],
+              "prediction": "9. рулевдеты (ло деве веет) Дао оелееад рикевестти — АД РЕ боторте\nветдлот бедер чвловече го Виеба # Теебу Жулееоев бл, ве дес вена\n(о 8 том и фавснотадттар [Тобернеость ра вотвОнетВо Фолосов) Хутор Оутётия\nМо, мах Капертие Удоеовов нд горит Сеиее, 7дтее вене /реутееие «ад\nИбио «с пдсатко. Яды и ( Сальвеу те ОБоненеые 6 оной оладеение\nЗи ыы /71е АОН бвеугедате © рутеиеттего ивледер “тупа\nего Ответь дур реевтоорат деворвесер «ету 25 ис\nКоерих, 7% ^\nй в боле дттедтет, # дут ТОО еее ) МЕДевОРЕЕв пед тте\n{Ррееи. Уорс вреда отеков : ее\n«борее, Орто Воледеутеер\n\"Ресконовнниц *\nм: „да, бревре «6 плооете. гв дееорка\nй “еде. Тор ИДЕИ Еее ий\nД#исд. ео ме ноболцаетсы! оветесетно, флео ттеачве то бо\nилофи дсоуиволиц балилеовлтль “ Реёконглалллс стрессе * в укобео Уи\nМ. ножоком , Одчривнит, портвриаракщный иихо по грешиелй пдрска зовет\nмото ТР др ет ежои Челенецеси ‚Каж_ ися {кв-веи ) ма Вреусрих\nМифуиивсин ророеовестно труриииеь работе деетовуееуыт ‚в конго\nлауалае - Вроли 4 вадреветип ‚а срефи мдциивтов, Бош нвиомО Цеилтылой\n| Кралота лДабивиние ии на зовреванних птеруаеторелдя « Дивылх\n| ролиой вигровуи «иокусетва. Резруковеете Ятоеа нидрее7 дутандвеетеыр\nпоксетной мдие дкдиеца оетудасевныы! ‚ Чезуесловно ) теорий вевуё\nИе | поставит пАрёр идеи впрос отели, что тоткое порленал\nфуэовиостьь в чес дна пролв-леедтсой в вовне пет вбееннее\nС Соиовеаченй  Катевттеею обвие | РОТЕ «НЫ, водга велееен &\nвех илкосовоков уно исуорсоеута Увеовенеегтве. ОФ СРуднныу иеааетее\n[ардети | рт рилутово булаттеае Даровугсни- уу “аврувегеаер\nпробеенла ‚ар котелды портеиевет ВД Иелевой, скор вуеетаен)\nХто в Мадтовиц-ее бувегг «бедра 4 роивлато Доиееготв двеслта\nДа ‚ое вого. вутеенедоте.о обои рвет в реле пбадветов\n[вфоегтв. Лоры вирот толвео Ридониве Степана РЦ. ета пни,\n[офочаровомие | (( дто водввадт “ Й  Йепин ова сргбрчениееута. Ло\nилевемино аваира , чтноба противостогвть РОДИОН ПОЙДИОетеве,\nКто нориллиоь ивроваетьсе воде Руееутем вонрасн! сана\nМоволлг) фикд, ветуле с Коеоевелеьме, ив атедавна @ поргазеевы вре\nМельник будили фаруснантьвее ворлеотвуед, УРивое Ив срогевеенериих\nнаторилть /1вроста в плоатане ,повевттевепн оно внееди ббнужен.д\nРпаеги Оле Обищцеетва . Уте-то Иегова, Тод Предтиулуеене | Чаи\nКолколша МОР вплив нтв # торге Ию еёсо еее еее,\nвел. к арт всеж, выбил ратодру. # вулуг врври тает наое\nихотаёт ‚дтпо Продуто иеенадтники Увыовек , Коте вепенед пенведнтр\nа дела Прветуаниек: Уовурнее, него лид евоетие ПЕоннее Иов ее,\nдп | нЕспило Покотея чо Фытаеор Увеутову (уу ед, итуденерооуты,\nибтна , 1алледтвасоеь Рут веееена, вттудеееа твой ра #\nбоетидаро, иалциеав топойес вез девор иалтеры © поетвес, ое\nИо.\nИОВА «его\nИо Пете), у",
+              "excluded_region_outputs": [],
+              "seconds": 4.769668167005875,
+              "literal": {
+                "edits": 2813,
+                "characters": 3955,
+                "cer": 0.711251580278129,
+                "word_edits": 554,
+                "words": 566,
+                "wer": 0.9787985865724381
+              },
+              "reading": {
+                "edits": 2623,
+                "characters": 3792,
+                "cer": 0.6917194092827004,
+                "word_edits": 542,
+                "words": 558,
+                "wer": 0.9713261648745519
+              }
+            },
+            {
+              "unit": "hwr-expanded-009",
+              "input_ids": [
+                "3a7998a48535c47ef446"
+              ],
+              "input_sha256": [
+                "3a7998a48535c47ef446490263237ab2669129176b85ec87373092e6d90cfea6"
+              ],
+              "prediction": "ТЕНЫ Е Е\nЕ ИСТ,\n[3 ие.\nети Г; #4 у,\nак\nно и У И, йе\n: Кон ией\nО, о ий, ВНЕ\nТР зе ЕСН\nНЕЕ\nВ НЛНЯЕ Ей\nЕ Е\nБила ви\nные, 1",
+              "excluded_region_outputs": [],
+              "seconds": 0.4367929160071071,
+              "literal": {
+                "edits": 3611,
+                "characters": 3698,
+                "cer": 0.9764737696051919,
+                "word_edits": 508,
+                "words": 512,
+                "wer": 0.9921875
+              },
+              "reading": {
+                "edits": 3445,
+                "characters": 3549,
+                "cer": 0.9706959706959707,
+                "word_edits": 501,
+                "words": 507,
+                "wer": 0.9881656804733728
+              }
+            },
+            {
+              "unit": "hwr-expanded-010",
+              "input_ids": [
+                "c33b9c46a4e40ba5be6e",
+                "fd3611a81e624ce3e102",
+                "4739bb9627cb9481d4cb",
+                "a862d3301674d1c33df2"
+              ],
+              "input_sha256": [
+                "c33b9c46a4e40ba5be6e6ebdd339159199c5466b0af43b2bfc0198a3797789fe",
+                "fd3611a81e624ce3e102288ee473020d14b2b508ba7a90388020a1eda9298b7c",
+                "4739bb9627cb9481d4cbf4ff0018d0e5c13ad3704cd58b0f899b4338d14ea625",
+                "a862d3301674d1c33df2d3b61a97e6005f9f7ef944b221156ae097423e809ace"
+              ],
+              "prediction": "@ \\цебе О КОММ СЮ 7 РОСМЮюМ 4 Эбке\n|\n() «све имосхеолоЧих слов \"ЧССКОМ Я Зе\nКОЮРОЙ иаееак О\nрот игоФавния, ки у акорят\n[> колючей. (втоР трево‹ой плит и\nТО, (оС ИМОСТРОКНОЕ | СФОЯ И РобСОЦОЯ\n{ коше РОдКОЙ ЭМ: словно, КО хоЛЬкоЙ\nчежодце ьеЧ КО, молЯО , & КОЮУОО ©ВЬ\nгомочникй живой, и ‚эдоеовый еле\nИо 2. Глдоомев веер, что 00,\nисхато ом „ мОбал- оаета РдОЛе-_\n%а водой доле преси ное Зкатхевия,\nоеоищтея  оековоб  Фзтко,  еогесцю\nкозкиюЮ _ рик ние аоаннк ии\nимосттамилтте. ел цеЗх коме М иде.\nмнк, синод, небо одо-РкОй Раф оо?\nхозмощ | доме хвоя ка. вок\". Чодко\nме бозмоситреа, ©, немом охота,\nое ихезюно, Ц есонко  РиеСиие. яя\nв то ие встОАОК |, чежододлц”, кото Рот\nя пОбран оно) ати вико\nспубтвсО. В вчосщю рекеваю чи, В\nЕя\n\\ МОХ въ, асмо5 олучелько. Ме дули\nоке. 4 эсооКов Ц иердужеке селе |\nине к че сук ааа г\nбакия икостамнак снов Так, А. Кктше у\nе6есй | иеркилеской | пбаакоции „болей\nи оц РесмаЩд ЯЭде!\" (колецвоет |\nцееояемей салобеснияк , чахомов \", пока эт воля, |\nКаскопько недемой  счамовихоя. несла, есть,\n\\ееокостикенной ум, Побоцоретачевиыя |\nсх тьд, (5. комомииа „Мм савеоеника Э17 |\nНе кохощ  Яэяке дл оюворий © пошив \"|\nпов жека (Род лем яЭкпиовлк иемемостед |\nКОРДА оон бело МоМЦЯМ КОХ Ци некочОРоК\nхъенолиеюв, Автор пеивоцух пециРт обецед-|\nнах Чхолеа в слювок иной эячкох оо\nбоба, немом вы схалолоилих и пищ\nЭд иетользовоть  Зоотей или арок\nРасехол0 в ие, о, влобЬ вотвац, что\n| оО, Зэлма, ие. ся номеддое, ;\n| + “ОСТ. Рволчее ет\", КО очеоААхЬ Ах веку\nк, а ар ПРОСЯ небокодцы, олеенке-\n‘ба ОбъОвь — номосерпаодма” МобеециеконЯ.\n“бо ово комечеепо ениеу— вот пРОВЫений.,\n|\n1\n| кечеуо са вич И свой и Эссе. Заоукние\n| холл себ кекмка  ицеаледо 7 Зуд\n| Эта веток мой ся Вепмьсй а,\n| кон кс Ра роьиинисло? ав\nОЧё нь Зоо) Саке го плод,\n8 може, ко” УШУ ице Вона, ток\nХелееЬ — е: мене фесобек. Я.\nдоче СС, ро \\СОТОР О ке.\nче: ®, о т, коды\nЧей ад _ИРО ААУ ==\nт под идиот, ИЕТОР `тевие-\n‘аа евоё:ц ПРовалОО < О,\n|бало «чедииной „атети, (чюбло\nПРОСЯ ©, над; пРоиеля | Ок РаСеЕС/)т —\nвост О согестатх ие, КОтОРсте\nпеегким | ® её мощи 7. бдидео@\n| пед \\ог корт о © ‚о щ кие\nообеебиоть` по отвощених, к валерий\n| то, о 4 мы Фцсещ ам «© коМАо\nби до, М ОМ е «аддисы\nо/бтОеОС ддджЬ = ЭЧО чт человек,\nкотовощ в або мож, ИЛ Ол жи\nЗХеМАХ | 01 ад в пеоенай ‚ Пюде в св:\nДолли маил, котрРоя Е иаоди: нам Ё\nсашоте тах еее „итковения_ жизни, Г» ла-\nзуехе. „ Г) Ризумиеог ордисог °, велено\nпоз АИ ид певоовеьи` зали.\nМом ито слова.\n| зая влекосО детае Йо, @ той, #0 ОК\nи вред вод Я вовото_ козе\nж. ях ЖЕ д ИЗ ЛИ вер\nа-4оа-8 бок 38",
+              "excluded_region_outputs": [],
+              "seconds": 4.970807998979581,
+              "literal": {
+                "edits": 1881,
+                "characters": 2836,
+                "cer": 0.6632581100141044,
+                "word_edits": 470,
+                "words": 408,
+                "wer": 1.1519607843137254
+              },
+              "reading": {
+                "edits": 1624,
+                "characters": 2717,
+                "cer": 0.597718071402282,
+                "word_edits": 447,
+                "words": 401,
+                "wer": 1.114713216957606
+              }
+            },
+            {
+              "unit": "hwr-expanded-011",
+              "input_ids": [
+                "05b64233a4e366cae870",
+                "cea381a1b3c91c761a1d"
+              ],
+              "input_sha256": [
+                "05b64233a4e366cae870c29d9c44feddcd92b2788e547f130a4077a295ece349",
+                "cea381a1b3c91c761a1d7dd1a7a11c9d6e7139bd0dbe8e474a2b5fb144dcabf0"
+              ],
+              "prediction": "‘но одхачает слово „ чостс “для сОбрелиикоо ловека 2\nспарело „и Это леклоше ? Рад Этим Фор. осом Уд обается\n| анк тёнста В Дан. д 27) обр вн бурда\nпробллЫу = п а вохраненая * бор, ты поиЗИЯ\nель\", о раная ВА ноощйЬ Дет Чбели- Это рат\nг. а остоинсгва, ко ко „ПРЕ фо деть | ЭТО\nировс пувниеАтО оне, меб полевего Уон-плие. ета же (я ЕЙ\nкакаки АЙ И грили е„иба ии. Честь дд-@тся #70 ой делу\nБик ете с Фвнел, Ее кадук вЫ «бло етите, ка ивтре я, ое\nмно роль вере. Я полиостыо обМасна © тео каре?\n& ввбрира, Ч-ебк создан ке томко Я ТО, Празоутыет\nи, постраате Ш а 4/* п, хутор Мег #\n8 кн ок, ру маны @20 игры как еб Дит Доли\n© бибоделниях. Р) этом) и донлючавтся СНОС вело\nИЕ ноинеой и ‚ тоста“. Роли? МОСЛИТЕЛ Драстовыле вере\nть - мо Идя я, пр праьлое а редрореола * Вокоуотслееты\nое тб бНИ ЕТ при Мари) реаре ФА\nА я моевсноь» ° И есле као и у алие” (фа велрозоетней уров\nс мерушм тов ре с риа, броне его Оу очита вт\nей оси оскра п, 2-1дуа Желл при руоенрецоя ка. то, егь\nВане Мой меладева. пе “ор веа ‚и Вто обозграть ее /\nстся. /) хаос же 02 р, оуе-вства чвико приветы\nНя ‚обр длине) ео ня боев. ИЕЛЦО\n%о Вр! кр, он беж м я дрмтем вознарапренее\n06 0. ео, (венах 222 лос 9-й *\nпи ео, ной подло-мщиком, уте ее дрен\nей суть рее, И улеледа “ЧА зебот\nаломох Кто уе летЦгото, откдфо-*\nЗы жи М аж «то и дта _рассороляв 7 Дака\nры ий аикая провело” вптидлька © бе делеена а эго\nни упье ‘аж иде, # ей ет тание  «Чори, уаея 4 ке\nрей ‚ояцйо ко ква Чокантие чести ке света В усторе гой,\nизсовредиином , так пк хотдвия мая, уо-тееуе #0лада 6,\nопределен полил | пинциета.ии, веднуанияа „ боуть «ён уе\nд\nвсли кое ВМ верумай. | Честное В цетнну к дуе:\nто дне окрузрас. | станет ка-нд20 чучие ‚ (иесоа полнота?\nкомм в елодикох | сина, ЖИ) нае правильно „ир слить\nи “’. {алалто сво кафедр и эвимется ев ор етоо\n“ го о алина ло дно Чадаев так\nкак @в те /релраелеги дрешиа, код\nедидл! дидл анна! ддоолЕ Туе. ИД\n1 влечения\nнеко в И, илом”,\nЧо ние кл | бета ЛОСЬ\nпевевтвованеви абрир и / даб “й Данак\nВ свовм\nи) акт, Тор кт\n‘я д0*ее сли # Вай:\nпе\n(@ брейска. ‚ 99% еолте петостае и етролинде,\nЯ оие свое ’б., а Ре пралеенониге Для чолвена дно.\nито досуд, Нева ‚ др?. бойенто\nволодна в 6 уобо-и ^ с:\nко пефРвридает | Рае менида о нуно рак’, Что\n{ ибиентР | бчаяния И к поедет одолели\nкипа, нак источныЕ  обонвева, в болле О доНрия Раде делы /га\nГай очана | уфлечено пей Во вер Кии бруа пума\nгда ке «врелгя дроу, Все „иедтвтся с суме сие дел\nост: О Дону Васи АЕ что-то лоте, опре\nиитаресное и нлкой обросцениа. Мок па сле пни\nпе, рол видение, Ая подо (ответ. Дула поруа\nго иней возласитем в тв, то, р м. ролоду,\nпоме. Чдовие  ФилючиТ пел Вор И Кови «ДИ в,\nг маи пбержатс © ве) ая Са вщсе В нии воен\nЛак мо’ и’делаем М право ки к Не роовеилел\nцаволен ий собрешеннох Рехно-ойе. Оита породил\nабы и атеи ние „иное увсеко, В Мое) вы\n„Чоевущается бекона, Й славно жрре пед? д чин;\nана, которо? фе а де вито иврог гра кт глия\nни & и “ао обр хо стрел#-0, рво-оса, а п\nИ елде ‚ по, ий лигой, и читал *. Кигда_ ро Оо ууиеелу\nколо # у НроИ Тоное ‚лее Чоииа,\n: 08 то ею\nФелка 0. обес\nвауотся унйнй ан\nигл, ии ветордаке% и по к а. / КОН\nс Но “аптай? ЕЕ, ИУЛНО ка дти вет? 5 2053-е ео\nевотни. Ронечно дело к эпродо- читать или ме? Зрееё каф поле\nракто ие властви. Й ратте понято Что недбоз)-ноМто\nотказаться вет столё приятно на-й гос. авы човвлецоциих\n№ родины ‹вабех вера сына сокето’й пиитное с попа ука",
+              "excluded_region_outputs": [],
+              "seconds": 5.497045999989496,
+              "literal": {
+                "edits": 2366,
+                "characters": 3987,
+                "cer": 0.5934286430900426,
+                "word_edits": 648,
+                "words": 586,
+                "wer": 1.10580204778157
+              },
+              "reading": {
+                "edits": 2170,
+                "characters": 3848,
+                "cer": 0.5639293139293139,
+                "word_edits": 605,
+                "words": 583,
+                "wer": 1.0377358490566038
+              }
+            },
+            {
+              "unit": "hwr-expanded-012",
+              "input_ids": [
+                "3e35750e0f2b48ff19b6",
+                "df4f1b05760bb253e699"
+              ],
+              "input_sha256": [
+                "3e35750e0f2b48ff19b6aca0a52dae006211275944193692b26b832b3ab3b63c",
+                "df4f1b05760bb253e69998d34f85ba6ee0837524a6c61c350ea7f1a363365108"
+              ],
+              "prediction": "моего льтелы в жтаое неа ке оо @ кор\nма ои оа еее иедыы ть сибе да он кое кт рано нете РАН ЖК\n0. ОДАААЮ ЮЛ, ПАЛО... О АААМО\n№ ил к.\nко МАО МАЛО\nина : а у, \\ `\\’ гв. М.М. ИЯ в, А # иске Влок,\n“ е ' , ы я й О : у Ч \\ #\n* КМ. ада, , УР М ИТ МИ т.г МОМ... 4. й кет\nЯ ' 8 В\nй р Н | я\nый * Вы В С, Ы Гь Въ Ра ВЫ\nК.\n",
+              "excluded_region_outputs": [],
+              "seconds": 1.7017781260074116,
+              "literal": {
+                "edits": 2108,
+                "characters": 2312,
+                "cer": 0.9117647058823529,
+                "word_edits": 340,
+                "words": 343,
+                "wer": 0.9912536443148688
+              },
+              "reading": {
+                "edits": 1995,
+                "characters": 2219,
+                "cer": 0.8990536277602523,
+                "word_edits": 328,
+                "words": 335,
+                "wer": 0.9791044776119403
+              }
+            }
+          ]
+        }
+      }
+    },
+    "easyocr": {
+      "settings": {
+        "engine": "easyocr",
+        "version": "1.7.2",
+        "torch_version": "2.14.0",
+        "languages": [
+          "ru",
+          "en"
+        ],
+        "gpu": false,
+        "decoder": "greedy",
+        "canvas_size": 2560,
+        "workers": 0,
+        "paragraph": false,
+        "recognition_model": "cyrillic_g2",
+        "model_sha256": {
+          "craft_mlt_25k.pth": "4a5efbfb48b4081100544e75e1e2b57f8de3d84f213004b14b85fd4b3748db17",
+          "cyrillic_g2.pth": "48d0f3b58f28aa64651ab1032cc2d498c4de25135829668e87c14e7a07529f29"
+        },
+        "threads": 2,
+        "seed": 20261114
+      },
+      "distinct_inference_tasks": 59,
+      "total_inference_seconds": 289.1383966679714,
+      "statuses": {
+        "completed": 59
+      },
+      "panels": {
+        "diary-14-crops": {
+          "units": 14,
+          "input_images": 14,
+          "mode_in_historical_report": "reading",
+          "notes": "Historical hand-selected single-line diagnostic; preserves frozen labels, not representative whole-page accuracy.",
+          "failures": [],
+          "aggregate": {
+            "literal": {
+              "edits": 239,
+              "characters": 233,
+              "cer": 1.0257510729613735
+            },
+            "reading": {
+              "edits": 209,
+              "characters": 228,
+              "cer": 0.9166666666666666
+            }
+          },
+          "rows": [
+            {
+              "unit": "crop-V001",
+              "input_ids": [
+                "6ceb80be16cd4d666d42-line"
+              ],
+              "input_sha256": [
+                "6ceb80be16cd4d666d4278e6e78c219e1a2ebc5253c66a095d6069a6941a1825"
+              ],
+              "prediction": "Gж5a ~",
+              "excluded_region_outputs": [],
+              "seconds": 0.05172995899920352,
+              "literal": {
+                "edits": 6,
+                "characters": 6,
+                "cer": 1.0,
+                "word_edits": 2,
+                "words": 1,
+                "wer": 2.0
+              },
+              "reading": {
+                "edits": 6,
+                "characters": 6,
+                "cer": 1.0,
+                "word_edits": 2,
+                "words": 1,
+                "wer": 2.0
+              }
+            },
+            {
+              "unit": "crop-V002",
+              "input_ids": [
+                "5046a2f1ecc8eeef80d9-line"
+              ],
+              "input_sha256": [
+                "5046a2f1ecc8eeef80d94a7288ab0daf54e42e54ae510754cafb5ebcf04ac166"
+              ],
+              "prediction": "kо]тчъыы ",
+              "excluded_region_outputs": [],
+              "seconds": 0.008552041996154003,
+              "literal": {
+                "edits": 8,
+                "characters": 7,
+                "cer": 1.1428571428571428,
+                "word_edits": 1,
+                "words": 1,
+                "wer": 1.0
+              },
+              "reading": {
+                "edits": 7,
+                "characters": 7,
+                "cer": 1.0,
+                "word_edits": 1,
+                "words": 1,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "crop-V003",
+              "input_ids": [
+                "f92d4f2f6e6715f2d386-line"
+              ],
+              "input_sha256": [
+                "f92d4f2f6e6715f2d386ea781a495653b08f6041cbd26acc8fa43117c26e1f5b"
+              ],
+              "prediction": "УСбиеwQя ~",
+              "excluded_region_outputs": [],
+              "seconds": 0.015743916999781504,
+              "literal": {
+                "edits": 10,
+                "characters": 9,
+                "cer": 1.1111111111111112,
+                "word_edits": 2,
+                "words": 1,
+                "wer": 2.0
+              },
+              "reading": {
+                "edits": 10,
+                "characters": 9,
+                "cer": 1.1111111111111112,
+                "word_edits": 2,
+                "words": 1,
+                "wer": 2.0
+              }
+            },
+            {
+              "unit": "crop-V006",
+              "input_ids": [
+                "7101d54c02085f996bf6-line"
+              ],
+              "input_sha256": [
+                "7101d54c02085f996bf69ff00aa71c4997dc11cf4da7af168c61ee51337e63d1"
+              ],
+              "prediction": "'(Cuо Quчs",
+              "excluded_region_outputs": [],
+              "seconds": 0.008374708995688707,
+              "literal": {
+                "edits": 10,
+                "characters": 8,
+                "cer": 1.25,
+                "word_edits": 2,
+                "words": 1,
+                "wer": 2.0
+              },
+              "reading": {
+                "edits": 8,
+                "characters": 8,
+                "cer": 1.0,
+                "word_edits": 2,
+                "words": 1,
+                "wer": 2.0
+              }
+            },
+            {
+              "unit": "crop-V008",
+              "input_ids": [
+                "43786a323fe80427f15b-line"
+              ],
+              "input_sha256": [
+                "43786a323fe80427f15b779c3bb6ecd529fded5913573bac8a9c2e58a66f2624"
+              ],
+              "prediction": "Mwчswuc   w чж~~ 47 ~чvо ",
+              "excluded_region_outputs": [],
+              "seconds": 0.05745895799191203,
+              "literal": {
+                "edits": 22,
+                "characters": 26,
+                "cer": 0.8461538461538461,
+                "word_edits": 5,
+                "words": 5,
+                "wer": 1.0
+              },
+              "reading": {
+                "edits": 21,
+                "characters": 25,
+                "cer": 0.84,
+                "word_edits": 5,
+                "words": 5,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "crop-V013",
+              "input_ids": [
+                "eaf9ef3b580cb7b43c33-line"
+              ],
+              "input_sha256": [
+                "eaf9ef3b580cb7b43c332b093dfdc2f4ab50ad83f02f8e2fe4e9cdd1d3ffccb1"
+              ],
+              "prediction": "{оvо- , ~4ФU",
+              "excluded_region_outputs": [],
+              "seconds": 0.024706790994969197,
+              "literal": {
+                "edits": 13,
+                "characters": 16,
+                "cer": 0.8125,
+                "word_edits": 3,
+                "words": 2,
+                "wer": 1.5
+              },
+              "reading": {
+                "edits": 13,
+                "characters": 15,
+                "cer": 0.8666666666666667,
+                "word_edits": 2,
+                "words": 2,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "crop-V014",
+              "input_ids": [
+                "510cdacf21b1ef780c77-line"
+              ],
+              "input_sha256": [
+                "510cdacf21b1ef780c778e84dea939d2e8821c383768a750d54952c7ea63e0f9"
+              ],
+              "prediction": "Jrh ewu (Quабл   ~уб+1 o_wevuд )",
+              "excluded_region_outputs": [],
+              "seconds": 0.03679325000848621,
+              "literal": {
+                "edits": 29,
+                "characters": 30,
+                "cer": 0.9666666666666667,
+                "word_edits": 6,
+                "words": 3,
+                "wer": 2.0
+              },
+              "reading": {
+                "edits": 27,
+                "characters": 28,
+                "cer": 0.9642857142857143,
+                "word_edits": 5,
+                "words": 3,
+                "wer": 1.6666666666666667
+              }
+            },
+            {
+              "unit": "crop-V015",
+              "input_ids": [
+                "66a294764fcd270cea9b-line"
+              ],
+              "input_sha256": [
+                "66a294764fcd270cea9bc3f5280d08977a3d0a648494d15641556526766b0031"
+              ],
+              "prediction": "Je   Yxo",
+              "excluded_region_outputs": [],
+              "seconds": 0.007827875000657514,
+              "literal": {
+                "edits": 5,
+                "characters": 6,
+                "cer": 0.8333333333333334,
+                "word_edits": 2,
+                "words": 2,
+                "wer": 1.0
+              },
+              "reading": {
+                "edits": 5,
+                "characters": 6,
+                "cer": 0.8333333333333334,
+                "word_edits": 2,
+                "words": 2,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "crop-V016",
+              "input_ids": [
+                "f9c89934320e471c4fd9-line"
+              ],
+              "input_sha256": [
+                "f9c89934320e471c4fd95d030ca1e0b62c26fdc544c3f72eaea624fb6ad5004f"
+              ],
+              "prediction": "кvВоха  . (Mv- : .",
+              "excluded_region_outputs": [],
+              "seconds": 0.026483749999897555,
+              "literal": {
+                "edits": 15,
+                "characters": 13,
+                "cer": 1.1538461538461537,
+                "word_edits": 5,
+                "words": 2,
+                "wer": 2.5
+              },
+              "reading": {
+                "edits": 10,
+                "characters": 13,
+                "cer": 0.7692307692307693,
+                "word_edits": 2,
+                "words": 2,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "crop-V017",
+              "input_ids": [
+                "c444ece03907031e985c-line"
+              ],
+              "input_sha256": [
+                "c444ece03907031e985cea5ca60017997b484c007dc0b69be872ca4a9fcd2345"
+              ],
+              "prediction": "WW^, uvwУ : 9#wf   олмэ~,\" J ),аi4и4",
+              "excluded_region_outputs": [],
+              "seconds": 0.047850874994765036,
+              "literal": {
+                "edits": 33,
+                "characters": 38,
+                "cer": 0.868421052631579,
+                "word_edits": 8,
+                "words": 8,
+                "wer": 1.0
+              },
+              "reading": {
+                "edits": 31,
+                "characters": 37,
+                "cer": 0.8378378378378378,
+                "word_edits": 8,
+                "words": 8,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "crop-V018",
+              "input_ids": [
+                "84c44b52598f3773a9f9-line"
+              ],
+              "input_sha256": [
+                "84c44b52598f3773a9f91a40176a802c2bfefe21fbdbba648c942884d4748ea2"
+              ],
+              "prediction": "%a   хо , {v\" kovt{ooo ,",
+              "excluded_region_outputs": [],
+              "seconds": 0.01948679100314621,
+              "literal": {
+                "edits": 20,
+                "characters": 18,
+                "cer": 1.1111111111111112,
+                "word_edits": 6,
+                "words": 4,
+                "wer": 1.5
+              },
+              "reading": {
+                "edits": 15,
+                "characters": 18,
+                "cer": 0.8333333333333334,
+                "word_edits": 4,
+                "words": 4,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "crop-V021",
+              "input_ids": [
+                "17f9bdc04740c358730c-line"
+              ],
+              "input_sha256": [
+                "17f9bdc04740c358730c0d2078f536840d6a9c80ce849f9920fbe5dc04e9cc6c"
+              ],
+              "prediction": "vcov& @_€95v1м wvыgrd`",
+              "excluded_region_outputs": [],
+              "seconds": 0.027102749998448417,
+              "literal": {
+                "edits": 21,
+                "characters": 18,
+                "cer": 1.1666666666666667,
+                "word_edits": 3,
+                "words": 3,
+                "wer": 1.0
+              },
+              "reading": {
+                "edits": 18,
+                "characters": 18,
+                "cer": 1.0,
+                "word_edits": 3,
+                "words": 3,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "crop-V022",
+              "input_ids": [
+                "3360f2f675d86dd8c493-line"
+              ],
+              "input_sha256": [
+                "3360f2f675d86dd8c49390629530454bd41f06b5a6ff5161e77263b25463d2d8"
+              ],
+              "prediction": " 0{g,6wwvva_ ~смкоЯ _  Vs1]-о дJвvcu_",
+              "excluded_region_outputs": [],
+              "seconds": 0.04281391701078974,
+              "literal": {
+                "edits": 31,
+                "characters": 27,
+                "cer": 1.1481481481481481,
+                "word_edits": 5,
+                "words": 3,
+                "wer": 1.6666666666666667
+              },
+              "reading": {
+                "edits": 23,
+                "characters": 27,
+                "cer": 0.8518518518518519,
+                "word_edits": 4,
+                "words": 3,
+                "wer": 1.3333333333333333
+              }
+            },
+            {
+              "unit": "crop-V024",
+              "input_ids": [
+                "43bf5ea620b3343191eb-line"
+              ],
+              "input_sha256": [
+                "43bf5ea620b3343191ebcbddaa14977987202d0f7b467a91f0de3d62393f9270"
+              ],
+              "prediction": "Quw[vouwbb сячь  `",
+              "excluded_region_outputs": [],
+              "seconds": 0.023162083001807332,
+              "literal": {
+                "edits": 16,
+                "characters": 11,
+                "cer": 1.4545454545454546,
+                "word_edits": 3,
+                "words": 1,
+                "wer": 3.0
+              },
+              "reading": {
+                "edits": 15,
+                "characters": 11,
+                "cer": 1.3636363636363635,
+                "word_edits": 3,
+                "words": 1,
+                "wer": 3.0
+              }
+            }
+          ]
+        },
+        "diary-3-pages": {
+          "units": 3,
+          "input_images": 3,
+          "mode_in_historical_report": "reading",
+          "notes": "Same exact target bytes as the matched Sol/Gemma/Grok tests. Only final unresolved word of page6 is excluded using the frozen pre-word text boundary; segmentation/scope failures remain scored.",
+          "failures": [],
+          "aggregate": {
+            "literal": {
+              "edits": 1386,
+              "characters": 1617,
+              "cer": 0.8571428571428571
+            },
+            "reading": {
+              "edits": 1221,
+              "characters": 1449,
+              "cer": 0.8426501035196687
+            }
+          },
+          "rows": [
+            {
+              "unit": "diary3-P04",
+              "input_ids": [
+                "002f93759d0e598548ea"
+              ],
+              "input_sha256": [
+                "002f93759d0e598548eafb0aa63ec64838b91e5167cb028bec3043b66a6f9418"
+              ],
+              "prediction": "2\n~uhиo\nwwv4\nкэте] ^\nкJwv5W% u\nvleew\n@Ф[\ncho OLJuvwd\nии\nwuSv&\n21&ч\nи\nC~Quu\nYe1 wwn\n{6\n~AU\nи\n@ut0О bсuм\nVWOv{vсv\nJo\now\nч 0\n2\n'w  Хоqv\nИем\nY \nw\nT2 &е\nКо\nУЧиo\nJCvC\n\"Итмс ,\nW\n~\nФa\nиеX >\n0\nх\nvQ\nУЧэислое\n@\n0\nис %о\n'*еu\nwo\n2o\nчc\nOк\"u?\n~мч\nY0:\nЗсЛСоя\nQ\nIc\nwGvtCt\nWowo\n@ ч~хьоtyv)\nCv 9 N@\n*\nV e\nquЯqс\n@WФu &\nw \nWru \n$\n(Ччиwх\n~wo\n3\nCowua\nvQ\nЗw .\n3\nWj @\n@чq&v\n0\nq%\nqФч\nТос ?\nR~\n^охос- [~жоф\n0\nCuuw\nWw\nЧ?\nqк\n2\n2\nФОм\nФм\nччошлq '!\nWow\nТ%/\nко\nио\n[с (Ммхv ч\ne\nvл\n~CCvu\n'Ччue -\n7e & .\nк\n20\nЧw [poJx\nЯеv\n( Ccu (осw \nОбъwq\n~LouuLvatw0\n(aua\n@  юс\nЧv?\nбlОсx\nqv \n( % 9M\nоJ",
+              "excluded_region_outputs": [],
+              "seconds": 14.234634416992776,
+              "literal": {
+                "edits": 489,
+                "characters": 572,
+                "cer": 0.8548951048951049,
+                "word_edits": 145,
+                "words": 111,
+                "wer": 1.3063063063063063
+              },
+              "reading": {
+                "edits": 422,
+                "characters": 511,
+                "cer": 0.8258317025440313,
+                "word_edits": 128,
+                "words": 97,
+                "wer": 1.3195876288659794
+              }
+            },
+            {
+              "unit": "diary3-P06",
+              "input_ids": [
+                "987201bd67a34cd363cc"
+              ],
+              "input_sha256": [
+                "987201bd67a34cd363ccbf94d6fcb4e9e4b664ba992a85a70aecfbf7948fbe6a"
+              ],
+              "prediction": "Ибмс\nП\nQewux\n~~vG\nSxe UZ сLомw\n~я ль\n3\"1e\n9\n((холл\nФ\nJW%\nVMvиA\nSan  vo&\nи ve4? e ?\nD&\n3оuсеv\nмоFе\n2\n01\n{е^ Сы Ae\nuo\n19 JJ\nо\nC\nуo &\nIvo\nФхoъzч\nKGu иvo u\nХov₽\nо4o\n@xvov\nv\nЛouJe\nОY сvv 0\nw1\nоoo\nee\nve\nMouuo\nии\nvQ\nиочо\nUJov\nФЭеqоw^\n~?\ne~Ancс %е мъ\n(\nW\nv\n₽\nч\n29/7 - ч+\nWoмvQWvce\nJoq\n0\nG\" qGu _vco lvlvwueKy\nкол\"oк\"\n@мо>\nqотё~\n2Фw x\n@ ouua .\nM\nvouqo\n1\n@0ч;\noJJФ\nbоммv\n%\n0i\n(o\nXCLuCvwv\nие\nww)\nw\nw Ww\nC\nСмо\n7l\nWev&\nQо\n{ @Ъ wми чw\nQ\nwo\nQoА/~М4?\n(Сеч\n\"~eM\n@q\nQчкq\n&osV\nWW8 оvM\n~Sse Vчч\nQoeQ\n~SleNu\nчv\nсо9\nи\nVuv \nv % 5\n2й\nQJч\n1с~\n{951joc",
+              "excluded_region_outputs": [
+                {
+                  "text": "к{ож эикА}",
+                  "box": [
+                    [
+                      1578.0,
+                      2589.0
+                    ],
+                    [
+                      2080.0,
+                      2589.0
+                    ],
+                    [
+                      2080.0,
+                      2721.0
+                    ],
+                    [
+                      1578.0,
+                      2721.0
+                    ]
+                  ]
+                }
+              ],
+              "seconds": 15.196108375006588,
+              "literal": {
+                "edits": 456,
+                "characters": 520,
+                "cer": 0.8769230769230769,
+                "word_edits": 135,
+                "words": 95,
+                "wer": 1.4210526315789473
+              },
+              "reading": {
+                "edits": 413,
+                "characters": 471,
+                "cer": 0.8768577494692145,
+                "word_edits": 126,
+                "words": 85,
+                "wer": 1.4823529411764707
+              }
+            },
+            {
+              "unit": "diary3-P07",
+              "input_ids": [
+                "eb33f5a49f946d7da414"
+              ],
+              "input_sha256": [
+                "eb33f5a49f946d7da414bbdf58fbb9167c443d3ceae7a2801869847e1c63da6e"
+              ],
+              "prediction": "0\nvv' wNtov\nVu\nqещд\nQu\nИ,гс\n*\nxu \n v\nwNs qC\nWw\n9\n&24\nХочы\n3\nWOl%\nwM ;\n(ove^\nvс\n?\nQoл&^\nJc wo ~e\nи\nAo\n@Жеме bvc.\nJw:\n0з we\nооо _я\nэwo\nоСио\nФчi\n0\n~j\"qче\nщa JoCivo\n~Ч\nwow\n(оCо-w ^\nФи\nVow\nWоfq\nСиотю\nvо&@1*^\n((\n~\"ел\nмор н ,\nw\nUw &\n?ee\nSeut&\nJи uk\n0\n{uъoй @uuwo.\nO\n^ wC\nX\n{оммоя ?\n(lo\n'[ywu\nWu\nОис\nw\n%\nw < >\n@\nW1 л о0\n2\n~эQ\ncou .\nWcu ,\nw0-\nn2\n[r4'\n9\n&\nТотие\nс\n0 0 мм.\nфоч\nCoФw\nw9 &\n@КQwa\nходош\nи2\nуo 9\nWepc\n(6419 \nC~@vo &\nwa o ^\nW)\n~ааmwo ,\nКм\n(e&\now 6\nw8\nboбо &\n0 Jww \n~0\n(ec1v\n0 oe 9 oJJJ",
+              "excluded_region_outputs": [],
+              "seconds": 13.025805083001615,
+              "literal": {
+                "edits": 441,
+                "characters": 525,
+                "cer": 0.84,
+                "word_edits": 135,
+                "words": 92,
+                "wer": 1.4673913043478262
+              },
+              "reading": {
+                "edits": 386,
+                "characters": 467,
+                "cer": 0.8265524625267666,
+                "word_edits": 119,
+                "words": 82,
+                "wer": 1.451219512195122
+              }
+            }
+          ]
+        },
+        "diary-6-pages": {
+          "units": 6,
+          "input_images": 6,
+          "mode_in_historical_report": "reading",
+          "notes": "Exact original six-page target bytes and evaluator copies; same images as standalone-skill diary panel, checked below.",
+          "failures": [],
+          "aggregate": {
+            "literal": {
+              "edits": 2605,
+              "characters": 3022,
+              "cer": 0.8620119126406354
+            },
+            "reading": {
+              "edits": 2263,
+              "characters": 2702,
+              "cer": 0.8375277572168763
+            }
+          },
+          "rows": [
+            {
+              "unit": "diary6-P01",
+              "input_ids": [
+                "be22fb01ce324fbd149c"
+              ],
+              "input_sha256": [
+                "be22fb01ce324fbd149cc276c1eb6d840c62be5f0c961859de8d15331db80ad1"
+              ],
+              "prediction": "'/\n4*\n J\nwлъ \nс\nn\nХэч\nХ&чv\nf\nемоо\n'1с%uкк\nQuu\nJwe\ncaw \n{ece Jus ^\nм\nCou&\nСмw\n0\nqзЛни&.\nSwsa\nисмc\n~a va\n2\n^\nоv\nТетеч\nWMwue\nQcx\nJon&\n~w\n> ' 1!\nw\nQcex\nX\n@;смии\n2\n(oрочuu 8\nVоиеw Q~л\n41\nОетzs (эго\n(vev%)\nИ\nЧ{лv\nомо\nQcvочe\n€\nосу6ч?\n6\nр\nэ%0 ч&\nЭеcиc\nФw\n'~[учwJос-е; \nVe\n?70\nс >\nSlиue\n@% cvx\nо4\nqечохсие ₽\nОeuoQuvo\n&\nиCx\nv0 n\n~v%\nР жеv\nMa v vve\nCA1\n0м 9\nMovь ve\nvx\n~w~\n37 -\nJo \n9\nv 0\n2\nи &\n' ~у\n*fe 2\n~е /\nWч\n'Уч'\nРw,\n9чc G\n0o\nOvelhowa\nОмо \n'хw2\nY wS~4\nе4 ъ",
+              "excluded_region_outputs": [],
+              "seconds": 11.878155582991894,
+              "literal": {
+                "edits": 419,
+                "characters": 504,
+                "cer": 0.8313492063492064,
+                "word_edits": 118,
+                "words": 95,
+                "wer": 1.2421052631578948
+              },
+              "reading": {
+                "edits": 366,
+                "characters": 453,
+                "cer": 0.8079470198675497,
+                "word_edits": 110,
+                "words": 87,
+                "wer": 1.264367816091954
+              }
+            },
+            {
+              "unit": "diary6-P02",
+              "input_ids": [
+                "8e95e677c36c619a57a3"
+              ],
+              "input_sha256": [
+                "8e95e677c36c619a57a31c2ec2342613c0201940aa197b05c9a8bd45e92ce9b5"
+              ],
+              "prediction": "Оиме\nw[ twu&i\n&\nYGv&\n(оvиe\nQJuLt\nуи}\nngt\nwh\n[е t\nJva\nMdvw Nla _\n7\nмОми\n1 &\n&15\nUл\nqчwa ю\nСчsa Jи\nи\nсuмz\n~w\n[tcu9-wfa\nvo\n% @ U\n@veм\nс\n~Cwwo\nw\n79 JЯ^\nRonet\n[зч{ hа ле-\nw\n((wuLaio\n~jд-1\"a\nс\n)\n2./\"\nч*2.\n9\n{lpoччо\nQ2\nMvwon Jс-\nхzюo\nwec\n(~J\nCу\nи\nvcw vo\nис 0e~a\n(4Э\nI\nJgw\nОО ммсwo\n0\n2\nЛ11а i {оч!\nР\nJupo\neлe0) со\nv v\n'lгo\n'%1? couurw8\nVU [Nzo_wx& _\nQ4с4 оwхо 2 \n23\n~%bор\nv\nov\n&эч Q couo\nГ2 ?\nW&\nиw  Хо мF\n0\n9 ~ C _\n&e&\n7\navo\nTeмatowЭ\n%bcg\nн 0\n@v\nVo\nслс\n'ч x\nSoe18 0\nQocg _ -\nVcovou?\nv\nvv\nvcov\nФe\nФмо ^\n% \nT owwe >\nиo_\nи 0з",
+              "excluded_region_outputs": [],
+              "seconds": 12.485737082999549,
+              "literal": {
+                "edits": 451,
+                "characters": 502,
+                "cer": 0.898406374501992,
+                "word_edits": 138,
+                "words": 87,
+                "wer": 1.5862068965517242
+              },
+              "reading": {
+                "edits": 389,
+                "characters": 448,
+                "cer": 0.8683035714285714,
+                "word_edits": 126,
+                "words": 83,
+                "wer": 1.5180722891566265
+              }
+            },
+            {
+              "unit": "diary6-P03",
+              "input_ids": [
+                "f748f8f76963b04abd03"
+              ],
+              "input_sha256": [
+                "f748f8f76963b04abd03afe5ab9e515c8723bf9eccd7bbaa15717f032a78bc11"
+              ],
+              "prediction": "эу\"-ч 1\nУяvя\n'Тирел\nGwoTlj^ ,\n~o\nczоzo\ncXe nа\n)Y/v-ч}\nYt\nJua?\nрросмх сисчa\n2y\n6\nY1 e\nУС хсхоч&\n€c? .\n~отчо pwua\n~cov\n@ ~\nсмоя8\n05\nосо&\n~оv{ос Quu\nc%\n~o~отvх\nVWсweлzo\nаv\nСюсJ7'1ащ\nОсч wж~%[оч\nWqт оАжчуыж\"h\n@\nwфоаеvоч\n~\nw\"ге& -\nчф\nWO ( 0 v 0 0 _\nQce\n~voq\n[оq&&\n~сми ?\nVgNo oxbtc 9\nэФoou _\nQ\nTCu \n6wa\n0{94w %м&\n2\n~Re\n~Lu4э,\nисOчи& ,\nw~0\n(ous\nСу\nv\nV@zx\nhcce\n€ оо ь\n[~wи\nkоч J\n&;\n'у~мумиоь\nwz\nФvм\n0 9 wv~c\nY .\n0\nve\nЛЧяе^\nouwb сь\n~жо (\nwew\nЮчЯ?va\ne9Sv1 \nО~c<\n{ч'r6\n~т\n{Сwso\n(э%ewuuow\nQ1/2\n08 g)6 wa\nхом 0\nфчq%ua\nnwwww 0\nЖ49\nЮф? _\n{ме\nv\ncwo\nQu~i",
+              "excluded_region_outputs": [],
+              "seconds": 9.656653916987125,
+              "literal": {
+                "edits": 489,
+                "characters": 571,
+                "cer": 0.8563922942206655,
+                "word_edits": 127,
+                "words": 93,
+                "wer": 1.3655913978494623
+              },
+              "reading": {
+                "edits": 435,
+                "characters": 519,
+                "cer": 0.838150289017341,
+                "word_edits": 113,
+                "words": 84,
+                "wer": 1.3452380952380953
+              }
+            },
+            {
+              "unit": "diary6-P05",
+              "input_ids": [
+                "411ff42d35d11b8f1419"
+              ],
+              "input_sha256": [
+                "411ff42d35d11b8f1419dee4469f5bdff55869d3df75a919be8197249fdf94e2"
+              ],
+              "prediction": "Qxu\n(uu a uuuw &\nКоqл ч\n~ачха\n0\neл\nJa\n&ч)\nh  {1чvф\n{(Лwчс э\nч~ис\n~oc c\n0\n2\nмG чм2\nee\nwoxc\nC\nv1 %e v0\n~twwe Оеta\n2\nWc\n97oч\n0\nЗо 'onl@ove ^а\n^vtoroф\n@\nз20\ncvovuuOve\nМбммvvo wo \n^nelq&-\n2\nмwa\n&с~e\nW@tvoue }\n)\n~\nv\",о\n@wp\n[ fowwc\nWo-cy\n?\n{u`\nQwo\nWGweoAо\n@мJ'c 9\n@w\nCov К9G ?\n0\nаqe\n~e\nСиОnьKee\n2\n~v\n{ oчJo v\n2\nwnv\n3 , (\nиl\nwee vtov\n9 и\nq'чuwvvo\n~o\n{о wow\n2\n8 0 %@(vwX\n19 @~[ww^\nM wu\nJKCJuwVwwY ,\nbс S \n{~{{wwuw \n(Фтvиxы\nNqм",
+              "excluded_region_outputs": [],
+              "seconds": 10.614257082997938,
+              "literal": {
+                "edits": 369,
+                "characters": 426,
+                "cer": 0.8661971830985915,
+                "word_edits": 102,
+                "words": 84,
+                "wer": 1.2142857142857142
+              },
+              "reading": {
+                "edits": 318,
+                "characters": 373,
+                "cer": 0.8525469168900804,
+                "word_edits": 90,
+                "words": 69,
+                "wer": 1.3043478260869565
+              }
+            },
+            {
+              "unit": "diary6-P08",
+              "input_ids": [
+                "d7dc7e39a5f37c251621"
+              ],
+              "input_sha256": [
+                "d7dc7e39a5f37c2516211816480f6eda9342d2df6e2a5d5842d718442ecfd6cb"
+              ],
+              "prediction": "0\nwuo\n2\nYtд\n0\n@xvx\nwwgw\nw culvv\n((uo &xi\nwo\n^\nwQ - wq\nw<\nJ\n4\nФoUx w\nи?\nw\nCxLucoc w\nчJuw\nи\nJолx 0 \nW\nчewи\n0\nCVN фллс\nаqe\nтие\nТew\n'ikмя\"?\nWv   0\nw\nle\n0 w\n7\n(q2м0\nvov\n)\n^uww\n(oe ,\n9\nw\n[peccwMppo че^\nwwg\ne}чо жсф\nIa\nw4\n1 0\n2\nсчеА\nЭ ом\n4\n3\n'\nnsovv} =\nl2\n4 $\nХАФwc\nЪй\nw0  0V9\nwе\nо иэvov c\nи\n)\nvoмоQw\n~учe \nwofy\n{о51е9\nWлQ \nvon1qi&\nw\nуvо'}[ otoTozt\nw\n(\n#\n@J\nQ)(w\n(\nWO wuuwuwuw }\nW vисм\nw - @\nК-o-?-ч\n6 - w ~\nи s\n0 Jeax\n1\nwOJ KwMVCC\nДуом ф\"\nwwwa\n(g%\nХч-'\n7 & _\n(рж\n{p(wwt_w\nIeeuo\n< &\nvоJ}\n{ж Сме& 1\n@vwewю\n'момжч \n8 1{1\n2 &\nч-[? ~а -ч -",
+              "excluded_region_outputs": [],
+              "seconds": 9.834850874991389,
+              "literal": {
+                "edits": 467,
+                "characters": 534,
+                "cer": 0.8745318352059925,
+                "word_edits": 144,
+                "words": 95,
+                "wer": 1.5157894736842106
+              },
+              "reading": {
+                "edits": 384,
+                "characters": 457,
+                "cer": 0.8402625820568927,
+                "word_edits": 127,
+                "words": 86,
+                "wer": 1.4767441860465116
+              }
+            },
+            {
+              "unit": "diary6-P09",
+              "input_ids": [
+                "44455d9600da460b0b94"
+              ],
+              "input_sha256": [
+                "44455d9600da460b0b945df33f4514cb77851376a83cc9dc880499b0de0df449"
+              ],
+              "prediction": "UCuw e\n'p\nwo\nJa\nРсли\nо\nи2\n6\n€4\nVJO {жoъx\nQwu\n~б\"рv\nVQAUox\nQиe\n~oww\n(c\nww\nом\n{Meyeu\n0 &иa\nY_чwwOv\n)\nхl w сuд\nYov ,\nм\nоJvз\nКачtuc\nK &\n~oow\nс\nЪ%рv\n[оwэя\nQr cc [r'uxo к \n@\nи\nФмс\nY)\n[\nYQ\nКс~дc &e} ,\nwOv оч\nKQv и ~и\nЭ%re^ uчo\n( Sovot\n( &иъ\nиe\nел\n~\"[v\nС~5 0 ~oJu\nJub,\nЮсмvс\n[qчча\nи%[~bv ^\n~ию &\n2\nФ\n~мw ew^\n~\n98 Феож\n08 юФлмм ) .\n0\n~а\nwoчфм\n0\nбм\nCo~w\nЗооио{'v~\n'r р иом&\n(\n~фоc\n@лZиv\nYan0\n{oчлcX\nУ_ю1fe\nYcok\niv g\n~\n2\n~ew\nуиочя .\nSwr}\nиомо\nC1(\"\nw\nwY')\n~9X\noSJt",
+              "excluded_region_outputs": [],
+              "seconds": 9.77183425000112,
+              "literal": {
+                "edits": 410,
+                "characters": 485,
+                "cer": 0.845360824742268,
+                "word_edits": 116,
+                "words": 89,
+                "wer": 1.303370786516854
+              },
+              "reading": {
+                "edits": 371,
+                "characters": 452,
+                "cer": 0.8207964601769911,
+                "word_edits": 103,
+                "words": 83,
+                "wer": 1.2409638554216869
+              }
+            }
+          ]
+        },
+        "two-skills-diary": {
+          "units": 6,
+          "input_images": 6,
+          "mode_in_historical_report": "reading",
+          "notes": "Exact frozen input bytes. L09 follows its supplied instruction with a fixed geometric adapter: keep only the lowest detected text line, without consulting gold. Raw full-image detections also retained. No target word exclusions.",
+          "failures": [],
+          "aggregate": {
+            "literal": {
+              "edits": 2605,
+              "characters": 3022,
+              "cer": 0.8620119126406354
+            },
+            "reading": {
+              "edits": 2263,
+              "characters": 2702,
+              "cer": 0.8375277572168763
+            }
+          },
+          "rows": [
+            {
+              "unit": "two-D01",
+              "input_ids": [
+                "be22fb01ce324fbd149c"
+              ],
+              "input_sha256": [
+                "be22fb01ce324fbd149cc276c1eb6d840c62be5f0c961859de8d15331db80ad1"
+              ],
+              "prediction": "'/\n4*\n J\nwлъ \nс\nn\nХэч\nХ&чv\nf\nемоо\n'1с%uкк\nQuu\nJwe\ncaw \n{ece Jus ^\nм\nCou&\nСмw\n0\nqзЛни&.\nSwsa\nисмc\n~a va\n2\n^\nоv\nТетеч\nWMwue\nQcx\nJon&\n~w\n> ' 1!\nw\nQcex\nX\n@;смии\n2\n(oрочuu 8\nVоиеw Q~л\n41\nОетzs (эго\n(vev%)\nИ\nЧ{лv\nомо\nQcvочe\n€\nосу6ч?\n6\nр\nэ%0 ч&\nЭеcиc\nФw\n'~[учwJос-е; \nVe\n?70\nс >\nSlиue\n@% cvx\nо4\nqечохсие ₽\nОeuoQuvo\n&\nиCx\nv0 n\n~v%\nР жеv\nMa v vve\nCA1\n0м 9\nMovь ve\nvx\n~w~\n37 -\nJo \n9\nv 0\n2\nи &\n' ~у\n*fe 2\n~е /\nWч\n'Уч'\nРw,\n9чc G\n0o\nOvelhowa\nОмо \n'хw2\nY wS~4\nе4 ъ",
+              "excluded_region_outputs": [],
+              "seconds": 11.878155582991894,
+              "literal": {
+                "edits": 419,
+                "characters": 504,
+                "cer": 0.8313492063492064,
+                "word_edits": 118,
+                "words": 95,
+                "wer": 1.2421052631578948
+              },
+              "reading": {
+                "edits": 366,
+                "characters": 453,
+                "cer": 0.8079470198675497,
+                "word_edits": 110,
+                "words": 87,
+                "wer": 1.264367816091954
+              }
+            },
+            {
+              "unit": "two-D02",
+              "input_ids": [
+                "8e95e677c36c619a57a3"
+              ],
+              "input_sha256": [
+                "8e95e677c36c619a57a31c2ec2342613c0201940aa197b05c9a8bd45e92ce9b5"
+              ],
+              "prediction": "Оиме\nw[ twu&i\n&\nYGv&\n(оvиe\nQJuLt\nуи}\nngt\nwh\n[е t\nJva\nMdvw Nla _\n7\nмОми\n1 &\n&15\nUл\nqчwa ю\nСчsa Jи\nи\nсuмz\n~w\n[tcu9-wfa\nvo\n% @ U\n@veм\nс\n~Cwwo\nw\n79 JЯ^\nRonet\n[зч{ hа ле-\nw\n((wuLaio\n~jд-1\"a\nс\n)\n2./\"\nч*2.\n9\n{lpoччо\nQ2\nMvwon Jс-\nхzюo\nwec\n(~J\nCу\nи\nvcw vo\nис 0e~a\n(4Э\nI\nJgw\nОО ммсwo\n0\n2\nЛ11а i {оч!\nР\nJupo\neлe0) со\nv v\n'lгo\n'%1? couurw8\nVU [Nzo_wx& _\nQ4с4 оwхо 2 \n23\n~%bор\nv\nov\n&эч Q couo\nГ2 ?\nW&\nиw  Хо мF\n0\n9 ~ C _\n&e&\n7\navo\nTeмatowЭ\n%bcg\nн 0\n@v\nVo\nслс\n'ч x\nSoe18 0\nQocg _ -\nVcovou?\nv\nvv\nvcov\nФe\nФмо ^\n% \nT owwe >\nиo_\nи 0з",
+              "excluded_region_outputs": [],
+              "seconds": 12.485737082999549,
+              "literal": {
+                "edits": 451,
+                "characters": 502,
+                "cer": 0.898406374501992,
+                "word_edits": 138,
+                "words": 87,
+                "wer": 1.5862068965517242
+              },
+              "reading": {
+                "edits": 389,
+                "characters": 448,
+                "cer": 0.8683035714285714,
+                "word_edits": 126,
+                "words": 83,
+                "wer": 1.5180722891566265
+              }
+            },
+            {
+              "unit": "two-D03",
+              "input_ids": [
+                "f748f8f76963b04abd03"
+              ],
+              "input_sha256": [
+                "f748f8f76963b04abd03afe5ab9e515c8723bf9eccd7bbaa15717f032a78bc11"
+              ],
+              "prediction": "эу\"-ч 1\nУяvя\n'Тирел\nGwoTlj^ ,\n~o\nczоzo\ncXe nа\n)Y/v-ч}\nYt\nJua?\nрросмх сисчa\n2y\n6\nY1 e\nУС хсхоч&\n€c? .\n~отчо pwua\n~cov\n@ ~\nсмоя8\n05\nосо&\n~оv{ос Quu\nc%\n~o~отvх\nVWсweлzo\nаv\nСюсJ7'1ащ\nОсч wж~%[оч\nWqт оАжчуыж\"h\n@\nwфоаеvоч\n~\nw\"ге& -\nчф\nWO ( 0 v 0 0 _\nQce\n~voq\n[оq&&\n~сми ?\nVgNo oxbtc 9\nэФoou _\nQ\nTCu \n6wa\n0{94w %м&\n2\n~Re\n~Lu4э,\nисOчи& ,\nw~0\n(ous\nСу\nv\nV@zx\nhcce\n€ оо ь\n[~wи\nkоч J\n&;\n'у~мумиоь\nwz\nФvм\n0 9 wv~c\nY .\n0\nve\nЛЧяе^\nouwb сь\n~жо (\nwew\nЮчЯ?va\ne9Sv1 \nО~c<\n{ч'r6\n~т\n{Сwso\n(э%ewuuow\nQ1/2\n08 g)6 wa\nхом 0\nфчq%ua\nnwwww 0\nЖ49\nЮф? _\n{ме\nv\ncwo\nQu~i",
+              "excluded_region_outputs": [],
+              "seconds": 9.656653916987125,
+              "literal": {
+                "edits": 489,
+                "characters": 571,
+                "cer": 0.8563922942206655,
+                "word_edits": 127,
+                "words": 93,
+                "wer": 1.3655913978494623
+              },
+              "reading": {
+                "edits": 435,
+                "characters": 519,
+                "cer": 0.838150289017341,
+                "word_edits": 113,
+                "words": 84,
+                "wer": 1.3452380952380953
+              }
+            },
+            {
+              "unit": "two-D05",
+              "input_ids": [
+                "411ff42d35d11b8f1419"
+              ],
+              "input_sha256": [
+                "411ff42d35d11b8f1419dee4469f5bdff55869d3df75a919be8197249fdf94e2"
+              ],
+              "prediction": "Qxu\n(uu a uuuw &\nКоqл ч\n~ачха\n0\neл\nJa\n&ч)\nh  {1чvф\n{(Лwчс э\nч~ис\n~oc c\n0\n2\nмG чм2\nee\nwoxc\nC\nv1 %e v0\n~twwe Оеta\n2\nWc\n97oч\n0\nЗо 'onl@ove ^а\n^vtoroф\n@\nз20\ncvovuuOve\nМбммvvo wo \n^nelq&-\n2\nмwa\n&с~e\nW@tvoue }\n)\n~\nv\",о\n@wp\n[ fowwc\nWo-cy\n?\n{u`\nQwo\nWGweoAо\n@мJ'c 9\n@w\nCov К9G ?\n0\nаqe\n~e\nСиОnьKee\n2\n~v\n{ oчJo v\n2\nwnv\n3 , (\nиl\nwee vtov\n9 и\nq'чuwvvo\n~o\n{о wow\n2\n8 0 %@(vwX\n19 @~[ww^\nM wu\nJKCJuwVwwY ,\nbс S \n{~{{wwuw \n(Фтvиxы\nNqм",
+              "excluded_region_outputs": [],
+              "seconds": 10.614257082997938,
+              "literal": {
+                "edits": 369,
+                "characters": 426,
+                "cer": 0.8661971830985915,
+                "word_edits": 102,
+                "words": 84,
+                "wer": 1.2142857142857142
+              },
+              "reading": {
+                "edits": 318,
+                "characters": 373,
+                "cer": 0.8525469168900804,
+                "word_edits": 90,
+                "words": 69,
+                "wer": 1.3043478260869565
+              }
+            },
+            {
+              "unit": "two-D08",
+              "input_ids": [
+                "d7dc7e39a5f37c251621"
+              ],
+              "input_sha256": [
+                "d7dc7e39a5f37c2516211816480f6eda9342d2df6e2a5d5842d718442ecfd6cb"
+              ],
+              "prediction": "0\nwuo\n2\nYtд\n0\n@xvx\nwwgw\nw culvv\n((uo &xi\nwo\n^\nwQ - wq\nw<\nJ\n4\nФoUx w\nи?\nw\nCxLucoc w\nчJuw\nи\nJолx 0 \nW\nчewи\n0\nCVN фллс\nаqe\nтие\nТew\n'ikмя\"?\nWv   0\nw\nle\n0 w\n7\n(q2м0\nvov\n)\n^uww\n(oe ,\n9\nw\n[peccwMppo че^\nwwg\ne}чо жсф\nIa\nw4\n1 0\n2\nсчеА\nЭ ом\n4\n3\n'\nnsovv} =\nl2\n4 $\nХАФwc\nЪй\nw0  0V9\nwе\nо иэvov c\nи\n)\nvoмоQw\n~учe \nwofy\n{о51е9\nWлQ \nvon1qi&\nw\nуvо'}[ otoTozt\nw\n(\n#\n@J\nQ)(w\n(\nWO wuuwuwuw }\nW vисм\nw - @\nК-o-?-ч\n6 - w ~\nи s\n0 Jeax\n1\nwOJ KwMVCC\nДуом ф\"\nwwwa\n(g%\nХч-'\n7 & _\n(рж\n{p(wwt_w\nIeeuo\n< &\nvоJ}\n{ж Сме& 1\n@vwewю\n'момжч \n8 1{1\n2 &\nч-[? ~а -ч -",
+              "excluded_region_outputs": [],
+              "seconds": 9.834850874991389,
+              "literal": {
+                "edits": 467,
+                "characters": 534,
+                "cer": 0.8745318352059925,
+                "word_edits": 144,
+                "words": 95,
+                "wer": 1.5157894736842106
+              },
+              "reading": {
+                "edits": 384,
+                "characters": 457,
+                "cer": 0.8402625820568927,
+                "word_edits": 127,
+                "words": 86,
+                "wer": 1.4767441860465116
+              }
+            },
+            {
+              "unit": "two-D09",
+              "input_ids": [
+                "44455d9600da460b0b94"
+              ],
+              "input_sha256": [
+                "44455d9600da460b0b945df33f4514cb77851376a83cc9dc880499b0de0df449"
+              ],
+              "prediction": "UCuw e\n'p\nwo\nJa\nРсли\nо\nи2\n6\n€4\nVJO {жoъx\nQwu\n~б\"рv\nVQAUox\nQиe\n~oww\n(c\nww\nом\n{Meyeu\n0 &иa\nY_чwwOv\n)\nхl w сuд\nYov ,\nм\nоJvз\nКачtuc\nK &\n~oow\nс\nЪ%рv\n[оwэя\nQr cc [r'uxo к \n@\nи\nФмс\nY)\n[\nYQ\nКс~дc &e} ,\nwOv оч\nKQv и ~и\nЭ%re^ uчo\n( Sovot\n( &иъ\nиe\nел\n~\"[v\nС~5 0 ~oJu\nJub,\nЮсмvс\n[qчча\nи%[~bv ^\n~ию &\n2\nФ\n~мw ew^\n~\n98 Феож\n08 юФлмм ) .\n0\n~а\nwoчфм\n0\nбм\nCo~w\nЗооио{'v~\n'r р иом&\n(\n~фоc\n@лZиv\nYan0\n{oчлcX\nУ_ю1fe\nYcok\niv g\n~\n2\n~ew\nуиочя .\nSwr}\nиомо\nC1(\"\nw\nwY')\n~9X\noSJt",
+              "excluded_region_outputs": [],
+              "seconds": 9.77183425000112,
+              "literal": {
+                "edits": 410,
+                "characters": 485,
+                "cer": 0.845360824742268,
+                "word_edits": 116,
+                "words": 89,
+                "wer": 1.303370786516854
+              },
+              "reading": {
+                "edits": 371,
+                "characters": 452,
+                "cer": 0.8207964601769911,
+                "word_edits": 103,
+                "words": 83,
+                "wer": 1.2409638554216869
+              }
+            }
+          ]
+        },
+        "two-skills-letters": {
+          "units": 3,
+          "input_images": 3,
+          "mode_in_historical_report": "reading",
+          "notes": "Exact frozen input bytes. L09 follows its supplied instruction with a fixed geometric adapter: keep only the lowest detected text line, without consulting gold. Raw full-image detections also retained. No target word exclusions.",
+          "failures": [],
+          "aggregate": {
+            "literal": {
+              "edits": 530,
+              "characters": 624,
+              "cer": 0.8493589743589743
+            },
+            "reading": {
+              "edits": 493,
+              "characters": 590,
+              "cer": 0.8355932203389831
+            }
+          },
+          "rows": [
+            {
+              "unit": "two-L01",
+              "input_ids": [
+                "55b6732915d577c22e9b"
+              ],
+              "input_sha256": [
+                "55b6732915d577c22e9b5c9b78565bad6981111e9d23b787a1c49609389dc866"
+              ],
+              "prediction": "322<#75\n7е ж\n2жтже\n77ж22\n52 ₽\n%2 \nосэ йхъ\nхиез ₽ .\n'%~\n72\nwэ2\nу~\n7\n73хи; 7 7\n2c> ~\n~ ^ <\n73 ~\n4а% 2\n7е;*\n2с₽ /e € 2\n~+_\nиэ\n22,\n\n~-ъ7яp 2 2  4\n#5а >\n2 оо& &\nMuкvea\n?~у\"\n7c\nкo у ,\n# +4\nФ7",
+              "excluded_region_outputs": [],
+              "seconds": 1.8121842910040868,
+              "literal": {
+                "edits": 193,
+                "characters": 236,
+                "cer": 0.8177966101694916,
+                "word_edits": 56,
+                "words": 38,
+                "wer": 1.4736842105263157
+              },
+              "reading": {
+                "edits": 180,
+                "characters": 223,
+                "cer": 0.8071748878923767,
+                "word_edits": 52,
+                "words": 38,
+                "wer": 1.368421052631579
+              }
+            },
+            {
+              "unit": "two-L09",
+              "input_ids": [
+                "226c7fd0eed66d387f45-bottom"
+              ],
+              "input_sha256": [
+                "226c7fd0eed66d387f45ee58be0ae3d91c40d28ec94da33150f5161c9580778f"
+              ],
+              "prediction": "#\n3ъe&\nЕ#ит\nДt",
+              "excluded_region_outputs": [],
+              "seconds": 0.4672082080069231,
+              "literal": {
+                "edits": 29,
+                "characters": 33,
+                "cer": 0.8787878787878788,
+                "word_edits": 4,
+                "words": 4,
+                "wer": 1.0
+              },
+              "reading": {
+                "edits": 27,
+                "characters": 31,
+                "cer": 0.8709677419354839,
+                "word_edits": 4,
+                "words": 4,
+                "wer": 1.0
+              }
+            },
+            {
+              "unit": "two-L13",
+              "input_ids": [
+                "2765469372790ba57b85"
+              ],
+              "input_sha256": [
+                "2765469372790ba57b85d3a0341748ba2a441a4759b50bdb33449e6fcfb91035"
+              ],
+              "prediction": "Iv !2 13\nо\n{e2е - #o?eчti(\nЗ2jза (4\n'vlk{    Yohozuk\nKtulazuti.\nKegktt ,\n[жнёл\n\"pu;\nЭэq-Yqu\nмЩ--4\nJvvel Whwl\nKel Shel\nIwwlx\nJwWlu\nW4(4e  [-W\nJuAuilit\n(u_{щuц\n4\nAUtAllu {qмчu :\nLlдс mnie шlk Ш {ul\nl9uili4 \n&un\n14 !!ищ:\nY\n%<\n#L\nJhw \"ю(yt\n:0\n{l&u\n#Y_IwJlnl\nJWi4\n(KIIJIN:\n]4_\nJuu\nezue",
+              "excluded_region_outputs": [],
+              "seconds": 1.4347348750015954,
+              "literal": {
+                "edits": 308,
+                "characters": 355,
+                "cer": 0.8676056338028169,
+                "word_edits": 56,
+                "words": 56,
+                "wer": 1.0
+              },
+              "reading": {
+                "edits": 286,
+                "characters": 336,
+                "cer": 0.8511904761904762,
+                "word_edits": 54,
+                "words": 54,
+                "wer": 1.0
+              }
+            }
+          ]
+        },
+        "hwr200-2-scans": {
+          "units": 2,
+          "input_images": 2,
+          "mode_in_historical_report": "literal",
+          "notes": "Same frozen original scan bytes and evaluator scope as the existing comparison. Supplied source transcriptions, not independently verified word by word.",
+          "failures": [],
+          "aggregate": {
+            "literal": {
+              "edits": 2764,
+              "characters": 3175,
+              "cer": 0.8705511811023622
+            },
+            "reading": {
+              "edits": 2559,
+              "characters": 3025,
+              "cer": 0.8459504132231405
+            }
+          },
+          "rows": [
+            {
+              "unit": "hwr-pilot-003",
+              "input_ids": [
+                "eb316f34a1d16800fa7b"
+              ],
+              "input_sha256": [
+                "eb316f34a1d16800fa7b8ae7f9aa8b44a5d89c583c343140c3e8607ff617ea92"
+              ],
+              "prediction": "_абэ_ч u\nCcovuvo\nG\naxls\nV e\nInoA\nSacvowuco y\nwutmo\n~poung-puiu\nwe\nЗevkчu V\n(еръ a\n~Wax out \n6\ncQox\nGсхghu evuы\nva\nх~оэч еСхбо\nэKoc SueUQ_uwo\nIi0\nо5\n4рgоёччис\n31 я Fow Яещ&яl\nCoguuta , фoсc9v 9йоux\nLaq\n+uo\n'9ч\nAnv\nЭJчы\n_cXeu5\n's\nирv @wikgVns\nТробчечua\nэmma\nJuvn €\nФoлм9-oбegloc\nCo\n@рочыё\nЛ(еокор9о\ngo1_[uuzu\nmоэхы\nw!\nбоучсчо\nCo\n|uw\nZuo\n'79е си2 ₽\nмо эч я\nцwL\nАuбоичсь\nWotw 9trч\nw\nИочоwu&ммol\n&рыбо9чы\n@Зou\n9о (\nuVxo\nиwu €\n)чскчсчы\nCymo \nи\neocnobuunu_(gчc\n4оэjч Я\noБuaga &Aми\nбou&g\nчow чuu\n4oсиuduuu Фбчиоue\nPux \ngeucvnue\n'PoJKuGwujeaa я\nбо Вро ежы\nШo\neuraexm\n(оЭJчю\nLuaCvnov  Weno\n&olcvne рq\nчoхчи иaч\nJuuxau(ь&\nЭмАУ\nчы ve\n'PauлЧ?o\nХарозчewу\nAowv\nРеuя\n1осоч ихеиио\nucevnc g\n@Эчe& g\"э\nКоссчыа }чGae \nи:Jччw;\nсоччочч mx\nWа\ner\nGjuug'\nлоАцч\nЯсоичиq\nkе\nмоць.₽\nzaoxmь\n95чu [putev ot\n(sega\n4o\nQwor\nХЗ\nvwuiol\n~no\nvчи\nЗомч_сLWq\nеоуэч 9\nvq\nио\ntcoxobu \nчw y\nёъы\nъwЗo ce\nCxmuxu\nhujoxaco\nwlo ao\nАреЭсмnыlёu ч\nреgсаб\nUopxm\nkac\nРучtux\n~oge ~\nWouk\nУч~JU'\nLo\nwoxui\n#о;ё\nЭvo\nЧЯ\" o\nV1o\nтуwbеvч\nvw\nIu\n@9 >ow\n~&Luolova\n~owko\ncocvoQu Vl\nJk\nоwэ wы \n3\n&Mu e\ntaxouLSsags  463933е & 3 Zcznaxvs ЭPe&E\nАо\nNaэow[ug\n₽ &\nэmо\n\"399\nР3 зёчы\nco&\nPev\ne&\nкоч9оЬсхся\nсuua ? [Hd чoG\n~Ugo= &\nocvnovne\nсхойugu\n[иuъ\n9\n9Рчъце\nCuxoka\nAcи\nJасдеwмиао хАо Hok 9\n~оg%\nУoдz\nJрех Расил\n[эou\nч&сыi\nwPg3 xovnoрue\nчиe+ 9 3\nоэxou\n&оц9\n4фохо9чy\n#Yoчs wучоЯс9\nччbа\n*haccv\nIox $ы\n6o\ncoSe\n3bчovnd9\nЭсхо\nмbо с\nикллозо хх\nрооу_уючич ~\nхaoJ\nV\nсч6vu\n49е -vхо\nсnaxu\n9ч ч\nwev \nохola\n~UU0Lы\novakFuunuevu\n[езР5 6GS , Кu3чаGtew\n09\nIuYooabauvebo\nиреу\nuxmo\nUяъоi6\n[оч %э\nёяфэчж& ,ох  69чot\nч3\nчЗмоvчuчa\nохые\nБезэчtо&\nwиуvэ\nvhho/gчii\nAро\nСерчо ля\n[@ec_xuts ,\ngeevneue\nCepv u\n'QохPocow\nФчje\n[осчерo\nlo95  \nwag\n%оуноw i\nбоха\n'Чugочы\nСерФь з\n&е9чс\n7 ue\n(ераo ч\neCv\n[cor [pvu t\n$еуwыvya\nСевсея\n[634u9Q;\n(utot9\n[азчиччч с\nЯcoxua\nЙuaJ\n@рочыом\n?x w91o\nмa6\nnax\n~Зоvэ\n(aсvо\nCeho$\nСыъ9\nо1x\n'jtoj'",
+              "excluded_region_outputs": [],
+              "seconds": 4.364032083991333,
+              "literal": {
+                "edits": 1593,
+                "characters": 1778,
+                "cer": 0.8959505061867267,
+                "word_edits": 338,
+                "words": 261,
+                "wer": 1.2950191570881227
+              },
+              "reading": {
+                "edits": 1482,
+                "characters": 1700,
+                "cer": 0.8717647058823529,
+                "word_edits": 330,
+                "words": 258,
+                "wer": 1.2790697674418605
+              }
+            },
+            {
+              "unit": "hwr-pilot-005",
+              "input_ids": [
+                "5d28acb6c5b419ee316c"
+              ],
+              "input_sha256": [
+                "5d28acb6c5b419ee316cdda918e987a7295d12cffc8dccf7c7653d988ba0114f"
+              ],
+              "prediction": "[{wкм@мо[мж_\nW\n'Ж?ибо\nФSvpоmfилил ,\n{*m4{им\n0\nwole\nLe\nииФ/\nt\n{Ощиимсиис? {+{ve&_\nYov&\nОe _@vи c(\n[_\n\"WМиючиче\n~m\nоич\nQ_и еe\n{мми ,\nИало&\nQжд _ @мс)@и\nИж*x\nt\nQеzq\nQ4\n?Ж\nD_y\n(мe\n0fte_wvwxev\nke\n{4иv\n<\n9\nСохz4\nИonz\n\"%\nwя\nФюо\n~~еoбо,0\nС\nOwoо/я\n(\n{~Ммижяимей ;\nYpRww04\n?(w\n(X\n2осм owccl&\nФсtм%\n2/м_\nvVve{\n#уW\nAMwwv\nQV\nФлеил%\n%и \nV\n~ОФЪ\nи <\n{мoи &\nWw]\n4\nРи Итфюил4ж\nT\n't\nФдмQмvъ\nYwYmv(\n(vom\n[wRм\n#o Yъи e4с6\nwwAWiiwilowo]\nIz\n'oezy\nQxc\nQ2\nЙбoмфтмилох\n(eoм Lwkoжиnz\n#мqуoe\n{божеz €\n'ИФ  \n{w Qwe\nfvt:\nQw {{Mж\nZmo\n'е ;\n(М\n(ovwMivwe &@Jivv\nЪ 9\nwqv\nЮ uz\nWum\n&\nTezvewor>\nKC\n\"Уолуоя7у\ne,е\nТм\n'm\nV\n[ихК]\nWo\n'eom\nko (Ф7оre%\nQo_Э1\nhltwz {;2{\" LYжрд  (hwwn\nW{W@ Mhvu\n?ч Ри/ov\nvX\nИМмлимn\n'8 wovze [4шw~\nWмC <\n{е,\nХх\n[aw₽|\n&\nФРwм\n(\nTvvowev t4\nУжхихлe\n(ои\nINoKnYWWhve\nWwe\n{м ,\nNe\n6 (рмеw2_;0 иromi4 Мiy#7\n0\nW\"о&им {аv ,\n[мщйсч\n[сст лwсуе\n0\n4мWvю\n(хeьt\nиlмеу7\n~ОWm6 \nФоефvиикzwl  ДлитЕАуv\n(\nWмосуит1о_\n'Гvм\nwmчd\nwanxI\n[Жморvu\nSvu\nЖо~ оaъ\nI\n\"Лwo4 .\n7 (\n4Yw₽\n4 [n\nWa\nфмжяж+? +есб\n&\nЪezx @wлж\ntou\ntx\n%*е\n{ (;\nv(e\n'6 ФФАч\nhvooweve\n@Фуwи е~ Фо ии\nWRMAM\nQo\n1e\n\"\n{{vбw&&\n[owvR\n7+1 <\nФмелие\nqюж\n{Юрм\n'ж+4\n(М\nФ%\nФиl) _\nA-~w\nФ?\n{cz vv&\nПlф",
+              "excluded_region_outputs": [],
+              "seconds": 12.497945792012615,
+              "literal": {
+                "edits": 1171,
+                "characters": 1397,
+                "cer": 0.8382247673586256,
+                "word_edits": 231,
+                "words": 221,
+                "wer": 1.0452488687782806
+              },
+              "reading": {
+                "edits": 1077,
+                "characters": 1325,
+                "cer": 0.8128301886792453,
+                "word_edits": 210,
+                "words": 212,
+                "wer": 0.9905660377358491
+              }
+            }
+          ]
+        },
+        "hwr200-31-scans": {
+          "units": 10,
+          "input_images": 31,
+          "mode_in_historical_report": "literal",
+          "notes": "Same frozen original scan bytes and evaluator scope as the existing comparison. Supplied source transcriptions, not independently verified word by word.",
+          "failures": [],
+          "aggregate": {
+            "literal": {
+              "edits": 30502,
+              "characters": 34520,
+              "cer": 0.883603707995365
+            },
+            "reading": {
+              "edits": 28129,
+              "characters": 33145,
+              "cer": 0.8486649570070901
+            }
+          },
+          "rows": [
+            {
+              "unit": "hwr-expanded-001",
+              "input_ids": [
+                "2e4fb119f8a8721f28aa",
+                "ecbc34cf9dd4acecd322",
+                "6ad3a8a570357c369cfb",
+                "01d6f7885d98065623a1",
+                "c1bc4d9916875863a8d5"
+              ],
+              "input_sha256": [
+                "2e4fb119f8a8721f28aac2465273502d80ab8f1d045b935afa56ba8b0ad6aee5",
+                "ecbc34cf9dd4acecd32275c416ae9842cca2da2c62ff9a77b6e64ef48533ffdb",
+                "6ad3a8a570357c369cfbf4dd744293a66d37e55884398d5ff83817e81e53d9f5",
+                "01d6f7885d98065623a1dc97c4b3513dbb4c3a64b7cb0e63bac350abb82c8fb7",
+                "c1bc4d9916875863a8d5b6cede3a6ce473d0375b15f054d1f27de88979df00f4"
+              ],
+              "prediction": "{ояостчюо к53 & dо л\nоSpa 3obauu \nJыl\nWOvuuJ\nIovo put e\nhoJoч\nVa u\n ov;ч\" l6eOWoOn^4\nЗ6ои\noыbo\nшю\nиQe cu ?нэ\"o\nlp9 qoqрес\nСa ( \n'сё pe\n2 с €\n3@g9 Jыб е ло\nTе м\nzvo\neчe\nh0ego ога [4зе7\nOно\nnоJu wo\nяеч gnbw0 &\n[ы og*.-\n(чeнvэ\n1оэголч\nПоbжdu\n(эч ob\n( %oc \ncsa (\nЗетре2ч (ое7\nч\nVe ОoqчJ O@ч\noSpe_\nwpgбсa [синт,\n4g %ptQ  ,\nИхенк о\n(от ~ско &6\nhpabunwOъ\n(осич #ич х\nAчz,Co 074\nиQOцесc е\nSul . [6, р\nSporjoer Zxчu%vu\nka\nV\nzn?\noSpe3oбa ихы €\nн\n0@\nzz ~ole<\n0'Змо2о- че\nсбоба &u\nнa\npLSer~o x\n& e\n5еббчbuwъ\n6\nс\nLnъчы e\n29969361\n'е;беияо\nсч\nБы рестeт\n42\ncnы л\nИлкко\nиоэ\nvR\n5ъы vдго {хоы 7\nЭчч фт=\nIu Ke\n(сё\nсотe\nA9?wee\nч023@\n0\nS5g9чеu\nУыl\nден6(re\n&n q ^ !4\nQa%е?\nччы_\n2и \nОчкеr\n&e2 9044Q7\nНы &ч\nИOnч Vu LоJ\nч 'Пестчи\nku\nw2xer\nБосо\nUt\npab-99gчt\nиост\nОкенцоя\nЧ и\nироSne Jc\nо7\nye\n7т02\nтрчч н\noSpa3dguu e\n(olu\ncSjет ЗодсМч йt\nсz\nkag\n9 че\nJо\nUvorb\n?Зoбо%м\nIфoSм _\nУzа €\nbewvы &\n$e3j*0o\nSgecsbo _\n693a\n3*й =\nнpоб\n83col-\nп2\n(с wo\nSggeu\n5e335*\nUaope\nсzu\nK9\nВос чтоуыч с\n2\nmOnvоco\nCOz^ ecv\nC\n@(ю ро \nue 7 96\ncol ре& uxиоъ\n6Spe3oba ич =\nno_woew)\nчиеч \nCva\n0, т 0\n{nglj.9zя\nире?ч5s}\n0с?\nwиQ 7с\nрчоnычjto\n'3ч*охочъ\nlig\n3 gчы ч\nXno 4;\n9 CuЗ киые\nиОч лсры\nkog'\nчою\nJugч o\neoLC equelwo\n0\nшLOn &\nЧуч с\nQ8c-595Ce\n'oSe\n0 vug\n5g3Pg3/чч\n%pобс \nфеииое? _\nч\nwoчb\nKuwo(\n(b\n81355tolr2\ncr\nc\n(ч renыlo\n(8vот\nт<bov\nBcё (exce\n\"чтчх  (tаbк\"ЗJчноъ\n3а ъ gтчеz\n0 Letc € % сеио_\n[ичсJ\nwouъ &\n?еылл\n0 иe\nирОе5о kрo(ет\n'оzе\n~p'SчoG Jpo !\nч\nчro(ee_ugтч\ngoJot . (logoSx@\nWon 09 & euz\ngчi\nЪoe г\n2рчсяе .\n(gCzr2\ni4ego uoz\nщ09 Чсу _3%  olce\n0\nHiо\nhepWoc_%36\n22\n2 К2 @\ncnс\n(сиоuиuz\n4роч 0е\ngес a\nBorcv< пиa\n(u uopte (чъд\n\"чЧрокл\nДuke й хоб я\n21\nSu\nkой\n%рои 953съ0ъ2\nN4<ы1о\nyoш9zь\nJa^6 2u \";\nve\nw ~eno  9\nСучъч_Эр9 n\nСба^ &\nч ф е r\nкаz\ngl_Kee\nиро Зччы\n0\n&v 6 24 \n68 9 чч\ncoq ^o\nфч ете + 0 z\n[u\n3\nиюч\n6eg6\n66 9gч `\nотоgбu ;\nza >\n~Чрч gяp]\nbu?)\nburubl\n(срст \nbtяpugwb\nфы3э\n9сu <\nЗч5е й\n6e9\"\n(ы3uu\n(< Se \nмобе\n(ирu\n{ерч\nQacи5т ^\n[чgч -\n3ewezч\n1o-3\"\nкоo\nko\nOVo\nиоvе л / @\npoSoтч\n9чреияору\ncfan\nJ9 lza L\nVOcgh 0 <\nUzч vti u g 6 /\n91\nкоvuu _avu\nн9\n(с~о\n2z0\n9u\n7\ngoSpo\n[8/\n[o\n(uzaevc\n6\nАрч\nсотcя\nUoje^\n3\no5o1eт 0_~раб&@uwo &ч\n10\nSonze_чgёт 193\"3 ;\n(юбе\n%9ч ^осо фм\nL8 <\n4е632\nnq zce\nWot_Ktnt3x\n4Чzщ t\nОЧhоэчд о5 [оrО9tC &+ \n[olxewu&ez\n09pe3o8o\nGux\n7о\nVчэ <ogeuoa\nФобс(eK си\nг\nKnt g @\nкот р9 \nч\nСб2 pac сu 6 0\nrou\n0ны2\n9 скол63\"ет\nоgw Jo t 7x\n6cu Ouu\nZыuc\n\"owо€\n'Zn Q\nGwot\n@я2 ре. 0\nЗ8 ve \nSouv\ng(uэж еuч\n9C 2\nyQ !\ncэa& 76\nIe\nе2o:\nогчz\n99 -\n!ч%\nЦдексо но3\n9 5Ч чч\nбо ^ро\ncq J\n(е3 ч ыс^ r e5_\n0.\nQо3оl\n765\n6\n3\"7 poъ (ee;\nQч мo-2% сьучо\n95  @лоbсъсяч\nсъo-ъx\n9м\n(u ъ5\n(o \nVoo\n,an-\n(eко\n(eaec l\nQo_6 \n~U чv\nqч кo сo\n%\nhоЭ г\n!ч (9 ₽ ^ч\n9z@ Kbte\nифо сbl\n4498ч ИЫlто^ы%6\nиo\n?+ы%\nЭф четцин\nЧ кoэgы\n9\nT\" кчба,\n97l9 &% &\nио\nIo\nчнесч  0\nч9 0@\n€ъа & 7 0\n39\nС5ч 9 ст &\n7029*\n10ч04 иеч %7 сЧчю;\nv е\n6 Кэ\nО е x\n3Jче\nъ0ыоwы\nVO ч\neu И 6 &\n3\n(egoqч .\nЧЗбеc5\nУросо ч\n[о5\n34ь\n#gylev\ngob o\nwo\n(ис'9\nwJ\n(vcк\ne9\n6. \"5\nУС1 с %\nЦлo:\nk099 ne\nЪокроС\n@рtдч &\nсяu\n~ouub\nФох\n{. Qo3ol\nСач )о2 5\nz л\n3^ x\nи1 О^ + 9 u\n2 я /\"нч ч\nИч 7+0с\nWgwko\n\"Oст0 J ихо &\n(чо +\n@&qч <\nс7с z ^<  <\nсa_0\n'Colcp we\n4 e\n@о (н~~о\n(933  2\nL2\nh9ч 9ч о\nW+o\nт л\n< фю\nс wCY,\nи? чи2\nQо 6\n@o\nJo\n'сJU\nкекч   2\nToл 6 !\nсqv\n2чо (\nчzwu\n~Ootc e\ncgenez cxS:\nczacinч\nQыл\n7 0-2ч\nOwb\nLntoъосъ \npucg &\n72м2\nQc к\nСе_\nBеrо _\nочы&\n&io\n(a\nqо4ч553\nwо2 о\n'WA С&704\nQsocst\n6\n@ K^i0?осъ u\n0 7л\ncvoSet\nАюоч (\n3\nп\n270\nоъч\nиы\ngewe f\nС ^\n'5ч я96l\n3ей &; (u тtлwо\n'OjиG\n0 67c0\n(u1gр'пь_be:\n9xи 6l\nЪоызчv\n9м \nute V т _pW b\nчд@иto\n[_peSose\nи9!е\ncowope\n9м43\"g9и'\nи\n34 Lnotoe Buu\n&я2 ЧW\nGl\nKoaug6l & 3uu6\nиа\n7\nи 3 (иu_чяl%\nIvф4ok\n9'/9 \ngoop (м >\nSgoborwся Вu =\nие\n70/ 6W0\n&eX &\nк0\nири\nCyэ\nnon\n'439-0rbyoco+ 99ч \nKc_b_\nэ % Ч\n4м\nсао\nWb @\nПро Sne Jя\n(э~oo\nczca 6v\n3e7роtu\nW\nо5фе\n[\nq\nco\n6a\n}\nм\nьриисом\nWж &6u\n[рччa\nQoSpouк моно( \"3\nwо 9 _l\nVo ыч\nка\n05\nсo\n2u %\nхо\n2\nд6vo 0\n{O a2 f\nh0r232 %\nДич 3\n'oSчt\n~ечич\n(еg\" '\nTur\nLog%\nVo<\nqбvp\n3ад\nqОл2 \n'hp%Qч=\n(pисоgч 5\npoSo\nVio\n& n 0\n(opъS\n[erQo €\npич\n(Осч\n27\nG Cau WLo\n@7о с5 nч 0\n7 7\nL \"o\nSo pez &\n3 %\nOC\n2ru e\nw@p9ge\nVo c\n6о\nn0ич _a\nсъос n\nV ₽\nWeкpaчQuл ,\nо \nбчч\n6 9 ^oxg\nс\n\"Оснио 5\nн €Ф \n&ч ^ ыr00 сч\n& ио 9?oтo @щ\n{pе\nЪок о5ч \nlez 24 Ци0Ъ? uto\nЭ ю\nионХ    e\nс?-ст6 е\n€2о кохч~о+~\n3% @u &м\nо€\n2Q_c22\nz24oбe\nыx\neъo\n6ч*990\n2pc 816eg\n[ы %\nсъс^ч\n6ы ч\nхо-ей\nK 2\n~~gul\n9  \nec7eeG\nмQт\nсгъ\n2 n 0\n(ecg\nЧАччь\nсрем ^euu e\nuewу\nи0 e\nосQ\nwо и ч\nсбoч\n9  en о Сси*\n3\nчо'gт\nирч S ч \n1 969\n20-3\"\n@Ч9ч5 Чю.\nЪо_сточ 5\n(Очии (\n27 2\nQo\npur\n(Э\nУы\nи e\nччаи\nnov\nV\nс70 (ъ6 €\n(< e\nе%\n60Sowu 9'\nwu €\n05ч+ `\nент%\nEpcSvo\nм1о^\n[.gror\n3ч.56\n6s\"g\"\nbерио ,\nt0o9\n4ра 04\n(eSn 2\n0o9*\n~hpочз'",
+              "excluded_region_outputs": [],
+              "seconds": 14.233824124996318,
+              "literal": {
+                "edits": 3823,
+                "characters": 4300,
+                "cer": 0.8890697674418605,
+                "word_edits": 1073,
+                "words": 596,
+                "wer": 1.8003355704697988
+              },
+              "reading": {
+                "edits": 3509,
+                "characters": 4152,
+                "cer": 0.8451348747591522,
+                "word_edits": 1005,
+                "words": 595,
+                "wer": 1.6890756302521008
+              }
+            },
+            {
+              "unit": "hwr-expanded-002",
+              "input_ids": [
+                "e49edb697eda037ce0f0",
+                "38eeaafabc35572bf2f3",
+                "88b771f568aaeca779e2",
+                "0ed3960e0a9d823dd772"
+              ],
+              "input_sha256": [
+                "e49edb697eda037ce0f0194c934f3fc828dff9c5d16069638d6112c231fc3121",
+                "38eeaafabc35572bf2f3e96d751fd3bee433d81218dedf3c6000004df753d8cc",
+                "88b771f568aaeca779e2bef5ddc8882d6cb4a17f1a508fec1b8c2104bac2f829",
+                "0ed3960e0a9d823dd772e15212411bf292f161141973c51928990a3838db15ee"
+              ],
+              "prediction": "[wwWtcte\n64чб/иьtкz? 6\nK\n04 *4\nУтоъ\n[r Миwtе\nW\nМ~Ultzt @cz\n[лиисаж&\nФом   \"oD oxze,W%M\nJokoioф  |\"-_\nWeeme\nС 7. еифмеё ,\n[v eto h4 &\nUли\n0   иФхом\nWi\nV\nио8 Dia\nфоеz\nФомчк\n[Aztiwe4v0 , х24?\nWoonPioee\n0/4/л2\nDnжz\nL\n\"Уtzrwn\n0\nи;0\nV\nQ/2.z  )\n'0 Ju\nZ\nV\nQ/z q\n[Ууоли Do\nwte\nWCze\nОАЖму\nУЧлiо\n'.: Лоонжы>\n204м0х\nУ\n0w48\n(1vy ₽\nWit\nИe\nDiwx Wz\nироофси а оёt е\n{8] жezorcaл_\n{iилнжpoж\nЭ1\n',ёЖ\nР4\ncen wnC&е\nW4\nИВиРтуо2\nWi\nVбойико %\n\";ги\"е\n4е\nИtбхро(жzе\nХмрою\n{iute   {чtRwo\nI%oico   Pб\nV1\n(ЖШих .\n'\nК /иоотбю\n(( 04\n0\nКФ4 \n&уb\nvippt\nИё\n{жt cьoit\nW\nWX\nИZкжи\n@zocece\npi ui Wze\neot4x\nФ\"рt ли\nИлvo6\nИлиулсе\n~лcjw\nI\nqcЛ\n~et46\nette\n429 _\nZouout<\nDWztecЯCIto &o\nЖwe\n(\n'qMtyuut йиб0vt 4o ,\n@ри&\n+ иеулн\n(*qw0\n(\n[ОСус{уо\n[% рсФк\"\"]\"] eб4 Qwи%\n7\n{6\"Мо\n(2/+\nУто v\n[жмос,\nи\n(Jуwёдм\nФ-фwwwpo\n(oucpka\nФиюv\nQ{ece\nZю4\nФo Jwo ,\n~мuMe\n'\"I\n~е\n(ло\n710\n{02\n[ир?\n#АUЛ%\nО/ийлсф 706\nЭФс &/ Чери4\n/срм   €o\nUи\nDl\nИерхье _\nUyvzо &e\n[aс\n7 ичxz\nPлх0\n#[~itжо   ?0 Ltxuux\n'И\nИии\nwWyi&\n78j чz& \nФ\nJvу\n@ez\nI\nOб ooie\n0776  (iitce\n?Uu&с\nигQИя\nQФWz\nМиикос\ni  610\n6\n30_х\nmРжж\nXx -Ъ\nUrw 4\nИx , QwuKttzc\n'jхлх\n[GWЧ{i ex иосЯ\n[u\n[vtol dж\nИ(xt:\n0\nбухио /\nУo/ ,\n\".t\nWzе\nQУ@Аo \n)ywv  Млу 4\nV\nУИ у Я\n{ич\n'\nЛУСИА\n~рё/e\n%0e , Ф(@лCez .\nс\nVXW\nQx\n6\n\"vч беpez\nФ; м\n0\nФбибо \nWxyvice\n\"(wwox\n,дрWжщoWw\nЭiwoepeef c\nPcoYo &\nХи?мо\nИ/ФеЙQи\n3/йuo . \"Yъztr\n#7а\nИ9c 9C \n{oooc\nV\n8,00\n~Iwcиz\n#Wwлu/4 =\nS+f\n2Фич9 ( z .\nK\n,иХ   ^Jvиcr\nС е\n7 Ie yi\nL2\n&\n20о702\nИVя 6 м ыи2\n(ovte, vtvopvbuuuL\newL\n260\nЖwv (\nЧл\nww %-[wиte\n'иоt@\nWe\n7lt4\nWun\n6\n(обимб\nQ*0 % \nV\nWzeico\n6 \"uxowwu\nDo\nWpn\n@Чолt\nIo\n%0wowкwwty\n\"ольд \"%4}\nNov\nФn*\nо\nWwioj\nW\nФw\nФ04\nУс \n2е\n3 1'\nи/4\n(wi\n\"\"\n(юе\nео/00\nVtvotо\nФелaлv\nМиувё\nС0 _уииих Lax& ,\nV\n00 42\n214\n7е\nCw Wate\n(\nиta\n0\nWexи\nЧoPv\nо721z6 2 ф\nv\nJ2\nЯФоимоско\" 8/   [eу] {vie\n14х677  \nА2м2 -\nIvoe\nvowen\nУщиЧмох  иiж\nФ &e\nи2\nЗлисe,\n6orъ\nMvo[ uce_\n7\nи/v aeze2\n70\nWQrZye\nV/ бёСжлсъ &\n[чосСФ& exe\nИуCфли2иесс\nV\n14 {CLecqccezvo zt\nB /az -\n1410040 &-\nЭvм\nИс4бибеоЯ .\n07717\nоurt\n2 и4\n6\nИXCX\n7x, kс10%{\nUr0\nМti\n0\nQSZ\n0мeQogQ/t\nM+ 2 6 ~ceitze\n2ё/э\nMvv\n7\nЭ,Ччоч\n[\nЭ 0/+42d \n%\n[сe4m0х\nИit <\nQlunoozч\n7w2J1-//zс\n~k. ++ёф/и2\n#e/4\nZczowteezPCe\nU\n{уеz; t8_jztz7z\n€\n[ч4м{-\nWocz\n1x 02//v\nФr] t \n{vu\nЖv4\n)\nMvt -\nздРим\nK\n'хъ0\n{4ъvte{\n74бчлt ttotf\n7\n7<Qr ute\nФ2Cо vvv\n[vlИёtt \n[с146\"1v\n1\nVGcbiwz\nQ?cze\n1?\nvCCvl4tt4 \"\n\"eх \nнРид Jva ,\n'м\nIwLeiwo22\nDtve &0vъ\nIywo\nе2 6\nИФ/Ууиле\n{ъобъи\n~\n[бе{eи/ Фto\nQoivie |ourve,\nубёрёz\nK\nI0 2\n{tyo\nU\n8+%_\ne\nIe  -\nVo &,у 6й\nceLta eey\n@\n~ete&\nФиofс _\n(хиос\nboмvс\n[wwи ,\nbrlo \n74 \n(bw\"р  ,\n#4ёлх\n7 ~у мё б ех ` У ojo} {b`\n\"лбеt& &и2\n20ёёxcz `  okoбwourъt  V%@фо&\n(\n[{ии4\nКq-иур _\n%и\nА0 \n7М/t44  Хжk   kiбznv%\nI\nvo\n6\n[Схteptee\nVкёжье &\nи€\n6  имчилсс\n74\nО0жыжсофоло?\n770/0\n49х\"умиос\n#чvv+ .\n1\n(Ийлие Ииис\n7\nIwxex\n[t47?Хииинное\n0\nИи2z\n'aиz\n{246и; e \n[utcterzcc&\n(Ю8с\n~P4 ,\n6\n244708*/ >\n6\n(eл7ompma\n7и/г409\nQ/\nИ\nJlе\n0 ФWwлtc&\nиPoe\nфеля\nwoe\n0/vо44t   ~Хotrwe\nUC\n(ею\njPeэ/4\n[ЧфФотеил\nч\n'\"х/iесо\n[bюяфия\nи\n4%\nM0 v0\nWcowwvz\n; ли4\n€\nСёиося\nХСлсо &\n{ Kzc\nNv\nИ\nбиж  ;iе\n#jaёi4\nДолиve&&\nVr&&\nI4Z\nИQ t\n#{икс\nё/{etek(\n[eёrvя * cq\nиkол%,\n(ojvni\n(еи4о4\nДutttvuzxt\nИемс _\nИл0<\nV0 tote\n#/2, \n7z2 &\nT4zee",
+              "excluded_region_outputs": [],
+              "seconds": 18.582468749998952,
+              "literal": {
+                "edits": 2821,
+                "characters": 3303,
+                "cer": 0.8540720557069331,
+                "word_edits": 641,
+                "words": 460,
+                "wer": 1.3934782608695653
+              },
+              "reading": {
+                "edits": 2632,
+                "characters": 3199,
+                "cer": 0.8227571115973742,
+                "word_edits": 578,
+                "words": 455,
+                "wer": 1.2703296703296703
+              }
+            },
+            {
+              "unit": "hwr-expanded-004",
+              "input_ids": [
+                "c79a254808e07d9ebf0f",
+                "04492aa37f02122b5d8a"
+              ],
+              "input_sha256": [
+                "c79a254808e07d9ebf0f6db409e3fcabe976a33aac88a1d2f1a36c45ed5c373c",
+                "04492aa37f02122b5d8a0194c6154c05b711efa925ec09c417ed33243b072135"
+              ],
+              "prediction": "Ъ\nJo\n\"op{uuые  ~tэ@Зико&\n&xSoeru.\nЗос\n\"%\n\"oм\"оc\n(2od  %eeт\n0\nNьtcl\noлee\nbu\n^офмчиne\noryaqcz\nхофe\n7v04\nMt2zOо\n[уы\ndoz   ифof_w~\nпvkю\nиусе\nOz |О&ляу\"bo#\n~eQn\n|\n#/ал оо\n62\n'4 €22лоисучоч\ncecLt\nФon ote 2\nФося4\nмЧомъ\nnuc ,\nZ0\n#ъ0\nCuze0\nстe\nH42\nQлcue\nCuqe\no42\nФчосееж\n6 &яj \ncбo&\n~zzx\n90\ntc\nVoruc\n' \n€ .хоо   чло*{/е-\n7\n7+e ` ёа иоtсze\nVot2\n2оборхмм _\n2 \"20\nч\nCodGиcu\n/20 {ужанио\n2z ocz\n~ka\nJwx ,\n{ус\"\nииn@ иил Jfmee\nЭтъ 0\nиУои.\nJto\n~&\nнo\nФСооионо\nОлисл\n6\nk299 vov4it2 00ct Io1-\n~Won &z\n{eJone\nmpeеф &_\n~Qonea\ne2oeсo 9Zжж.д\nС 166 6 xogue zfkex\n'У\"ныж\nmozc\n[afozeлvх\nК24Ъv4eo#ocm% . Ъу{уи\nCz\npe/1 \n'qис _\nUuoonъ\n~ec\nно&\ncQozune\n\"фoфиссохо -\nQeAowlocmz  \n1'сс\nyomoucow\n&\nCOSocmy&\nClocz #z\nLovx\n~%r \"АиАчaon_\ncбое\n~cetvewжte   |ofouaлes\n&4zd\n~Lthron\nQ1ичбух  {е ₽/е 4+oскъ?\n#omokLocr\nze\nCeztz0 &\nКm\nK\ncoLezcge z6c22\nФе\n7 0\nYtopluettce\n~eccoQ) сес+ос\nCuoorr &\n\"|Жхож\n[оЛож\n'ищtео\n(уоб&лсс\n{Всосuл ,\n#zеН ` {e&\nv\nH П\n\"(oxpba\nVorcл\nzxobctzf\n~~e/oc\n#om?ot o+\nZе\n~Qшzn0c 61c €\n'ж*\n00\n7олхьке    {ирел\ncбoct ~c;tcee\n2&oQоtec&\nюQс\"\"t6\nо/  zuoc\n~pl&\nQz\nIocno\n2н со\nVJu\nIe\n~ov%\nIuaqtotce6\n'/Jen\nUK,\nе46 6\nmo \n2w₽\n0{ фел\n~Otzcotun 6\n000сн02c t \nd(uutcc\n7\n[ectece\nOfupele\nIeLtzE\nQoмъ \"oб _eze\nFI ion2e2оc\n| ruocenъ\n# K; кыу4о8 , T0hbслВежk4ъf\n[c\n(элф\"Дасиия\ncbwtoчz _\nomtocLenъe 2\n#\nK2n2ec2д&&\n&2\nИv\n(илжо   \"{сроиВнеж\n?2toQ +&m&о\nCmoceico\nn\n4\nc/9р4\nмом\n#fwwue  e/\"qсomВобых:\n6 08 vecw&\n~oQe&\nTpo/_цa\n# 0{062ъ722442\n#Qж\nЯеюоя\n7*4ж ,\nvhoi\nФсна,\n@mok\nИчc\n7o6q %\nz0o\n7, 6сnzx\nЯefeccec\n\"Оrосэъа&&\nobm%^ <\nДecce\n7n#\nobxopouL\nqecz\n{тобео&\nЁe<\n2a46 <\n{тВич\nДoжoc\nwonop\n#\nфеэм\nnunxzece\nzeuoQejececc\nмкееча\nКлс\noolecw\n{ х0х%орс \" %\n'2\n0teL6\n@kиос%уя\nес\n6 Kшжл\n# K\nЮкко\nUWeen\nZio\nи\n~r&\n& @\n@рохее\nомнфОбz\n2z\n2u1oteryz\nNvм\nИQuurto\nаии офz+   #фиboжиBоkж4%\nЮОсenъ 3\n7\nKe\nO#\nonurocuMAc\n'4 абжоje?\nZч2 uzo_\n\"pec\n062\n%oтъe]uъ \nофелrnix   \"оpби/\n094+с\n0\n&+ \n[otifov ~оz\n{_эниы  Тоzzoбoz\n20\n~2\nп2охQухеф\nr,eоис\nИ0; 'адис;\n'\n#рееx\n2е00z cо8\nЗ ука\nvzc eфeм\nне\n{э&\"Оучи   {Рбу44и, {скск2\" 8142424\n{жн%\n2\n#Qzowzе\nИоломegofctт\nLc\n@фрофряфочz\nowoic\n6 ?nvoс\n[owoice\nТалое\n[87/vлz\n2[e/e\nKob\"%/\n{joz2\n9*/? %8+*;с%   \"[сfы 88tнъ\nе+\n'фонсн\n0\nc{ez\nкофfитr\n2*1 н240m4\nQоьz\nnuzek\nZce\nяФecQ4c\n7242m20сыC &\n71e@zoznuz\n'ryov&\nCе\nЖиь2 Яie\nДмлесобо\nUJx\nz2\nФ62\n#0 ,\nTnz 0\nO1\ncooef\n9 2жezт\n7744\n7е74z\nCuиz\neewxz\nOpzo#outex\n(zефее\nCz\nW юяzоc {empoчхо\n0/\n/сЛе 4\nк2\n{\nZcez (ОПz2nx\nQw\nпчо.\n20 0\nДомрособ , @кe/ntenъz A\n22 &\n+ &nego\nIov\n[owyz\nи\n4eулъ\ncBcс\nHe\n{%o4х .\n2u\n7po{_ez_e\nЯо6ныс\n0&&c\n@еесот _\n@gtcoco\n4\"thzo\n~Ccep y\n(Охую \n~2Oefu4\nожире н ф\n0есе/ 2o8\nZoonenз_",
+              "excluded_region_outputs": [],
+              "seconds": 6.798539458002779,
+              "literal": {
+                "edits": 2329,
+                "characters": 2689,
+                "cer": 0.8661212346597248,
+                "word_edits": 463,
+                "words": 372,
+                "wer": 1.2446236559139785
+              },
+              "reading": {
+                "edits": 2151,
+                "characters": 2565,
+                "cer": 0.8385964912280702,
+                "word_edits": 427,
+                "words": 368,
+                "wer": 1.1603260869565217
+              }
+            },
+            {
+              "unit": "hwr-expanded-006",
+              "input_ids": [
+                "ea2f26a25a915fed5216",
+                "021ea59bb912e5c6e92e",
+                "fc3fd1ee0aef1b88d77a",
+                "21251dcc42bbf14a2626",
+                "c18dc3cabd3461322967"
+              ],
+              "input_sha256": [
+                "ea2f26a25a915fed52161cdec2df2c0abecaa66b0e5330a09abf300d6beac3b3",
+                "021ea59bb912e5c6e92e48da6613ecc582632b1806ab5568ebfadccae629590f",
+                "fc3fd1ee0aef1b88d77a016d8309477814d547a1cec59f530011a35ca5d7f7fd",
+                "21251dcc42bbf14a2626c0df881d5e4f98b4900f6b488e7ef85d8b20448fb27c",
+                "c18dc3cabd346132296730ec3dba64120437fba76dcbbd61627c292c214297e2"
+              ],
+              "prediction": "Ko\nWMWиWA\n{Iu\n[(\n(n{w \"лФом\nК\n112\n[lOMWW\n2\n0\nWIK\nW\n(@ VQWKr\n{I(\n~l\nK(O\n'i\nI.\n\"иколнцй чизн\n(UW\"@M\n[Mhtmt mm KII\nW\nИ\nW  NNWO\nWWbr\nСЕжииия\n(\n(Ит\n(M\n(~mи _\nДиниия =\nI mML\nЮМ\nWW\nIlm\n1\n \n0\nMKNNЭWU\n\"ФМФG?PM\nJI\nW\n(\n# #Uни ж \n(hЛ{W:\n(М\nIllt\n'mmf\nА3\n(Iickw\n#в\n(248\n\"Ytgx 9Шiики %\nIm ome\n\"ын7ж \n1O\n%ФДЕ\n\"иник; K\n\"\"9+\n{Ox {Wd  ~woou 0/uoр2\nWImom (@/Ч\nVww Q\n'{иж\n\"(Шоы\n\"икн\n0\n\"{W4Фи.1о<\nOlИ_\n0\nWQ\n0ЙЫи74 2\n0m W2L\n1\nIQWRK, '?\n'ъсеe\nФхх0\n{WЧi%ъ ч\n(WKCe\n~1\n\"Яo  Wwnb\ntф4zж 746 _\n0 ЮOWИW Ф/ ! I9 Ф(\nIfнel\niOJ,\nKmm\n0\n)\n(@Ятъ% om{л \n(\n'm\nW\nЙ)\nYW\n(IWG |\n1 %ом\nЭit , %@luz\n{Й\nW0\n\"аз %\n%\n\"\"ан\nNuita iфe ,\n(\nWmlt\n{Weliuи\n(w7%\nСI(L(Йоть cо(iд\nNpolgf\n{,мш иисин ,\nWlx\n\"57\nW10\n[MVnM\nWU\nh\n#е\n\"\"\n\"А\"\nЪИ(1,\n2l\n9\n(ржж да24\nZezz\nW4 Дний\n1\n1Ю(оnv\n1\n( WOOWM\nWtQ\n\"Фqш`\n1\nИ\n{ИШ{х\nWm\nЛм\n(\n((Vte\n\"4\"#\n'IOl6,\nK\nК\n@ubui\nm\nЧю\n'ШМшу\nIML\nщз4\nillfиMi\n[Miюс\nV\nХQФШЮ\nIU wMw\n{ми\nV\nГPQ.;\nи (m?\n\"I\n\"Шиишлм\n{{ииul'\nXAu\n{KMINKX I\nWuX\nviWQMb\n(ob\n(m\"icr'\n(\n73\nФЧ\n0\n\"dwиьu\"\nim 6\n%10\nWUMMИm wloXOOt K\n(i\n0\n(hikи\n)\n1\n(c\n(тиюи\n6\n0\n''жюwииоi\n[Щ\nVMw\n'МWУ}\nW\nЖММ\n(\n83\nQouht\nJbtOGb\nJ\";\n(WM\n#\n{ЩИЯЮ]\nЮ\n{ЮМИНг\npw\nCMiN(М\n[uMw\n{ШШ\nIMul\n[(@wl~mm\nWw\n)\n'\"ФМ tiMnt\n{_\nW;\nай\nФмpб\n0 IИ\nКии иъий\nK\n{{uиит K\n70\nИ_\n{ЖМЮ\nm\"t WImQ\n#. [nw{,\nWIlMm {U\n{зын йяi\nMOI iI\nWO &\nIlи\n{иЖ\nM oiuluжE\n(kt4Ф \",7\nИ7\n{IФФ!iФ\nUMt\n#QХНР?\nVIМ;\n\"нави}\n6\nЖятини:%ы\nIMli\nЩL;\n{u\"uкш\" \"киж к0\n[QЧ   \nQKMN(Wc? V6\n{\"\n{1 Х W ии\"fь\n0\nЗ(ии;#\nWm\n0 1\n'ФЩ\n'И\n( Wu\n|\nWllu\n\"р\"\n{m\n{\n(и\n\"77 \n1\n4\nwNWD\n4\nWWiM\n(vavc WAn\n%\n{Итиии\n{4942&z\nWФ\n{wn-\n(МmM\nI\n29ь%ыi2\n1\nК\n\"ия\n{ON\nK(\nЧ\n[lMWK\n%% rezeeezg\n\" лои%kcve;\n{WUWVA\nQUMANb\n(b(\nI\n[(уmиA\n(0( л\n{иt4\n0m\n1\nWol\n7\n{\"RMI4*\nOm\nIo\nVи\nII\"U4\nI1\n'ЫИf}\nWl\nЩ\nWWQ\n{ШКА\n@\nWIOSb\nK\nW\n{КФЙ\n[Шши\nF\nЯ\nWI\n[u\n#съ22\n\"щнeкке_сис\nЖ:\nWMWMII\n{Ku,\n((lunt",
+              "excluded_region_outputs": [],
+              "seconds": 22.565366375958547,
+              "literal": {
+                "edits": 3042,
+                "characters": 3537,
+                "cer": 0.8600508905852418,
+                "word_edits": 529,
+                "words": 530,
+                "wer": 0.9981132075471698
+              },
+              "reading": {
+                "edits": 2889,
+                "characters": 3389,
+                "cer": 0.8524638536441428,
+                "word_edits": 518,
+                "words": 526,
+                "wer": 0.9847908745247148
+              }
+            },
+            {
+              "unit": "hwr-expanded-007",
+              "input_ids": [
+                "cb629345d71a709d3f72",
+                "1d4e70c8a4142189674b",
+                "67e3da98477b88f5d7c0",
+                "516cdff1390d6a0bef23"
+              ],
+              "input_sha256": [
+                "cb629345d71a709d3f72f64d8ffb0e65b79a4faee4350f68e249064a174e0361",
+                "1d4e70c8a4142189674b6a730674b7dce3f82a02696ee2fae7d445b8dbc517ef",
+                "67e3da98477b88f5d7c0b2e60568cc676992a1e19846623b761cb218ac3cd49f",
+                "516cdff1390d6a0bef2351e51b6ec0ef11213fcd1f480a7da754b26144f731fc"
+              ],
+              "prediction": "Zitttzt\n2Pж/сt&' , 726+ссэм;\n<4 &\nс:/с4/еvтэтб+ба62zz22 €\n{Zitcux ,\nCoиz(+ €\nctuo6e tu<\nВ\n44c icиzt/q ,\n7\n27 1116\nи1\n{{c6..4 ,\n(Ccutu?\n(cu r\n(\n{Xtttxtvotuer\n((\npoy rowyec\n4\nPelgtewryz& .\npop wtwcttye\n{uttu( /tte\n#t6 Wхс  6 ,\n[fiteevw  |%Jr  \"uee ;\n((ul460,\n7u\ntetebyIe\nkervCp6tur\n~ебие,*т\n'czLtЧ/o\n(ez4 < )\nWi {wuutue&\n(om\nуроЛLe!tt C\nиGf \"егифрсu /c ~etttcetze & ;\n'1. # .\n{\nQсvкejе\n4\nJz sb; peetut uа\nXлe<\n71\ne1\n&\nnoxoQutи\nИQ\nve vebссл3\nWLcc &  <\n'1онu] *z {/оччо\nm',\nTou - Бжуt!v\n(Lcf\n71ц\nФрио xpeлр e/ыt\n',w\n#ж( Фуиуииою /aeti  o\n0,\n{Gxб0 х(ыtсu\n{И\nvc464 4\nIt {ск60c wvуt-f\nCticberi tL& (\n&\n7€2/\nи\nwvu\ncfwtepe\nIо\n#G  LCu\n+1rutt 27\nvcztc\n'pct{\n{\n(ttt tе\"   ttuc4tq uuutq ,\nкез/еt\n7 ЪCe c\n₽хрvл   Uжv z&c7 .\"tuu_\n7, 4 [,yztt 4\n(ZzeTe], ЪrvъD\npcFzctwwt\nPoy  (uott ee\nLuc8ef\n7\n#€ <\nzt &4tuLu4\nmf4\n\"wс\n2/\nФ({wufoem\npelrettztre\n'ptvtt\nqn р .\nPlzcciv\nЖvур\nкФисро?\n#[ut ( it\nCCue (u&\n(CKt /ЪC t.(Jc(qttc L (\nN?\nQrwttttt 4< Lt /₽\nJc\nФ?u .\nw0 t kQ\n0/4 €< tt ^\n₽4 0\nФ  Tюnuzc € : # 0,\n% е&\n'ouLi wбutze\n<(L6\nck/ro &t t Z {\n2\nECLt\n€ otez;\n(ttC /с7е\n(Тесгей\nWte\nmQ\nЪgJUtzu ,\n71210\nсеРя J t ketttezctg   ttn4'\n%бе/б;\n{\nCZzn? \n6 wzu\n#be]\nVoztu \n'*6, e\n(жc  ,\nejwt\n?/*сn?&\n9/*c wэ &\nЧfwlttttu\nЪ0VЧ]\n7//сwэ о\nZe\nbtctc\n{uyеe\n{ebit f \nIrt tf\"\nLztfuctLm\nЪ/1C\n6 Lttcqe\nVettt\nHautt\nZc\n0/\npek telo cfcю 1tр6:  eLteжt/ %zuttf,\nФоик'ю\nЧ/\nQи\n# #oufo\n70\nQe vzezzte\nС\ncLiofо6це-\nIottt\nwQiлwte\nHnltute\nOutto 'ожич\nBom гиoфи\nБоz\n<\n~eu\nt/\ncOlgev v\nKemv\nLe\ncutyta\nPefi_ec z\nро/ъеоe {чty\nKotr\nJeetuxolct;\nWVic\nZtz€ee L6\n20\nZottcroa\nw0\nЖ\nCL\nос/uer e `\n0 06ос47\nребкtewc\n0/ \npx рuм\n%\nиKC Lutervvu\nUC\nwowut Ъц1 wuqим\n\"otьtм %\n[съ%_\nCtttCpyttt\nм/.,\n~ot\nФжиetы %ех ,\nfettot\nwYV ₽\n,ебносхм\nIC\n(ы\"wч\n[tttb x KG\nQ\n#\"Ю6uице ,{\n(outo\nИ\n{wvиcwowyeo \n(\npoiune\nKettpez\n8 tezu wpvvuuzo_\n@1UQ Фt ост ppotcere\nGtt uouictta\n0\nu\nWlopo-ue \nVlexe vete _\nБtutvctto_\nU\n&\n(ttz [ 27C f\nettteue ret&\n{\"нбtрскиск\npuctzcir  Ktтtpoж'Jpм-(см npoBNutua, Ke/ котро;\nhotcyм  eer\nV {tuxtbиuкuui . [uttwtuuuvc я\n0\nrtcrteuwf\n(t({e/Ч \nФ ромроом  {ruuatute\nUQ\n70\nw\nv1/\n)\nрб(смfu\n{  euttoHe nкttx Vpжuж \"мн4uэб,\nwcc\nИl Iruu\n7\nИ: {NWoctorit  # TGu!сrvc;\nмэуttty &tt/ {Pute & <\nи\nK2\n(меу#о\n(<\nЗ0лис-  rvtt f\n{ rveloti ketttnar<ttc< %\nCwcuico\nmеб \nvpfrtz &\nButuu\nkQ\n~ppoбtt\npttito\n4 %Ч\n1Juew\n'Фе4ъu:\nJlo\nо;\n'ikcf'\n%/бcrъ&o\nvbop Y\nQieipo\nc &;\n720д\nW\"tiм\n\"лeьtl\npotLeetze\nЛорм Wn\nJlcwe \nQc \n4Ru tu+,\n;maкось \n6жtъaiё {{  i/ottect\nc% rv\n%иttt,\n(c Kzvue\n(tptztutttetf\n[27C € у эb€ yztcz;\nCe\nvupobcz\ntuultrы \n7\nкowуcp 0 €\nИ. Ъщ%о6 uuкtta сРоtныбce?\nt\ncet c\nouц  /cctc , 6,ч{u ucuuutcf ret efx\nч\nwwwtyu\nnii Iteyе_\n18f4+uktж€vц\n0\nw014 ,\n?4y1\nCvcutto\nvpyyttot\n'wtic !ytot rYvt ` pwtovce ,\n&\nMyttxo w; %\n(ид\nhvд\n71\nVсt re\nQnwvttъ.  v(t [\n( о4иъuutcq -e\nIowipyu\nJII Dyttokit , ~vftutuu ,\n7111/\neL0\nnyct j cpeitttc\nVC\nФ/е1\nисиъ тazъtuto\n{ urvcu<utetctzte '%4,\n(\nrЪtttq &_\nTtt(\nct{\nФИuкоf4е4к<! \n(ttzet7\n2,1+0\n~Иъсу+р\nVфморциие\n[ерс къ\n(\nvLQ\n(CImn(eut ux\nIe\nYVQW< 6 K{\nMett ((Vx7\n4ufvй , zeevwкжt, ФФх{{ ин]\nИo &\nVepuvu;\nWttctuvet (6\nHC\nConte ceuyLeef\nС\nDcir(uttыt\nWptctpe mwu\nJL.\n\"cLvccкtt иpo butcf\n[tei\n(tMuWц cCKv uzuveрсим р&\nZ(uсtc ( tcte\n'тесz\nzccowyt tc\nL <\n{\n30wд_wwLtкс\n{hfGrvGet иf{ pcitoкct\nи\n$\n2\npitiyectuytttt ^Cлavwuvvle€\nolwreuryb €\nL2t иф\nи\nwtccrcuv\nФбуи%р  KC#ttuzGt ,\nZV1\nkef\nHtLt И\n(zcetto %4 (рестя\nCtttcet( tut(\nЦ\nс{о срнесц ceuettro\n/\n(euaLLz 4lcut462\n{ё {u 6ckъtut t сu  outteuttZeuetrt: pcuucu, {(ut ёцц бxкъu {\nС(СР wе /рж ,киетц<\nIwtt eczu m ner:\n'< ( (\n9e4tc_\n[luuxottuua]\nektt |\n\"~Pet'fe\nЖроод\n#ъср\nKhcf ) '\nwecpyzt\n#uTpMC\n#{р\npoVCwttt \ngVnM ;\nKutth\nnbwcpau\n#tc  4;\n(Ccr\nVL\n[iKtu\n(utr wtt\nО{,ус€+\nt<tc t€ . ( Pocctttt\n[e11\nwertт\nVtztttt (\n711 10\n19 4€zze6\n4t ntttutty; цt ncaug/zacz\nиpe(wуц < ctz ce\nVЪ/ e ! &tz.4 . .\n/ aсce\n(tt tцe иtб   kWuvtuLvevw\n( ₽ Иохсчро Ёсй\n{щрtt6 e еуы(\n%сtcбио\n(xtebo tteco01o wzthurvteu e\nHn#ccчfre Korocefe :\n7\n(cbpeuutcauvut\nмихfсн]риъu\nwРснес\n11 0\nQTpwи6 ttoи €\n#wWupo 6 cux tueuex\nottt 2 4z01Ht (t ttzt  qztut\nиотpev\nToctt6\nMt7&/GL?1{унett=\n<tu\nncfyetu {ctuLtu\n&tryet 1ъ4eL&t6t2\nИ?\nTut/-  ou wщръ _\nиж Ф# сеуск Bew PeLtur,\nиeQ\nQ@ttutt\nбоимре { 6 ctttt\n(\nZctcwvic4 \nё<\nCc\n{~у\"рын\nCъztct ,\n6\nТриеtvиб+ Иzpo\n# WЧ (ur-tt c\nvLeJeruleLte\nЭмуие\n(оm\n;у\n7<z 0\n0(\nЧрх рич?\n+0\n2\n(Guutclovtt>\n7/Y1 2\nmitttto7 ^uttetu7\ntutt t7 e4L6.\nZeiczttv\n90\npato;\n{petuuь\nz/1\nze/ttcute [4.e _\ncttzt/\nZuc\n7 wtlvio\nIQ\n<\n{оwaн;mfск\nиCucce/ч? ,\nOlyиub&еczo\nЪerwt\n?1or Ч\n&:'6\n{utbcpuc\n(u\"{'\nZcpewu2\nvve\nwof\nClotcyuGutx >",
+              "excluded_region_outputs": [],
+              "seconds": 42.05564495900762,
+              "literal": {
+                "edits": 3792,
+                "characters": 3903,
+                "cer": 0.9715603382013835,
+                "word_edits": 836,
+                "words": 571,
+                "wer": 1.4640980735551663
+              },
+              "reading": {
+                "edits": 3370,
+                "characters": 3715,
+                "cer": 0.9071332436069987,
+                "word_edits": 734,
+                "words": 565,
+                "wer": 1.2991150442477877
+              }
+            },
+            {
+              "unit": "hwr-expanded-008",
+              "input_ids": [
+                "2abcb5a1ac24dac80240",
+                "8b31e0613ee07872ebb9"
+              ],
+              "input_sha256": [
+                "2abcb5a1ac24dac80240844f70956df24deaccc56ff59f8a2709c7344525e7f2",
+                "8b31e0613ee07872ebb9a64c30e00d206bbdf7fe08e473db7d5239ed8996244f"
+              ],
+              "prediction": "79.0\n[y1эбbcnчц (~ (owобеч Yzu;) Эрхжewы2  ОчхБх@спчц\n74 \"ъek ,\nIcont?juwe\n\"\"₽\n(vВоevn Wол   6жэб.\n7\n4но6; .\nБcz Раоzа Kuett)\nXw 6\nmoux\n4 {oJJoY2Dnъe ₽\nDcoбewcr\nMAobomterr с\nо/ъ-особ \nм(\nOre2 mл\n(vuQwu; '{Уъэber\nK0 %фtп\nСощ& )\nqence\ne0z4\n'{j{ъ\nK (Wnuo.\nИ\n(\nCaeBeч\nYеuе\nOba-nueuLe_p\n7e\nQuiсovoCnv x\nUо \n4/+дu@ze\nФ nъt\n702202 4 ₽\nQх\n{Wvobo t\n+6ы cxtu\n#соrаu\ne&\nIconъ? voze\n0\n{уч костьяо #@лФрiо \"Уmеrотт.\nNoCnux> c\n(~2;om OnvwЯn\n077\nк4*эт р4т | Берех &4 98t2обaк-\nOpyou   @nw?\"Owvot,Vx Qr\n{М{ижи\n9t4{0хPOБхx ,4е{+-o6uBосnu \"таастеря\n{tжобд : {2e}k4 +eoper @руэсэгтфоj < ere ₽\nЖииц' ) `{uotatczzecou \n1\nфеЛс ,1yч2bре\nzz\n'coптъе . LZH.\n0\n{Ч\"обуосmь\n(uz\nфодчол hur_erno\nZ0\nЧutrc\n{4{флсобкоспъь 'Фыоfezq\n{RMo 9rt\n0Ч+reemc?\nпе&\nёорч\npOumin\n(]л ЖСРФtс \ntom\n/{юбаретт\n2\nФмъ   ?Чiкeжэъэ\n722етъ\n8 r2\nМФфум  фбех\" pоеmп\n7\n'nъ0neeo&icu\n'рюо +\nЯэw w ,\nС;тренсесо\n8\n0 {~\ne0\nKP\nNo\n\"{ce n/4p& 'ъet4cbere\n(cuu 0 pmou ' (LepdhmBusz ,\nЪrъ\nа.  /iza\nwQu   OCO}VuD bOw\n02\n(оwWлt   (mk%ыwеwщщ\n6\nM можowox, 04\"Kxowmn , (OQnybepv~Qoxouxuuu\n\"uro\nФфэобк оч\nXnvw\n%\nCm Cou\n9eoyevA\nко\nVccl\n\"oiл:%_{рах Восорсад\"xжёm\n(\"piwBnwwt   QОЛмосоВечктuо \"\"{{'\ncuuuto\nhoSuъыe   vtevc/+\n6 12rt4+a\nФ2~vиг\nб1vл\nv\nYuфcunvил , 0 сърч   ~tQuutrъo6\nSouo\nMvaro 'енллпец2 ч\nKwxomv ,MuSwbwwuж wуд\n~Q\n{obo&bwwzx   h\"Mwoфx\n7(\n#оjчбжх\nQолox   vurpcbivn  хaeurrGe\n'41о6 coGnu\n9/20\nичlрес   @moлcogLeee\n(И    лov\nIC\nwtowq\n~ИC\nCnuuectLotetuuur\n''cu бvo\n74+4₽\neze₽\n1 [\"{\npocmobum neniф лцч\n0 nъou , Uno\nпQce \"Эр ысхо }\n{Чxoбиосnч\n6\n~evu\nOrq\n1'{v0 tb tceernce\n6 ~об; о Этъот /  ( Cxez&ze\n( (оvo &ч vtucz\nK Cerъe enzec R\nv(UCe\nF YLU erto и\n& @сесФcи\nЗшeи €\ncXx\nWочобежоб{   vЧ{(vоспч\nY2.toб2*e& 762\nD @,хэх \"*877//е\n{v{oGnvu\n*vnvoe ₽   К++67/ Le | ро лъx\nPbи \"@bomgexta+\n1vwva , м₽\nkonЪ uu   {10{ tvetLctceem\n7 % $24c+e ₽ 6,\n'И 6\nMGonto v-ee ` bлezee   +ctopu\n440\n7не/77\n10сet0лъa\n[@poсnъх\nQW\n\"c\nCnъe_rce n & е\noбow '/бслб \n\"саяkenz6\n{unvovom\nЖе/бъоct\n'611 '\nФr\nNo\nBев\nксч\nJiiw\n{эинол\nЭоЧуи\n'nvozo\nZxweQue\nnu\n{ф6\nJiyлaw\n@bmvope\n\"De[жOovw4\nmЭV\nbиcжд/oжwо д\nw{#q\nшешъ\n(ebeNuaem\n(kuponRuxont'\n4\nЯшщ\nBucнOCrwuл\nmо_z\n{ewxlnux\nonoum\n'Ренкоъо\nфоке/спъе 6 emne\nv tоtwco\nO&+о 1{\"mb\n&v evxoCnv2\n'Рчоч\n~Qъzco+o :\"\npuve\ne.0\nmeP1e.ce rnъ₽\n{o(vwxoCrvb\nноофини\nOo\n9 f  \n$'\nбачос\n{050 =\nYwe\ncnvh\nwmoen\nbоr [ъ\n{2e/i€L <\n{vPocnv .\n7Ъ 0с1 70\nIzoCCC\nCret ,\n& \n?4нх\n?+епъ,л.6 ,\n[v4o vo{vbowve\nИ/ Яhъo\n6a,swbo2 m ~\n3 \"И dсо оbq   Q1Sptec ъs. Jio\nVЛ  wo\nYyoSo\nI~omubo Cmo emь\n?1 qнсехнил\n71/%dюоетес0+0\nМуwло мoжжлvъх  [vобожъс\n(02eоu\n7126 >U&\ncou+4%\nфкхо, 6 cn uexe\n0\n{хдВус.4 ,\n{ coъct_cra\nС\n~aKuzче ебоъл\n'{0tn wэ Orewыт {О{{члmtя ; [0{ъот-о, YQwзёес,н4 'Нх+итr\nWOQuunt ` |votnъ\n6 (/cёnъбэc /\n(bcepке Вюбеж  4ъ/бсжэж   5647+48\n0rot&x 9%+ OSu{etnba\nSye\nhъo\n'VUmouQ, Znч Mvecmintceicq\n224\nFtAAuowwwu\nWOhovCo   Bwwxwwtwnt\n6 nъovru\nho\ne. 0\nУ*на%ож&\n6ume :\n\"[utw , Соли хжби <\nVpem\nK recoze\nMxuuuenz -oLu\nО2\nОv\nMqjpm ` Осис , B6uBvobemn\n0/\nЧчфи пчо4v ~ърхое\nWwwp-\n'gwwvuхo , [loSOnvwc  (vowwuzKuux {о_ичхил\n712\n'2/2соботтt &о .\nWxoYPm\nOnvo 'voCmo\nW2 ULO emъ (ил&\nYeuobe\nког2vu 0\n{{nzizz \"неzщft,\n0\n2wxx\n{20ъ/\"ис :\nУe %eJucee\nKe n\n12\n2Делzе\npefozх, /elЗ te \n'Мдл{хмn\nYon-0 д\nJuvoutme 6\n4\n[e\n~ema22\n&я e/enъ&\n9 0rv\n~Pwouo\n{Oxo nъee ч\n~2\n#onъ+ф Зbслъё{ .\n'о/?\nWerLef\n{Q L Sд Б0+.ь\n0rn\nесеелей\n914,@х#саР 42mx\n0nuneuenъectto\n8 х 27?\n8\nмoMqwox 'ooMuu [jъьбoр vuu meмч\ne\n\"20nъьес\n72z\nIv ₽b  R Рrhc R\nNUQ\n(nчолцолс  |чхerce\n{onoueq\nVBvvR , (nЧ Pte yvecue\n1\n{ogс{ , Ck7етен\n2241ue -\n&/vo&,\n2\n2Ж Ы4\n2 % ъoс\nWwnvg\nVAnЪ\nNOWWQ& u\nWom\n2 2\n@oCr- Ju AKuuov P\njoforuz\nц(\nJbcnvo8о \nкж\nСоои\n(iCmge+ нnе\n7\n~e2,{ &62ъ9щ&\nLD7\n{vфОбитъже    \"еч}ущ ! M(ttnъMRe\n77244-&е\n{ем €\nQCwQtm\n1@4OcOLLoz\n9\n?ojeo 8\nКороeъ ~{\n4{ \"qcmъonzл\nwNb\n(rwowcolumc ?\nDouQnъocr\n(\n~e\n7\n24\ne6ee f erя ^,\n~чд\nQecnve\nCoбturucte₽\n[nт /ъ? @Отщee\n(0\n~\n~+;e oma . . ((onvro\n~чл\nJOityvo\nOm{uQnъ\nКttev\n{+PCnzо\n26.40+2пъ\nK XЖ .\nЭrvo\nOm\n/0.6ъ42\n*Суи\nrЪtCnvona ,\nЯno   @etecco\n4 dro\nФёhъл\n7сte,9n2\n0 2\n~+eeer7 {01e ,zв\nCSp\n4 vut , % [vocubue\nQо.е# rе\n/t_ peenz&\n7Yce/to &z₽\n(ov wpt |чрочъо\nЖ ,елъе \nJиoyu\nbuф \nQbmqa\n'оиощд .\n€\nМюбoлx\nбч/}.\nJtxpcma =\nqercc\nЪpiч/ъ\nМ4ФЧ -\nZozrn\n{4\"4\nv\n(OOAw  \n0on914@+с2\n27eBо \n14\nIucod ,\nCmo\nмиж20,\n74+5 {\n01 0\nЭm\nФw t-\n714\n{&и7 6\n~U0\nоеу\nm6ojeure\n624'd\nAOrDcertR Пъ 6",
+              "excluded_region_outputs": [],
+              "seconds": 18.475157041990315,
+              "literal": {
+                "edits": 3645,
+                "characters": 3955,
+                "cer": 0.9216182048040455,
+                "word_edits": 757,
+                "words": 566,
+                "wer": 1.3374558303886925
+              },
+              "reading": {
+                "edits": 3314,
+                "characters": 3792,
+                "cer": 0.8739451476793249,
+                "word_edits": 694,
+                "words": 558,
+                "wer": 1.2437275985663083
+              }
+            },
+            {
+              "unit": "hwr-expanded-009",
+              "input_ids": [
+                "3a7998a48535c47ef446"
+              ],
+              "input_sha256": [
+                "3a7998a48535c47ef446490263237ab2669129176b85ec87373092e6d90cfea6"
+              ],
+              "prediction": "Ан1 шжa\nW\n\"сс\nIe\n'[аa\"\"жояem \n\"лии\nEd\nPo&\nJx\n#ван\nис\n\"солньен итикш \nКежти\nъГл\nЯРтяtmoina #a\nK0\nYCvzt\n\"[1лmmnw tnfwr l\nWvmEwwtr\n\"ичныи\n4и*иmиссил\n'0олосниккд\nгqл\nДuиz;\n\"ОЖИ0U IОШОI\nкоди[л\nLиc\nЕ7\n#ЧС еДqНелис е\ncwiwwe аисаиц;\nmamme a&\nwaиN7\n\"емошlмыуу\nлакО\nCIQ ти\n\"арелаоиван\nPClvncye\n[ qkиqr\n\"янiо;\nЯи fuu\nшланиня\nKQV0MMWO; О{MRngя\n[Мамuпл\nФiдиеtи\nшишвЯшяошл-\n\"оляеещыщышилои\"ивин\n(сnwy\n\"егяжс\nrилVtun\nf' ,u4е\nTи gaJо\n{C4nW а{L\nсе\"\nИё\"ОmWWOllяuun\n'{отz ий%\nЕра\nоршыт \"Бeмесак\"\n\"0i [аРаИД\nfixкиmt&\nЖеЧЧ%\nиwvц\nсиянО 0\"\n\"иxat]\n\"ошън\nигиpatct\nIиаa\nЗ\"o\n\"илноном\n\"о\"лиа\nБа9м квиулоэтный\nсалтнаии\ntaalGC\n[rc ed\n'0\nV иссих\n\"елшав\nKоа\nишилытЖрИ\ndуэкяи\ngr\n'Ej\n#ияннъ\nTp\nшроои\" \"трп%]\nwийУи\nTMwwt 0мж\nщожгъ#\n\"исжилю\n(nиви\n{ежч0\nФwnHE\n{ЖИОФUя%\nw1\n\"ыиъшоъиые\n\"ожхай\nnke\nХоащ\n0Рgя\nva\n\"акл89\n\"Ивакмnм\nФЕД\nWМtOЧ6IМ\n'\"оошыняа\nй_и\nЭ11ш;\n[ МАили\n4 \"555\nДUp\nком\nёза\nчили;\nт001\nМ#и#\nМUK0 \nМNMNO₽\n\"усои\"cа\n;И2р\n~C\nээ5э\n7а:\nIuоь о59\nлОзиВу\n{ ; Л\n\"ирышино\nкг\nЧона\n#hGJxеа\n\"Съоыиыаытв\n{mсNUb\nмгФG7о\nKt ИИсуF ном лъжир\n#aL\nтаu\nmWWitc\nJL\n2 @истот\nТоир\n&mко кы\n\"\"ныtоtdliia вчис\n#ЮuWE\n\"Б\"ынща\nЯияный и\nГсАte\n\"алошаяыявти\nKPq[\nцадо\nямат4н\n\"оляся\nигиz\n%С\nЯшнонисск\n(g 09\n\"Э |\n\"qт\n{7\n{I+&\nШес\ntc#Zz\n(uu\n'оинчклй\nВидшей\nЕшивя Фаовсанa\n\"яацяиссл)\nPra\n\"жнинанонышня\"\n\"ечъ\n\"е\" ифаш4\nтии\nиЕмими&\nЧнаке\nHL\n{#илония\nнiоiri ТоФиI нm: Rq %у-\nwninlt\nГз\"ынрысыа\nЗааны |\nKvиt;\nТрад\nКоава\n\"е\"знаяч я\nwио\n\"аусфиg?\n4244+8\n3557ыы4\n'%€ PoimetEica \"ншaт !\nZw\"х?гtcк at\nUrwywan fowpurтa;\nFele gizoteid\nМючмамлwcw\nsse\nРынсрилосrим\n\"tuисе %\n'Юненои\n\"я2_7588429\nNik\n#teкae яше#r90\nРийв\n\"2 \"оl\n3ос %iч\"\n'M;iь",
+              "excluded_region_outputs": [],
+              "seconds": 3.4379310840013204,
+              "literal": {
+                "edits": 3114,
+                "characters": 3698,
+                "cer": 0.8420767982693348,
+                "word_edits": 511,
+                "words": 512,
+                "wer": 0.998046875
+              },
+              "reading": {
+                "edits": 2936,
+                "characters": 3549,
+                "cer": 0.8272752888137503,
+                "word_edits": 504,
+                "words": 507,
+                "wer": 0.9940828402366864
+              }
+            },
+            {
+              "unit": "hwr-expanded-010",
+              "input_ids": [
+                "c33b9c46a4e40ba5be6e",
+                "fd3611a81e624ce3e102",
+                "4739bb9627cb9481d4cb",
+                "a862d3301674d1c33df2"
+              ],
+              "input_sha256": [
+                "c33b9c46a4e40ba5be6e6ebdd339159199c5466b0af43b2bfc0198a3797789fe",
+                "fd3611a81e624ce3e102288ee473020d14b2b508ba7a90388020a1eda9298b7c",
+                "4739bb9627cb9481d4cbf4ff0018d0e5c13ad3704cd58b0f899b4338d14ea625",
+                "a862d3301674d1c33df2d3b61a97e6005f9f7ef944b221156ae097423e809ace"
+              ],
+              "prediction": "щесус\nWutcXftN IY\nРUСЦ I\nЧ 2Ul6\nХ\nCub\nгY(wu\n9304е-\nuceYe (utocrQuta\n[3u\nwrooueutg\nIO'\n(OlOPQU\nYWл *;O\n13; Etazotel .\nНтор\nтpebбotu\n0wлw (,\n70 ,\nWJJC\n(tocTrakкe   Соб9\nИРОкU(ОJЯ \npouL\nPoq кou\n9 3ыk\nСъобко ,\nYa XQwlbкл(\nqчха<\nI9\nWoxYO\nЧ\n[ОПОКО\nЗхокьси\nxuou\nU\nЗqоpo(\nбwuu  (uLagwes'\nKo\n(b: Гvо Чe =\nч р&ц ,\nЧVO\nчtсqu\nUCУчngS\n~uoefo\nGбo u  cocYa rФJire\nYa w\nCuola\nОбор .teia\nСокео Ялу\nЗа\nСoood\nooee\nn ₽есяuж кое\nЗклекыЯ,\nОсожцт с Я\nQool\n9/30и.9 \nАбОРсжщ \nYO\n'3UXW\non eqewwYe\nкесложио\n7+\nnucт\n[aоwлe\nCJu(o\nЧезчт\nK\nWGv\nИ\nQ(bbWe\n(ёрноч\nОYжом\nКедUч9 tqo Proб   pa&ovoz\n9З6ue\nхболu\nKq\n@cex\"\nЯн((к\nKC\nсорш__zс%\nC\nVuHelu GJu\nоWою,\nфол6 (uuoubкo,\nU Cwol\nPu@Mttte \nCu(\n(\nKJUt Ч То\nИ&\nUCTч nОJ7\nЧ9 жОJLQщ\nIотO+ve\nbbuouugюv\nУJUц6\nPO lo\nЧеРьоро& 0 ~tr\" \nKо\nио3Q0 ыятb\n(uu\nTq &\n( (cYv\n@ко\nрчсачю\nРеlc (цю\nУ1ОскЬ\nиfr\nCuaб\nnеЗеб\"\nK@JZJ\nbюоqр  b 9\n{cnoзfourtewb\nI .\nKе (чoiw\n43\nЦ\nU@fug pwe (egseu\n{uosre\nПa юY\n11roY(\nЧРерчuo\n20Uu&\n(uкty\nшстеа к[Iх\nCuof\n\"Cw\n4\n[(K wwue 6\nchu <\nшPклеекоц\n119 tukow w\n#oww\nИ\nveayyut\nрчсCкu\nЯ3Uъ !\nU (weu\n@ae\nWteuvex ецu\nСцbecклх\nЧ!ХОЖОб\nmwowa 3И\n'@uЯ ,\nKc C poncioo\nHekenou\nCNQ0\n(uxcg\nHCwg\n₽eб,\n1Rекосuaко Я\nU\nПs&uщuucu\nwicuuguf\nст тоё\n13, (тчhwwwwq\nNew\nCuqqQUru stl?\nHg\nкаком\n3зыle\nХл\nЪ0l\nlopuЧ\nW\nnw еи\niatk чскa\n<1Po8 J euwGl\nчЗчкобх\nKexоvocYeu\n[ЛЛСРI J\nVOWUg\nрелб\nYочuти\nwol\nV\nИек?СPOK\nXЧPYOJUG\n0l\nрбv₽\nhrwrv\nо8щP9-\nНих\nцqо-Рекуии\n6\nCJolox\nWut0 $ 36 ф кuX\n3щщйtl\nQohowww\nKeчwwЯ\nVI (УЧиОЮ ЧЧX\nU\nnwwW\nUt Vл1QJbзобуть\n80LaYeut wu\nСсРско <\npuQUUv\n9 3btWЯ ,\nCq o wafo\ntтeuq -\nЧ;с\nK9 WJwA\n9З71\nHe\ncтrow\nwowe\n40c 70 poQuuтерл\nНО\nОча КWWUY\nЧ(x'\nWOJ;\n9 36c кросяо\nH e OOxOqWwo\nWtcsertac\nI0.\nWoo 0Bb\nKouoсe pn a%ug\nUoxepwaouЯ\nJWод о66\nKoutс цerna eJUq _ бо7\nhPOO u\nbъ%t%ey\nUtoq\nyOncoleqk)\nmРu@оquт\nJuu)\nЪъе41\"\neuL9 >\nLOY ₽Ч Ю\n(ЧС<\nЪцт 6\nсоёu\nэссс; 3кo_wUHu -\nсебетск щ\nwuucnewb /1 (gge b\nЭст\nQetкucu\nwrale QerжbU\n6oт1eoc\nKоq\nKtяC reu(\nPavbwwwtяex o(тое\n0Ч€ жь\nк@беc, ЗuoSoq#ebен\n(UGTGuw\nЧС\nwnte\nVCut\n6 (еgкце `Qua , тGu\nYenefe\nYeutoler_\nquuS\nСьу\n(\nWOTOP 6uLt\nКс&ооо\nKе\n6\n'Р-qcz\nК\nSoert\n'Yoq\n#Q\n08 Juou>;\n'cqeel\nЪоо7o\nY1Р0 Iurgtes\n(Ошшю\nCqY6\n'iPoO UeW_\n'tтор\nrocctcg \n31ба e7\nсоёц\nnPowczo \n(\n\"РЯzo\nУчюб (wuot\nJ@QYeРt ,\n(olic\nhРоС&\nч\nKo2'\n1\nPoWewЯ\n04\nPocc(ouЗu\nЙро\n0\nФРесякых\nuugY9'\nX'\n[OYOР~e\nYoPexUM\neс WUouuUZ,\n4\n'cfaqee\n'р₽'\nw10;\nKG{T\nKiu €\nJO.\n':Obх;\nкe\n[colp0i0\nVw\nOY toutelttut\nJuaxep Яtt\nТ0\"  ,\n0\nЧё\nW\n'ОЧЧСщ\nXС0ъ\nwOWN\ncoovr   qкoUu .\nУ\nCowid cе#\nФ9\nчк&iжut\n@bтOrq\n I%b\n'ЭТ0\nYOY\nKeлobev\nWтoPOu\n6\nШб!ю\n#\nWu\nXИ З ЖЦ\nЧ fewJu\nKov уuёs\nU\nПРосЯч я\nПюд \nce `\n[btu\n uoдoq)\neguucтleккь\n(еqeт,\nJWUUwS\n{euwtv\nCttww\nWuYUPccЯ\nKJLU toe\nнеч\n79 х e ubre\nчoteнtЯ\nхи 319 ,\n0 ^\n3evе\nFЪu uetw\n0\nCQQ кYл\n&\nКЪкUл 0 J (9\nq I\n'{iwuluw\nЗ0JW GQJJ\nЮru!\nWutq\n{ЖожЯ\nVJOTP J (W\nCle\n30LUG QJhкov\nQPYwcя %\n7О ,\nY70\n0 К\n6 € pecя u\nсе? Я\nQbsw\nreoe IIO u\nYDJblJO\n+0ч9\nwoфa tua\n(3 жWKK\ne4\nUUOJ6\nК\nЧчi\n7e\n6оqu\nSbwo 32\n@с\nCotw e\n'еgо ёuo\n[www\nФцбя 6",
+              "excluded_region_outputs": [],
+              "seconds": 10.061173791007604,
+              "literal": {
+                "edits": 2443,
+                "characters": 2836,
+                "cer": 0.8614245416078985,
+                "word_edits": 567,
+                "words": 408,
+                "wer": 1.3897058823529411
+              },
+              "reading": {
+                "edits": 2226,
+                "characters": 2717,
+                "cer": 0.819285977180714,
+                "word_edits": 537,
+                "words": 401,
+                "wer": 1.339152119700748
+              }
+            },
+            {
+              "unit": "hwr-expanded-011",
+              "input_ids": [
+                "05b64233a4e366cae870",
+                "cea381a1b3c91c761a1d"
+              ],
+              "input_sha256": [
+                "05b64233a4e366cae870c29d9c44feddcd92b2788e547f130a4077a295ece349",
+                "cea381a1b3c91c761a1d7dd1a7a11c9d6e7139bd0dbe8e474a2b5fb144dcabf0"
+              ],
+              "prediction": "VmD\naaem\n( _&лбо\nzeстG\n,94%   ссбредtииоъ\n'10 &wб ека\nJvоKt Я (uu?\nИос\nЭмл\nбоюоcо4\nдoб2 € rcg\n\"ёrуkеo\nч Эn\nОк\n\"wuto\nKtiw р   daKvDt\n~uQIc7 Q\n0\n7\nJwuhe\n\"06э7u0 7\ncoha rwug\n75жжжuу\n~umQzm , tno\n#CcM -\n97\n'ёс7\n2nю\ntofcnfcuvoъэ\n2 crvoUK Слбо ,\nOtco\nIp\njwvez\n{rtmte\"t\n6cmtc\n'hэс к6\nIe .\n>Ofu 0 . dоt я де\nCrLu\nиr ) 6 %\nKр 6c0uc\n(ba_щ\n'сz\nQ €erYC 9\nЪp\nK{; K\nLxu\nЖ{хил\"=\n€ e\nVc\n16) %\nNu\n68\nце € 7u ht\nku\n\"фёuw' оф\"\nI1 vu; ё\n%\nTL0\nлvoc niь\nс.1- 0 €zc\n'No UKou\n~Li : Iu Yo\nMt016 K9\n{Яrbeti\nK\nfcic   coуоo\n#e\n20\nnoю tuu7t\n1rf.\n0_ч\n~yotO\nwooUn\nC7u\n6\n'S3ji\nU _tu\nIC\n(m)@utc\n8'\np\nKufz\nЭч QOvlu_u\n₽2o\nхю9х _\nКСк\nJowt5\n806u e\n(ux\n\"e2a\nок/ф-\n13\n'Jho_\nYoemts\nCJunc _\n(5)\n296 ? XVtug _\n\"ёxдц % ( 76э\n12C 7\n(о цк;\n~LOC uUl meJG\n#jucrorи₽ <   ~%bopu ^\n6 \n{rсъ\nЗfу о\nЖа1\n'(oдuя nucrwom uos\n4% 0оfфenтмJе\nЯок %ам &  -\nTu\nJipa\nMD {u\n'1'\n\"(wuib \"3\nNgt м0? {( oъ\n'4ofconace\n(Geiunoua6\n{жа , |o 3\n€20\n'0x\n0'arina\n'\"\"plкnеcrи\n\"bcnueue\" F\n7\n22439\nceu\nnawa\n'(тс тбцъ%uu\nKQ\n72 , t7u\nLoy\n~r G\nJoh wе_o\nre\n\"0bобюо\notuo3 % i 7\nе<\nYe\nCg\n{rwфоъ\n@ rLe _6c72\nохомт\nСT\n12\nia 02 €\n'фuc\n{%жOwvn&\n€o\n'buбo u\n%ouо >\n2e ;\nhouw\n\"uil|\n{o tvlo-e\nI жкос\n6930 oxxфazue\nУроть' bo t\ncrилъu\nЧэ% л#оiфеnutкьжко\nezo\nNcc a 9tz_w\n1o u2\nоpe смo нилд\nMo\n7 0 t6\nwuо& ,\n\"он,[{; =\ne#d\n{r{cc\n\"из%\nceK\nFgrooz , Чсhжы \nI {ъо \nner\n[vxomo\n0/j 04a .\njoJsgt\nУrqоц\nЪмo\nOfcur\nyo\n^oultkq\n'mo\n< Unn\nБа с с\nZikaKu &\nёJд)\npowu  (онос-\n6ce\ncre _te; c\n6{\nmbof дe _\nJa\nQЖмЧ олвк а\nагЪ\n{tru e Чонжаха\nKa C , ₽\n2с76\nIа ж е\n~u+o9U , Korubл%\nzе\n( 0\nHuu , %lokЯ frwue\n~QCmu\nхдёj %\neltrha;€\n{*л %he {w;\nb o\nbю\nка К\nK0\n'2\"{8u\nKe oGez\nr%ttzf\n0d л\n{лоЗtuи киnш\nmJwutu v hu utq ,\n'\"9x6 Я, жя/: \"ё[9tte\"4\nonheфe w я_\nCсJ\nкос\nокbt'\ntec7 #0 2\nnkuwwuru 0 6 HtDe\nJ+Яu ,\nn\n~ikь\n{{нкосф\ncrerem\nKQ ч toъo   uwue\n[vu?c   rizozoe7\n04x0 `\n\" Яе\"ыжяьл %\"\n\"ратаю\nnkott \n\"бс763\n\"бстбо\nyoъ {&\n'a_oru%\nemi\nШi4\nФхаз+9Ф\n0iя\nMо\nntod6k 2\n8bpok? -\nЗак_%\n;осa\nPo_uak &\nLeс%]\"~'р%ци \nyturg\n'iхо &\n\",яag\n\"_4ozfcu\n\"vоtе{%кGр\n{J\nЖт-члбvка\n\"16с\n'%149*9%/eкue\n'mhe_isuxu\n(Ju\n\"%89\"%% \n7ат&\nмак\nУаз\n'nча\nкau\n6 < LYwItoY\ncuiwyauuяx\nKа c\nrha бuл6+\nц9 C wn76\nUjiчтол\n1Y6\n6at\nо& а\n30, %_2 mncS\ncb\"ф'тбол\n[u ) Gite Kuvwg\n{осЦ? 0\nI , GUai6кa\n2;\nO/t 0\n'CnUYa (\nmak\n\"e\nK0 K\n6\nPkow_uow'\nK 0 K\n6\nMp\n'nфeкфас coe\n*pe uzc ,\nафиФ4;\n~у&\n\"'WUth(,LOC6\nсo wu\nOv04 QKIn&\nYikt KLic\n[,\nUif &\n7с6e €m бобa tuttu'\nИ\n\"юлтфчк \nT/awк\n71 { йi(457ся\n0rce €7эw7\nWLm < гyR\nt\nЧut m ,\nYno\nKtul?c\n(c\n'ci ttutc\nco une\nvcohkgcwne\n\"h owutoe\n{f \nсбо,\n6 фо#к 0 2\nhlwLarwue.  Дл:% ~_UЛско\nСt0_\n'\"auad\nff\n6 чос\nWхое\nnuyto\n{n7 Ocot?к%о\n\"г#\npcф\n'&ch\n4QQ27\nYдтэ\n'?&vnк8оc 8\n7\n%haw {ак' ,\n?7U\n~ut tC{7)\nо*, K9 я xux\n'\"саквссо е\"4\" \"оtw2E\n(< _\n{ctK\n&C nC ttii K\nofotbc'\n%\n{%u e\nъtфия ёиоё €e_i a\n\"a\n0 <rt\n~mewuta , Tlo\nе € 7\nkyul 6\nUJ €\n'/жLко\n1t 1(Q\nKWк\n6 e. %\n\"феm {hice\nJek % еmc?\nс;ч е\n({2 9\n'Kr\"to (\n'chёpe\nIo\n'mб 70 кое dongc\n\"Kмиihec+t.&\n{quot\n%\nofhоwurtu. Tor\nKa\nItiZe\n[ия_ц\n{uoeжц&, ~mЬ\n[oaT\n1zoeBuom -\n%\"5t,i\n4,\nкотt  \n\"5\njjiu\ntolio Cu m1 c %\nrYu , U ,\n'(yx (o tou \nnreJe\n{1 ю w%\n~r _u\nV iGK\n\"\"{te? 'Pocc_cafuitre,\nKn ~w\nябnhsont\n6е)\nioz\n\"Фикоа\nбwee   pc*u &\ntmitщ-e 11\nTlav\nLn\n'npuon кwu\n700 __\npociet ,\nJ\n'6u\"n ,u {н,еьр\nCubheuevtyn?\n12 %\nKo ch%ocт\nOtzit\n'vehoдu ^\nOYл'\nnbotumoxкос\nJуtoc\n/3\nIeкhacoбe\nк5%о6и 4ое\n'& mc&\n7ewwx-\n'~эю\npoccкoro\nm\n/oju r\n7O/\nuo_!t <uk\n'Jwwжо , комоkoi {o\n~e\n6o 6heUa\n{0Uko\ntmo 2\n?/ & кmtuYe ^ cu\n#офе\nИo\n'bu4\nЪ ce\n\"Iihto , стheJsio \nU4\nЧrt\nou)e\ntumo !\nKruzo\nUnr a\n~UYwK N\n02\nЭno\nQ %\n{кош\nфбоэoлu . Zllaue\nKQ <\n(eutkc\n'1,чж\n{0 н7с9\nKq ф fna Kttn Ltu , 6о\n60\nbbe te+@\nI4D\n'~6\"щutсх\n~gw?л\nT_uu\n%оc rch ?4+07 с?\n1o\nCezz\n[ r6 Letttrrc76 \nKоc\n~umu2;\nXXtg\nJoqnttt &\n% 0\nЭrzzt <\n'Жюь\n7/cd2e\nсh_ткu\n[ovn wэ ф*Jo\nк{ ж{оъ\n~umo7\nVL& \"e7 .\n3,е2}слау\"каны\nKukTD\nk₽\n€да c гн , 7\nmo Kэv\nХozxт eо Y/o\n#t0 >z 0\n0YnKu >а Тъ cя\nOm\nCnvo16\nnbuя mtto ?\nxа_u\nnf\nЧЯст&u'\nК\ntJ(t!\nC_LOlLET\ncote /47\nирuлткое\nmnd\nИ0 4\n'?хёrcuх yYt n)\n49обол:  =\nбr%hо\n\"1\n2ytzde:\n{l\n{6 цeLe rz>\nPupt\n7[uxoqti \n'cmohoot\n'jKwJto\nэb0 38*0\n{oбие\nJO\n768\n20ёб ,\n220\n9тоб\n78 ;\nТo1\nке\nцuбиw\"JuuU .\nPojфuюч;\ntato",
+              "excluded_region_outputs": [],
+              "seconds": 7.398202000011224,
+              "literal": {
+                "edits": 3549,
+                "characters": 3987,
+                "cer": 0.8901429646350639,
+                "word_edits": 878,
+                "words": 586,
+                "wer": 1.4982935153583619
+              },
+              "reading": {
+                "edits": 3260,
+                "characters": 3848,
+                "cer": 0.8471933471933472,
+                "word_edits": 790,
+                "words": 583,
+                "wer": 1.3550600343053174
+              }
+            },
+            {
+              "unit": "hwr-expanded-012",
+              "input_ids": [
+                "3e35750e0f2b48ff19b6",
+                "df4f1b05760bb253e699"
+              ],
+              "input_sha256": [
+                "3e35750e0f2b48ff19b6aca0a52dae006211275944193692b26b832b3ab3b63c",
+                "df4f1b05760bb253e69998d34f85ba6ee0837524a6c61c350ea7f1a363365108"
+              ],
+              "prediction": "W\nХулмд . [ko\nичак #\nV(\n{{о t \n[м\nА440\n[w\nKiGO\n\"си кия\nAOODt\nKcae\" тъ \"никтжи\nBuAuмkx;\nиюov \"Mbwt& (kwM\nWNANwиwkb :\nMW\nwo Фмм.\nW\nиюSb\nWw\n0\nWOK\nN\nQUMе8/5{,Адк/\nfko\n{мимй -\nM`\n(\n'_\n(\n13:\nwMf\n(Аe\nФиорь %ы\n'ФW%\n{{{Wю{иgoм?\nENQ\nMiu:\nФb _\n{ \"оъмм\n{i\nQN\nсинианнадвкйд\n(\"wu'\n\"мАонякон\nИЯ0\nW\nWъодякк\nю\nиикKсuАСКлмах .\n{м6ю\" аqжжи\n[O .\n\"ом(м .\n\"rый\nОмиtиж\nWw\nW.\nW\nMОбОч{\nW\n# инми\nW\nWиww:\n'wbkOv ,ww W О;\nW\nCMb\nWM\nАА\n'См (~wn\nянсаоо\nW\n6\nЯ04Ко6\nOWvtMte\nW\nW\nWQiMW: .\nw Sи.\n\"e \nW4t нкткиции %c ;\nWWww .\nWl ,\n\"Пимbоми\nMfЮAMN\n(ймiia\nT\nдокне&\nWvrvtt\nWbWWMwlv\nMO\nимс4 оомумао\nW;\n\"оtкдиншное\nW\n0\nИA .\nN (WwpWи\n'4909;ЧицнаЮхаижм\nbж\n{w9'\nкаак\"кчнан\n{чи7оо\nфм{\n{7% %66ожф\n0V\nъ\nЖю\nЯ5аq\"\"а\"a08\"\n(bA\nWМмЯ\n( WW\nMWov\nW\nmMKb {oqu\n1 ХМwи:\nVWM\nAWo Mub\n[КUАRKE\n'O\n(\nМv\nMVC\n'41фуж\nм\n'(биwим-\n$\nWA .\nижиw\nW {Wb\nМОMt\nи(A\nf1\n(Мu\nни шмоч\"юм\nMMM .\nW\nЮиtжхон;\nM\nФиk^a,м)\nRMQ\nWMhU\nQм9\nЧоррися\nMwwO .\n~\nИO:\nMwv\nMiw\n#ммMи\nQ*IN\n'Wи =\nWboфb{ж,\nИ\nW\nи\n'ним Яиииа\n{MMowG\n{иf  нtи\n(i4k'\n{аос\nWu \nW:\n0\n(V:\n{Мтймлиимимhиау\n'.\nwvC\nW\nФ{м\"\n(MVWwW:\n(\nФбt хж\nMW\nWИ(:\nWAOMU : МММ60_\nЕвв:\nWiMИжиом%\n\"Аwлмкb-\nзва\n&ф+4я\nеза\n{олны,0м4\nKeds\n{йжж\n{0нмжим\" 0июи\"{омкаgи '\n#uиnч",
+              "excluded_region_outputs": [],
+              "seconds": 17.857859500014456,
+              "literal": {
+                "edits": 1944,
+                "characters": 2312,
+                "cer": 0.8408304498269896,
+                "word_edits": 342,
+                "words": 343,
+                "wer": 0.9970845481049563
+              },
+              "reading": {
+                "edits": 1842,
+                "characters": 2219,
+                "cer": 0.8301036502929248,
+                "word_edits": 332,
+                "words": 335,
+                "wer": 0.991044776119403
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -108,3 +108,13 @@ Use research/tools/report_two_skills.py on saved run data to regenerate paired s
 ## External OCR comparison added 9 November 2026
 
 [Rehand scored 14.07% CER](../rehand-popov/README.md) on the same 590 reference characters in the three Popov excerpts. It used saved full-page OCR at 1350×1800, whereas this pilot supplied cropped images to the LLMs. Matching text scopes do not make these identical-input tests. No new API call was made.
+
+## Conventional OCR on the matching test material
+
+| Evaluated material | Tesseract 5.5.4, Russian best | EasyOCR 1.7.2, Cyrillic |
+|---|---:|---:|
+| Standalone reading/extraction: diary | 75.54% (2041/2702) | 83.75% (2263/2702) |
+| Three Popov excerpts | 79.32% (468/590) | 83.56% (493/590) |
+
+For any LLM row using fewer than all six diary pages or three excerpts, use matched-populations.json from the conventional report; it scores exactly that row’s matched target IDs.
+These are new local OCR measurements, not substituted LLM results. Raw outputs, setup, scope adapters and per-target counts are in the [conventional OCR report](../conventional-baselines/README.md).

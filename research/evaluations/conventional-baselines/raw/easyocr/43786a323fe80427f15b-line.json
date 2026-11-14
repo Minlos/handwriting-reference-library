@@ -1,0 +1,41 @@
+{
+  "id": "43786a323fe80427f15b-line",
+  "input_sha256": "43786a323fe80427f15b779c3bb6ecd529fded5913573bac8a9c2e58a66f2624",
+  "settings_sha256": "7aedda9d0e759d0ac2b691e0ee1d03d9393612ad5947fcf1fd8e3d0f5199990c",
+  "scope_adapter": "all",
+  "status": "completed",
+  "prediction": "Mwчswuc   w чж~~ 47 ~чvо ",
+  "raw": [
+    {
+      "box": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1912.0,
+          0.0
+        ],
+        [
+          1912.0,
+          169.0
+        ],
+        [
+          0.0,
+          169.0
+        ]
+      ],
+      "text": "Mwчswuc   w чж~~ 47 ~чvо ",
+      "confidence": 0.06030464815550076
+    }
+  ],
+  "detected_lines": [
+    {
+      "text": "Mwчswuc   w чж~~ 47 ~чvо ",
+      "cy": 84.5,
+      "height": 169.0,
+      "x": 0.0
+    }
+  ],
+  "seconds": 0.05745895799191203
+}

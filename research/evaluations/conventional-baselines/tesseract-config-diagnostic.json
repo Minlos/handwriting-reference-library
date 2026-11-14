@@ -1,0 +1,6 @@
+{
+  "original_config_error": "custom tessdata directory has no configs/tsv; engine returned plain text, not TSV",
+  "old_stderr": "read_params_file: Can't open tsv\nEstimating resolution as 531\nDetected 146 diacritics\nImage too small to scale!! (2x36 vs min width of 3)\nLine cannot be recognized!!\n",
+  "new_header": "level\tpage_num\tblock_num\tpar_num\tline_num\tword_num\tleft\ttop\twidth\theight\tconf\ttext",
+  "new_returncode": 0
+}

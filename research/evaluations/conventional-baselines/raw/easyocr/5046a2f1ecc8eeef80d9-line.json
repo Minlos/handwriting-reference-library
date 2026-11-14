@@ -1,0 +1,41 @@
+{
+  "id": "5046a2f1ecc8eeef80d9-line",
+  "input_sha256": "5046a2f1ecc8eeef80d94a7288ab0daf54e42e54ae510754cafb5ebcf04ac166",
+  "settings_sha256": "7aedda9d0e759d0ac2b691e0ee1d03d9393612ad5947fcf1fd8e3d0f5199990c",
+  "scope_adapter": "all",
+  "status": "completed",
+  "prediction": "kо]тчъыы ",
+  "raw": [
+    {
+      "box": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          419.0,
+          0.0
+        ],
+        [
+          419.0,
+          205.0
+        ],
+        [
+          0.0,
+          205.0
+        ]
+      ],
+      "text": "kо]тчъыы ",
+      "confidence": 0.13620943618068443
+    }
+  ],
+  "detected_lines": [
+    {
+      "text": "kо]тчъыы ",
+      "cy": 102.5,
+      "height": 205.0,
+      "x": 0.0
+    }
+  ],
+  "seconds": 0.008552041996154003
+}

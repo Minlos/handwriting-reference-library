@@ -1,0 +1,11 @@
+{
+  "id": "df4f1b05760bb253e699",
+  "input_sha256": "df4f1b05760bb253e69998d34f85ba6ee0837524a6c61c350ea7f1a363365108",
+  "settings_sha256": "eaf5a393cf45f6899b8c19c2d18f623fbc094b3b1084117708aa899167673c6c",
+  "scope_adapter": "all",
+  "status": "completed",
+  "prediction": "",
+  "raw": "level\tpage_num\tblock_num\tpar_num\tline_num\tword_num\tleft\ttop\twidth\theight\tconf\ttext\n1\t1\t0\t0\t0\t0\t0\t0\t2592\t4268\t-1\t\n2\t1\t1\t0\t0\t0\t2\t131\t2590\t3942\t-1\t\n3\t1\t1\t1\t0\t0\t2\t131\t2590\t3942\t-1\t\n4\t1\t1\t1\t1\t0\t2\t131\t2590\t3942\t-1\t\n5\t1\t1\t1\t1\t1\t2\t131\t2590\t3942\t95.000000\t \n",
+  "detected_lines": [],
+  "seconds": 0.4216840840090299
+}

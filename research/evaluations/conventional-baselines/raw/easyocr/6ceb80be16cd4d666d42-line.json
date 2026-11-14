@@ -1,0 +1,41 @@
+{
+  "id": "6ceb80be16cd4d666d42-line",
+  "input_sha256": "6ceb80be16cd4d666d4278e6e78c219e1a2ebc5253c66a095d6069a6941a1825",
+  "settings_sha256": "7aedda9d0e759d0ac2b691e0ee1d03d9393612ad5947fcf1fd8e3d0f5199990c",
+  "scope_adapter": "all",
+  "status": "completed",
+  "prediction": "Gж5a ~",
+  "raw": [
+    {
+      "box": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          310.0,
+          0.0
+        ],
+        [
+          310.0,
+          171.0
+        ],
+        [
+          0.0,
+          171.0
+        ]
+      ],
+      "text": "Gж5a ~",
+      "confidence": 0.13112547470625607
+    }
+  ],
+  "detected_lines": [
+    {
+      "text": "Gж5a ~",
+      "cy": 85.5,
+      "height": 171.0,
+      "x": 0.0
+    }
+  ],
+  "seconds": 0.05172995899920352
+}

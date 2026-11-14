@@ -30,3 +30,15 @@ Pages 4 and 7 have user-confirmed wording, and page 6 has one unresolved final w
 The older plain Gemma test failed on page 7 twice. Its successful plain-text recovery changed the generic instructions and output format, so its 32.09% three-page CER is a separately labeled recovery total, not the matched baseline for measuring the added reference crops.
 
 Evidence: [raw model replies, exact prompts and reference metadata](run.json), [scores](metrics.json), [page-6 exclusion](page-6-exclusions.json), [instruction-only comparison](../gemma-pages-4-6-7/README.md).
+
+## Conventional OCR on the matching test material
+
+| Evaluated material | Tesseract 5.5.4, Russian best | EasyOCR 1.7.2, Cyrillic |
+|---|---:|---:|
+| Page 4 | 74.56% (381/511) | 82.58% (422/511) |
+| Page 6, final unknown word excluded | 75.80% (357/471) | 87.69% (413/471) |
+| Page 7 | 72.16% (337/467) | 82.66% (386/467) |
+| All three pages | 74.19% (1075/1449) | 84.27% (1221/1449) |
+
+
+These are new local OCR measurements, not substituted LLM results. Raw outputs, setup, scope adapters and per-target counts are in the [conventional OCR report](../conventional-baselines/README.md).

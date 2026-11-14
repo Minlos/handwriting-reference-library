@@ -44,3 +44,16 @@ Evidence: [raw model replies and exact requests](run.json), [per-page and aggreg
 ## Page 7 retry
 
 An exact-settings retry repeats the incomplete-output failure. A separate plain-text recovery succeeds, with **25.48% CER** on page 7. See the [retry record and recovery score](page-7-plain-text-recovery/README.md). The original rows remain the first-attempt comparison. The additional recovery row mixes output protocols and includes the third page-7 attempt; it is not a controlled estimate of skill benefit.
+
+## Conventional OCR on the matching test material
+
+| Evaluated material | Tesseract 5.5.4, Russian best | EasyOCR 1.7.2, Cyrillic |
+|---|---:|---:|
+| Page 4 | 74.56% (381/511) | 82.58% (422/511) |
+| Page 6, final unknown word excluded | 75.80% (357/471) | 87.69% (413/471) |
+| Page 7 | 72.16% (337/467) | 82.66% (386/467) |
+| All three pages | 74.19% (1075/1449) | 84.27% (1221/1449) |
+| Common completed original plain-Gemma pages 4 and 6 | 75.15% (738/982) | 85.03% (835/982) |
+
+
+These are new local OCR measurements, not substituted LLM results. Raw outputs, setup, scope adapters and per-target counts are in the [conventional OCR report](../conventional-baselines/README.md).

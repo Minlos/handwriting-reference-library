@@ -1,0 +1,18 @@
+{
+  "id": "7101d54c02085f996bf6-line",
+  "input_sha256": "7101d54c02085f996bf69ff00aa71c4997dc11cf4da7af168c61ee51337e63d1",
+  "settings_sha256": "eaf5a393cf45f6899b8c19c2d18f623fbc094b3b1084117708aa899167673c6c",
+  "scope_adapter": "all",
+  "status": "completed",
+  "prediction": "` О ел ово",
+  "raw": "level\tpage_num\tblock_num\tpar_num\tline_num\tword_num\tleft\ttop\twidth\theight\tconf\ttext\n1\t1\t0\t0\t0\t0\t0\t0\t491\t164\t-1\t\n2\t1\t1\t0\t0\t0\t0\t31\t459\t85\t-1\t\n3\t1\t1\t1\t0\t0\t0\t31\t459\t85\t-1\t\n4\t1\t1\t1\t1\t0\t0\t31\t459\t85\t-1\t\n5\t1\t1\t1\t1\t1\t0\t63\t11\t11\t40.879082\t`\n5\t1\t1\t1\t1\t2\t57\t31\t33\t75\t56.454399\tО\n5\t1\t1\t1\t1\t3\t122\t27\t66\t98\t19.330816\tел\n5\t1\t1\t1\t1\t4\t219\t31\t240\t85\t0.000000\tово\n",
+  "detected_lines": [
+    {
+      "text": "` О ел ово",
+      "cy": 76.0,
+      "height": 98,
+      "x": 0
+    }
+  ],
+  "seconds": 0.06899829200119711
+}

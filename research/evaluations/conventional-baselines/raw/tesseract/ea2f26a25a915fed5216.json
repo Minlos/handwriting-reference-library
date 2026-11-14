@@ -1,0 +1,18 @@
+{
+  "id": "ea2f26a25a915fed5216",
+  "input_sha256": "ea2f26a25a915fed52161cdec2df2c0abecaa66b0e5330a09abf300d6beac3b3",
+  "settings_sha256": "eaf5a393cf45f6899b8c19c2d18f623fbc094b3b1084117708aa899167673c6c",
+  "scope_adapter": "all",
+  "status": "completed",
+  "prediction": "_Й |",
+  "raw": "level\tpage_num\tblock_num\tpar_num\tline_num\tword_num\tleft\ttop\twidth\theight\tconf\ttext\n1\t1\t0\t0\t0\t0\t0\t0\t1356\t1793\t-1\t\n2\t1\t1\t0\t0\t0\t1194\t78\t10\t300\t-1\t\n3\t1\t1\t1\t0\t0\t1194\t78\t10\t300\t-1\t\n4\t1\t1\t1\t1\t0\t1194\t78\t10\t300\t-1\t\n5\t1\t1\t1\t1\t1\t1194\t78\t10\t300\t95.000000\t \n2\t1\t2\t0\t0\t0\t1319\t138\t8\t344\t-1\t\n3\t1\t2\t1\t0\t0\t1319\t138\t8\t344\t-1\t\n4\t1\t2\t1\t1\t0\t1319\t138\t8\t344\t-1\t\n5\t1\t2\t1\t1\t1\t1319\t138\t8\t344\t95.000000\t \n2\t1\t3\t0\t0\t0\t160\t68\t8\t718\t-1\t\n3\t1\t3\t1\t0\t0\t160\t68\t8\t718\t-1\t\n4\t1\t3\t1\t1\t0\t160\t68\t8\t718\t-1\t\n5\t1\t3\t1\t1\t1\t160\t68\t8\t718\t95.000000\t \n2\t1\t4\t0\t0\t0\t1215\t891\t124\t27\t-1\t\n3\t1\t4\t1\t0\t0\t1215\t891\t124\t27\t-1\t\n4\t1\t4\t1\t1\t0\t1215\t891\t124\t27\t-1\t\n5\t1\t4\t1\t1\t1\t1215\t894\t28\t24\t15.166426\t_Й\n5\t1\t4\t1\t1\t2\t1337\t891\t2\t11\t83.464798\t|\n2\t1\t5\t0\t0\t0\t1337\t805\t8\t476\t-1\t\n3\t1\t5\t1\t0\t0\t1337\t805\t8\t476\t-1\t\n4\t1\t5\t1\t1\t0\t1337\t805\t8\t476\t-1\t\n5\t1\t5\t1\t1\t1\t1337\t805\t8\t476\t95.000000\t \n2\t1\t6\t0\t0\t0\t0\t0\t1356\t1793\t-1\t\n3\t1\t6\t1\t0\t0\t0\t0\t1356\t1793\t-1\t\n4\t1\t6\t1\t1\t0\t0\t0\t1356\t1793\t-1\t\n5\t1\t6\t1\t1\t1\t0\t0\t1356\t1793\t95.000000\t \n2\t1\t7\t0\t0\t0\t189\t1463\t3\t317\t-1\t\n3\t1\t7\t1\t0\t0\t189\t1463\t3\t317\t-1\t\n4\t1\t7\t1\t1\t0\t189\t1463\t3\t317\t-1\t\n5\t1\t7\t1\t1\t1\t189\t1463\t3\t317\t95.000000\t \n",
+  "detected_lines": [
+    {
+      "text": "_Й |",
+      "cy": 904.5,
+      "height": 27,
+      "x": 1215
+    }
+  ],
+  "seconds": 0.17400829200050794
+}

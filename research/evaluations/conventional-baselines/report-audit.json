@@ -1,0 +1,137 @@
+[
+  {
+    "report": "outputs/handwriting-reference-library/research/evaluations/comparison.md",
+    "panels": [
+      "diary-14-crops",
+      "diary-3-pages"
+    ],
+    "status": "enriched with measured conventional baselines",
+    "note": "Compare only rows using the same material and CER mode; the 14 crops and three pages have different denominators."
+  },
+  {
+    "report": "outputs/handwriting-reference-library/research/evaluations/gemma-pages-4-6-7/README.md",
+    "panels": [
+      "diary-3-pages",
+      "diary-3-pages",
+      "diary-3-pages",
+      "diary-3-pages",
+      "diary-3-pages"
+    ],
+    "status": "enriched with measured conventional baselines",
+    "note": ""
+  },
+  {
+    "report": "outputs/handwriting-reference-library/research/evaluations/gemma-with-references/README.md",
+    "panels": [
+      "diary-3-pages",
+      "diary-3-pages",
+      "diary-3-pages",
+      "diary-3-pages"
+    ],
+    "status": "enriched with measured conventional baselines",
+    "note": ""
+  },
+  {
+    "report": "outputs/handwriting-reference-library/research/evaluations/grok-three-example-pages/README.md",
+    "panels": [
+      "diary-3-pages",
+      "diary-3-pages",
+      "diary-3-pages",
+      "diary-3-pages"
+    ],
+    "status": "enriched with measured conventional baselines",
+    "note": ""
+  },
+  {
+    "report": "outputs/handwriting-reference-library/research/evaluations/gemma-pages-4-6-7/page-7-plain-text-recovery/README.md",
+    "panels": [
+      "diary-3-pages"
+    ],
+    "status": "enriched with measured conventional baselines",
+    "note": ""
+  },
+  {
+    "report": "outputs/handwriting-reference-library/research/evaluations/page-06-assistant/README.md",
+    "panels": [
+      "diary-3-pages"
+    ],
+    "status": "enriched with measured conventional baselines",
+    "note": "The conventional baseline uses the frozen page-6 target region. The original contextual/external workflow cannot establish identical call inputs and effort."
+  },
+  {
+    "report": "outputs/handwriting-reference-library/research/evaluations/page-06-gemini-vinnik/README.md",
+    "panels": [
+      "diary-3-pages"
+    ],
+    "status": "enriched with measured conventional baselines",
+    "note": "The conventional baseline uses the frozen page-6 target region. The original contextual/external workflow cannot establish identical call inputs and effort."
+  },
+  {
+    "report": "outputs/handwriting-reference-library/research/evaluations/six-page-skill-reference/README.md",
+    "panels": [
+      "diary-6-pages"
+    ],
+    "status": "enriched with measured conventional baselines",
+    "note": "The existing CRNN and Kraken baseline results remain in the primary comparison table."
+  },
+  {
+    "report": "outputs/handwriting-reference-library/research/evaluations/two-standalone-skills/README.md",
+    "panels": [
+      "two-skills-diary",
+      "two-skills-letters"
+    ],
+    "status": "enriched with measured conventional baselines",
+    "note": "For any LLM row using fewer than all six diary pages or three excerpts, use matched-populations.json from the conventional report; it scores exactly that row\u2019s matched target IDs."
+  },
+  {
+    "report": "outputs/handwriting-reference-library/research/evaluations/rehand-popov/README.md",
+    "panels": [
+      "two-skills-letters"
+    ],
+    "status": "enriched with measured conventional baselines",
+    "note": "The conventional engines received the three frozen excerpt PNGs. Rehand used full pages; the text scopes match but the image inputs differ, so this is a practical workflow comparison."
+  },
+  {
+    "report": "outputs/handwriting-reference-library/research/evaluations/crop-results/README.md",
+    "panels": [
+      "diary-14-crops"
+    ],
+    "status": "enriched with measured conventional baselines",
+    "note": "Selected single-line snippets only; existing CRNN/Kraken results are retained alongside these measurements."
+  },
+  {
+    "report": "outputs/handwriting-reference-library/research/evaluations/sol-matched-pages-4-6-7/README.md",
+    "panels": [
+      "diary-3-pages"
+    ],
+    "status": "enriched with measured conventional baselines",
+    "note": ""
+  },
+  {
+    "report": "outputs/hwr200-benchmark/README.md",
+    "panels": [
+      "hwr200-2-scans",
+      "hwr200-2-scans"
+    ],
+    "status": "enriched with measured conventional baselines",
+    "note": "The first row uses the historical principal literal CER; the second uses reading CER on the same material. The engines received no reference packet or skill."
+  },
+  {
+    "report": "outputs/hwr200-expanded/README.md",
+    "panels": [
+      "hwr200-31-scans",
+      "hwr200-31-scans"
+    ],
+    "status": "enriched with measured conventional baselines",
+    "note": "The first row uses the historical principal literal CER; the second uses reading CER on the same material. The engines received no reference packet or skill."
+  },
+  {
+    "report": "outputs/hwr200-expanded/provider-tests/README.md",
+    "panels": [
+      "hwr200-31-scans",
+      "hwr200-31-scans"
+    ],
+    "status": "enriched with measured conventional baselines",
+    "note": "The first row uses the historical principal literal CER; the second uses reading CER on the same material. The engines received no reference packet or skill."
+  }
+]

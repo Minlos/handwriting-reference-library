@@ -1,0 +1,6 @@
+{
+  "control_type": "Synthetic printed Russian text; NOT a corpus crop or handwriting test",
+  "expected": "Проверка русского текста 123",
+  "tesseract": "Проверка русского текста 123",
+  "easyocr": "Проверка русского текста 123"
+}

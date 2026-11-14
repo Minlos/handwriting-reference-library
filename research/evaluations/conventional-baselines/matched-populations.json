@@ -1,0 +1,708 @@
+[
+  {
+    "reader": "astra",
+    "collection": "diary",
+    "comparison": "reading_without_references",
+    "matched_targets": [
+      "D01",
+      "D02",
+      "D03",
+      "D05",
+      "D08",
+      "D09"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 2041,
+        "characters": 2702,
+        "cer": 0.7553663952627683
+      },
+      "easyocr": {
+        "edits": 2263,
+        "characters": 2702,
+        "cer": 0.8375277572168763
+      }
+    }
+  },
+  {
+    "reader": "astra",
+    "collection": "diary",
+    "comparison": "reading_with_raw_references",
+    "matched_targets": [
+      "D01",
+      "D02",
+      "D03",
+      "D05",
+      "D08",
+      "D09"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 2041,
+        "characters": 2702,
+        "cer": 0.7553663952627683
+      },
+      "easyocr": {
+        "edits": 2263,
+        "characters": 2702,
+        "cer": 0.8375277572168763
+      }
+    }
+  },
+  {
+    "reader": "astra",
+    "collection": "diary",
+    "comparison": "raw_extraction_instructions",
+    "matched_targets": [
+      "D01",
+      "D02",
+      "D03",
+      "D05",
+      "D08",
+      "D09"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 2041,
+        "characters": 2702,
+        "cer": 0.7553663952627683
+      },
+      "easyocr": {
+        "edits": 2263,
+        "characters": 2702,
+        "cer": 0.8375277572168763
+      }
+    }
+  },
+  {
+    "reader": "astra",
+    "collection": "diary",
+    "comparison": "verified_extraction_instructions",
+    "matched_targets": [
+      "D01",
+      "D02",
+      "D03",
+      "D05",
+      "D08",
+      "D09"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 2041,
+        "characters": 2702,
+        "cer": 0.7553663952627683
+      },
+      "easyocr": {
+        "edits": 2263,
+        "characters": 2702,
+        "cer": 0.8375277572168763
+      }
+    }
+  },
+  {
+    "reader": "astra",
+    "collection": "letters",
+    "comparison": "reading_without_references",
+    "matched_targets": [
+      "L01",
+      "L09",
+      "L13"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 468,
+        "characters": 590,
+        "cer": 0.7932203389830509
+      },
+      "easyocr": {
+        "edits": 493,
+        "characters": 590,
+        "cer": 0.8355932203389831
+      }
+    }
+  },
+  {
+    "reader": "astra",
+    "collection": "letters",
+    "comparison": "reading_with_raw_references",
+    "matched_targets": [
+      "L01",
+      "L09",
+      "L13"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 468,
+        "characters": 590,
+        "cer": 0.7932203389830509
+      },
+      "easyocr": {
+        "edits": 493,
+        "characters": 590,
+        "cer": 0.8355932203389831
+      }
+    }
+  },
+  {
+    "reader": "astra",
+    "collection": "letters",
+    "comparison": "raw_extraction_instructions",
+    "matched_targets": [
+      "L01",
+      "L09",
+      "L13"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 468,
+        "characters": 590,
+        "cer": 0.7932203389830509
+      },
+      "easyocr": {
+        "edits": 493,
+        "characters": 590,
+        "cer": 0.8355932203389831
+      }
+    }
+  },
+  {
+    "reader": "sol",
+    "collection": "diary",
+    "comparison": "reading_without_references",
+    "matched_targets": [
+      "D01",
+      "D02",
+      "D03",
+      "D05",
+      "D08",
+      "D09"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 2041,
+        "characters": 2702,
+        "cer": 0.7553663952627683
+      },
+      "easyocr": {
+        "edits": 2263,
+        "characters": 2702,
+        "cer": 0.8375277572168763
+      }
+    }
+  },
+  {
+    "reader": "sol",
+    "collection": "diary",
+    "comparison": "reading_with_raw_references",
+    "matched_targets": [
+      "D01",
+      "D02",
+      "D03",
+      "D05",
+      "D08",
+      "D09"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 2041,
+        "characters": 2702,
+        "cer": 0.7553663952627683
+      },
+      "easyocr": {
+        "edits": 2263,
+        "characters": 2702,
+        "cer": 0.8375277572168763
+      }
+    }
+  },
+  {
+    "reader": "sol",
+    "collection": "diary",
+    "comparison": "raw_extraction_instructions",
+    "matched_targets": [
+      "D01",
+      "D02",
+      "D03",
+      "D05",
+      "D08",
+      "D09"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 2041,
+        "characters": 2702,
+        "cer": 0.7553663952627683
+      },
+      "easyocr": {
+        "edits": 2263,
+        "characters": 2702,
+        "cer": 0.8375277572168763
+      }
+    }
+  },
+  {
+    "reader": "sol",
+    "collection": "diary",
+    "comparison": "verified_extraction_instructions",
+    "matched_targets": [
+      "D01",
+      "D02",
+      "D03",
+      "D05",
+      "D08",
+      "D09"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 2041,
+        "characters": 2702,
+        "cer": 0.7553663952627683
+      },
+      "easyocr": {
+        "edits": 2263,
+        "characters": 2702,
+        "cer": 0.8375277572168763
+      }
+    }
+  },
+  {
+    "reader": "sol",
+    "collection": "letters",
+    "comparison": "reading_without_references",
+    "matched_targets": [
+      "L01",
+      "L09",
+      "L13"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 468,
+        "characters": 590,
+        "cer": 0.7932203389830509
+      },
+      "easyocr": {
+        "edits": 493,
+        "characters": 590,
+        "cer": 0.8355932203389831
+      }
+    }
+  },
+  {
+    "reader": "sol",
+    "collection": "letters",
+    "comparison": "reading_with_raw_references",
+    "matched_targets": [
+      "L01",
+      "L09",
+      "L13"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 468,
+        "characters": 590,
+        "cer": 0.7932203389830509
+      },
+      "easyocr": {
+        "edits": 493,
+        "characters": 590,
+        "cer": 0.8355932203389831
+      }
+    }
+  },
+  {
+    "reader": "sol",
+    "collection": "letters",
+    "comparison": "raw_extraction_instructions",
+    "matched_targets": [
+      "L01",
+      "L09",
+      "L13"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 468,
+        "characters": 590,
+        "cer": 0.7932203389830509
+      },
+      "easyocr": {
+        "edits": 493,
+        "characters": 590,
+        "cer": 0.8355932203389831
+      }
+    }
+  },
+  {
+    "reader": "gemma",
+    "collection": "diary",
+    "comparison": "reading_with_raw_references",
+    "matched_targets": [
+      "D01",
+      "D02"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 665,
+        "characters": 901,
+        "cer": 0.7380688124306326
+      },
+      "easyocr": {
+        "edits": 755,
+        "characters": 901,
+        "cer": 0.8379578246392897
+      }
+    }
+  },
+  {
+    "reader": "gemma",
+    "collection": "diary",
+    "comparison": "raw_extraction_instructions",
+    "matched_targets": [
+      "D01",
+      "D02"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 665,
+        "characters": 901,
+        "cer": 0.7380688124306326
+      },
+      "easyocr": {
+        "edits": 755,
+        "characters": 901,
+        "cer": 0.8379578246392897
+      }
+    }
+  },
+  {
+    "reader": "gemma",
+    "collection": "diary",
+    "comparison": "verified_extraction_instructions",
+    "matched_targets": [
+      "D01",
+      "D02"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 665,
+        "characters": 901,
+        "cer": 0.7380688124306326
+      },
+      "easyocr": {
+        "edits": 755,
+        "characters": 901,
+        "cer": 0.8379578246392897
+      }
+    }
+  },
+  {
+    "reader": "gemma-letters-recovery",
+    "collection": "letters",
+    "comparison": "reading_without_references",
+    "matched_targets": [
+      "L01",
+      "L09",
+      "L13"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 468,
+        "characters": 590,
+        "cer": 0.7932203389830509
+      },
+      "easyocr": {
+        "edits": 493,
+        "characters": 590,
+        "cer": 0.8355932203389831
+      }
+    }
+  },
+  {
+    "reader": "gemma-letters-recovery",
+    "collection": "letters",
+    "comparison": "reading_with_raw_references",
+    "matched_targets": [
+      "L01",
+      "L09",
+      "L13"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 468,
+        "characters": 590,
+        "cer": 0.7932203389830509
+      },
+      "easyocr": {
+        "edits": 493,
+        "characters": 590,
+        "cer": 0.8355932203389831
+      }
+    }
+  },
+  {
+    "reader": "gemma-letters-recovery",
+    "collection": "letters",
+    "comparison": "raw_extraction_instructions",
+    "matched_targets": [
+      "L01",
+      "L09",
+      "L13"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 468,
+        "characters": 590,
+        "cer": 0.7932203389830509
+      },
+      "easyocr": {
+        "edits": 493,
+        "characters": 590,
+        "cer": 0.8355932203389831
+      }
+    }
+  },
+  {
+    "reader": "deepseek",
+    "collection": "diary",
+    "comparison": "reading_without_references",
+    "matched_targets": [
+      "D01",
+      "D02",
+      "D03",
+      "D05",
+      "D08",
+      "D09"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 2041,
+        "characters": 2702,
+        "cer": 0.7553663952627683
+      },
+      "easyocr": {
+        "edits": 2263,
+        "characters": 2702,
+        "cer": 0.8375277572168763
+      }
+    }
+  },
+  {
+    "reader": "deepseek",
+    "collection": "diary",
+    "comparison": "reading_with_raw_references",
+    "matched_targets": [
+      "D02",
+      "D03",
+      "D05",
+      "D08",
+      "D09"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 1705,
+        "characters": 2249,
+        "cer": 0.7581147176522899
+      },
+      "easyocr": {
+        "edits": 1897,
+        "characters": 2249,
+        "cer": 0.8434859937750111
+      }
+    }
+  },
+  {
+    "reader": "deepseek",
+    "collection": "diary",
+    "comparison": "raw_extraction_instructions",
+    "matched_targets": [
+      "D01",
+      "D02",
+      "D03",
+      "D05",
+      "D08",
+      "D09"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 2041,
+        "characters": 2702,
+        "cer": 0.7553663952627683
+      },
+      "easyocr": {
+        "edits": 2263,
+        "characters": 2702,
+        "cer": 0.8375277572168763
+      }
+    }
+  },
+  {
+    "reader": "deepseek",
+    "collection": "diary",
+    "comparison": "verified_extraction_instructions",
+    "matched_targets": [
+      "D01",
+      "D02",
+      "D03",
+      "D05",
+      "D08",
+      "D09"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 2041,
+        "characters": 2702,
+        "cer": 0.7553663952627683
+      },
+      "easyocr": {
+        "edits": 2263,
+        "characters": 2702,
+        "cer": 0.8375277572168763
+      }
+    }
+  },
+  {
+    "reader": "deepseek",
+    "collection": "letters",
+    "comparison": "reading_without_references",
+    "matched_targets": [
+      "L01",
+      "L09",
+      "L13"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 468,
+        "characters": 590,
+        "cer": 0.7932203389830509
+      },
+      "easyocr": {
+        "edits": 493,
+        "characters": 590,
+        "cer": 0.8355932203389831
+      }
+    }
+  },
+  {
+    "reader": "deepseek",
+    "collection": "letters",
+    "comparison": "reading_with_raw_references",
+    "matched_targets": [
+      "L01",
+      "L09",
+      "L13"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 468,
+        "characters": 590,
+        "cer": 0.7932203389830509
+      },
+      "easyocr": {
+        "edits": 493,
+        "characters": 590,
+        "cer": 0.8355932203389831
+      }
+    }
+  },
+  {
+    "reader": "deepseek",
+    "collection": "letters",
+    "comparison": "raw_extraction_instructions",
+    "matched_targets": [
+      "L01",
+      "L09",
+      "L13"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 468,
+        "characters": 590,
+        "cer": 0.7932203389830509
+      },
+      "easyocr": {
+        "edits": 493,
+        "characters": 590,
+        "cer": 0.8355932203389831
+      }
+    }
+  },
+  {
+    "reader": "grok",
+    "collection": "diary",
+    "comparison": "reading_without_references",
+    "matched_targets": [
+      "D01"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 336,
+        "characters": 453,
+        "cer": 0.7417218543046358
+      },
+      "easyocr": {
+        "edits": 366,
+        "characters": 453,
+        "cer": 0.8079470198675497
+      }
+    }
+  },
+  {
+    "reader": "grok",
+    "collection": "diary",
+    "comparison": "reading_with_raw_references",
+    "matched_targets": [
+      "D01"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 336,
+        "characters": 453,
+        "cer": 0.7417218543046358
+      },
+      "easyocr": {
+        "edits": 366,
+        "characters": 453,
+        "cer": 0.8079470198675497
+      }
+    }
+  },
+  {
+    "reader": "grok",
+    "collection": "diary",
+    "comparison": "raw_extraction_instructions",
+    "matched_targets": [
+      "D01"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 336,
+        "characters": 453,
+        "cer": 0.7417218543046358
+      },
+      "easyocr": {
+        "edits": 366,
+        "characters": 453,
+        "cer": 0.8079470198675497
+      }
+    }
+  },
+  {
+    "reader": "grok",
+    "collection": "diary",
+    "comparison": "verified_extraction_instructions",
+    "matched_targets": [
+      "D01"
+    ],
+    "engines": {
+      "tesseract": {
+        "edits": 336,
+        "characters": 453,
+        "cer": 0.7417218543046358
+      },
+      "easyocr": {
+        "edits": 366,
+        "characters": 453,
+        "cer": 0.8079470198675497
+      }
+    }
+  }
+]

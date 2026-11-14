@@ -37,3 +37,12 @@ Concrete page-3 errors can be checked in the prediction files:
 - The corrected text includes «Ты меня расплакала и я теперь не могу успокоиться». DeepSeek A returns «или нет, у Распаканной и с петель», and B returns «или меньше, раскисает и теперь» before the surviving ending. Skill instructions do not resolve that phrase.
 - The corrected text includes «Обезьянка такая хорошенькая». Gemma A reads «Объединя малая коронокоса»; DeepSeek C reads «Обедненка такая хорошенькая». Some words survive, but the subject is still wrong.
 - Gemma C and D return the reference-page-7 story beginning «Юра ей … пойдем пешком в садик» instead of target page 3. This is visible reference copying, not improved target recognition. The cause inside the model/runtime has not been isolated.
+
+## Conventional OCR on the matching test material
+
+| Evaluated material | Tesseract 5.5.4, Russian best | EasyOCR 1.7.2, Cyrillic |
+|---|---:|---:|
+| Diary pages 1, 2, 3, 5, 8, 9 | 75.54% (2041/2702) | 83.75% (2263/2702) |
+
+The existing CRNN and Kraken baseline results remain in the primary comparison table.
+These are new local OCR measurements, not substituted LLM results. Raw outputs, setup, scope adapters and per-target counts are in the [conventional OCR report](../conventional-baselines/README.md).

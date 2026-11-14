@@ -28,3 +28,15 @@ Pages 4 and 7 have human-confirmed wording; page 6 has one unresolved final word
 The skill snapshot SHA-256 is `70045b10b9ece68a1d4aaf15cfacafdff5a525fc39dc0b59f74950f893035021`. Input-construction tests confirm that images, reference labels and generation settings match between the conditions, and that target corrections are absent from both prompts. The reading runner never opens scoring reference files.
 
 Evidence: [metrics](metrics.json), [requests and replies](run.json), [three-page examples and confirmed-excerpt metadata](fixture.json), [source transforms](image-provenance.json), [page-6 mask](page-6-exclusions.json), [skill snapshot](SKILL.md). API access and usage billing are distinct from the Grok CLI subscription route; these are direct API results.
+
+## Conventional OCR on the matching test material
+
+| Evaluated material | Tesseract 5.5.4, Russian best | EasyOCR 1.7.2, Cyrillic |
+|---|---:|---:|
+| Page 4 | 74.56% (381/511) | 82.58% (422/511) |
+| Page 6, final unknown word excluded | 75.80% (357/471) | 87.69% (413/471) |
+| Page 7 | 72.16% (337/467) | 82.66% (386/467) |
+| All three pages | 74.19% (1075/1449) | 84.27% (1221/1449) |
+
+
+These are new local OCR measurements, not substituted LLM results. Raw outputs, setup, scope adapters and per-target counts are in the [conventional OCR report](../conventional-baselines/README.md).

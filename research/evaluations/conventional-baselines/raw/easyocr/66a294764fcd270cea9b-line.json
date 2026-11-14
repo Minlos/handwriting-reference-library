@@ -1,0 +1,41 @@
+{
+  "id": "66a294764fcd270cea9b-line",
+  "input_sha256": "66a294764fcd270cea9bc3f5280d08977a3d0a648494d15641556526766b0031",
+  "settings_sha256": "7aedda9d0e759d0ac2b691e0ee1d03d9393612ad5947fcf1fd8e3d0f5199990c",
+  "scope_adapter": "all",
+  "status": "completed",
+  "prediction": "Je   Yxo",
+  "raw": [
+    {
+      "box": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          356.0,
+          0.0
+        ],
+        [
+          356.0,
+          146.0
+        ],
+        [
+          0.0,
+          146.0
+        ]
+      ],
+      "text": "Je   Yxo",
+      "confidence": 0.2042808818829251
+    }
+  ],
+  "detected_lines": [
+    {
+      "text": "Je   Yxo",
+      "cy": 73.0,
+      "height": 146.0,
+      "x": 0.0
+    }
+  ],
+  "seconds": 0.007827875000657514
+}

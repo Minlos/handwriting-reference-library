@@ -1,0 +1,41 @@
+{
+  "id": "43bf5ea620b3343191eb-line",
+  "input_sha256": "43bf5ea620b3343191ebcbddaa14977987202d0f7b467a91f0de3d62393f9270",
+  "settings_sha256": "7aedda9d0e759d0ac2b691e0ee1d03d9393612ad5947fcf1fd8e3d0f5199990c",
+  "scope_adapter": "all",
+  "status": "completed",
+  "prediction": "Quw[vouwbb сячь  `",
+  "raw": [
+    {
+      "box": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          906.0,
+          0.0
+        ],
+        [
+          906.0,
+          197.0
+        ],
+        [
+          0.0,
+          197.0
+        ]
+      ],
+      "text": "Quw[vouwbb сячь  `",
+      "confidence": 0.09134564021631542
+    }
+  ],
+  "detected_lines": [
+    {
+      "text": "Quw[vouwbb сячь  `",
+      "cy": 98.5,
+      "height": 197.0,
+      "x": 0.0
+    }
+  ],
+  "seconds": 0.023162083001807332
+}

@@ -17,3 +17,13 @@ python3 research/tools/verify_library.py
 python3 -m unittest discover -s research/tests
 python3 research/handoffs/skill-reference-evaluation/prepare_inputs.py --validate-only
 ```
+
+## Every accuracy comparison includes conventional OCR/HTR baselines
+
+All handwriting-recognition comparisons, including past reports, must include conventional OCR/HTR software alongside the LLM conditions. Audit and enrich historical comparisons where matching conventional baselines are missing. Use an easy-to-run OCR baseline such as Tesseract with the correct script/language data, plus a suitable handwriting-recognition configuration such as Kraken with an identified Cyrillic recognition model when available. Include Rehand as a separate external-service baseline when it is tested. A report containing only different LLMs or prompt/skill variants is incomplete.
+
+Run baselines on the same frozen held-out images and transcription scope, with the same CER normalization, ambiguity exclusions and aggregation as the LLM runs. Report whole-page recognition separately from recognition using supplied line/word polygons. Record engine/model versions, model hashes, preprocessing and segmentation, raw outputs, failures, runtime, cost and setup effort. Choose settings on development material only; evaluation answers must not influence recognition or settings. Check script and handwriting suitability, and disclose when a baseline was designed for printed text. Do not substitute segmentation-only output for an OCR result.
+
+Every comparison table includes the conventional baseline rows. If a required configuration cannot run, show it as **not run** with the concrete reason; never assign an invented score or silently omit it. Earlier results on a different image subset remain separate and are not relabeled as same-sample baselines.
+
+Measured retrospective baselines: [Tesseract and EasyOCR on seven historical test panels](evaluations/conventional-baselines/README.md), with raw outputs and exact subset scores.

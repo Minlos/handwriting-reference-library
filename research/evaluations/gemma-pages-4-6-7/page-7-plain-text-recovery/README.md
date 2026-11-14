@@ -18,3 +18,12 @@ Examples of remaining errors in the recovery:
 - «пущен морж» instead of «гутен морген».
 
 Evidence: [exact retry](../page-7-plain-retry/retry.json), [plain-text recovery request and response](recovery.json), [reading](reading.txt), [metrics](metrics.json). The first failed attempt remains in the parent run.json unchanged.
+
+## Conventional OCR on the matching test material
+
+| Evaluated material | Tesseract 5.5.4, Russian best | EasyOCR 1.7.2, Cyrillic |
+|---|---:|---:|
+| Page 7 | 72.16% (337/467) | 82.66% (386/467) |
+
+
+These are new local OCR measurements, not substituted LLM results. Raw outputs, setup, scope adapters and per-target counts are in the [conventional OCR report](../../conventional-baselines/README.md).

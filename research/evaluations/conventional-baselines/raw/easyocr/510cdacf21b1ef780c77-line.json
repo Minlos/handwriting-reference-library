@@ -1,0 +1,41 @@
+{
+  "id": "510cdacf21b1ef780c77-line",
+  "input_sha256": "510cdacf21b1ef780c778e84dea939d2e8821c383768a750d54952c7ea63e0f9",
+  "settings_sha256": "7aedda9d0e759d0ac2b691e0ee1d03d9393612ad5947fcf1fd8e3d0f5199990c",
+  "scope_adapter": "all",
+  "status": "completed",
+  "prediction": "Jrh ewu (Quабл   ~уб+1 o_wevuд )",
+  "raw": [
+    {
+      "box": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1613.0,
+          0.0
+        ],
+        [
+          1613.0,
+          223.0
+        ],
+        [
+          0.0,
+          223.0
+        ]
+      ],
+      "text": "Jrh ewu (Quабл   ~уб+1 o_wevuд )",
+      "confidence": 0.04180531936150423
+    }
+  ],
+  "detected_lines": [
+    {
+      "text": "Jrh ewu (Quабл   ~уб+1 o_wevuд )",
+      "cy": 111.5,
+      "height": 223.0,
+      "x": 0.0
+    }
+  ],
+  "seconds": 0.03679325000848621
+}

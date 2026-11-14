@@ -1,0 +1,11 @@
+{
+  "id": "226c7fd0eed66d387f45-bottom",
+  "input_sha256": "226c7fd0eed66d387f45ee58be0ae3d91c40d28ec94da33150f5161c9580778f",
+  "settings_sha256": "eaf5a393cf45f6899b8c19c2d18f623fbc094b3b1084117708aa899167673c6c",
+  "scope_adapter": "bottom-line",
+  "status": "completed",
+  "prediction": "",
+  "raw": "level\tpage_num\tblock_num\tpar_num\tline_num\tword_num\tleft\ttop\twidth\theight\tconf\ttext\n1\t1\t0\t0\t0\t0\t0\t0\t1550\t160\t-1\t\n2\t1\t1\t0\t0\t0\t0\t0\t1550\t160\t-1\t\n3\t1\t1\t1\t0\t0\t0\t0\t1550\t160\t-1\t\n4\t1\t1\t1\t1\t0\t0\t0\t1550\t160\t-1\t\n5\t1\t1\t1\t1\t1\t0\t0\t1550\t160\t95.000000\t \n",
+  "detected_lines": [],
+  "seconds": 0.055569957999978215
+}

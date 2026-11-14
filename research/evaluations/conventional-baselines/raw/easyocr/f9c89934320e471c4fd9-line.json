@@ -1,0 +1,41 @@
+{
+  "id": "f9c89934320e471c4fd9-line",
+  "input_sha256": "f9c89934320e471c4fd95d030ca1e0b62c26fdc544c3f72eaea624fb6ad5004f",
+  "settings_sha256": "7aedda9d0e759d0ac2b691e0ee1d03d9393612ad5947fcf1fd8e3d0f5199990c",
+  "scope_adapter": "all",
+  "status": "completed",
+  "prediction": "кvВоха  . (Mv- : .",
+  "raw": [
+    {
+      "box": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          901.0,
+          0.0
+        ],
+        [
+          901.0,
+          154.0
+        ],
+        [
+          0.0,
+          154.0
+        ]
+      ],
+      "text": "кvВоха  . (Mv- : .",
+      "confidence": 0.09763857792385648
+    }
+  ],
+  "detected_lines": [
+    {
+      "text": "кvВоха  . (Mv- : .",
+      "cy": 77.0,
+      "height": 154.0,
+      "x": 0.0
+    }
+  ],
+  "seconds": 0.026483749999897555
+}

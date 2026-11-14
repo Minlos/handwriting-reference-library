@@ -1,0 +1,11 @@
+{
+  "id": "3360f2f675d86dd8c493-line",
+  "input_sha256": "3360f2f675d86dd8c49390629530454bd41f06b5a6ff5161e77263b25463d2d8",
+  "settings_sha256": "eaf5a393cf45f6899b8c19c2d18f623fbc094b3b1084117708aa899167673c6c",
+  "scope_adapter": "all",
+  "status": "completed",
+  "prediction": "",
+  "raw": "level\tpage_num\tblock_num\tpar_num\tline_num\tword_num\tleft\ttop\twidth\theight\tconf\ttext\n1\t1\t0\t0\t0\t0\t0\t0\t1636\t181\t-1\t\n",
+  "detected_lines": [],
+  "seconds": 0.04447150000487454
+}

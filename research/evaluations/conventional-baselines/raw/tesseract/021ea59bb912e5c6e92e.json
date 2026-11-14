@@ -1,0 +1,24 @@
+{
+  "id": "021ea59bb912e5c6e92e",
+  "input_sha256": "021ea59bb912e5c6e92e48da6613ecc582632b1806ab5568ebfadccae629590f",
+  "settings_sha256": "eaf5a393cf45f6899b8c19c2d18f623fbc094b3b1084117708aa899167673c6c",
+  "scope_adapter": "all",
+  "status": "completed",
+  "prediction": "Добт # ( ловля иааеоте\n(НООЛб ия",
+  "raw": "level\tpage_num\tblock_num\tpar_num\tline_num\tword_num\tleft\ttop\twidth\theight\tconf\ttext\n1\t1\t0\t0\t0\t0\t0\t0\t1360\t1768\t-1\t\n2\t1\t1\t0\t0\t0\t0\t0\t1360\t1262\t-1\t\n3\t1\t1\t1\t0\t0\t0\t0\t1360\t1262\t-1\t\n4\t1\t1\t1\t1\t0\t0\t0\t1360\t1262\t-1\t\n5\t1\t1\t1\t1\t1\t0\t0\t1360\t1262\t95.000000\t \n2\t1\t2\t0\t0\t0\t37\t1465\t1096\t303\t-1\t\n3\t1\t2\t1\t0\t0\t41\t1544\t1098\t203\t-1\t\n4\t1\t2\t1\t1\t0\t45\t1465\t1088\t182\t-1\t\n5\t1\t2\t1\t1\t1\t45\t1553\t175\t74\t0.000000\tДобт\n5\t1\t2\t1\t1\t2\t303\t1635\t3\t12\t0.000000\t#\n5\t1\t2\t1\t1\t3\t469\t1575\t12\t49\t57.737961\t(\n5\t1\t2\t1\t1\t4\t525\t1540\t153\t91\t1.825352\tловля\n5\t1\t2\t1\t1\t5\t854\t1465\t279\t154\t0.000000\tиааеоте\n4\t1\t2\t1\t2\t0\t37\t1481\t787\t287\t-1\t\n5\t1\t2\t1\t2\t1\t37\t1638\t173\t94\t0.000000\t(НООЛб\n5\t1\t2\t1\t2\t2\t367\t1481\t457\t287\t0.000000\tия\n2\t1\t3\t0\t0\t0\t0\t1638\t1360\t130\t-1\t\n3\t1\t3\t1\t0\t0\t0\t1638\t1360\t130\t-1\t\n4\t1\t3\t1\t1\t0\t0\t1638\t1360\t130\t-1\t\n5\t1\t3\t1\t1\t1\t0\t1744\t183\t24\t95.000000\t \n5\t1\t3\t1\t1\t2\t837\t1638\t523\t130\t95.000000\t \n",
+  "detected_lines": [
+    {
+      "text": "Добт # ( ловля иааеоте",
+      "cy": 1556.0,
+      "height": 182,
+      "x": 45
+    },
+    {
+      "text": "(НООЛб ия",
+      "cy": 1624.5,
+      "height": 287,
+      "x": 37
+    }
+  ],
+  "seconds": 0.26922633399954066
+}

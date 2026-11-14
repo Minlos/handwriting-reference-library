@@ -1,0 +1,11 @@
+{
+  "id": "17f9bdc04740c358730c-line",
+  "input_sha256": "17f9bdc04740c358730c0d2078f536840d6a9c80ce849f9920fbe5dc04e9cc6c",
+  "settings_sha256": "eaf5a393cf45f6899b8c19c2d18f623fbc094b3b1084117708aa899167673c6c",
+  "scope_adapter": "all",
+  "status": "completed",
+  "prediction": "",
+  "raw": "level\tpage_num\tblock_num\tpar_num\tline_num\tword_num\tleft\ttop\twidth\theight\tconf\ttext\n1\t1\t0\t0\t0\t0\t0\t0\t916\t169\t-1\t\n",
+  "detected_lines": [],
+  "seconds": 0.04795191700395662
+}

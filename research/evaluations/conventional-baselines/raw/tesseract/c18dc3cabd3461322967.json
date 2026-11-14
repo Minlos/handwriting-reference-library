@@ -1,0 +1,11 @@
+{
+  "id": "c18dc3cabd3461322967",
+  "input_sha256": "c18dc3cabd346132296730ec3dba64120437fba76dcbbd61627c292c214297e2",
+  "settings_sha256": "eaf5a393cf45f6899b8c19c2d18f623fbc094b3b1084117708aa899167673c6c",
+  "scope_adapter": "all",
+  "status": "completed",
+  "prediction": "",
+  "raw": "level\tpage_num\tblock_num\tpar_num\tline_num\tword_num\tleft\ttop\twidth\theight\tconf\ttext\n1\t1\t0\t0\t0\t0\t0\t0\t1392\t1723\t-1\t\n2\t1\t1\t0\t0\t0\t78\t688\t9\t479\t-1\t\n3\t1\t1\t1\t0\t0\t78\t688\t9\t479\t-1\t\n4\t1\t1\t1\t1\t0\t78\t688\t9\t479\t-1\t\n5\t1\t1\t1\t1\t1\t78\t688\t9\t479\t95.000000\t \n2\t1\t2\t0\t0\t0\t80\t688\t11\t586\t-1\t\n3\t1\t2\t1\t0\t0\t80\t688\t11\t586\t-1\t\n4\t1\t2\t1\t1\t0\t80\t688\t11\t586\t-1\t\n5\t1\t2\t1\t1\t1\t80\t688\t11\t586\t95.000000\t \n2\t1\t3\t0\t0\t0\t1235\t1109\t2\t314\t-1\t\n3\t1\t3\t1\t0\t0\t1235\t1109\t2\t314\t-1\t\n4\t1\t3\t1\t1\t0\t1235\t1109\t2\t314\t-1\t\n5\t1\t3\t1\t1\t1\t1235\t1109\t2\t314\t95.000000\t \n2\t1\t4\t0\t0\t0\t0\t0\t1392\t1723\t-1\t\n3\t1\t4\t1\t0\t0\t0\t0\t1392\t1723\t-1\t\n4\t1\t4\t1\t1\t0\t0\t0\t1392\t1723\t-1\t\n5\t1\t4\t1\t1\t1\t0\t0\t1392\t1723\t95.000000\t \n",
+  "detected_lines": [],
+  "seconds": 0.14286212499428075
+}

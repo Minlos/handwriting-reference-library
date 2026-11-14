@@ -1,0 +1,21 @@
+{
+  "engine": "easyocr",
+  "version": "1.7.2",
+  "torch_version": "2.14.0",
+  "languages": [
+    "ru",
+    "en"
+  ],
+  "gpu": false,
+  "decoder": "greedy",
+  "canvas_size": 2560,
+  "workers": 0,
+  "paragraph": false,
+  "recognition_model": "cyrillic_g2",
+  "model_sha256": {
+    "craft_mlt_25k.pth": "4a5efbfb48b4081100544e75e1e2b57f8de3d84f213004b14b85fd4b3748db17",
+    "cyrillic_g2.pth": "48d0f3b58f28aa64651ab1032cc2d498c4de25135829668e87c14e7a07529f29"
+  },
+  "threads": 2,
+  "seed": 20261114
+}

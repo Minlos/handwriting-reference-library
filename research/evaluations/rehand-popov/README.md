@@ -36,3 +36,12 @@ python3 research/tools/score_rehand_popov.py --letters-dir /path/to/letters-new-
 ```
 
 This reads saved OCR boxes and image files only; it makes no network requests.
+
+## Conventional OCR on the matching test material
+
+| Evaluated material | Tesseract 5.5.4, Russian best | EasyOCR 1.7.2, Cyrillic |
+|---|---:|---:|
+| Three Popov excerpts | 79.32% (468/590) | 83.56% (493/590) |
+
+The conventional engines received the three frozen excerpt PNGs. Rehand used full pages; the text scopes match but the image inputs differ, so this is a practical workflow comparison.
+These are new local OCR measurements, not substituted LLM results. Raw outputs, setup, scope adapters and per-target counts are in the [conventional OCR report](../conventional-baselines/README.md).

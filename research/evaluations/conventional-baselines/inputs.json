@@ -1,0 +1,418 @@
+{
+  "items": [
+    {
+      "id": "6ceb80be16cd4d666d42-line",
+      "path": "outputs/diary-handwriting-library/crops/verified/V001_P01.png",
+      "sha256": "6ceb80be16cd4d666d4278e6e78c219e1a2ebc5253c66a095d6069a6941a1825",
+      "scope": "all",
+      "line": true
+    },
+    {
+      "id": "5046a2f1ecc8eeef80d9-line",
+      "path": "outputs/diary-handwriting-library/crops/verified/V002_P01.png",
+      "sha256": "5046a2f1ecc8eeef80d94a7288ab0daf54e42e54ae510754cafb5ebcf04ac166",
+      "scope": "all",
+      "line": true
+    },
+    {
+      "id": "f92d4f2f6e6715f2d386-line",
+      "path": "outputs/diary-handwriting-library/crops/verified/V003_P01.png",
+      "sha256": "f92d4f2f6e6715f2d386ea781a495653b08f6041cbd26acc8fa43117c26e1f5b",
+      "scope": "all",
+      "line": true
+    },
+    {
+      "id": "7101d54c02085f996bf6-line",
+      "path": "outputs/diary-handwriting-library/crops/verified/V006_P01.png",
+      "sha256": "7101d54c02085f996bf69ff00aa71c4997dc11cf4da7af168c61ee51337e63d1",
+      "scope": "all",
+      "line": true
+    },
+    {
+      "id": "43786a323fe80427f15b-line",
+      "path": "outputs/diary-handwriting-library/crops/verified/V008_P01.png",
+      "sha256": "43786a323fe80427f15b779c3bb6ecd529fded5913573bac8a9c2e58a66f2624",
+      "scope": "all",
+      "line": true
+    },
+    {
+      "id": "eaf9ef3b580cb7b43c33-line",
+      "path": "outputs/diary-handwriting-library/crops/verified/V013_P02.png",
+      "sha256": "eaf9ef3b580cb7b43c332b093dfdc2f4ab50ad83f02f8e2fe4e9cdd1d3ffccb1",
+      "scope": "all",
+      "line": true
+    },
+    {
+      "id": "510cdacf21b1ef780c77-line",
+      "path": "outputs/diary-handwriting-library/crops/verified/V014_P02.png",
+      "sha256": "510cdacf21b1ef780c778e84dea939d2e8821c383768a750d54952c7ea63e0f9",
+      "scope": "all",
+      "line": true
+    },
+    {
+      "id": "66a294764fcd270cea9b-line",
+      "path": "outputs/diary-handwriting-library/crops/verified/V015_P02.png",
+      "sha256": "66a294764fcd270cea9bc3f5280d08977a3d0a648494d15641556526766b0031",
+      "scope": "all",
+      "line": true
+    },
+    {
+      "id": "f9c89934320e471c4fd9-line",
+      "path": "outputs/diary-handwriting-library/crops/verified/V016_P02.png",
+      "sha256": "f9c89934320e471c4fd95d030ca1e0b62c26fdc544c3f72eaea624fb6ad5004f",
+      "scope": "all",
+      "line": true
+    },
+    {
+      "id": "c444ece03907031e985c-line",
+      "path": "outputs/diary-handwriting-library/crops/verified/V017_P02.png",
+      "sha256": "c444ece03907031e985cea5ca60017997b484c007dc0b69be872ca4a9fcd2345",
+      "scope": "all",
+      "line": true
+    },
+    {
+      "id": "84c44b52598f3773a9f9-line",
+      "path": "outputs/diary-handwriting-library/crops/verified/V018_P02.png",
+      "sha256": "84c44b52598f3773a9f91a40176a802c2bfefe21fbdbba648c942884d4748ea2",
+      "scope": "all",
+      "line": true
+    },
+    {
+      "id": "17f9bdc04740c358730c-line",
+      "path": "outputs/diary-handwriting-library/crops/verified/V021_P03.png",
+      "sha256": "17f9bdc04740c358730c0d2078f536840d6a9c80ce849f9920fbe5dc04e9cc6c",
+      "scope": "all",
+      "line": true
+    },
+    {
+      "id": "3360f2f675d86dd8c493-line",
+      "path": "outputs/diary-handwriting-library/crops/verified/V022_P03.png",
+      "sha256": "3360f2f675d86dd8c49390629530454bd41f06b5a6ff5161e77263b25463d2d8",
+      "scope": "all",
+      "line": true
+    },
+    {
+      "id": "43bf5ea620b3343191eb-line",
+      "path": "outputs/diary-handwriting-library/crops/verified/V024_P03.png",
+      "sha256": "43bf5ea620b3343191ebcbddaa14977987202d0f7b467a91f0de3d62393f9270",
+      "scope": "all",
+      "line": true
+    },
+    {
+      "id": "002f93759d0e598548ea",
+      "path": "work/sol-matched-tests-20261102/inputs/scan-a.png",
+      "sha256": "002f93759d0e598548eafb0aa63ec64838b91e5167cb028bec3043b66a6f9418",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "987201bd67a34cd363cc",
+      "path": "work/sol-matched-tests-20261102/inputs/scan-b.png",
+      "sha256": "987201bd67a34cd363ccbf94d6fcb4e9e4b664ba992a85a70aecfbf7948fbe6a",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "eb33f5a49f946d7da414",
+      "path": "work/sol-matched-tests-20261102/inputs/scan-c.png",
+      "sha256": "eb33f5a49f946d7da414bbdf58fbb9167c443d3ceae7a2801869847e1c63da6e",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "be22fb01ce324fbd149c",
+      "path": "work/conventional-baselines/inputs/diary6-01.png",
+      "sha256": "be22fb01ce324fbd149cc276c1eb6d840c62be5f0c961859de8d15331db80ad1",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "8e95e677c36c619a57a3",
+      "path": "work/conventional-baselines/inputs/diary6-02.png",
+      "sha256": "8e95e677c36c619a57a31c2ec2342613c0201940aa197b05c9a8bd45e92ce9b5",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "f748f8f76963b04abd03",
+      "path": "work/conventional-baselines/inputs/diary6-03.png",
+      "sha256": "f748f8f76963b04abd03afe5ab9e515c8723bf9eccd7bbaa15717f032a78bc11",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "411ff42d35d11b8f1419",
+      "path": "work/conventional-baselines/inputs/diary6-05.png",
+      "sha256": "411ff42d35d11b8f1419dee4469f5bdff55869d3df75a919be8197249fdf94e2",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "d7dc7e39a5f37c251621",
+      "path": "work/conventional-baselines/inputs/diary6-08.png",
+      "sha256": "d7dc7e39a5f37c2516211816480f6eda9342d2df6e2a5d5842d718442ecfd6cb",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "44455d9600da460b0b94",
+      "path": "work/conventional-baselines/inputs/diary6-09.png",
+      "sha256": "44455d9600da460b0b945df33f4514cb77851376a83cc9dc880499b0de0df449",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "55b6732915d577c22e9b",
+      "path": "work/two-skill-benchmark/targets/L01.png",
+      "sha256": "55b6732915d577c22e9b5c9b78565bad6981111e9d23b787a1c49609389dc866",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "226c7fd0eed66d387f45-bottom",
+      "path": "work/two-skill-benchmark/targets/L09.png",
+      "sha256": "226c7fd0eed66d387f45ee58be0ae3d91c40d28ec94da33150f5161c9580778f",
+      "scope": "bottom-line",
+      "line": false
+    },
+    {
+      "id": "2765469372790ba57b85",
+      "path": "work/two-skill-benchmark/targets/L13.png",
+      "sha256": "2765469372790ba57b85d3a0341748ba2a441a4759b50bdb33449e6fcfb91035",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "eb316f34a1d16800fa7b",
+      "path": "outputs/hwr200-benchmark/targets/writer003-original3-page01.jpg",
+      "sha256": "eb316f34a1d16800fa7b8ae7f9aa8b44a5d89c583c343140c3e8607ff617ea92",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "5d28acb6c5b419ee316c",
+      "path": "outputs/hwr200-benchmark/targets/writer005-original5-page01.jpg",
+      "sha256": "5d28acb6c5b419ee316cdda918e987a7295d12cffc8dccf7c7653d988ba0114f",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "2e4fb119f8a8721f28aa",
+      "path": "outputs/hwr200-expanded/targets/writer001/page01.jpg",
+      "sha256": "2e4fb119f8a8721f28aac2465273502d80ab8f1d045b935afa56ba8b0ad6aee5",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "ecbc34cf9dd4acecd322",
+      "path": "outputs/hwr200-expanded/targets/writer001/page02.jpg",
+      "sha256": "ecbc34cf9dd4acecd32275c416ae9842cca2da2c62ff9a77b6e64ef48533ffdb",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "6ad3a8a570357c369cfb",
+      "path": "outputs/hwr200-expanded/targets/writer001/page03.jpg",
+      "sha256": "6ad3a8a570357c369cfbf4dd744293a66d37e55884398d5ff83817e81e53d9f5",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "01d6f7885d98065623a1",
+      "path": "outputs/hwr200-expanded/targets/writer001/page04.jpg",
+      "sha256": "01d6f7885d98065623a1dc97c4b3513dbb4c3a64b7cb0e63bac350abb82c8fb7",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "c1bc4d9916875863a8d5",
+      "path": "outputs/hwr200-expanded/targets/writer001/page05.jpg",
+      "sha256": "c1bc4d9916875863a8d5b6cede3a6ce473d0375b15f054d1f27de88979df00f4",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "e49edb697eda037ce0f0",
+      "path": "outputs/hwr200-expanded/targets/writer002/page01.jpg",
+      "sha256": "e49edb697eda037ce0f0194c934f3fc828dff9c5d16069638d6112c231fc3121",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "38eeaafabc35572bf2f3",
+      "path": "outputs/hwr200-expanded/targets/writer002/page02.jpg",
+      "sha256": "38eeaafabc35572bf2f3e96d751fd3bee433d81218dedf3c6000004df753d8cc",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "88b771f568aaeca779e2",
+      "path": "outputs/hwr200-expanded/targets/writer002/page03.jpg",
+      "sha256": "88b771f568aaeca779e2bef5ddc8882d6cb4a17f1a508fec1b8c2104bac2f829",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "0ed3960e0a9d823dd772",
+      "path": "outputs/hwr200-expanded/targets/writer002/page04.jpg",
+      "sha256": "0ed3960e0a9d823dd772e15212411bf292f161141973c51928990a3838db15ee",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "c79a254808e07d9ebf0f",
+      "path": "outputs/hwr200-expanded/targets/writer004/page01.jpg",
+      "sha256": "c79a254808e07d9ebf0f6db409e3fcabe976a33aac88a1d2f1a36c45ed5c373c",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "04492aa37f02122b5d8a",
+      "path": "outputs/hwr200-expanded/targets/writer004/page02.jpg",
+      "sha256": "04492aa37f02122b5d8a0194c6154c05b711efa925ec09c417ed33243b072135",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "ea2f26a25a915fed5216",
+      "path": "outputs/hwr200-expanded/targets/writer006/page01.jpg",
+      "sha256": "ea2f26a25a915fed52161cdec2df2c0abecaa66b0e5330a09abf300d6beac3b3",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "021ea59bb912e5c6e92e",
+      "path": "outputs/hwr200-expanded/targets/writer006/page02.jpg",
+      "sha256": "021ea59bb912e5c6e92e48da6613ecc582632b1806ab5568ebfadccae629590f",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "fc3fd1ee0aef1b88d77a",
+      "path": "outputs/hwr200-expanded/targets/writer006/page03.jpg",
+      "sha256": "fc3fd1ee0aef1b88d77a016d8309477814d547a1cec59f530011a35ca5d7f7fd",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "21251dcc42bbf14a2626",
+      "path": "outputs/hwr200-expanded/targets/writer006/page04.jpg",
+      "sha256": "21251dcc42bbf14a2626c0df881d5e4f98b4900f6b488e7ef85d8b20448fb27c",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "c18dc3cabd3461322967",
+      "path": "outputs/hwr200-expanded/targets/writer006/page05.jpg",
+      "sha256": "c18dc3cabd346132296730ec3dba64120437fba76dcbbd61627c292c214297e2",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "cb629345d71a709d3f72",
+      "path": "outputs/hwr200-expanded/targets/writer007/page01.jpg",
+      "sha256": "cb629345d71a709d3f72f64d8ffb0e65b79a4faee4350f68e249064a174e0361",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "1d4e70c8a4142189674b",
+      "path": "outputs/hwr200-expanded/targets/writer007/page02.jpg",
+      "sha256": "1d4e70c8a4142189674b6a730674b7dce3f82a02696ee2fae7d445b8dbc517ef",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "67e3da98477b88f5d7c0",
+      "path": "outputs/hwr200-expanded/targets/writer007/page03.jpg",
+      "sha256": "67e3da98477b88f5d7c0b2e60568cc676992a1e19846623b761cb218ac3cd49f",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "516cdff1390d6a0bef23",
+      "path": "outputs/hwr200-expanded/targets/writer007/page04.jpg",
+      "sha256": "516cdff1390d6a0bef2351e51b6ec0ef11213fcd1f480a7da754b26144f731fc",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "2abcb5a1ac24dac80240",
+      "path": "outputs/hwr200-expanded/targets/writer008/page01.jpg",
+      "sha256": "2abcb5a1ac24dac80240844f70956df24deaccc56ff59f8a2709c7344525e7f2",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "8b31e0613ee07872ebb9",
+      "path": "outputs/hwr200-expanded/targets/writer008/page02.jpg",
+      "sha256": "8b31e0613ee07872ebb9a64c30e00d206bbdf7fe08e473db7d5239ed8996244f",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "3a7998a48535c47ef446",
+      "path": "outputs/hwr200-expanded/targets/writer009/page01.jpg",
+      "sha256": "3a7998a48535c47ef446490263237ab2669129176b85ec87373092e6d90cfea6",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "c33b9c46a4e40ba5be6e",
+      "path": "outputs/hwr200-expanded/targets/writer010/page01.jpg",
+      "sha256": "c33b9c46a4e40ba5be6e6ebdd339159199c5466b0af43b2bfc0198a3797789fe",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "fd3611a81e624ce3e102",
+      "path": "outputs/hwr200-expanded/targets/writer010/page02.jpg",
+      "sha256": "fd3611a81e624ce3e102288ee473020d14b2b508ba7a90388020a1eda9298b7c",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "4739bb9627cb9481d4cb",
+      "path": "outputs/hwr200-expanded/targets/writer010/page03.jpg",
+      "sha256": "4739bb9627cb9481d4cbf4ff0018d0e5c13ad3704cd58b0f899b4338d14ea625",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "a862d3301674d1c33df2",
+      "path": "outputs/hwr200-expanded/targets/writer010/page04.jpg",
+      "sha256": "a862d3301674d1c33df2d3b61a97e6005f9f7ef944b221156ae097423e809ace",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "05b64233a4e366cae870",
+      "path": "outputs/hwr200-expanded/targets/writer011/page01.jpg",
+      "sha256": "05b64233a4e366cae870c29d9c44feddcd92b2788e547f130a4077a295ece349",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "cea381a1b3c91c761a1d",
+      "path": "outputs/hwr200-expanded/targets/writer011/page02.jpg",
+      "sha256": "cea381a1b3c91c761a1d7dd1a7a11c9d6e7139bd0dbe8e474a2b5fb144dcabf0",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "3e35750e0f2b48ff19b6",
+      "path": "outputs/hwr200-expanded/targets/writer012/page01.jpg",
+      "sha256": "3e35750e0f2b48ff19b6aca0a52dae006211275944193692b26b832b3ab3b63c",
+      "scope": "all",
+      "line": false
+    },
+    {
+      "id": "df4f1b05760bb253e699",
+      "path": "outputs/hwr200-expanded/targets/writer012/page02.jpg",
+      "sha256": "df4f1b05760bb253e69998d34f85ba6ee0837524a6c61c350ea7f1a363365108",
+      "scope": "all",
+      "line": false
+    }
+  ],
+  "inference_receives_no_gold": true
+}

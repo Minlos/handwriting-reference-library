@@ -52,3 +52,13 @@ An exact page-7 plain-Gemma retry also fails. A [plain-text recovery](gemma-page
 The completed [Gemma reference-crop test](gemma-with-references/README.md) produces 10.9% more character errors than the matched instruction-only run. It supplies the seven earlier-page images actually inspected by assisted Sol, plus their labels and the earlier-page profile; target-page labels are withheld.
 
 The [Grok API test](grok-three-example-pages/README.md) keeps the same three full example pages and verified excerpts in both conditions. The added skill yields 3.6% fewer character errors in one trial, with a regression on page 7. All six calls together cost $0.402454. This isolates instructions given examples; Sol's earlier comparison also changed reference access.
+
+## Conventional OCR on the matching test material
+
+| Evaluated material | Tesseract 5.5.4, Russian best | EasyOCR 1.7.2, Cyrillic |
+|---|---:|---:|
+| 14 selected diary crops | 96.93% (221/228) | 91.67% (209/228) |
+| Diary pages 4, 6, 7 | 74.19% (1075/1449) | 84.27% (1221/1449) |
+
+Compare only rows using the same material and CER mode; the 14 crops and three pages have different denominators.
+These are new local OCR measurements, not substituted LLM results. Raw outputs, setup, scope adapters and per-target counts are in the [conventional OCR report](conventional-baselines/README.md).
