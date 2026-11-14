@@ -1,0 +1,947 @@
+{
+  "results": [
+    {
+      "variant": "P0",
+      "completed": 3,
+      "expected": 3,
+      "pages": [
+        {
+          "id": "writer040",
+          "actual_view_count": 2,
+          "initial": {
+            "literal": {
+              "edits": 1066,
+              "characters": 4214,
+              "cer": 0.25296630280018984,
+              "word_edits": 280,
+              "words": 656,
+              "wer": 0.4268292682926829
+            },
+            "reading": {
+              "edits": 979,
+              "characters": 4012,
+              "cer": 0.24401794616151545,
+              "word_edits": 244,
+              "words": 643,
+              "wer": 0.37947122861586313
+            }
+          },
+          "final": {
+            "literal": {
+              "edits": 607,
+              "characters": 4214,
+              "cer": 0.1440436639772188,
+              "word_edits": 181,
+              "words": 656,
+              "wer": 0.2759146341463415
+            },
+            "reading": {
+              "edits": 531,
+              "characters": 4012,
+              "cer": 0.1323529411764706,
+              "word_edits": 142,
+              "words": 643,
+              "wer": 0.2208398133748056
+            }
+          }
+        },
+        {
+          "id": "writer065",
+          "actual_view_count": 2,
+          "initial": {
+            "literal": {
+              "edits": 64,
+              "characters": 2307,
+              "cer": 0.027741655830082357,
+              "word_edits": 35,
+              "words": 339,
+              "wer": 0.10324483775811209
+            },
+            "reading": {
+              "edits": 44,
+              "characters": 2216,
+              "cer": 0.019855595667870037,
+              "word_edits": 18,
+              "words": 336,
+              "wer": 0.05357142857142857
+            }
+          },
+          "final": {
+            "literal": {
+              "edits": 63,
+              "characters": 2307,
+              "cer": 0.027308192457737322,
+              "word_edits": 34,
+              "words": 339,
+              "wer": 0.10029498525073746
+            },
+            "reading": {
+              "edits": 46,
+              "characters": 2216,
+              "cer": 0.02075812274368231,
+              "word_edits": 19,
+              "words": 336,
+              "wer": 0.05654761904761905
+            }
+          }
+        },
+        {
+          "id": "writer035",
+          "actual_view_count": 2,
+          "initial": {
+            "literal": {
+              "edits": 54,
+              "characters": 3359,
+              "cer": 0.016076213158678177,
+              "word_edits": 48,
+              "words": 493,
+              "wer": 0.0973630831643002
+            },
+            "reading": {
+              "edits": 27,
+              "characters": 3217,
+              "cer": 0.0083929126515387,
+              "word_edits": 38,
+              "words": 488,
+              "wer": 0.0778688524590164
+            }
+          },
+          "final": {
+            "literal": {
+              "edits": 49,
+              "characters": 3359,
+              "cer": 0.014587674903245014,
+              "word_edits": 41,
+              "words": 493,
+              "wer": 0.08316430020283976
+            },
+            "reading": {
+              "edits": 22,
+              "characters": 3217,
+              "cer": 0.006838669567920423,
+              "word_edits": 31,
+              "words": 488,
+              "wer": 0.06352459016393443
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "initial": {
+          "literal": {
+            "edits": 1184,
+            "characters": 9880,
+            "cer": 0.11983805668016194
+          },
+          "reading": {
+            "edits": 1050,
+            "characters": 9445,
+            "cer": 0.1111699311805188
+          }
+        },
+        "final": {
+          "literal": {
+            "edits": 719,
+            "characters": 9880,
+            "cer": 0.07277327935222672
+          },
+          "reading": {
+            "edits": 599,
+            "characters": 9445,
+            "cer": 0.06341979883536263
+          }
+        }
+      }
+    },
+    {
+      "variant": "PV",
+      "completed": 3,
+      "expected": 3,
+      "pages": [
+        {
+          "id": "writer040",
+          "actual_view_count": 3,
+          "initial": {
+            "literal": {
+              "edits": 991,
+              "characters": 4214,
+              "cer": 0.2351684859990508,
+              "word_edits": 257,
+              "words": 656,
+              "wer": 0.39176829268292684
+            },
+            "reading": {
+              "edits": 911,
+              "characters": 4012,
+              "cer": 0.22706879361914256,
+              "word_edits": 222,
+              "words": 643,
+              "wer": 0.3452566096423017
+            }
+          },
+          "final": {
+            "literal": {
+              "edits": 540,
+              "characters": 4214,
+              "cer": 0.12814428096820124,
+              "word_edits": 158,
+              "words": 656,
+              "wer": 0.24085365853658536
+            },
+            "reading": {
+              "edits": 463,
+              "characters": 4012,
+              "cer": 0.11540378863409771,
+              "word_edits": 119,
+              "words": 643,
+              "wer": 0.18506998444790046
+            }
+          }
+        },
+        {
+          "id": "writer065",
+          "actual_view_count": 3,
+          "initial": {
+            "literal": {
+              "edits": 63,
+              "characters": 2307,
+              "cer": 0.027308192457737322,
+              "word_edits": 34,
+              "words": 339,
+              "wer": 0.10029498525073746
+            },
+            "reading": {
+              "edits": 47,
+              "characters": 2216,
+              "cer": 0.021209386281588447,
+              "word_edits": 20,
+              "words": 336,
+              "wer": 0.05952380952380952
+            }
+          },
+          "final": {
+            "literal": {
+              "edits": 61,
+              "characters": 2307,
+              "cer": 0.026441265713047248,
+              "word_edits": 33,
+              "words": 339,
+              "wer": 0.09734513274336283
+            },
+            "reading": {
+              "edits": 45,
+              "characters": 2216,
+              "cer": 0.020306859205776174,
+              "word_edits": 19,
+              "words": 336,
+              "wer": 0.05654761904761905
+            }
+          }
+        },
+        {
+          "id": "writer035",
+          "actual_view_count": 3,
+          "initial": {
+            "literal": {
+              "edits": 69,
+              "characters": 3359,
+              "cer": 0.020541827924977673,
+              "word_edits": 50,
+              "words": 493,
+              "wer": 0.10141987829614604
+            },
+            "reading": {
+              "edits": 42,
+              "characters": 3217,
+              "cer": 0.013055641902393535,
+              "word_edits": 40,
+              "words": 488,
+              "wer": 0.08196721311475409
+            }
+          },
+          "final": {
+            "literal": {
+              "edits": 64,
+              "characters": 3359,
+              "cer": 0.019053289669544508,
+              "word_edits": 50,
+              "words": 493,
+              "wer": 0.10141987829614604
+            },
+            "reading": {
+              "edits": 37,
+              "characters": 3217,
+              "cer": 0.011501398818775257,
+              "word_edits": 40,
+              "words": 488,
+              "wer": 0.08196721311475409
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "initial": {
+          "literal": {
+            "edits": 1123,
+            "characters": 9880,
+            "cer": 0.11366396761133603
+          },
+          "reading": {
+            "edits": 1000,
+            "characters": 9445,
+            "cer": 0.10587612493382742
+          }
+        },
+        "final": {
+          "literal": {
+            "edits": 665,
+            "characters": 9880,
+            "cer": 0.0673076923076923
+          },
+          "reading": {
+            "edits": 545,
+            "characters": 9445,
+            "cer": 0.057702488088935945
+          }
+        }
+      }
+    },
+    {
+      "variant": "PVC",
+      "completed": 3,
+      "expected": 3,
+      "pages": [
+        {
+          "id": "writer040",
+          "actual_view_count": 3,
+          "initial": {
+            "literal": {
+              "edits": 1957,
+              "characters": 4214,
+              "cer": 0.46440436639772187,
+              "word_edits": 421,
+              "words": 656,
+              "wer": 0.6417682926829268
+            },
+            "reading": {
+              "edits": 1811,
+              "characters": 4012,
+              "cer": 0.45139581256231304,
+              "word_edits": 390,
+              "words": 643,
+              "wer": 0.6065318818040435
+            }
+          },
+          "final": {
+            "literal": {
+              "edits": 519,
+              "characters": 4214,
+              "cer": 0.1231608922638823,
+              "word_edits": 163,
+              "words": 656,
+              "wer": 0.24847560975609756
+            },
+            "reading": {
+              "edits": 443,
+              "characters": 4012,
+              "cer": 0.11041874376869391,
+              "word_edits": 120,
+              "words": 643,
+              "wer": 0.18662519440124417
+            }
+          }
+        },
+        {
+          "id": "writer065",
+          "actual_view_count": 3,
+          "initial": {
+            "literal": {
+              "edits": 72,
+              "characters": 2307,
+              "cer": 0.031209362808842653,
+              "word_edits": 43,
+              "words": 339,
+              "wer": 0.12684365781710916
+            },
+            "reading": {
+              "edits": 45,
+              "characters": 2216,
+              "cer": 0.020306859205776174,
+              "word_edits": 20,
+              "words": 336,
+              "wer": 0.05952380952380952
+            }
+          },
+          "final": {
+            "literal": {
+              "edits": 74,
+              "characters": 2307,
+              "cer": 0.03207628955353273,
+              "word_edits": 44,
+              "words": 339,
+              "wer": 0.12979351032448377
+            },
+            "reading": {
+              "edits": 48,
+              "characters": 2216,
+              "cer": 0.021660649819494584,
+              "word_edits": 22,
+              "words": 336,
+              "wer": 0.06547619047619048
+            }
+          }
+        },
+        {
+          "id": "writer035",
+          "actual_view_count": 3,
+          "initial": {
+            "literal": {
+              "edits": 60,
+              "characters": 3359,
+              "cer": 0.017862459065197976,
+              "word_edits": 48,
+              "words": 493,
+              "wer": 0.0973630831643002
+            },
+            "reading": {
+              "edits": 31,
+              "characters": 3217,
+              "cer": 0.009636307118433322,
+              "word_edits": 36,
+              "words": 488,
+              "wer": 0.07377049180327869
+            }
+          },
+          "final": {
+            "literal": {
+              "edits": 59,
+              "characters": 3359,
+              "cer": 0.017564751414111342,
+              "word_edits": 48,
+              "words": 493,
+              "wer": 0.0973630831643002
+            },
+            "reading": {
+              "edits": 30,
+              "characters": 3217,
+              "cer": 0.009325458501709667,
+              "word_edits": 36,
+              "words": 488,
+              "wer": 0.07377049180327869
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "initial": {
+          "literal": {
+            "edits": 2089,
+            "characters": 9880,
+            "cer": 0.21143724696356275
+          },
+          "reading": {
+            "edits": 1887,
+            "characters": 9445,
+            "cer": 0.19978824775013235
+          }
+        },
+        "final": {
+          "literal": {
+            "edits": 652,
+            "characters": 9880,
+            "cer": 0.0659919028340081
+          },
+          "reading": {
+            "edits": 521,
+            "characters": 9445,
+            "cer": 0.05516146109052409
+          }
+        }
+      }
+    },
+    {
+      "variant": "PVR",
+      "completed": 3,
+      "expected": 3,
+      "pages": [
+        {
+          "id": "writer040",
+          "actual_view_count": 3,
+          "initial": {
+            "literal": {
+              "edits": 1260,
+              "characters": 4214,
+              "cer": 0.29900332225913623,
+              "word_edits": 323,
+              "words": 656,
+              "wer": 0.4923780487804878
+            },
+            "reading": {
+              "edits": 1161,
+              "characters": 4012,
+              "cer": 0.28938185443668996,
+              "word_edits": 290,
+              "words": 643,
+              "wer": 0.4510108864696734
+            }
+          },
+          "final": {
+            "literal": {
+              "edits": 791,
+              "characters": 4214,
+              "cer": 0.1877076411960133,
+              "word_edits": 218,
+              "words": 656,
+              "wer": 0.3323170731707317
+            },
+            "reading": {
+              "edits": 717,
+              "characters": 4012,
+              "cer": 0.1787138584247258,
+              "word_edits": 184,
+              "words": 643,
+              "wer": 0.28615863141524106
+            }
+          }
+        },
+        {
+          "id": "writer065",
+          "actual_view_count": 3,
+          "initial": {
+            "literal": {
+              "edits": 67,
+              "characters": 2307,
+              "cer": 0.02904204594711747,
+              "word_edits": 37,
+              "words": 339,
+              "wer": 0.10914454277286136
+            },
+            "reading": {
+              "edits": 50,
+              "characters": 2216,
+              "cer": 0.02256317689530686,
+              "word_edits": 23,
+              "words": 336,
+              "wer": 0.06845238095238096
+            }
+          },
+          "final": {
+            "literal": {
+              "edits": 65,
+              "characters": 2307,
+              "cer": 0.028175119202427396,
+              "word_edits": 36,
+              "words": 339,
+              "wer": 0.10619469026548672
+            },
+            "reading": {
+              "edits": 48,
+              "characters": 2216,
+              "cer": 0.021660649819494584,
+              "word_edits": 22,
+              "words": 336,
+              "wer": 0.06547619047619048
+            }
+          }
+        },
+        {
+          "id": "writer035",
+          "actual_view_count": 3,
+          "initial": {
+            "literal": {
+              "edits": 63,
+              "characters": 3359,
+              "cer": 0.018755582018457874,
+              "word_edits": 46,
+              "words": 493,
+              "wer": 0.09330628803245436
+            },
+            "reading": {
+              "edits": 39,
+              "characters": 3217,
+              "cer": 0.012123096052222568,
+              "word_edits": 38,
+              "words": 488,
+              "wer": 0.0778688524590164
+            }
+          },
+          "final": {
+            "literal": {
+              "edits": 60,
+              "characters": 3359,
+              "cer": 0.017862459065197976,
+              "word_edits": 45,
+              "words": 493,
+              "wer": 0.09127789046653144
+            },
+            "reading": {
+              "edits": 36,
+              "characters": 3217,
+              "cer": 0.011190550202051602,
+              "word_edits": 37,
+              "words": 488,
+              "wer": 0.07581967213114754
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "initial": {
+          "literal": {
+            "edits": 1390,
+            "characters": 9880,
+            "cer": 0.14068825910931174
+          },
+          "reading": {
+            "edits": 1250,
+            "characters": 9445,
+            "cer": 0.1323451561672843
+          }
+        },
+        "final": {
+          "literal": {
+            "edits": 916,
+            "characters": 9880,
+            "cer": 0.09271255060728745
+          },
+          "reading": {
+            "edits": 801,
+            "characters": 9445,
+            "cer": 0.08480677607199577
+          }
+        }
+      }
+    },
+    {
+      "variant": "PVCR",
+      "completed": 3,
+      "expected": 3,
+      "pages": [
+        {
+          "id": "writer040",
+          "actual_view_count": 3,
+          "initial": {
+            "literal": {
+              "edits": 952,
+              "characters": 4214,
+              "cer": 0.22591362126245848,
+              "word_edits": 269,
+              "words": 656,
+              "wer": 0.4100609756097561
+            },
+            "reading": {
+              "edits": 881,
+              "characters": 4012,
+              "cer": 0.2195912263210369,
+              "word_edits": 227,
+              "words": 643,
+              "wer": 0.35303265940902023
+            }
+          },
+          "final": {
+            "literal": {
+              "edits": 544,
+              "characters": 4214,
+              "cer": 0.129093497864262,
+              "word_edits": 186,
+              "words": 656,
+              "wer": 0.28353658536585363
+            },
+            "reading": {
+              "edits": 469,
+              "characters": 4012,
+              "cer": 0.11689930209371885,
+              "word_edits": 136,
+              "words": 643,
+              "wer": 0.2115085536547434
+            }
+          }
+        },
+        {
+          "id": "writer065",
+          "actual_view_count": 3,
+          "initial": {
+            "literal": {
+              "edits": 70,
+              "characters": 2307,
+              "cer": 0.03034243606415258,
+              "word_edits": 34,
+              "words": 339,
+              "wer": 0.10029498525073746
+            },
+            "reading": {
+              "edits": 42,
+              "characters": 2216,
+              "cer": 0.01895306859205776,
+              "word_edits": 11,
+              "words": 336,
+              "wer": 0.03273809523809524
+            }
+          },
+          "final": {
+            "literal": {
+              "edits": 69,
+              "characters": 2307,
+              "cer": 0.02990897269180754,
+              "word_edits": 33,
+              "words": 339,
+              "wer": 0.09734513274336283
+            },
+            "reading": {
+              "edits": 42,
+              "characters": 2216,
+              "cer": 0.01895306859205776,
+              "word_edits": 11,
+              "words": 336,
+              "wer": 0.03273809523809524
+            }
+          }
+        },
+        {
+          "id": "writer035",
+          "actual_view_count": 3,
+          "initial": {
+            "literal": {
+              "edits": 74,
+              "characters": 3359,
+              "cer": 0.022030366180410838,
+              "word_edits": 55,
+              "words": 493,
+              "wer": 0.11156186612576065
+            },
+            "reading": {
+              "edits": 39,
+              "characters": 3217,
+              "cer": 0.012123096052222568,
+              "word_edits": 37,
+              "words": 488,
+              "wer": 0.07581967213114754
+            }
+          },
+          "final": {
+            "literal": {
+              "edits": 67,
+              "characters": 3359,
+              "cer": 0.019946412622804405,
+              "word_edits": 57,
+              "words": 493,
+              "wer": 0.11561866125760649
+            },
+            "reading": {
+              "edits": 31,
+              "characters": 3217,
+              "cer": 0.009636307118433322,
+              "word_edits": 38,
+              "words": 488,
+              "wer": 0.0778688524590164
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "initial": {
+          "literal": {
+            "edits": 1096,
+            "characters": 9880,
+            "cer": 0.11093117408906883
+          },
+          "reading": {
+            "edits": 962,
+            "characters": 9445,
+            "cer": 0.10185283218634197
+          }
+        },
+        "final": {
+          "literal": {
+            "edits": 680,
+            "characters": 9880,
+            "cer": 0.06882591093117409
+          },
+          "reading": {
+            "edits": 542,
+            "characters": 9445,
+            "cer": 0.05738485971413446
+          }
+        }
+      }
+    },
+    {
+      "variant": "PFULL",
+      "completed": 3,
+      "expected": 3,
+      "pages": [
+        {
+          "id": "writer040",
+          "actual_view_count": 3,
+          "initial": {
+            "literal": {
+              "edits": 1022,
+              "characters": 4214,
+              "cer": 0.2425249169435216,
+              "word_edits": 271,
+              "words": 656,
+              "wer": 0.41310975609756095
+            },
+            "reading": {
+              "edits": 935,
+              "characters": 4012,
+              "cer": 0.2330508474576271,
+              "word_edits": 238,
+              "words": 643,
+              "wer": 0.3701399688958009
+            }
+          },
+          "final": {
+            "literal": {
+              "edits": 688,
+              "characters": 4214,
+              "cer": 0.16326530612244897,
+              "word_edits": 178,
+              "words": 656,
+              "wer": 0.27134146341463417
+            },
+            "reading": {
+              "edits": 606,
+              "characters": 4012,
+              "cer": 0.1510468594217348,
+              "word_edits": 146,
+              "words": 643,
+              "wer": 0.22706065318818042
+            }
+          }
+        },
+        {
+          "id": "writer065",
+          "actual_view_count": 3,
+          "initial": {
+            "literal": {
+              "edits": 52,
+              "characters": 2307,
+              "cer": 0.022540095361941917,
+              "word_edits": 21,
+              "words": 339,
+              "wer": 0.061946902654867256
+            },
+            "reading": {
+              "edits": 42,
+              "characters": 2216,
+              "cer": 0.01895306859205776,
+              "word_edits": 11,
+              "words": 336,
+              "wer": 0.03273809523809524
+            }
+          },
+          "final": {
+            "literal": {
+              "edits": 53,
+              "characters": 2307,
+              "cer": 0.022973558734286952,
+              "word_edits": 22,
+              "words": 339,
+              "wer": 0.06489675516224189
+            },
+            "reading": {
+              "edits": 43,
+              "characters": 2216,
+              "cer": 0.0194043321299639,
+              "word_edits": 12,
+              "words": 336,
+              "wer": 0.03571428571428571
+            }
+          }
+        },
+        {
+          "id": "writer035",
+          "actual_view_count": 3,
+          "initial": {
+            "literal": {
+              "edits": 51,
+              "characters": 3359,
+              "cer": 0.01518309020541828,
+              "word_edits": 38,
+              "words": 493,
+              "wer": 0.07707910750507099
+            },
+            "reading": {
+              "edits": 27,
+              "characters": 3217,
+              "cer": 0.0083929126515387,
+              "word_edits": 31,
+              "words": 488,
+              "wer": 0.06352459016393443
+            }
+          },
+          "final": {
+            "literal": {
+              "edits": 51,
+              "characters": 3359,
+              "cer": 0.01518309020541828,
+              "word_edits": 39,
+              "words": 493,
+              "wer": 0.07910750507099391
+            },
+            "reading": {
+              "edits": 27,
+              "characters": 3217,
+              "cer": 0.0083929126515387,
+              "word_edits": 32,
+              "words": 488,
+              "wer": 0.06557377049180328
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "initial": {
+          "literal": {
+            "edits": 1125,
+            "characters": 9880,
+            "cer": 0.11386639676113361
+          },
+          "reading": {
+            "edits": 1004,
+            "characters": 9445,
+            "cer": 0.10629962943356273
+          }
+        },
+        "final": {
+          "literal": {
+            "edits": 792,
+            "characters": 9880,
+            "cer": 0.08016194331983806
+          },
+          "reading": {
+            "edits": 676,
+            "characters": 9445,
+            "cer": 0.07157226045526734
+          }
+        }
+      }
+    }
+  ],
+  "conventional_baseline": {
+    "engine": "Transkribus 148545, default automatic layout",
+    "completed": 3,
+    "expected": 3,
+    "provenance": "Reused unchanged outputs from the nine-page comparison for these identical image hashes and supplied labels; no new call.",
+    "aggregate": {
+      "literal": {
+        "edits": 1607,
+        "characters": 9880,
+        "cer": 0.16265182186234817
+      },
+      "reading": {
+        "edits": 1388,
+        "characters": 9445,
+        "cer": 0.14695606140815246
+      }
+    }
+  },
+  "limits": [
+    "Three retrospectively selected development pages, not an independent validation sample.",
+    "One run per condition, no separation of run variation from instruction effects.",
+    "Actual image inspections differ within a common maximum of three; extra effort is not controlled.",
+    "Supplied source texts contain known visual discrepancies, including writer035 темней versus label полней.",
+    "No source references supplied; this tests the reading skill separately from reference extraction."
+  ]
+}

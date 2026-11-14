@@ -1,0 +1,17 @@
+{
+  "id": "writer016-target-03",
+  "input_sha256": "6743d855a730b34291dd3cfc54f308811e5265550e04dcf1865426cf8db8dcb9",
+  "exported_image_sha256": "6743d855a730b34291dd3cfc54f308811e5265550e04dcf1865426cf8db8dcb9",
+  "status": "completed",
+  "prediction": "Отпошени,\r\nпуть\r\nрошу\r\nмозут\r\nпришерай\r\n47\r\nЛариной\r\nметку Евгением и Татьяной\r\nГуе\r\nБргеевича\r\nАленсандра\r\nпрадверения\r\nвлюби\r\nТатьяка\r\nкика «Евгент Онешн\r\n2го\r\nувидела\r\nкак\r\nты\r\nсрозу\r\nлась в евгених\r\nутив\r\nОна пишет\r\nв своий имени.\r\nРевуретка\r\nлюболь\r\nпризнается,\r\nкоторой\r\n10\r\nне\r\nевчения ответного письма.\r\nтрет\r\nот\r\nии ответить,\r\nосли\r\nОкелин\r\nсреа\r\nне\r\nветречани,\r\nОои\r\nЛареный\r\nприезтает\r\nчто\r\nна\r\nпридкоется,\r\nТотыкст\r\nевгенка\r\nСаду\r\nжива\r\nОб\r\nкастливаю.\r\nСхотет сделять\r\n60.\r\nдолть.\r\nО\r\nне лотет.\r\nПо законае радуми,\r\nрате\r\nчувствал.\r\nпосие\r\n700\r\nсвоим\r\nвели\r\nлюбить\r\nперестает\r\nне\r\nего снов ларина\r\nв.\r\nОжили\r\nживет\r\nпроя\r\nОна\r\nшавного\r\nОкегин\r\nвремя\r\nпереторое\r\nгрустя\r\nтвойм.\r\nв Петербурге.\r\nТатыекая\r\nОК\r\nветречается\r\nние\r\nвлюбляется\r\nМалыника\r\nКар\r\nгероине\r\nсвген признаетя шавной\r\n",
+  "model_id": 148545,
+  "recognition_job_id": 32002332,
+  "export_job_id": 32002377,
+  "exported_TextLine_count": 88,
+  "source_text_member": "20275099/Modern_Russian_—_writer016_fpr16_—_nine_held-out_scans/txt/0003_page03.txt",
+  "source_text_sha256": "041b8552f7e17fabe7b2bc520973501a4ad7451458662409a43728c988853de9",
+  "export_zip_sha256": "db14223b878b1699b84aae29bee315c7e5675bee7520f3d7804e274a1ed06d53",
+  "no_skill": true,
+  "no_references": true,
+  "transport": "UTF-8 with optional BOM removed; transcription unchanged"
+}

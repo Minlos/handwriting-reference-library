@@ -1,0 +1,444 @@
+{
+  "writer": 16,
+  "target_document": "fpr16",
+  "source_document": "original16",
+  "scoring_unit": "entire nine-page document, numeric page order; no inferred per-page gold",
+  "reference_sha256": "0df84843c01c27d5acf472ec23d0069c0a3a45fb47d2940f5c3941fabf72b4f6",
+  "normalization": {
+    "literal": "NFC and whitespace collapse; punctuation and case retained",
+    "reading": "NFC, casefold, Unicode punctuation removal, whitespace collapse; ё retained"
+  },
+  "rows": [
+    {
+      "model": "astra",
+      "condition": "A",
+      "pages_completed": 9,
+      "pages_expected": 9,
+      "missing": [],
+      "prediction_hashes": [
+        {
+          "id": "writer016-target-01",
+          "sha256": "01bd07ba17a0dce8cb135649ed655448f931e0d83ff2069138322599d883dad5"
+        },
+        {
+          "id": "writer016-target-02",
+          "sha256": "c68ffdc7204ab90e5b25deebf150f3a9aaa345a2c94e6fb827b8e076c1e1a9d1"
+        },
+        {
+          "id": "writer016-target-03",
+          "sha256": "773e2e2ab7c1b43ca000c668f994c6489ba3519e91b0389d03c1a4bc5e8062da"
+        },
+        {
+          "id": "writer016-target-04",
+          "sha256": "cf7c452db60ebfea6f4b23b51a062c038b2bdb94658a22a45c56d74ecee060dc"
+        },
+        {
+          "id": "writer016-target-05",
+          "sha256": "2d7c52c7802b6f999cde835b7f0b30021db4f418330f24e769b7fd172ff88271"
+        },
+        {
+          "id": "writer016-target-06",
+          "sha256": "a7c276557ad5c11a2cb26116e7ed2386616a20b8c7fbad75c511a847bc105981"
+        },
+        {
+          "id": "writer016-target-07",
+          "sha256": "9f759e4ec8becd49aeac73975baa72328ed9529f42eb618128732aaa1b7ef795"
+        },
+        {
+          "id": "writer016-target-08",
+          "sha256": "753ca2b2a890e21d8275fa412cfbdd1855942cb2f55069cb0a1d39c5d7d1980f"
+        },
+        {
+          "id": "writer016-target-09",
+          "sha256": "d5c8ccbfcb701912135b326ab6907856368580d208bf98386f4b0efbceb39eaf"
+        }
+      ],
+      "literal": {
+        "edits": 100,
+        "characters": 5938,
+        "cer": 0.016840687100033683,
+        "word_edits": 91,
+        "words": 927,
+        "wer": 0.09816612729234088
+      },
+      "reading": {
+        "edits": 64,
+        "characters": 5742,
+        "cer": 0.01114594218042494,
+        "word_edits": 78,
+        "words": 925,
+        "wer": 0.08432432432432432
+      }
+    },
+    {
+      "model": "astra",
+      "condition": "B",
+      "pages_completed": 9,
+      "pages_expected": 9,
+      "missing": [],
+      "prediction_hashes": [
+        {
+          "id": "writer016-target-01",
+          "sha256": "d531b7c8c8a8dc2150dce67ffb8866f76eaac031607386022b48a6c2e17dc2f6"
+        },
+        {
+          "id": "writer016-target-02",
+          "sha256": "5efecf2f20d851831ffb52ade252ef484aea32d286a6045378b3c52a6e537b5d"
+        },
+        {
+          "id": "writer016-target-03",
+          "sha256": "84cef5eade4834ec4ed18eb6bff626ecaf619f21e366f95be20d4a078c7126f7"
+        },
+        {
+          "id": "writer016-target-04",
+          "sha256": "ed4238a95ab1472c9ccb0a2f747e543ac2ae20b9e4dbeb3948aca849d31246fa"
+        },
+        {
+          "id": "writer016-target-05",
+          "sha256": "98ebc836aea570d7f3117fc6bde3553476e382de1e139881ff3f295d19af9aa2"
+        },
+        {
+          "id": "writer016-target-06",
+          "sha256": "225557425b57dd7e8d978f9147c2265613433140c4865016cccd5fd0c445971b"
+        },
+        {
+          "id": "writer016-target-07",
+          "sha256": "d054ff073f510a2ace10653e309205f202ed9f34b34e1285d3e9c1ad712b0ef8"
+        },
+        {
+          "id": "writer016-target-08",
+          "sha256": "2886e52705a0bbd1a96663ebe7a4e64b1b8b17c0fc7b231133c7099e934e9d34"
+        },
+        {
+          "id": "writer016-target-09",
+          "sha256": "a89d591110d9a3b3729dcfdfbe05bd1e582b784447cd759fe7558bb860ee31e1"
+        }
+      ],
+      "literal": {
+        "edits": 66,
+        "characters": 5938,
+        "cer": 0.01111485348602223,
+        "word_edits": 56,
+        "words": 927,
+        "wer": 0.06040992448759439
+      },
+      "reading": {
+        "edits": 51,
+        "characters": 5742,
+        "cer": 0.008881922675026124,
+        "word_edits": 41,
+        "words": 925,
+        "wer": 0.04432432432432432
+      }
+    },
+    {
+      "model": "astra",
+      "condition": "C",
+      "pages_completed": 9,
+      "pages_expected": 9,
+      "missing": [],
+      "prediction_hashes": [
+        {
+          "id": "writer016-target-01",
+          "sha256": "0207074b63042081d8bf4ad57d54ade4afd5f149eed42b83c3437e59fdb9da4d"
+        },
+        {
+          "id": "writer016-target-02",
+          "sha256": "d15ca95f03330d32fe186f2c23dab32ac52523b5910531790854da183ffa2ef6"
+        },
+        {
+          "id": "writer016-target-03",
+          "sha256": "acefcb61e5b8f63fed4e7cbc588ea5204ef8e4d6e4fcb300ffd703919a0b228c"
+        },
+        {
+          "id": "writer016-target-04",
+          "sha256": "a429845fd05e90844cc430b1ee7924b44154a4e45cc4f5e6760459cfb6c5de2e"
+        },
+        {
+          "id": "writer016-target-05",
+          "sha256": "c76bbf41d5b08973ea0dfd7f9d4e0af2b7e392e367cda247dcba7bedbe704384"
+        },
+        {
+          "id": "writer016-target-06",
+          "sha256": "25c0d2c020ca323093b7b3f2685e891a0dada411c7e24b368814882260c6ddf1"
+        },
+        {
+          "id": "writer016-target-07",
+          "sha256": "44779c4ae68b48f148fda91153925a3552e0eaf6aebcb817be947ddbb8e74f7c"
+        },
+        {
+          "id": "writer016-target-08",
+          "sha256": "5c49558d3b5057e0b5234787f9ec5bfa39891f1176834400124af3c38f8051ef"
+        },
+        {
+          "id": "writer016-target-09",
+          "sha256": "06add053f987e8aab6126b24d0c6c74977ec5985d3de40b95c583d1b404ff914"
+        }
+      ],
+      "literal": {
+        "edits": 58,
+        "characters": 5938,
+        "cer": 0.009767598518019536,
+        "word_edits": 54,
+        "words": 927,
+        "wer": 0.05825242718446602
+      },
+      "reading": {
+        "edits": 43,
+        "characters": 5742,
+        "cer": 0.007488679902473006,
+        "word_edits": 39,
+        "words": 925,
+        "wer": 0.04216216216216216
+      }
+    },
+    {
+      "model": "sol",
+      "condition": "A",
+      "pages_completed": 9,
+      "pages_expected": 9,
+      "missing": [],
+      "prediction_hashes": [
+        {
+          "id": "writer016-target-01",
+          "sha256": "42be846250055bfe842a83dfbe6c3d8525cd01e89d36d75f23519cfddae05186"
+        },
+        {
+          "id": "writer016-target-02",
+          "sha256": "84f8eba5e3dc47454c6919db43a0288fa5e543f911ffecf60f720157840a73b1"
+        },
+        {
+          "id": "writer016-target-03",
+          "sha256": "6402fced36cb87e145788651292a04f1e6c83174d44c898cbb6580fb340c044e"
+        },
+        {
+          "id": "writer016-target-04",
+          "sha256": "0d2fe26ef3e5d9939381c40e3b1abdb3f4eaf47ddae8414b0f14dc43cbb59aec"
+        },
+        {
+          "id": "writer016-target-05",
+          "sha256": "6b3babc1ea7374803d079428f25a7ca0ecd2f1a91b496604840496e6f2106789"
+        },
+        {
+          "id": "writer016-target-06",
+          "sha256": "fac1c1687bc9b02d3242c2419a29532e9bcf2a20c1321248ca96bcb5d99a5f52"
+        },
+        {
+          "id": "writer016-target-07",
+          "sha256": "f05c6069282caaab3806553373c442fd0e7f5c1125643beaea03de4a9581566b"
+        },
+        {
+          "id": "writer016-target-08",
+          "sha256": "1d666cd64ef9c93aec20dbce92cbe563cf632e5cd9154e4c4804f339bde717e3"
+        },
+        {
+          "id": "writer016-target-09",
+          "sha256": "a2f1b9efb55c0707ff89e80d994087e163049269e6e7df344a96f9c4822a3817"
+        }
+      ],
+      "literal": {
+        "edits": 269,
+        "characters": 5938,
+        "cer": 0.0453014482990906,
+        "word_edits": 98,
+        "words": 927,
+        "wer": 0.10571736785329018
+      },
+      "reading": {
+        "edits": 252,
+        "characters": 5742,
+        "cer": 0.0438871473354232,
+        "word_edits": 85,
+        "words": 925,
+        "wer": 0.0918918918918919
+      }
+    },
+    {
+      "model": "sol",
+      "condition": "B",
+      "pages_completed": 9,
+      "pages_expected": 9,
+      "missing": [],
+      "prediction_hashes": [
+        {
+          "id": "writer016-target-01",
+          "sha256": "1e5f09deadcbede7253c515ae3821174e9995b1bc71fd254536f16be643f9360"
+        },
+        {
+          "id": "writer016-target-02",
+          "sha256": "57f8fbedddd53564c43485cf4283b6d895fa04c1c2341c30fff90cdd66e16291"
+        },
+        {
+          "id": "writer016-target-03",
+          "sha256": "4f9b0da57188ed9e86d819f7ad05036684b9f2d44a76a66ec5ed41fec6affc5e"
+        },
+        {
+          "id": "writer016-target-04",
+          "sha256": "c99fadd947c92c46b4560af02046a99d5c3a57fecd8c8e62db0a3610b1b02643"
+        },
+        {
+          "id": "writer016-target-05",
+          "sha256": "87a78ce4ea31d9c28b0f64314c2ff1cd85352c33f01757fc5d0680a6b922e7ff"
+        },
+        {
+          "id": "writer016-target-06",
+          "sha256": "37d19bdf5931bce915255f4bc52cf06fdfed02e1c4a1e35f2daf01298d661367"
+        },
+        {
+          "id": "writer016-target-07",
+          "sha256": "9554214be1e082d1c8e30b169711376320f96d6f9817b53988cbd0912b99dfc6"
+        },
+        {
+          "id": "writer016-target-08",
+          "sha256": "ad8727a8253770f0181f12ad2566615764cd8169861642dca3f2775b4e84ae0b"
+        },
+        {
+          "id": "writer016-target-09",
+          "sha256": "5a99f749b66d6124d0932d1423092b15c9d76a4337118383516b575854e2b373"
+        }
+      ],
+      "literal": {
+        "edits": 310,
+        "characters": 5938,
+        "cer": 0.052206130010104414,
+        "word_edits": 117,
+        "words": 927,
+        "wer": 0.1262135922330097
+      },
+      "reading": {
+        "edits": 291,
+        "characters": 5742,
+        "cer": 0.05067920585161965,
+        "word_edits": 100,
+        "words": 925,
+        "wer": 0.10810810810810811
+      }
+    },
+    {
+      "model": "sol",
+      "condition": "C",
+      "pages_completed": 9,
+      "pages_expected": 9,
+      "missing": [],
+      "prediction_hashes": [
+        {
+          "id": "writer016-target-01",
+          "sha256": "066e687ba3be9774da089ae05768fffe0135d887f92cd93049e8d2397d7eca23"
+        },
+        {
+          "id": "writer016-target-02",
+          "sha256": "e5be16692053887e0bbf210f2c67d500cd611317af4d64095ea1bd5e12321c4a"
+        },
+        {
+          "id": "writer016-target-03",
+          "sha256": "d055ccc42ad222e6767c5fcb94bd990921f93009d03e0b2d91e19f3d9959d219"
+        },
+        {
+          "id": "writer016-target-04",
+          "sha256": "25503b6a4f36113aad6be7117d06eec361f10dc88046bed58eb5f7fc04a06b82"
+        },
+        {
+          "id": "writer016-target-05",
+          "sha256": "8a9abd0368bf0c42f0d18cc7806dec10b556ce99eaea837b51f11ef60e897def"
+        },
+        {
+          "id": "writer016-target-06",
+          "sha256": "e048f3464bbb1c31d15c04ccb15fed112c49a5b342f29a5dcde024c0420ea442"
+        },
+        {
+          "id": "writer016-target-07",
+          "sha256": "40b3a1fb8d35a06be2bb9aa4c376083e839ce302a602290fa95e7c4075a3e2c5"
+        },
+        {
+          "id": "writer016-target-08",
+          "sha256": "4bcdac69a203e1d1417e0066bbce5dd0c58683885304c24d0012719e9db01fb3"
+        },
+        {
+          "id": "writer016-target-09",
+          "sha256": "be36ec94b623ad2e6c8fd35dd3cef24f0930f1e1926104c1bd0c07aebd6760cd"
+        }
+      ],
+      "literal": {
+        "edits": 310,
+        "characters": 5938,
+        "cer": 0.052206130010104414,
+        "word_edits": 114,
+        "words": 927,
+        "wer": 0.12297734627831715
+      },
+      "reading": {
+        "edits": 292,
+        "characters": 5742,
+        "cer": 0.050853361198188785,
+        "word_edits": 97,
+        "words": 925,
+        "wer": 0.10486486486486486
+      }
+    },
+    {
+      "model": "transkribus",
+      "condition": "plain",
+      "pages_completed": 9,
+      "pages_expected": 9,
+      "missing": [],
+      "prediction_hashes": [
+        {
+          "id": "writer016-target-01",
+          "sha256": "93fd9bfadf1178c31b96a08bc6e6384b4f71c4218b60a2efdd9e6c80f6004b87"
+        },
+        {
+          "id": "writer016-target-02",
+          "sha256": "07e339bef652d14f7c2ef7bdabf425c51a4d32692809a0ebccc119312b149a3c"
+        },
+        {
+          "id": "writer016-target-03",
+          "sha256": "1703b62afcfbd4e24c7ffd2c0dc16392eb0f43de9291630c5a196bbc7e44bf0a"
+        },
+        {
+          "id": "writer016-target-04",
+          "sha256": "b269184665534588af3fe1534f39e14d4781de0dc117f3f5bded248bda0f2de9"
+        },
+        {
+          "id": "writer016-target-05",
+          "sha256": "ea604b46274d983758c2f8908bd566d505ded2c36e8bf9969d2a500363105397"
+        },
+        {
+          "id": "writer016-target-06",
+          "sha256": "fef422425456969482ba6b96ec25a5097d543de6f8fa4474f7fc6a9ce0549fba"
+        },
+        {
+          "id": "writer016-target-07",
+          "sha256": "107639c710a7a83820e3bd4b33aef9adebf3b3d25ccf630df0752f17917277db"
+        },
+        {
+          "id": "writer016-target-08",
+          "sha256": "11edd668b385aed26f029c653f929738d27dfd1392eedf0cb23945dfe4b388bf"
+        },
+        {
+          "id": "writer016-target-09",
+          "sha256": "00e65fc1cf378d72267dc2e337b3f63278eaebef31099e8d216c4fefaf17cf1a"
+        }
+      ],
+      "literal": {
+        "edits": 3780,
+        "characters": 5938,
+        "cer": 0.6365779723812731,
+        "word_edits": 883,
+        "words": 927,
+        "wer": 0.9525350593311759
+      },
+      "reading": {
+        "edits": 3515,
+        "characters": 5742,
+        "cer": 0.612156043190526,
+        "word_edits": 861,
+        "words": 925,
+        "wer": 0.9308108108108109
+      }
+    }
+  ],
+  "limits": [
+    "One writer, one run per condition; no estimate of model run variability.",
+    "Supplied full-text labels may differ from copied handwriting; results count label disagreement, not independently audited visual error."
+  ]
+}

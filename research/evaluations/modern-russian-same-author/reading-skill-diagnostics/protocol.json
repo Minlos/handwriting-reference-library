@@ -1,0 +1,37 @@
+{
+  "model": "gpt-6-astra",
+  "pages": 3,
+  "runs": 1,
+  "variants": {
+    "P0": [],
+    "PV": [
+      "V"
+    ],
+    "PVC": [
+      "V",
+      "C"
+    ],
+    "PVR": [
+      "V",
+      "R"
+    ],
+    "PVCR": [
+      "V",
+      "C",
+      "R"
+    ]
+  },
+  "target_inspection_budget": 3,
+  "initial_saved_before_review": true,
+  "scope": "Selected development pages, chosen for prior harm, prior benefit and a label mismatch. Not an independent benchmark or population estimate.",
+  "reference_skill": false,
+  "references": false,
+  "limits": "Same max3 image inspections each; instruction adherence, actual coverage and incomplete cases recorded. Single-run contrasts cannot isolate model variance.",
+  "full_skill_reproduction_control": {
+    "variant": "PFULL",
+    "prompt_sha256": "2cf762e94cb8e787aeb8d12df5d070f7dc255cb9ff6cc997124150daa0ba64df",
+    "selection": "Frozen full reading skill from nine-page comparison, included as planned audit reproduction control"
+  },
+  "pilot_excluded": "pilot-P0-selection-visible",
+  "reader_manifest": "reader-inputs.json excludes retrospective page-selection reasons"
+}

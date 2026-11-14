@@ -1,0 +1,183 @@
+{
+  "revision": "366a882a2b8d043d437126d2878bd3812ec55a94",
+  "archive": "hwr200_0_19.zip",
+  "writer": 16,
+  "entries": [
+    {
+      "name": "hw_dataset/16/original16/Сканы/1.jpg",
+      "offset": 3438328895,
+      "compressed": 1249077,
+      "size": 1252979,
+      "role": "source",
+      "document": "original16",
+      "writer": 16,
+      "local": "sources/page01.jpg",
+      "sha256": "0df615f07dfd4b1948231208ee0bd5ef77c42eb223929fe380ffe3eb5da938a7"
+    },
+    {
+      "name": "hw_dataset/16/original16/Сканы/2.jpg",
+      "offset": 3442062668,
+      "compressed": 1324145,
+      "size": 1328857,
+      "role": "source",
+      "document": "original16",
+      "writer": 16,
+      "local": "sources/page02.jpg",
+      "sha256": "31310d2270b25e9da69076c7c1f3647f99bdc6f8aa814fa97fdff79fa65ad892"
+    },
+    {
+      "name": "hw_dataset/16/original16/Сканы/3.jpg",
+      "offset": 3443386912,
+      "compressed": 1499949,
+      "size": 1502737,
+      "role": "source",
+      "document": "original16",
+      "writer": 16,
+      "local": "sources/page03.jpg",
+      "sha256": "cbbb120d8e26819e645cbb062ce888e1438229e9788f31d9326e5a47405789d7"
+    },
+    {
+      "name": "hw_dataset/16/original16/Сканы/4.jpg",
+      "offset": 3440635458,
+      "compressed": 1427111,
+      "size": 1430080,
+      "role": "source",
+      "document": "original16",
+      "writer": 16,
+      "local": "sources/page04.jpg",
+      "sha256": "cd38a52da46aa4644e35fa8627017e160a294249f6cc4dfa832d85e2c0c4098c"
+    },
+    {
+      "name": "hw_dataset/16/original16/Сканы/5.jpg",
+      "offset": 3436898048,
+      "compressed": 1430748,
+      "size": 1434179,
+      "role": "source",
+      "document": "original16",
+      "writer": 16,
+      "local": "sources/page05.jpg",
+      "sha256": "e2c5442dc25e5978f23598993b4601827e1c8a6047352d7620d22e4212066e35"
+    },
+    {
+      "name": "hw_dataset/16/original16/Сканы/6.jpg",
+      "offset": 3444886960,
+      "compressed": 1376546,
+      "size": 1380581,
+      "role": "source",
+      "document": "original16",
+      "writer": 16,
+      "local": "sources/page06.jpg",
+      "sha256": "410994370b09af2dfabf6ba0aa190e102fa9ef0d388ff2661d43ebaddc1826fb"
+    },
+    {
+      "name": "hw_dataset/16/original16/Сканы/7.jpg",
+      "offset": 3439578071,
+      "compressed": 1057288,
+      "size": 1063248,
+      "role": "source",
+      "document": "original16",
+      "writer": 16,
+      "local": "sources/page07.jpg",
+      "sha256": "51e9ca3771ce848f999eb141f27937920711c64cff5f9dfb1929f025a107feac"
+    },
+    {
+      "name": "hw_dataset/16/fpr16/Сканы/1.jpg",
+      "offset": 3508754868,
+      "compressed": 1807213,
+      "size": 1812264,
+      "role": "target",
+      "document": "fpr16",
+      "writer": 16,
+      "local": "targets/page01.jpg",
+      "sha256": "4f4c6252205a9cb00120f17cccba0876a98379ce9caa7f037e03bff3d9f6725e"
+    },
+    {
+      "name": "hw_dataset/16/fpr16/Сканы/2.jpg",
+      "offset": 3516300397,
+      "compressed": 1888385,
+      "size": 1895183,
+      "role": "target",
+      "document": "fpr16",
+      "writer": 16,
+      "local": "targets/page02.jpg",
+      "sha256": "2c25d96729c917e26afec2cade7f3e9cefe44506ba8f15dae983b140efb9e9b4"
+    },
+    {
+      "name": "hw_dataset/16/fpr16/Сканы/3.jpg",
+      "offset": 3519090966,
+      "compressed": 1652298,
+      "size": 1657737,
+      "role": "target",
+      "document": "fpr16",
+      "writer": 16,
+      "local": "targets/page03.jpg",
+      "sha256": "6743d855a730b34291dd3cfc54f308811e5265550e04dcf1865426cf8db8dcb9"
+    },
+    {
+      "name": "hw_dataset/16/fpr16/Сканы/4.jpg",
+      "offset": 3514241435,
+      "compressed": 2058868,
+      "size": 2067387,
+      "role": "target",
+      "document": "fpr16",
+      "writer": 16,
+      "local": "targets/page04.jpg",
+      "sha256": "1aa9cff66098c2ab657fd70b8b0bda7cdb5b3313a7755a2bb256ec67f173991f"
+    },
+    {
+      "name": "hw_dataset/16/fpr16/Сканы/5.jpg",
+      "offset": 3506946186,
+      "compressed": 1808588,
+      "size": 1814000,
+      "role": "target",
+      "document": "fpr16",
+      "writer": 16,
+      "local": "targets/page05.jpg",
+      "sha256": "91b2b70c6055e2e1c3e5178fbbc3a07705a2a805933d134c5c340ec2e6589906"
+    },
+    {
+      "name": "hw_dataset/16/fpr16/Сканы/6.jpg",
+      "offset": 3520743358,
+      "compressed": 1899025,
+      "size": 1903685,
+      "role": "target",
+      "document": "fpr16",
+      "writer": 16,
+      "local": "targets/page06.jpg",
+      "sha256": "9972eb6240cf48f072e34bc0e5a06b1c183d89baf9fd161615075a3e8855bdec"
+    },
+    {
+      "name": "hw_dataset/16/fpr16/Сканы/7.jpg",
+      "offset": 3512564888,
+      "compressed": 1676453,
+      "size": 1682960,
+      "role": "target",
+      "document": "fpr16",
+      "writer": 16,
+      "local": "targets/page07.jpg",
+      "sha256": "48330372914ce4e3edeb183d3ac3d28e8a20a62b58abf575ed1a13ea354a43eb"
+    },
+    {
+      "name": "hw_dataset/16/fpr16/Сканы/8.jpg",
+      "offset": 3510562175,
+      "compressed": 2002619,
+      "size": 2009764,
+      "role": "target",
+      "document": "fpr16",
+      "writer": 16,
+      "local": "targets/page08.jpg",
+      "sha256": "9d83ec0f3c453ce913b8f03b131b0e2623edf900e0312b943d15ad411454d14b"
+    },
+    {
+      "name": "hw_dataset/16/fpr16/Сканы/9.jpg",
+      "offset": 3518188876,
+      "compressed": 901996,
+      "size": 912922,
+      "role": "target",
+      "document": "fpr16",
+      "writer": 16,
+      "local": "targets/page09.jpg",
+      "sha256": "3219dee0cf72864e1db3e0d19a3b7235b03b3a42b20b796693713168a77c9c85"
+    }
+  ]
+}

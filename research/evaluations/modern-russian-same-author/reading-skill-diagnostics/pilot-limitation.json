@@ -1,0 +1,4 @@
+{
+  "excluded_from_matched_comparison": "pilot-P0-selection-visible",
+  "reason": "Reader saw retrospective page-selection commentary. Preserve as pilot, rerun blind control with reader-inputs.json containing image IDs/paths/hashes only."
+}

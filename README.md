@@ -23,6 +23,8 @@ One three-page Sol comparison with both instructions and earlier author examples
 
 See the [separate two-skill results](research/evaluations/two-standalone-skills/README.md) for the new comparisons.
 
+The [modern Russian same-author test](research/evaluations/modern-russian-same-author/README.md) separates raw-scan and source-text-assisted reference extraction on nine held-out scans by one writer. References help Astra and worsen Sol in this single run; the reading skill has separate component tests.
+
 The [Popov-letter pilot](research/evaluations/LETTERS-TWO-SKILLS.md) separates reading instructions, automatic references and extraction instructions. The private letter test collection is not included here. Public diary exercises are known diagnostics.
 
 Diary data: Блашкевич Надежда Никифровна, Minlos family archive, [CC BY 4.0](library/LICENSE-DATA.md). That data license does not assign a license to skill instructions or helper code. Guidance is in English; manuscript text retains its original language.

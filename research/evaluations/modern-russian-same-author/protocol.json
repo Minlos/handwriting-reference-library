@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "writer": 16,
+  "selection": "Modern Russian, same upstream writer directory. Seven-page original16 source document and separate nine-page fpr16 held-out target document. Selected for available source+target volume, before new recognition.",
+  "conditions": {
+    "A": "plain, no references or reading skill",
+    "B": "references extracted from all7raw sources, plain reader",
+    "C": "references extracted from same7sources plus published full source transcription, plain reader"
+  },
+  "models": [
+    "Astra",
+    "Sol"
+  ],
+  "extraction_budget": "At most24 retained original-pixel crops per packet; inspect all seven source scans before selecting; labelled contact sheet max1600x2400. Do not fill uncertain examples.",
+  "target_budget": "Max3 image inspections per target page, reference inspections additional and recorded.",
+  "scoring": "Primary whole-document CER after numeric page-order joining, against full target supplied text. No page-level gold mapping supplied. Reading NFC/casefold/Unicode punctuation removal/spacecollapse; literal NFC/spacecollapse secondary.",
+  "limits": [
+    "Upstream source text may differ from copied handwriting, so not independent verified ground truth.",
+    "One writer and one run per condition, not general uplift estimate.",
+    "Source full-text has no page alignment; extractors must visually locate actual fragments.",
+    "Reader condition receives selected source crops and labels only, not full source or any target text."
+  ],
+  "reference_labels": [
+    "provisional",
+    "dataset-assisted-provisional"
+  ]
+}

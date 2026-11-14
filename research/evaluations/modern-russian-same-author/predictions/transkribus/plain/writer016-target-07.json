@@ -1,0 +1,17 @@
+{
+  "id": "writer016-target-07",
+  "input_sha256": "48330372914ce4e3edeb183d3ac3d28e8a20a62b58abf575ed1a13ea354a43eb",
+  "exported_image_sha256": "48330372914ce4e3edeb183d3ac3d28e8a20a62b58abf575ed1a13ea354a43eb",
+  "status": "completed",
+  "prediction": "6\r\nполюбли,\r\nпога,\r\nто\r\nжить\r\nХотей\r\nпото\r\nКлей\r\nел\r\nОечальная\r\nверз\r\nвсем\r\nконодмнты\r\nно\r\nводникают\r\nподоб\r\nКогда\r\n4\r\n1\r\nварвствея\r\nтрудна но\r\nвндтру,\r\n19б.\r\nТ\r\nСотоменик\r\nшурьетей\r\nноделать\r\n2\r\nнапошнить\r\nполт\r\nптов\r\nЖакта\r\n7\r\nуделай,\r\nпрод\r\n2\r\nпоготельно\r\n7\r\n1\r\nшамельно\r\nПонодельник\r\nБастой\r\n8\r\n46.\r\nсстей\r\nИ. ВЕД.\r\nсытуа\r\nнебя.\r\nбылна\r\nбы\r\nКозалось\r\nвресия\r\nводний\r\n7\r\nвлюбленных\r\nтора\r\nнасагыраясь\r\nва.\r\n60\r\nкая\r\n30\r\nСемее,—\r\nна\r\n7\r\nпои\r\nтуден,\r\n70\r\nАтопу\r\nгоды,\r\n70\r\n1а\r\nне\r\nи\r\nвыдет\r\nоеву,\r\nчто\r\nпонумал\r\nОна\r\nного, что\r\nГерозу\r\nничего\r\nхотек\r\nвотреду\r\n70\r\nоделот\r\nот\r\nболетса\r\nАвиспалы\r\nТаку\r\nболосе\r\nдаму\r\n41\r\nодной\r\nгуден\r\nв тектрой\r\n24\r\nпогоды,\r\nмана,\r\nпринемает\r\nИЕХНТ.\r\nона\r\n8\r\n29\r\nсвоих\r\nветв\r\nбрасив\r\nот\r\nбешать\r\n2\r\n4\r\nсл,\r\nгога\r\nт\r\nлюбил\r\n",
+  "model_id": 148545,
+  "recognition_job_id": 32002332,
+  "export_job_id": 32002377,
+  "exported_TextLine_count": 114,
+  "source_text_member": "20275099/Modern_Russian_—_writer016_fpr16_—_nine_held-out_scans/txt/0007_page07.txt",
+  "source_text_sha256": "570454276dc88f0e0de30998a3b50c86e28f230921503b91be0d14c513f4a0c5",
+  "export_zip_sha256": "db14223b878b1699b84aae29bee315c7e5675bee7520f3d7804e274a1ed06d53",
+  "no_skill": true,
+  "no_references": true,
+  "transport": "UTF-8 with optional BOM removed; transcription unchanged"
+}

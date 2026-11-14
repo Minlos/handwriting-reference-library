@@ -1,0 +1,2 @@
+Transcribe the entire supplied scan. Preserve actual spelling, unusual words, incomplete sentences and line-wrap word joins. Mark unreadable text as [неразборчиво]. Do not use external sources or references. Save initial_prediction before any review and prediction after review, actual pass coverage, and brief source-tied change notes. Do not output private reasoning. Use the same model, image bytes and stated total budget for every condition. If an instruction says compare each, each means a candidate reading for an uncertain word.
+

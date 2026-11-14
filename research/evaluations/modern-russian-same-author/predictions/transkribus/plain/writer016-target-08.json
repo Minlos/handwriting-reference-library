@@ -1,0 +1,17 @@
+{
+  "id": "writer016-target-08",
+  "input_sha256": "9d83ec0f3c453ce913b8f03b131b0e2623edf900e0312b943d15ad411454d14b",
+  "exported_image_sha256": "9d83ec0f3c453ce913b8f03b131b0e2623edf900e0312b943d15ad411454d14b",
+  "status": "completed",
+  "prediction": "Мутгиа\r\nвресия\r\nнекоторое\r\nслудет\r\n﻿78\r\nи\r\nтак\r\nпо\r\nманосты\r\nужиден\r\nи просто\r\nстоял\r\nОн\r\nподвити\r\nревтося.\r\nклывали,\r\nвлюбленными\r\nлые\r\nна\r\nСшотрех\r\nосуда\r\nотердана,\r\nлооь,\r\nЭта\r\nМелария\r\nвсего\r\nчто\r\nто.\r\nдоразывает\r\nкотором\r\nдея\r\nуветвалис,\r\nодушай,\r\nмтду\r\nконороинт\r\nРевурилъ\r\nэто\r\nпроти востоянно.\r\nтетлае\r\nдлогат\r\nсовее\r\nчто\r\nА\r\nте\r\nдекатя,\r\nдна\r\nне\r\nстора,\r\nлюбила просто,\r\nВ этом\r\nчувства.\r\nпобеди\r\nЯ задалось\r\nне\r\nявло\r\nвознимает\r\nвопрасот\r\nтре\r\nногда\r\nвие\r\nтем\r\nмоебяду,\r\nи разу.\r\n78\r\nКоноржент\r\nВствалиь,\r\nТак вол,\r\nЭто\r\nпроиходит\r\nШой\r\nты\r\nте\r\nногда\r\nтолопо\r\nтогда,\r\nпоумаеь\r\nнанон,\r\nкроли.\r\nпогдд,\r\nсебя.\r\nтиизрь катится\r\nтитеной\r\nто\r\nно\r\nПродоиталень\r\nборо\r\nтыя\r\nсалиии\r\nсобой.\r\nтакие\r\nбеды\r\nлюди\r\nчасто релают\r\nневерный\r\nрелени\r\n4\r\nразтому\r\nбы\r\nхоталось\r\nскадат\r\n",
+  "model_id": 148545,
+  "recognition_job_id": 32002332,
+  "export_job_id": 32002377,
+  "exported_TextLine_count": 100,
+  "source_text_member": "20275099/Modern_Russian_—_writer016_fpr16_—_nine_held-out_scans/txt/0008_page08.txt",
+  "source_text_sha256": "18086f821e53351df764f886522034b32dbb6bce8d71eb664e358ce25f27499c",
+  "export_zip_sha256": "db14223b878b1699b84aae29bee315c7e5675bee7520f3d7804e274a1ed06d53",
+  "no_skill": true,
+  "no_references": true,
+  "transport": "UTF-8 with optional BOM removed; transcription unchanged"
+}

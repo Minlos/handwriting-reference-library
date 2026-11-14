@@ -1,0 +1,9 @@
+{
+  "id": "writer016-target-01",
+  "input_sha256": "4f4c6252205a9cb00120f17cccba0876a98379ce9caa7f037e03bff3d9f6725e",
+  "service": "Rehand",
+  "input": "identical original JPEG bytes",
+  "status": "error",
+  "error": "HTTPSConnectionPool(host='rehand.ru', port=443): Read timed out. (read timeout=10)",
+  "seconds": 10.218957499993849
+}

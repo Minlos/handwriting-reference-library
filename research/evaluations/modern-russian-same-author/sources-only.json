@@ -1,0 +1,90 @@
+{
+  "writer": 16,
+  "source": "HWR200 pinned writer016 directory; modern Russian copied handwriting",
+  "pages": [
+    {
+      "id": "writer016-source-01",
+      "writer": 16,
+      "page": 1,
+      "path": "sources/page01.jpg",
+      "sha256": "0df615f07dfd4b1948231208ee0bd5ef77c42eb223929fe380ffe3eb5da938a7",
+      "dimensions": [
+        1763,
+        2436
+      ],
+      "upstream_zip_member": "hw_dataset/16/original16/\u0421\u043a\u0430\u043d\u044b/1.jpg"
+    },
+    {
+      "id": "writer016-source-02",
+      "writer": 16,
+      "page": 2,
+      "path": "sources/page02.jpg",
+      "sha256": "31310d2270b25e9da69076c7c1f3647f99bdc6f8aa814fa97fdff79fa65ad892",
+      "dimensions": [
+        1843,
+        2577
+      ],
+      "upstream_zip_member": "hw_dataset/16/original16/\u0421\u043a\u0430\u043d\u044b/2.jpg"
+    },
+    {
+      "id": "writer016-source-03",
+      "writer": 16,
+      "page": 3,
+      "path": "sources/page03.jpg",
+      "sha256": "cbbb120d8e26819e645cbb062ce888e1438229e9788f31d9326e5a47405789d7",
+      "dimensions": [
+        1814,
+        2459
+      ],
+      "upstream_zip_member": "hw_dataset/16/original16/\u0421\u043a\u0430\u043d\u044b/3.jpg"
+    },
+    {
+      "id": "writer016-source-04",
+      "writer": 16,
+      "page": 4,
+      "path": "sources/page04.jpg",
+      "sha256": "cd38a52da46aa4644e35fa8627017e160a294249f6cc4dfa832d85e2c0c4098c",
+      "dimensions": [
+        1837,
+        2481
+      ],
+      "upstream_zip_member": "hw_dataset/16/original16/\u0421\u043a\u0430\u043d\u044b/4.jpg"
+    },
+    {
+      "id": "writer016-source-05",
+      "writer": 16,
+      "page": 5,
+      "path": "sources/page05.jpg",
+      "sha256": "e2c5442dc25e5978f23598993b4601827e1c8a6047352d7620d22e4212066e35",
+      "dimensions": [
+        1845,
+        2514
+      ],
+      "upstream_zip_member": "hw_dataset/16/original16/\u0421\u043a\u0430\u043d\u044b/5.jpg"
+    },
+    {
+      "id": "writer016-source-06",
+      "writer": 16,
+      "page": 6,
+      "path": "sources/page06.jpg",
+      "sha256": "410994370b09af2dfabf6ba0aa190e102fa9ef0d388ff2661d43ebaddc1826fb",
+      "dimensions": [
+        1796,
+        2513
+      ],
+      "upstream_zip_member": "hw_dataset/16/original16/\u0421\u043a\u0430\u043d\u044b/6.jpg"
+    },
+    {
+      "id": "writer016-source-07",
+      "writer": 16,
+      "page": 7,
+      "path": "sources/page07.jpg",
+      "sha256": "51e9ca3771ce848f999eb141f27937920711c64cff5f9dfb1929f025a107feac",
+      "dimensions": [
+        1921,
+        2703
+      ],
+      "upstream_zip_member": "hw_dataset/16/original16/\u0421\u043a\u0430\u043d\u044b/7.jpg"
+    }
+  ]
+}

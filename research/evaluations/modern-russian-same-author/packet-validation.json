@@ -1,0 +1,14 @@
+{
+  "raw": {
+    "crops": 18,
+    "original_frozen_packet_sha256": "5659eb86a4142c82c625c6436a4707be26bc49fa25cc22f3e50a80bcd185422c",
+    "public_packet_sha256": "c3762cfb339aab036805f5218fe7346af37c38f26eb7136b86e29506fbb6ee96",
+    "public_metadata_change": "Absolute local source paths replaced with relative paths; labels, example selection, coordinates and crop bytes unchanged."
+  },
+  "labeled": {
+    "crops": 22,
+    "original_frozen_packet_sha256": "0831f6fbca28b7cd0e6e54f15771bb5425bfe6a7c499d20885fa86f9873395c9",
+    "public_packet_sha256": "0831f6fbca28b7cd0e6e54f15771bb5425bfe6a7c499d20885fa86f9873395c9",
+    "public_metadata_change": "Absolute local source paths replaced with relative paths; labels, example selection, coordinates and crop bytes unchanged."
+  }
+}

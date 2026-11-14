@@ -1,0 +1,17 @@
+{
+  "id": "writer016-target-04",
+  "input_sha256": "1aa9cff66098c2ab657fd70b8b0bda7cdb5b3313a7755a2bb256ec67f173991f",
+  "exported_image_sha256": "1aa9cff66098c2ab657fd70b8b0bda7cdb5b3313a7755a2bb256ec67f173991f",
+  "status": "completed",
+  "prediction": "бер.\r\nдня,\r\nпродени,\r\nте\r\nчувствах\r\nн\r\nсвоих\r\n7у\r\n28\r\nчеловека\r\n90\r\nкругого,\r\nзапут\r\nвысика,\r\nволно своим\r\nбай\r\nОпнит\r\nчто\r\nотчтить,\r\nДору\r\nТва\r\nПодул\r\nОткыхочив\r\nИувствает\r\nртественной\r\n2\r\nВ\r\nпри,\r\nова\r\nЯ привыва,\r\nтепой,\r\nданной.\r\nта\r\nРассуждая\r\nнекротуры,\r\nОескренные\r\nчто\r\nталько\r\nскадать\r\nхочется\r\nкоуту\r\nнеподвластные\r\nббеть\r\nпогут\r\nуветва.\r\nуветва\r\nчто\r\nей\r\nпотому\r\nотиюгают\r\nлюди\r\nи контрамровать.\r\nскльние\r\nстанавить\r\nгроуне\r\nшкого,\r\nАвек\r\nплоо.\r\nНалный\r\nрауи,\r\nдолго.\r\nИ как\r\nканоый оень\r\nмы испоетываем\r\nто\r\nсело\r\nкакой\r\nоделать\r\nпрежде\r\nдушае,\r\nчто\r\nраступок\r\nтак\r\nбывает\r\nкак\r\n7о\r\nблыут\r\nстоит\r\nопредшиться\r\nлюди\r\nне\r\nтаки\r\nслуматы\r\n30б\r\nму\r\nсерда\r\nВсь.\r\nвеливая\r\nрассутдать.\r\nшеки\r\nлаети,\r\nшикусы\r\nпинсы\r\nмимуты\r\nтакие\r\nеб\r\nИ\r\n1\r\nветстветельно\r\nвыбор\r\nоделать\r\nпеуны,\r\nтамей\r\nэтой\r\nмотят\r\nТрудно-\r\nведь от\r\nбызвает\r\n",
+  "model_id": 148545,
+  "recognition_job_id": 32002332,
+  "export_job_id": 32002377,
+  "exported_TextLine_count": 108,
+  "source_text_member": "20275099/Modern_Russian_—_writer016_fpr16_—_nine_held-out_scans/txt/0004_page04.txt",
+  "source_text_sha256": "f453bc9c68bda0134a06aca7ea341a0647aebb56472ea41964afc48d674c3978",
+  "export_zip_sha256": "db14223b878b1699b84aae29bee315c7e5675bee7520f3d7804e274a1ed06d53",
+  "no_skill": true,
+  "no_references": true,
+  "transport": "UTF-8 with optional BOM removed; transcription unchanged"
+}

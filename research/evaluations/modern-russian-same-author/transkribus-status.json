@@ -1,0 +1,62 @@
+{
+  "status": "completed_and_imported",
+  "job_id": 32002332,
+  "document_id": 20275099,
+  "collection_id": 2599539,
+  "model_id": 148545,
+  "pages": 9,
+  "credits_used": 9,
+  "free_credits_remaining": 20,
+  "input_hash_verification": "pending export retrieval",
+  "export_job_id": 32002377,
+  "export_queue_position_observed": 12,
+  "export_zip_sha256": "db14223b878b1699b84aae29bee315c7e5675bee7520f3d7804e274a1ed06d53",
+  "verified_images": [
+    {
+      "id": "writer016-target-01",
+      "input_sha256": "4f4c6252205a9cb00120f17cccba0876a98379ce9caa7f037e03bff3d9f6725e",
+      "exported_TextLine_count": 124
+    },
+    {
+      "id": "writer016-target-02",
+      "input_sha256": "2c25d96729c917e26afec2cade7f3e9cefe44506ba8f15dae983b140efb9e9b4",
+      "exported_TextLine_count": 100
+    },
+    {
+      "id": "writer016-target-03",
+      "input_sha256": "6743d855a730b34291dd3cfc54f308811e5265550e04dcf1865426cf8db8dcb9",
+      "exported_TextLine_count": 88
+    },
+    {
+      "id": "writer016-target-04",
+      "input_sha256": "1aa9cff66098c2ab657fd70b8b0bda7cdb5b3313a7755a2bb256ec67f173991f",
+      "exported_TextLine_count": 108
+    },
+    {
+      "id": "writer016-target-05",
+      "input_sha256": "91b2b70c6055e2e1c3e5178fbbc3a07705a2a805933d134c5c340ec2e6589906",
+      "exported_TextLine_count": 112
+    },
+    {
+      "id": "writer016-target-06",
+      "input_sha256": "9972eb6240cf48f072e34bc0e5a06b1c183d89baf9fd161615075a3e8855bdec",
+      "exported_TextLine_count": 97
+    },
+    {
+      "id": "writer016-target-07",
+      "input_sha256": "48330372914ce4e3edeb183d3ac3d28e8a20a62b58abf575ed1a13ea354a43eb",
+      "exported_TextLine_count": 114
+    },
+    {
+      "id": "writer016-target-08",
+      "input_sha256": "9d83ec0f3c453ce913b8f03b131b0e2623edf900e0312b943d15ad411454d14b",
+      "exported_TextLine_count": 100
+    },
+    {
+      "id": "writer016-target-09",
+      "input_sha256": "3219dee0cf72864e1db3e0d19a3b7235b03b3a42b20b796693713168a77c9c85",
+      "exported_TextLine_count": 15
+    }
+  ],
+  "metadata_privacy": "Original ZIP retained locally; public prediction records omit account metadata"
+}

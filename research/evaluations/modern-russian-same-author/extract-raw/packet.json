@@ -1,0 +1,513 @@
+{
+  "writer_id": 16,
+  "attribution": "All seven pages attributed to writer016 in source manifest.",
+  "coordinate_convention": "Unrotated original pixels, top-left origin, xyxy with exclusive right/bottom.",
+  "coverage": [
+    {
+      "id": "writer016-source-01",
+      "writer": 16,
+      "page": 1,
+      "path": "sources/page01.jpg",
+      "sha256": "0df615f07dfd4b1948231208ee0bd5ef77c42eb223929fe380ffe3eb5da938a7",
+      "dimensions": [
+        1763,
+        2436
+      ],
+      "upstream_zip_member": "hw_dataset/16/original16/Сканы/1.jpg"
+    },
+    {
+      "id": "writer016-source-02",
+      "writer": 16,
+      "page": 2,
+      "path": "sources/page02.jpg",
+      "sha256": "31310d2270b25e9da69076c7c1f3647f99bdc6f8aa814fa97fdff79fa65ad892",
+      "dimensions": [
+        1843,
+        2577
+      ],
+      "upstream_zip_member": "hw_dataset/16/original16/Сканы/2.jpg"
+    },
+    {
+      "id": "writer016-source-03",
+      "writer": 16,
+      "page": 3,
+      "path": "sources/page03.jpg",
+      "sha256": "cbbb120d8e26819e645cbb062ce888e1438229e9788f31d9326e5a47405789d7",
+      "dimensions": [
+        1814,
+        2459
+      ],
+      "upstream_zip_member": "hw_dataset/16/original16/Сканы/3.jpg"
+    },
+    {
+      "id": "writer016-source-04",
+      "writer": 16,
+      "page": 4,
+      "path": "sources/page04.jpg",
+      "sha256": "cd38a52da46aa4644e35fa8627017e160a294249f6cc4dfa832d85e2c0c4098c",
+      "dimensions": [
+        1837,
+        2481
+      ],
+      "upstream_zip_member": "hw_dataset/16/original16/Сканы/4.jpg"
+    },
+    {
+      "id": "writer016-source-05",
+      "writer": 16,
+      "page": 5,
+      "path": "sources/page05.jpg",
+      "sha256": "e2c5442dc25e5978f23598993b4601827e1c8a6047352d7620d22e4212066e35",
+      "dimensions": [
+        1845,
+        2514
+      ],
+      "upstream_zip_member": "hw_dataset/16/original16/Сканы/5.jpg"
+    },
+    {
+      "id": "writer016-source-06",
+      "writer": 16,
+      "page": 6,
+      "path": "sources/page06.jpg",
+      "sha256": "410994370b09af2dfabf6ba0aa190e102fa9ef0d388ff2661d43ebaddc1826fb",
+      "dimensions": [
+        1796,
+        2513
+      ],
+      "upstream_zip_member": "hw_dataset/16/original16/Сканы/6.jpg"
+    },
+    {
+      "id": "writer016-source-07",
+      "writer": 16,
+      "page": 7,
+      "path": "sources/page07.jpg",
+      "sha256": "51e9ca3771ce848f999eb141f27937920711c64cff5f9dfb1929f025a107feac",
+      "dimensions": [
+        1921,
+        2703
+      ],
+      "upstream_zip_member": "hw_dataset/16/original16/Сканы/7.jpg"
+    }
+  ],
+  "selection": "Surveyed seven source images before selection. Repeated low humps, tall looped strokes, descenders and vowel joins recur across pages. Selected words and short phrases for distinct forms.",
+  "rejections": [
+    {
+      "source_page": 3,
+      "candidate": "бережно",
+      "reason": "Top stroke of initial letter too near crop edge and neighboring descending stroke overlaps."
+    },
+    {
+      "source_page": 7,
+      "candidate": "усилий",
+      "reason": "Right edge clips ending and adjacent comma."
+    },
+    {
+      "source_page": 4,
+      "candidate": "петь",
+      "reason": "Boundary includes a fragment of following punctuation."
+    },
+    {
+      "source_page": 2,
+      "candidate": "каменный",
+      "reason": "Full ending unclear in scan."
+    }
+  ],
+  "examples": [
+    {
+      "id": "raw-01",
+      "writer_id": 16,
+      "source_id": "writer016-source-01",
+      "source_sha256": "0df615f07dfd4b1948231208ee0bd5ef77c42eb223929fe380ffe3eb5da938a7",
+      "source_dimensions": [
+        1763,
+        2436
+      ],
+      "rotation_degrees": 0,
+      "xyxy": [
+        246,
+        20,
+        554,
+        146
+      ],
+      "label": "Забота",
+      "status": "provisional",
+      "ambiguities": [],
+      "file": "crop-01.png",
+      "sha256": "ed40b14ce66a5a1a0abbb6cc9bf656003fc9860097e940a880b5fc51708cf121"
+    },
+    {
+      "id": "raw-02",
+      "writer_id": 16,
+      "source_id": "writer016-source-01",
+      "source_sha256": "0df615f07dfd4b1948231208ee0bd5ef77c42eb223929fe380ffe3eb5da938a7",
+      "source_dimensions": [
+        1763,
+        2436
+      ],
+      "rotation_degrees": 0,
+      "xyxy": [
+        928,
+        34,
+        1502,
+        184
+      ],
+      "label": "нашей земли",
+      "status": "provisional",
+      "ambiguities": [],
+      "file": "crop-02.png",
+      "sha256": "d3d624232a8c2ab4044e4426e62ba8ea8d30ef30c52441c7975423c0b11c744d"
+    },
+    {
+      "id": "raw-03",
+      "writer_id": 16,
+      "source_id": "writer016-source-01",
+      "source_sha256": "0df615f07dfd4b1948231208ee0bd5ef77c42eb223929fe380ffe3eb5da938a7",
+      "source_dimensions": [
+        1763,
+        2436
+      ],
+      "rotation_degrees": 0,
+      "xyxy": [
+        180,
+        718,
+        642,
+        850
+      ],
+      "label": "вопросами",
+      "status": "provisional",
+      "ambiguities": [],
+      "file": "crop-03.png",
+      "sha256": "14990faddb501a3dd77191688a32dd2b456f0fff074e6c71a0f67bd1d3c8091a"
+    },
+    {
+      "id": "raw-04",
+      "writer_id": 16,
+      "source_id": "writer016-source-02",
+      "source_sha256": "31310d2270b25e9da69076c7c1f3647f99bdc6f8aa814fa97fdff79fa65ad892",
+      "source_dimensions": [
+        1843,
+        2577
+      ],
+      "rotation_degrees": 0,
+      "xyxy": [
+        110,
+        532,
+        474,
+        674
+      ],
+      "label": "бороться",
+      "status": "provisional",
+      "ambiguities": [],
+      "file": "crop-04.png",
+      "sha256": "28005b8809bd236e4333c68efdeeb3daba9d546e7f089a1ea7bcffe0ec1e8dfe"
+    },
+    {
+      "id": "raw-05",
+      "writer_id": 16,
+      "source_id": "writer016-source-02",
+      "source_sha256": "31310d2270b25e9da69076c7c1f3647f99bdc6f8aa814fa97fdff79fa65ad892",
+      "source_dimensions": [
+        1843,
+        2577
+      ],
+      "rotation_degrees": 0,
+      "xyxy": [
+        276,
+        660,
+        686,
+        794
+      ],
+      "label": "Шевченко",
+      "status": "provisional",
+      "ambiguities": [],
+      "file": "crop-05.png",
+      "sha256": "5d8834dfd0f4d420f78901e1ffbe89f4ab453aa07f0e6293608af7e808f3542d"
+    },
+    {
+      "id": "raw-06",
+      "writer_id": 16,
+      "source_id": "writer016-source-02",
+      "source_sha256": "31310d2270b25e9da69076c7c1f3647f99bdc6f8aa814fa97fdff79fa65ad892",
+      "source_dimensions": [
+        1843,
+        2577
+      ],
+      "rotation_degrees": 0,
+      "xyxy": [
+        1010,
+        1288,
+        1486,
+        1442
+      ],
+      "label": "Возможно",
+      "status": "provisional",
+      "ambiguities": [],
+      "file": "crop-06.png",
+      "sha256": "b2b3729c0baf32eeefa1c365f35e7c87102f725f42eee4cd3abb20024accbf9a"
+    },
+    {
+      "id": "raw-07",
+      "writer_id": 16,
+      "source_id": "writer016-source-03",
+      "source_sha256": "cbbb120d8e26819e645cbb062ce888e1438229e9788f31d9326e5a47405789d7",
+      "source_dimensions": [
+        1814,
+        2459
+      ],
+      "rotation_degrees": 0,
+      "xyxy": [
+        1140,
+        730,
+        1668,
+        900
+      ],
+      "label": "сохранением",
+      "status": "provisional",
+      "ambiguities": [],
+      "file": "crop-07.png",
+      "sha256": "77b7579f28175ce79153069dd3f1bdf4a494cd909b67bdbe0159705b32674b77"
+    },
+    {
+      "id": "raw-08",
+      "writer_id": 16,
+      "source_id": "writer016-source-03",
+      "source_sha256": "cbbb120d8e26819e645cbb062ce888e1438229e9788f31d9326e5a47405789d7",
+      "source_dimensions": [
+        1814,
+        2459
+      ],
+      "rotation_degrees": 0,
+      "xyxy": [
+        558,
+        2052,
+        910,
+        2210
+      ],
+      "label": "грунты",
+      "status": "provisional",
+      "ambiguities": [],
+      "file": "crop-08.png",
+      "sha256": "bab20aa10b77a69dcf89486bb400f2bf5835cf4f68124eb13f61a13c54d469ef"
+    },
+    {
+      "id": "raw-09",
+      "writer_id": 16,
+      "source_id": "writer016-source-04",
+      "source_sha256": "cd38a52da46aa4644e35fa8627017e160a294249f6cc4dfa832d85e2c0c4098c",
+      "source_dimensions": [
+        1837,
+        2481
+      ],
+      "rotation_degrees": 0,
+      "xyxy": [
+        522,
+        468,
+        886,
+        600
+      ],
+      "label": "зрителя",
+      "status": "provisional",
+      "ambiguities": [],
+      "file": "crop-09.png",
+      "sha256": "ffa1d61b57880224ef754975dac83f9e25e45467bc00dd315ddf863864d6a03c"
+    },
+    {
+      "id": "raw-10",
+      "writer_id": 16,
+      "source_id": "writer016-source-04",
+      "source_sha256": "cd38a52da46aa4644e35fa8627017e160a294249f6cc4dfa832d85e2c0c4098c",
+      "source_dimensions": [
+        1837,
+        2481
+      ],
+      "rotation_degrees": 0,
+      "xyxy": [
+        534,
+        1072,
+        860,
+        1192
+      ],
+      "label": "Особенно",
+      "status": "provisional",
+      "ambiguities": [],
+      "file": "crop-10.png",
+      "sha256": "6f5bafc620601504647f9379d44ac82dc2a240c9d14e8a093b6bea4ec59896e2"
+    },
+    {
+      "id": "raw-11",
+      "writer_id": 16,
+      "source_id": "writer016-source-05",
+      "source_sha256": "e2c5442dc25e5978f23598993b4601827e1c8a6047352d7620d22e4212066e35",
+      "source_dimensions": [
+        1845,
+        2514
+      ],
+      "rotation_degrees": 0,
+      "xyxy": [
+        472,
+        684,
+        768,
+        842
+      ],
+      "label": "Другие",
+      "status": "provisional",
+      "ambiguities": [],
+      "file": "crop-11.png",
+      "sha256": "41fc6509e99ba5e5415316c5e971125a5e4703982534e8b9cdccc031f359e42d"
+    },
+    {
+      "id": "raw-12",
+      "writer_id": 16,
+      "source_id": "writer016-source-05",
+      "source_sha256": "e2c5442dc25e5978f23598993b4601827e1c8a6047352d7620d22e4212066e35",
+      "source_dimensions": [
+        1845,
+        2514
+      ],
+      "rotation_degrees": 0,
+      "xyxy": [
+        630,
+        836,
+        1022,
+        928
+      ],
+      "label": "талант",
+      "status": "provisional",
+      "ambiguities": [],
+      "file": "crop-12.png",
+      "sha256": "d83c4ab078f1f6814d5306c46b1c58ce41a05a9876011366555c77ffa619d789"
+    },
+    {
+      "id": "raw-13",
+      "writer_id": 16,
+      "source_id": "writer016-source-05",
+      "source_sha256": "e2c5442dc25e5978f23598993b4601827e1c8a6047352d7620d22e4212066e35",
+      "source_dimensions": [
+        1845,
+        2514
+      ],
+      "rotation_degrees": 0,
+      "xyxy": [
+        846,
+        1410,
+        1160,
+        1550
+      ],
+      "label": "Леонид",
+      "status": "provisional",
+      "ambiguities": [],
+      "file": "crop-13.png",
+      "sha256": "2a332439dfa07bdb874a9d3feed16fb46a9df04a2166c0b4d65db708a021bd78"
+    },
+    {
+      "id": "raw-14",
+      "writer_id": 16,
+      "source_id": "writer016-source-06",
+      "source_sha256": "410994370b09af2dfabf6ba0aa190e102fa9ef0d388ff2661d43ebaddc1826fb",
+      "source_dimensions": [
+        1796,
+        2513
+      ],
+      "rotation_degrees": 0,
+      "xyxy": [
+        1460,
+        502,
+        1694,
+        626
+      ],
+      "label": "Гоголь",
+      "status": "provisional",
+      "ambiguities": [],
+      "file": "crop-14.png",
+      "sha256": "f5c9a9537731e1fabca5236d3a71fe1957957e8bf9e41a67f600923f22950e3c"
+    },
+    {
+      "id": "raw-15",
+      "writer_id": 16,
+      "source_id": "writer016-source-06",
+      "source_sha256": "410994370b09af2dfabf6ba0aa190e102fa9ef0d388ff2661d43ebaddc1826fb",
+      "source_dimensions": [
+        1796,
+        2513
+      ],
+      "rotation_degrees": 0,
+      "xyxy": [
+        190,
+        1242,
+        496,
+        1388
+      ],
+      "label": "шедевр",
+      "status": "provisional",
+      "ambiguities": [],
+      "file": "crop-15.png",
+      "sha256": "b3c7aba0789ae86c4c67b6f9ac12499e92799504ec50758bae16aa8ebc19674c"
+    },
+    {
+      "id": "raw-16",
+      "writer_id": 16,
+      "source_id": "writer016-source-06",
+      "source_sha256": "410994370b09af2dfabf6ba0aa190e102fa9ef0d388ff2661d43ebaddc1826fb",
+      "source_dimensions": [
+        1796,
+        2513
+      ],
+      "rotation_degrees": 0,
+      "xyxy": [
+        598,
+        1360,
+        1084,
+        1504
+      ],
+      "label": "подлинной",
+      "status": "provisional",
+      "ambiguities": [],
+      "file": "crop-16.png",
+      "sha256": "2974db0d23a64322cd56697a5083d403406d34c666481f769f740be9f815f438"
+    },
+    {
+      "id": "raw-17",
+      "writer_id": 16,
+      "source_id": "writer016-source-07",
+      "source_sha256": "51e9ca3771ce848f999eb141f27937920711c64cff5f9dfb1929f025a107feac",
+      "source_dimensions": [
+        1921,
+        2703
+      ],
+      "rotation_degrees": 0,
+      "xyxy": [
+        450,
+        426,
+        736,
+        552
+      ],
+      "label": "Иначе",
+      "status": "provisional",
+      "ambiguities": [],
+      "file": "crop-17.png",
+      "sha256": "4fcfa67beb8c2fd5533d24fd59bea44dda3dc71afd4680881b0500567a90ad2e"
+    },
+    {
+      "id": "raw-18",
+      "writer_id": 16,
+      "source_id": "writer016-source-07",
+      "source_sha256": "51e9ca3771ce848f999eb141f27937920711c64cff5f9dfb1929f025a107feac",
+      "source_dimensions": [
+        1921,
+        2703
+      ],
+      "rotation_degrees": 0,
+      "xyxy": [
+        162,
+        578,
+        704,
+        724
+      ],
+      "label": "не получится.",
+      "status": "provisional",
+      "ambiguities": [],
+      "file": "crop-18.png",
+      "sha256": "9aff972eb7b8069f2f6e6f4df81fbc7a2a372641834aeebf00ed9a589f429d82"
+    }
+  ],
+  "contact_sheet": "labelledcontact-sheet.png"
+}

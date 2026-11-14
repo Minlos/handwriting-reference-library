@@ -1,0 +1,17 @@
+{
+  "id": "writer016-target-05",
+  "input_sha256": "91b2b70c6055e2e1c3e5178fbbc3a07705a2a805933d134c5c340ec2e6589906",
+  "exported_image_sha256": "91b2b70c6055e2e1c3e5178fbbc3a07705a2a805933d134c5c340ec2e6589906",
+  "status": "completed",
+  "prediction": "вот\r\nзадаю\r\n2\r\nкловера\r\nсудьба\r\nзавеет\r\nВлен\r\nкона\r\nвозрипает\r\nсебь вопра, когда те\r\nчто\r\n32\r\nмену\r\nпазуот.\r\nсувотвани,\r\nчарыверь\r\nпа,\r\nмикут\r\nг,\r\nталнен\r\nрассрад\r\nлые\r\nзапчатльный\r\nвспомнилот,\r\n6\r\nпаслет\r\nганатовал\r\nА46\r\nКутрыка\r\n\r\nвыика,\r\nча\r\nшелком\r\nговоритоя,\r\nнебы,\r\nвлю\r\n5\r\nАвитпо\r\nджно\r\nбыи\r\nкотором\r\nпо сени вера\r\nтнюю\r\nраму\r\nЗлод\r\nбрек\r\nпет\r\nдевужне леотество\r\n7\r\nЕол\r\nпо\r\n50\r\nтай\r\nвсе\r\nкр\r\nло\r\nвалоя,\r\nРиудна\r\n7р2\r\nчет\r\nбздености,\r\nот\r\nе\r\nнев\r\nтом что\r\nчтоб\r\nТу\r\nлне\r\nпокят но\r\nно выл\r\n1\r\n\r\nэтом\r\nШутгиза\r\nруши,\r\n06\r\nшестал\r\nприь\r\nвот\r\nОй,\r\nПродник\r\nОтиегай\r\nсвой\r\nдт\r\nнодна\r\nсовершенио\r\nподарок\r\nот су\r\n103\r\nтолько\r\nзрала\r\nБера\r\nкотоко\r\nчеловера.\r\nчто\r\nей\r\nприсьал\r\nпезнаранет,\r\nэтот\r\nодника.\r\nпоьа.\r\nра\r\nуушана\r\nдолко.\r\nА\r\nобе\r\nнутн\r\n2к\r\nстоа\r\nоли\r\nдыеват\r\nнет\r\n",
+  "model_id": 148545,
+  "recognition_job_id": 32002332,
+  "export_job_id": 32002377,
+  "exported_TextLine_count": 112,
+  "source_text_member": "20275099/Modern_Russian_—_writer016_fpr16_—_nine_held-out_scans/txt/0005_page05.txt",
+  "source_text_sha256": "75afb154f5540cfae0173b8b1de0895c2379d090a9766cd45773c00efde989a4",
+  "export_zip_sha256": "db14223b878b1699b84aae29bee315c7e5675bee7520f3d7804e274a1ed06d53",
+  "no_skill": true,
+  "no_references": true,
+  "transport": "UTF-8 with optional BOM removed; transcription unchanged"
+}

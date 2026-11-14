@@ -1,0 +1,22 @@
+{
+  "models": {
+    "astra": "gpt-6-astra",
+    "sol": "gpt-6-sol"
+  },
+  "conditions": {
+    "A": {
+      "allowed": "targets-only.json and nine original target scans",
+      "forbidden": "skills, sources, source transcriptions, evaluator, other predictions"
+    },
+    "B": {
+      "allowed": "same target inputs plus extract-raw packet and crop/contact-sheet images",
+      "forbidden": "reading skill, full sources/source text, evaluator, other predictions"
+    },
+    "C": {
+      "allowed": "same target inputs plus extract-labeled packet and crop/contact-sheet images",
+      "forbidden": "reading skill, full sources/source text, evaluator, other predictions"
+    }
+  },
+  "common_instruction": "Faithfully transcribe all handwriting, preserve actual spelling/wording/corrections, no inferred standard quote replacement; unreadable [неразборчиво]; numeric page order; at most3 target image inspections; no external OCR/APIs or child agents.",
+  "isolation": "Each model/condition in a fresh independent agent context without parent history; target gold evaluator-only."
+}

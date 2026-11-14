@@ -1,0 +1,595 @@
+{
+  "writer_id": 16,
+  "label_status": "dataset-assisted-provisional",
+  "coordinate_convention": "Original decoded pixels, top-left origin, xyxy with exclusive right and bottom edges. Lossless PNG crops, zero rotation.",
+  "source_text": "Published continuous source text consulted for proposed labels. Page locations selected by visible handwriting.",
+  "coverage": [
+    {
+      "id": "writer016-source-01",
+      "source_sha256": "0df615f07dfd4b1948231208ee0bd5ef77c42eb223929fe380ffe3eb5da938a7",
+      "dimensions": [
+        1763,
+        2436
+      ],
+      "surveyed": true,
+      "selected": 3
+    },
+    {
+      "id": "writer016-source-02",
+      "source_sha256": "31310d2270b25e9da69076c7c1f3647f99bdc6f8aa814fa97fdff79fa65ad892",
+      "dimensions": [
+        1843,
+        2577
+      ],
+      "surveyed": true,
+      "selected": 2
+    },
+    {
+      "id": "writer016-source-03",
+      "source_sha256": "cbbb120d8e26819e645cbb062ce888e1438229e9788f31d9326e5a47405789d7",
+      "dimensions": [
+        1814,
+        2459
+      ],
+      "surveyed": true,
+      "selected": 4
+    },
+    {
+      "id": "writer016-source-04",
+      "source_sha256": "cd38a52da46aa4644e35fa8627017e160a294249f6cc4dfa832d85e2c0c4098c",
+      "dimensions": [
+        1837,
+        2481
+      ],
+      "surveyed": true,
+      "selected": 3
+    },
+    {
+      "id": "writer016-source-05",
+      "source_sha256": "e2c5442dc25e5978f23598993b4601827e1c8a6047352d7620d22e4212066e35",
+      "dimensions": [
+        1845,
+        2514
+      ],
+      "surveyed": true,
+      "selected": 3
+    },
+    {
+      "id": "writer016-source-06",
+      "source_sha256": "410994370b09af2dfabf6ba0aa190e102fa9ef0d388ff2661d43ebaddc1826fb",
+      "dimensions": [
+        1796,
+        2513
+      ],
+      "surveyed": true,
+      "selected": 4
+    },
+    {
+      "id": "writer016-source-07",
+      "source_sha256": "51e9ca3771ce848f999eb141f27937920711c64cff5f9dfb1929f025a107feac",
+      "dimensions": [
+        1921,
+        2703
+      ],
+      "surveyed": true,
+      "selected": 3
+    }
+  ],
+  "uncertain_writer_matches": [],
+  "selection_limit": 24,
+  "review": "All seven scans surveyed before selection. Each saved crop inspected. Outer bounds enlarged for descenders and capitals. A few margins include tips of pen strokes from adjacent rows.",
+  "examples": [
+    {
+      "id": "ex01",
+      "label": "Забота",
+      "forms": "З, бо, та",
+      "writer_id": 16,
+      "source_id": "writer016-source-01",
+      "source_dimensions": [
+        1763,
+        2436
+      ],
+      "source_sha256": "0df615f07dfd4b1948231208ee0bd5ef77c42eb223929fe380ffe3eb5da938a7",
+      "xyxy": [
+        248,
+        24,
+        538,
+        150
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex01.png",
+      "crop_sha256": "83753222b2a6d0710b5d7bf05874c60e6199966d7f39fcc54fafbeee47b93f39",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex02",
+      "label": "нашей земли",
+      "forms": "шей, зем, ли",
+      "writer_id": 16,
+      "source_id": "writer016-source-01",
+      "source_dimensions": [
+        1763,
+        2436
+      ],
+      "source_sha256": "0df615f07dfd4b1948231208ee0bd5ef77c42eb223929fe380ffe3eb5da938a7",
+      "xyxy": [
+        924,
+        30,
+        1496,
+        196
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex02.png",
+      "crop_sha256": "6938143117a0d71aa1be12d53ab73c5867c1c460a42c1a0356a6198ec7e3d8f1",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex03",
+      "label": "Песков",
+      "forms": "П, ск, ов",
+      "writer_id": 16,
+      "source_id": "writer016-source-01",
+      "source_dimensions": [
+        1763,
+        2436
+      ],
+      "source_sha256": "0df615f07dfd4b1948231208ee0bd5ef77c42eb223929fe380ffe3eb5da938a7",
+      "xyxy": [
+        1234,
+        846,
+        1506,
+        954
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex03.png",
+      "crop_sha256": "1cff55c37c5d73cd5e8fc9c23a8d6cefb23c61fc8e4f4464a32ec80f2c99666c",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex04",
+      "label": "метров.",
+      "forms": "тр, ров",
+      "writer_id": 16,
+      "source_id": "writer016-source-02",
+      "source_dimensions": [
+        1843,
+        2577
+      ],
+      "source_sha256": "31310d2270b25e9da69076c7c1f3647f99bdc6f8aa814fa97fdff79fa65ad892",
+      "xyxy": [
+        1270,
+        28,
+        1628,
+        182
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex04.png",
+      "crop_sha256": "b31f5229472a77f1588c4d1fa03b55c692a2ea51acca998a243e593400682662",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex05",
+      "label": "землю,",
+      "forms": "зем, лю",
+      "writer_id": 16,
+      "source_id": "writer016-source-02",
+      "source_dimensions": [
+        1843,
+        2577
+      ],
+      "source_sha256": "31310d2270b25e9da69076c7c1f3647f99bdc6f8aa814fa97fdff79fa65ad892",
+      "xyxy": [
+        1176,
+        434,
+        1554,
+        554
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex05.png",
+      "crop_sha256": "18b8e0707b9c110c46bc6b3fe4ce1b968dd641eff5ca07837b88b320180ebfe2",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex06",
+      "label": "Я полностью",
+      "forms": "Я, по, стью",
+      "writer_id": 16,
+      "source_id": "writer016-source-03",
+      "source_dimensions": [
+        1814,
+        2459
+      ],
+      "source_sha256": "cbbb120d8e26819e645cbb062ce888e1438229e9788f31d9326e5a47405789d7",
+      "xyxy": [
+        198,
+        372,
+        698,
+        502
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex06.png",
+      "crop_sha256": "23a1d824a70c0641bb68d54166c7f07cbadfce61d36aa3ed0f51a376c9550d7e",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex07",
+      "label": "любим,",
+      "forms": "лю, би",
+      "writer_id": 16,
+      "source_id": "writer016-source-03",
+      "source_dimensions": [
+        1814,
+        2459
+      ],
+      "source_sha256": "cbbb120d8e26819e645cbb062ce888e1438229e9788f31d9326e5a47405789d7",
+      "xyxy": [
+        734,
+        986,
+        1082,
+        1118
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex07.png",
+      "crop_sha256": "a80b4761a9168fb4f5efc86bf6a77e884786879c1d9621658afa88a1592e349f",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex08",
+      "label": "устье",
+      "forms": "сть, ье",
+      "writer_id": 16,
+      "source_id": "writer016-source-03",
+      "source_dimensions": [
+        1814,
+        2459
+      ],
+      "source_sha256": "cbbb120d8e26819e645cbb062ce888e1438229e9788f31d9326e5a47405789d7",
+      "xyxy": [
+        1016,
+        2088,
+        1290,
+        2212
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex08.png",
+      "crop_sha256": "c368dd7f68975c503f888ee370773c12e66f1d52d70ed19966f695f5a662258d",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex09",
+      "label": "Охты",
+      "forms": "О, хт",
+      "writer_id": 16,
+      "source_id": "writer016-source-03",
+      "source_dimensions": [
+        1814,
+        2459
+      ],
+      "source_sha256": "cbbb120d8e26819e645cbb062ce888e1438229e9788f31d9326e5a47405789d7",
+      "xyxy": [
+        1308,
+        2084,
+        1546,
+        2192
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex09.png",
+      "crop_sha256": "6c61956a45cada7a7790e7b7c5bed7c09d8792c8a0eb5bd7207113aa92159593",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex10",
+      "label": "Действительно,",
+      "forms": "Д, йс, ль",
+      "writer_id": 16,
+      "source_id": "writer016-source-04",
+      "source_dimensions": [
+        1837,
+        2481
+      ],
+      "source_sha256": "cd38a52da46aa4644e35fa8627017e160a294249f6cc4dfa832d85e2c0c4098c",
+      "xyxy": [
+        158,
+        852,
+        702,
+        970
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex10.png",
+      "crop_sha256": "81adb5f703e16c84fb41940a39bbbb7116eae6bc25a6da850fd72ac0301c8636",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex11",
+      "label": "усилиями.",
+      "forms": "ус, лия",
+      "writer_id": 16,
+      "source_id": "writer016-source-04",
+      "source_dimensions": [
+        1837,
+        2481
+      ],
+      "source_sha256": "cd38a52da46aa4644e35fa8627017e160a294249f6cc4dfa832d85e2c0c4098c",
+      "xyxy": [
+        224,
+        1444,
+        710,
+        1578
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex11.png",
+      "crop_sha256": "137d5e8a5fe262dc1871f75915ca9c854fbfe3dfdf5581684ce95578b13176c6",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex12",
+      "label": "научиться",
+      "forms": "на, чить",
+      "writer_id": 16,
+      "source_id": "writer016-source-04",
+      "source_dimensions": [
+        1837,
+        2481
+      ],
+      "source_sha256": "cd38a52da46aa4644e35fa8627017e160a294249f6cc4dfa832d85e2c0c4098c",
+      "xyxy": [
+        1254,
+        1416,
+        1638,
+        1546
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex12.png",
+      "crop_sha256": "12496c5eed82fddd61137f02be7b3fb8e421ecad3066bb0167647647a2c82e47",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex13",
+      "label": "талант",
+      "forms": "та, ла, нт",
+      "writer_id": 16,
+      "source_id": "writer016-source-05",
+      "source_dimensions": [
+        1845,
+        2514
+      ],
+      "source_sha256": "e2c5442dc25e5978f23598993b4601827e1c8a6047352d7620d22e4212066e35",
+      "xyxy": [
+        622,
+        812,
+        1026,
+        926
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex13.png",
+      "crop_sha256": "7fb0243b9306d77baa06e2f654ff68782660356ed775a35eacedbeefb19011e8",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex14",
+      "label": "певец,",
+      "forms": "пе, вец",
+      "writer_id": 16,
+      "source_id": "writer016-source-05",
+      "source_dimensions": [
+        1845,
+        2514
+      ],
+      "source_sha256": "e2c5442dc25e5978f23598993b4601827e1c8a6047352d7620d22e4212066e35",
+      "xyxy": [
+        754,
+        1032,
+        1032,
+        1188
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex14.png",
+      "crop_sha256": "559e2228711ad9c60e55299ed30dc6cf36731a75802779b87db609b7851cd173",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex15",
+      "label": "Леонид Павлович",
+      "forms": "Л, П, ид, вич",
+      "writer_id": 16,
+      "source_id": "writer016-source-05",
+      "source_dimensions": [
+        1845,
+        2514
+      ],
+      "source_sha256": "e2c5442dc25e5978f23598993b4601827e1c8a6047352d7620d22e4212066e35",
+      "xyxy": [
+        840,
+        1384,
+        1576,
+        1554
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex15.png",
+      "crop_sha256": "7dc4f44a5660594eee5fec4de6b99391ec518ad8c695152cffdf541993de5571",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex16",
+      "label": "Гоголь",
+      "forms": "Г, го, ль",
+      "writer_id": 16,
+      "source_id": "writer016-source-06",
+      "source_dimensions": [
+        1796,
+        2513
+      ],
+      "source_sha256": "410994370b09af2dfabf6ba0aa190e102fa9ef0d388ff2661d43ebaddc1826fb",
+      "xyxy": [
+        1456,
+        500,
+        1688,
+        610
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex16.png",
+      "crop_sha256": "19888295459e900c516104b3eb79f58bfae17f8fe4cf837b6156fa82256bb233",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex17",
+      "label": "жизнь,",
+      "forms": "жи, знь",
+      "writer_id": 16,
+      "source_id": "writer016-source-06",
+      "source_dimensions": [
+        1796,
+        2513
+      ],
+      "source_sha256": "410994370b09af2dfabf6ba0aa190e102fa9ef0d388ff2661d43ebaddc1826fb",
+      "xyxy": [
+        704,
+        998,
+        1024,
+        1128
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex17.png",
+      "crop_sha256": "08d5d16d97c413a18253de6f29524c92c714ac14730703812996300dc3eba0c2",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex18",
+      "label": "славой.",
+      "forms": "сл, вой",
+      "writer_id": 16,
+      "source_id": "writer016-source-06",
+      "source_dimensions": [
+        1796,
+        2513
+      ],
+      "source_sha256": "410994370b09af2dfabf6ba0aa190e102fa9ef0d388ff2661d43ebaddc1826fb",
+      "xyxy": [
+        1100,
+        1364,
+        1472,
+        1474
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex18.png",
+      "crop_sha256": "05e51a2d47b413c51943264f1daec8eb0036431521f06a88d7f49f93d1bae411",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex19",
+      "label": "Рафаэль",
+      "forms": "Р, фа, эль",
+      "writer_id": 16,
+      "source_id": "writer016-source-06",
+      "source_dimensions": [
+        1796,
+        2513
+      ],
+      "source_sha256": "410994370b09af2dfabf6ba0aa190e102fa9ef0d388ff2661d43ebaddc1826fb",
+      "xyxy": [
+        1158,
+        1480,
+        1522,
+        1614
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex19.png",
+      "crop_sha256": "ae87ad38bc8eec9945f0100c7b4e10547d36fd3771277165276a70f063a347b6",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex20",
+      "label": "окружающих",
+      "forms": "кр, жа, ющ",
+      "writer_id": 16,
+      "source_id": "writer016-source-07",
+      "source_dimensions": [
+        1921,
+        2703
+      ],
+      "source_sha256": "51e9ca3771ce848f999eb141f27937920711c64cff5f9dfb1929f025a107feac",
+      "xyxy": [
+        428,
+        300,
+        994,
+        444
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex20.png",
+      "crop_sha256": "3131e58803b3134151956108c966350d750f8f4abaf02ae5e843c59372922a36",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex21",
+      "label": "Иначе,",
+      "forms": "И, нач",
+      "writer_id": 16,
+      "source_id": "writer016-source-07",
+      "source_dimensions": [
+        1921,
+        2703
+      ],
+      "source_sha256": "51e9ca3771ce848f999eb141f27937920711c64cff5f9dfb1929f025a107feac",
+      "xyxy": [
+        456,
+        428,
+        778,
+        564
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex21.png",
+      "crop_sha256": "5790ec1830223947ac2845669caa95934d8d97f5a5c031b131b246119c10b0c7",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    },
+    {
+      "id": "ex22",
+      "label": "не получится.",
+      "forms": "по, луч, тся",
+      "writer_id": 16,
+      "source_id": "writer016-source-07",
+      "source_dimensions": [
+        1921,
+        2703
+      ],
+      "source_sha256": "51e9ca3771ce848f999eb141f27937920711c64cff5f9dfb1929f025a107feac",
+      "xyxy": [
+        162,
+        568,
+        702,
+        730
+      ],
+      "rotation_degrees": 0,
+      "crop": "crops/ex22.png",
+      "crop_sha256": "c118f9110bc75dd3378c656ead88228401c0a1b08b041681ba911d2063eedcc7",
+      "label_status": "dataset-assisted-provisional",
+      "unresolved_alternatives": []
+    }
+  ],
+  "rejections": [
+    "Page 2 школу omitted because its central letters are ambiguous in isolation.",
+    "Page 6 fourth line has overwritten lettering.",
+    "Page 7 first line contains a crossed-out word.",
+    "Page 1 line-ending fragments of прекрасным and задуматься omitted."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "writer016-target-09",
+  "input_sha256": "3219dee0cf72864e1db3e0d19a3b7235b03b3a42b20b796693713168a77c9c85",
+  "exported_image_sha256": "3219dee0cf72864e1db3e0d19a3b7235b03b3a42b20b796693713168a77c9c85",
+  "status": "completed",
+  "prediction": "\r\n\r\nчто\r\nлучане\r\nИ\r\nподумай\r\nКоце\r\nудек\r\nвгарыониа\r\n8\r\nжать\r\nтогдажул\r\nВостважний\r\nпрется\r\nгеы\r\n",
+  "model_id": 148545,
+  "recognition_job_id": 32002332,
+  "export_job_id": 32002377,
+  "exported_TextLine_count": 15,
+  "source_text_member": "20275099/Modern_Russian_—_writer016_fpr16_—_nine_held-out_scans/txt/0009_page09.txt",
+  "source_text_sha256": "29d0444fbb0b1b27f7ae7acc4f877ed143791ea2cdd25eb4ff2ae57c32ed9978",
+  "export_zip_sha256": "db14223b878b1699b84aae29bee315c7e5675bee7520f3d7804e274a1ed06d53",
+  "no_skill": true,
+  "no_references": true,
+  "transport": "UTF-8 with optional BOM removed; transcription unchanged"
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "writer040",
+    "path": "../../open-system-selection/inputs/writer040.jpg",
+    "sha256": "9918aa54cb9cbfe8da2d24c718254edb34ae9cd9b9d4388799ee0b7ba643c6ea"
+  },
+  {
+    "id": "writer065",
+    "path": "../../open-system-selection/inputs/writer065.jpg",
+    "sha256": "bac7b4d3cf0334a3a40b8f93561f0934d595ff9c1c2c9750677f601e1e508340"
+  },
+  {
+    "id": "writer035",
+    "path": "../../open-system-selection/inputs/writer035.jpg",
+    "sha256": "8d762b8cd1ac076e04781471484ba2370b138695a02a5b74b08030f9c635c4e7"
+  }
+]
