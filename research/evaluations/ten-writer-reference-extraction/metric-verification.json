@@ -1,0 +1,6 @@
+{
+  "metric_sha256": "762ec9faf257492b20b829ac2a346cfaa038504069fa89a0da584b420b08480f",
+  "independent_distance_cases": 300,
+  "unicode_normalization_checks": "passed; NFC/casefold/punctuation/whitespace and \u0451 distinction checked",
+  "CER_numerator_denominator_checks": 368
+}

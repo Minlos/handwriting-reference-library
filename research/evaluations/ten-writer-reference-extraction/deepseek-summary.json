@@ -1,0 +1,12 @@
+{
+  "attempted_documents": 60,
+  "valid_documents": 54,
+  "failed_documents": 6,
+  "actual_api_responses": 57,
+  "known_conservative_peak_cost_upper_usd": 0.14374874399999998,
+  "unknown_billing_reserves_usd": 0.12,
+  "total_conservative_committed_usd": 0.263748744,
+  "budget_hard_stop": false,
+  "paid_retries": 0,
+  "notes": "Peak-rate upper bound, not invoiced spend. Three DNS failures kept conservative reserves. All60 planned independent calls attempted within existing cap; no new approval cap or purchased credits."
+}

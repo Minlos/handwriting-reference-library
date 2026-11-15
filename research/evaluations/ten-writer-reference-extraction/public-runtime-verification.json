@@ -1,0 +1,21 @@
+{
+  "paid_calls_made": 0,
+  "credentials_accessed": false,
+  "content_encoding_equivalence": "passed",
+  "saved_response_parsing_and_peak_cost_equivalence": 57,
+  "request_settings": {
+    "model": "deepseek-flash",
+    "thinking": "disabled",
+    "temperature": 0,
+    "max_tokens": 8192,
+    "detail": "original"
+  },
+  "portable_helper_sha256": "8d8351aad45829e4c218161fd28062e48650a0d5f194a355432014c14311e34b",
+  "isolated_fake_budget_checks": {
+    "cap_enforced": true,
+    "duplicate_call_refused": true,
+    "unknown_billing_reserve_retained": true,
+    "real_ledger_accessed": false
+  },
+  "explicit_execute_gate": "passed; no upload, credential or budget access"
+}

@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "status": "preflight",
+  "priority": "Reference-extraction study first. Reading skill absent in all primary arms; do not merge skills.",
+  "writers": [
+    17,
+    18,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    28
+  ],
+  "reserve_writers_before_recognition": [
+    29,
+    31,
+    32,
+    34
+  ],
+  "data": "Modern Russian HWR200; each writer has a separate complete source FPR document and held-out original document; target text families are distinct.",
+  "conditions": {
+    "A": "No references; faithful plain transcription",
+    "B": "Same-writer packet extracted from source scans only",
+    "C": "Same-writer packet extracted from identical source scans plus their published full source transcription"
+  },
+  "readers": [
+    "gpt-6-astra",
+    "gpt-6.1-sol",
+    "deepseek-flash"
+  ],
+  "replicates": 2,
+  "extractor": "Independent fresh Astra context per writer and source condition; frozen snapshot, never target scans or answers. Extract each packet once; reader repetitions reuse that exact packet.",
+  "references": "Survey ALL source pages first; up to24 visually checked native-pixel crops per arm with original exclusive xyxy/hash metadata. All labels provisional or dataset-assisted-provisional. No fabricated crops. Provide same labelled JPEG contact sheet max1600x2400 and at most1MiB to every model plus selected-label JSON. Native crops retained for audit, not extra per-reader inputs.",
+  "input_control": "Identical original target bytes in every condition; no parent resizing/cropping of targets. Same frozen prompt and inspection limits within each model. Fresh blind reader context per writer/condition/repetition; no evaluator text, previous errors or other predictions. One initial image presentation per target plus at most2 additional original-image requests for tool-using hosts; record actual coverage and thumbnail failures. DeepSeek receives originals once in independent API requests, original detail, non-thinking, temperature0; host differences explicit.",
+  "audit": "Before recognition, inspect target scans against supplied full text, and inspect source/target handwriting consistency. Save flags and literal proposed corrections in evaluator-only audit files. Primary labels remain published; an explicitly assistant-audited secondary label set may be frozen before inference, never called human-verified. Do not silently normalize copy errors or repetitions. Human-review uncertainties remain flagged.",
+  "eligibility": "Replace a group only before recognition for a wrong/missing target document, insufficient full-text correspondence, or writer-attribution conflict; never for recognition score or difficult handwriting. Log any replacement and use listed reserve writers.",
+  "metric": "Whole target document joined in numeric page order, per writer. Primary readingCER NFC/casefold/Unicode punctuation removal/whitespace collapse, ё retained. LiteralCER secondary. Average repetitions within writer; report mean per-writerCER, wins/ties/losses out of actual paired writers, pooledCER, paired writer-bootstrap uncertainty and failures. Do not treat pages or repeated runs as independent writers.",
+  "baseline": "Freeze and run the strongest available local conventional baseline (Russian CRNN from existing matched selection) on all45targets, using original bytes and same goldscope. Record exact weights/versions/preprocessing. Transkribus full45would exceed available authorized freecredits: do not buy credits or pretend complete coverage. Rehand can be probed once; record service failure and do not fabricate scores.",
+  "api_budget": {
+    "per_call_reserve_usd": 0.04,
+    "authorization": "Pre-existing bounded approval; no additional funds or paid retries. Private shared ledger and approval balance are omitted.",
+    "policy": "Use existing locked reserve/settle helper. Unknown billing stays reserved. No automatic paid retries. Complete first replicate across writers before second; hard-stop new API calls at cap. No new paid services or Grok calls. Credentials never printed, stored in reports or passed to child readers."
+  },
+  "promotion": "Do not modify published core skills or tune prompts on these targets. This is confirmation of frozen extraction workflows, not permission to claim universal accuracy gains. Publish actual outcomes and limitations.",
+  "skill_hashes": {
+    "read-handwriting-candidate.md": "a9e93c46588066630c306ae0bf2d82f33cab5812a1fbda04d1b8387b6034eb1d",
+    "extract-handwriting-references.md": "0507c671fb27e39417e6a6811d9cbde6f808216e159953787bec3aba1e91ca25",
+    "read-handwriting-current.md": "88cbbd3cefb388cbcb1d972e3e55d03eb7b23492a87060b4dfbd6f4f7afeb740"
+  },
+  "private_execution_protocol_sha256": "e980249ebbeb5d563ce735c1a064eabb0a5e2579e502134b17241e2a6c3a506d",
+  "publication_note": "Public copy preserves experiment parameters and frozen skill hashes; only private ledger location, shared approval balance and remaining account credit balance are omitted. Exact execution protocol retained in the producing workspace."
+}

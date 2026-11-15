@@ -1,0 +1,11 @@
+{
+  "filename": "hwr200-ten-writer-reference-data-2026-11-15.zip",
+  "bytes": 149124803,
+  "sha256": "78cc63e32792d9108cd082b32f18e7cbb879b48c0de1af49723d4171b6fa9c26",
+  "data_files": 1343,
+  "integrity": "All ZIP CRCs and every entry SHA-256 verified",
+  "contains": "Public HWR200 native sources/targets, crop audit data, frozen reader inputs/outputs, evaluator labels and metrics; no skill, README, scripts, credentials or shared account files",
+  "dataset_license": "Apache-2.0",
+  "source": "AntiplagiatCompany/HWR200",
+  "revision": "366a882a2b8d043d437126d2878bd3812ec55a94"
+}

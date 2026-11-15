@@ -1,0 +1,91 @@
+{
+  "dataset": "AntiplagiatCompany/HWR200",
+  "writers": [
+    17,
+    18,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    28
+  ],
+  "groups": [
+    {
+      "writer": 17,
+      "source_document": "fpr17",
+      "target_document": "original17",
+      "source_pages": 5,
+      "target_pages": 5
+    },
+    {
+      "writer": 18,
+      "source_document": "fpr18",
+      "target_document": "original18",
+      "source_pages": 4,
+      "target_pages": 2
+    },
+    {
+      "writer": 20,
+      "source_document": "fpr20",
+      "target_document": "original20",
+      "source_pages": 7,
+      "target_pages": 5
+    },
+    {
+      "writer": 21,
+      "source_document": "fpr21",
+      "target_document": "original21",
+      "source_pages": 7,
+      "target_pages": 4
+    },
+    {
+      "writer": 22,
+      "source_document": "fpr22",
+      "target_document": "original22",
+      "source_pages": 4,
+      "target_pages": 5
+    },
+    {
+      "writer": 23,
+      "source_document": "fpr23",
+      "target_document": "original23",
+      "source_pages": 7,
+      "target_pages": 7
+    },
+    {
+      "writer": 24,
+      "source_document": "fpr24",
+      "target_document": "original24",
+      "source_pages": 6,
+      "target_pages": 4
+    },
+    {
+      "writer": 25,
+      "source_document": "fpr25",
+      "target_document": "original25",
+      "source_pages": 5,
+      "target_pages": 4
+    },
+    {
+      "writer": 26,
+      "source_document": "fpr26",
+      "target_document": "original26",
+      "source_pages": 2,
+      "target_pages": 2
+    },
+    {
+      "writer": 28,
+      "source_document": "fpr28",
+      "target_document": "original28",
+      "source_pages": 10,
+      "target_pages": 7
+    }
+  ],
+  "source_pages": 57,
+  "target_pages": 45,
+  "selection": "Ten distinct modern writers and distinct target text families, excluding prior development/validation writer IDs. Source FPR document and separate full original target document per writer. Fixed before recognition.",
+  "label_status": "Published source text; audit required before recognition, not human-verified"
+}

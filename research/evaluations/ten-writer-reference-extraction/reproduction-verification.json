@@ -1,0 +1,7 @@
+{
+  "extracted_archive_scoring": "byte-identical metrics.json",
+  "prediction_and_packet_validation": "byte-identical full validation records",
+  "reader_raw_records": 120,
+  "retained_native_crops": 296,
+  "paid_calls": 0
+}

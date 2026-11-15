@@ -1,0 +1,31 @@
+{
+  "documents": 120,
+  "target_page_presentations_recorded": 540,
+  "original_request_attempts": 543,
+  "extra_requests": [
+    {
+      "file": "predictions/astra/A/rep2/writer025.json",
+      "id": "writer025-target-04",
+      "original_requests": 2,
+      "displayed_coverage": "Full page displayed",
+      "limitations": "No host failures"
+    },
+    {
+      "file": "predictions/sol/A/rep1/writer025.json",
+      "id": "writer025-target-03",
+      "original_requests": 2,
+      "displayed_coverage": "Full original image displayed, all page regions visible.",
+      "limitations": "One failed request from mistyped path before successful original display."
+    },
+    {
+      "file": "predictions/sol/B/rep2/writer025.json",
+      "id": "writer025-target-01",
+      "original_requests": 2,
+      "displayed_coverage": "Full original page displayed",
+      "limitations": "No host failures; handwriting uncertainty marked where unresolved"
+    }
+  ],
+  "host_strip_thumbnail_failures_observed": 0,
+  "coverage_source": "Per-page saved reader records; original scan clipping and host resizing remain verbatim.",
+  "failure_note": "One extra attempt was a failed mistyped path; two were additional successful original views."
+}

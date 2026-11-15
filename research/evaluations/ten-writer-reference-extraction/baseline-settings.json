@@ -1,0 +1,30 @@
+{
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+  "packages": {
+    "kraken": "7.1.1",
+    "torch": "2.14.0",
+    "Pillow": "12.3.0",
+    "numpy": "1.26.4"
+  },
+  "weights": {
+    "work/ocr-models/russian-crnn.pt": {
+      "sha256": "74482bd0eb8e33b25a197d0452559b888809dd0ae4e014274301a513f553dd32"
+    },
+    "work/ocr-models/kraken-ppocrv6-small.safetensors": {
+      "sha256": "3108259779f5abfed3908a1c9eafba64d17e4a2a169368c539ecfeff04c018f3"
+    }
+  },
+  "segmentation_sha256": "77a638a83c9e535620827a09e410ed36391e9e8e8126d5796a0f15b978186056",
+  "engine": "russian-crnn",
+  "device": "cpu",
+  "torch_threads": 2,
+  "input_scope": "Original immutable target bytes; whole pages segmented with frozen Kraken blla default model; boundary enclosing rectangles in returned line order.",
+  "recognizer_preprocessing": "Convert each line crop to grayscale, LANCZOS resize height128 preserving aspect, float32/255 normalize (x-.5)/.5, CRNN greedy CTC collapse; identical to selection.",
+  "recognizer_sha256": "d62ff0ef9c4efd685f0c8dff55b35a7c2300cba8ffd19345f4e1e5ab509ce7dc",
+  "source_runner_sha256": "40f5c0caa03266c0c6eafea622c81d6b294936abb3dfef44409ef68d8272abb4",
+  "study_runner_sha256": "777a6cc027a9b059a3aa8f808e3579faed5e803d1726cd3687f690d1710bd783",
+  "differences_from_selection": "Input/root paths changed and losing kraken-small engine omitted; Russian CRNN segmentation, settings and checkpoint unchanged.",
+  "baseline_completed_pages": 45,
+  "baseline_failures": 0,
+  "segmentation_checkpoint": "kraken/blla.mlmodel package default"
+}

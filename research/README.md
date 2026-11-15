@@ -2,7 +2,9 @@
 
 Start with [measured results](evaluations/comparison.md) or the [new two-skill letter test plan](evaluations/LETTERS-TWO-SKILLS.md). The standalone skills now have [separate pilot results](evaluations/two-standalone-skills/README.md).
 
-Latest same-author experiment: [nine modern Russian scans by HWR200 writer 016](evaluations/modern-russian-same-author/README.md). References help Astra and worsen Sol in this single run. [Reading-skill components](evaluations/modern-russian-same-author/reading-skill-diagnostics/README.md) are tested separately on three development pages.
+Latest source-reference evaluation: [ten modern HWR200 writers, three readers and two repetitions](evaluations/ten-writer-reference-extraction/README.md). Neither reference workflow establishes an improvement over plain reading on this sample. All 45 targets have a frozen local CRNN baseline; failures and writer-level uncertainty are retained.
+
+Earlier same-author pilot: [nine modern Russian scans by HWR200 writer 016](evaluations/modern-russian-same-author/README.md). References help Astra and worsen Sol in this single run. [Reading-skill components](evaluations/modern-russian-same-author/reading-skill-diagnostics/README.md) are tested separately on three development pages.
 
 - [evaluations/](evaluations/) — saved results, raw replies and frozen skill snapshots.
 - [handoffs/](handoffs/) — reproducible experiment instructions and scoring.
